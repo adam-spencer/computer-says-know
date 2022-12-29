@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="02837691-366f-45ed-bd3c-e54e4688b7be" name="Changes" comment="Lil edit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey-analysis/analysis.bib" beforeDir="false" afterPath="$PROJECT_DIR$/survey-analysis/analysis.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey-analysis/analysis.tex" beforeDir="false" afterPath="$PROJECT_DIR$/survey-analysis/analysis.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey-analysis/chapters/chapter1.tex" beforeDir="false" afterPath="$PROJECT_DIR$/survey-analysis/chapters/chapter1.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey-analysis/chapters/chapter2.tex" beforeDir="false" afterPath="$PROJECT_DIR$/survey-analysis/chapters/chapter2.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey-analysis/chapters/chapter3.tex" beforeDir="false" afterPath="$PROJECT_DIR$/survey-analysis/chapters/chapter3.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey-analysis/chapters/chapter4.tex" beforeDir="false" afterPath="$PROJECT_DIR$/survey-analysis/chapters/chapter4.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,23 +33,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/adamspencer/Documents/University/third-year/diss/report",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.29795918",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/adamspencer/Documents/University/third-year/diss/report&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.29795918&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="LaTeX.analysis">
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
@@ -51,8 +57,8 @@
         <compiler-path />
         <compiler-arguments />
         <envs />
-        <main-file />
-        <aux-dir />
+        <main-file>/</main-file>
+        <aux-dir>/</aux-dir>
       </texify-bibtex>
       <method v="2" />
     </configuration>
@@ -68,6 +74,27 @@
         <main-file>$PROJECT_DIR$/survey-analysis/analysis.tex</main-file>
         <aux-dir>$PROJECT_DIR$/out</aux-dir>
       </texify-bibtex>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify>
+        <compiler>PDFLATEX</compiler>
+        <compiler-path />
+        <sumatra-path />
+        <pdf-viewer>NONE</pdf-viewer>
+        <viewer-command />
+        <compiler-arguments />
+        <envs />
+        <main-file />
+        <output-path>{projectDir}/out</output-path>
+        <auxil-path>{projectDir}/auxil</auxil-path>
+        <compile-twice>false</compile-twice>
+        <output-format>PDF</output-format>
+        <latex-distribution>TEXLIVE</latex-distribution>
+        <has-been-run>false</has-been-run>
+        <bib-run-config>[]</bib-run-config>
+        <makeindex-run-config>[]</makeindex-run-config>
+      </texify>
       <method v="2" />
     </configuration>
     <configuration name="analysis" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" temporary="true">
@@ -107,6 +134,9 @@
       <updated>1667488630601</updated>
       <workItem from="1667488631823" duration="48000" />
       <workItem from="1668788509395" duration="2272000" />
+      <workItem from="1669303642934" duration="626000" />
+      <workItem from="1671030204682" duration="7000" />
+      <workItem from="1672330113357" duration="6770000" />
     </task>
     <task id="LOCAL-00001" summary="Renamed analysis section">
       <created>1668788853734</created>
