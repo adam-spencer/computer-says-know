@@ -1,10 +1,29 @@
 \chapter{Literature Survey}\label{ch:literature-survey}
 
-In late September 2022, the famed OpenAI research laboratory (known for their `GPT-3' language
-model) released a new open-source ASR system known as `Whisper'~\cite{whisper}.
+\section{Modern ASR}\label{sec:modern-asr}
+
+The results of ASR models are reported as a percentage word error rate (WER), meaning the
+percentage of words produced by the model which are incorrect compared to the real transcript (i
+.e. lower WER means higher accuracy).\\
+
+In late September 2022, the OpenAI research laboratory (known for their `GPT-3' language model)
+released a new open-source ASR system known as `Whisper'~\cite{whisper}.
 Whisper is unique in being very large (trained on 680,000 hours of speech data), open-source, and
 fully supervised;
-meaning all the training data used to create the model has been accurately checked by humans.
+meaning all the training data used to create the model has been accurately labeled and
+quality-checked by humans, unlike the much larger unsupervised `BigSSL' model (1,000,000+ hours
+of data)~\cite{bigssl}.
+
+Their accuracy results are promising across a range of different speech corpora, outperforming
+previous state-of-the-art \emph{wav2vec 2.0}~\cite{wav2vec}.
+Interestingly, Whisper doesn't achieve higher performance than some other models on specific
+corpora, for example on \emph{LibriSpeech test-other}~\cite{librispeech} it is outperformed by
+two models built atop \emph{wav2vec}~\cite{zhang2020,chung2021}, though across a more diverse set
+of speech corpora Whisper achieves much higher lower WER~\cite{whisper}.\\
+
+\section{Elderly Speech}\label{sec:elderly-speech}
+
+
 
 \section{Data Collection}\label{sec:data-collection}
 
@@ -15,7 +34,7 @@ There is a surprising lack of relevant resources online, with most speech corpor
 labeled speaker age not featuring a diverse age range.
 
 The LifeLUCID Corpus is, however, collected with the express purpose of providing a wide range of
-speaker age~\cite{lifelucid}.
+speaker ages~\cite{lifelucid}.
 This resource has great potential in providing an insight into the age-variable performance of
 ASR because it features 104 British English speakers between 8 and 85 years of age.
 
