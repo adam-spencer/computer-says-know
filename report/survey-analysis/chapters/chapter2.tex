@@ -1,10 +1,31 @@
 \chapter{Literature Survey}\label{ch:literature-survey}
 
-\section{Modern ASR}\label{sec:modern-asr}
+\section{What is ASR?}\label{sec:what-is-asr?}
 
-The results of ASR models are reported as a percentage word error rate (WER), meaning the
-percentage of words produced by the model which are incorrect compared to the real transcript (i
-.e. lower WER means higher accuracy).\\
+Automatic Speech Recognition (ASR) is a subfield of computer science which develops technology
+allowing computers to understand human speech.
+At the most basic level, ASR consists of simply running a recording of human speech through a
+computer model and producing a transcript of said speech.
+Nowadays most ASR is conducted using deep learning models, trained on large datasets of human
+speech and using varying pre- and post-processing steps.
+
+The metric upon which ASR systems are compared is their accuracy, often reported as a percentage
+word error rate (WER), equivalent to the percentage of words produced by the model which are
+incorrect compared to the real transcript (i.e.\ lower WER equals higher per-word accuracy).
+Such systems may also be compared across other metrics (for example, time complexity) but these
+will not be covered in detail in this work.
+
+\section{Speech Corpora}\label{sec:speech-corpora}
+
+The large datasets of human-transcribed speech are referred to as `speech corpora'.
+Each corpus contains recordings of speakers, accurate transcriptions, and various metadata, such as
+the speaker's sex, age, and various other data about their background.
+
+Speech corpora are fantastic resources for evaluating and comparing ASR techniques because they
+are already labelled correctly and many have been published for a long time, meaning some corpora
+have already been used to evaluate both early and more recent models.
+
+\section{Modern ASR}\label{sec:modern-asr}
 
 In late September 2022, the OpenAI research laboratory (known for their `GPT-3' language model)
 released a new open-source ASR system known as `Whisper'~\cite{whisper}.
@@ -15,14 +36,19 @@ quality-checked by humans, unlike the much larger unsupervised `BigSSL' model (1
 of data)~\cite{bigssl}.
 
 Their accuracy results are promising across a range of different speech corpora, outperforming
-previous state-of-the-art \emph{wav2vec 2.0}~\cite{wav2vec}.
+previous state-of-the-art `wav2vec 2.0'~\cite{wav2vec}.
 Interestingly, Whisper doesn't achieve higher performance than some other models on specific
-corpora, for example on \emph{LibriSpeech test-other}~\cite{librispeech} it is outperformed by
-two models built atop \emph{wav2vec}~\cite{zhang2020,chung2021}, though across a more diverse set
+corpora, for example on LibriSpeech test-other~\cite{librispeech} it is outperformed by
+two models built atop wav2vec~\cite{zhang2020,chung2021}, though across a more diverse set
 of speech corpora Whisper achieves much higher lower WER~\cite{whisper}.\\
 
 \section{Elderly Speech}\label{sec:elderly-speech}
 
+There is evidence to suggest that ASR is more error-prone for elderly speakers (\>65 years of
+age) than other age groups~\cite{picone1990}.
+Despite this research being conducted with relatively primitive ASR techniques, its findings are
+backed up by the paper accompanying the VOTE400 corpus~\cite{vote400}, a Korean elderly speech
+database.
 
 
 \section{Data Collection}\label{sec:data-collection}
@@ -41,5 +67,6 @@ ASR because it features 104 British English speakers between 8 and 85 years of a
 It is of interest to observe any patterns in errors made by each system, especially if there are
 any similarities in where they lose accuracy.
 Once the areas of error are understood, comparing and contrasting audio spectra may allow for
-insight into which features of speech create problems for ASR .
+insight into which features of speech create problems for ASR\@.
 
+\section{Comparing Models}

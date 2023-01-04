@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02837691-366f-45ed-bd3c-e54e4688b7be" name="Changes" comment="a bunch of stoof">
+    <list default="true" id="02837691-366f-45ed-bd3c-e54e4688b7be" name="Changes" comment="bit of work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/survey-analysis/analysis.bib" beforeDir="false" afterPath="$PROJECT_DIR$/survey-analysis/analysis.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/survey-analysis/chapters/chapter1.tex" beforeDir="false" afterPath="$PROJECT_DIR$/survey-analysis/chapters/chapter1.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey-analysis/analysis.tex" beforeDir="false" afterPath="$PROJECT_DIR$/survey-analysis/analysis.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/survey-analysis/chapters/chapter2.tex" beforeDir="false" afterPath="$PROJECT_DIR$/survey-analysis/chapters/chapter2.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,23 +30,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/adamspencer/Documents/University/third-year/diss/report&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.29795918&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/adamspencer/Documents/University/third-year/diss/report",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.29795918",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="LaTeX.analysis">
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
@@ -134,7 +135,9 @@
       <workItem from="1669303642934" duration="626000" />
       <workItem from="1671030204682" duration="7000" />
       <workItem from="1672330113357" duration="8324000" />
-      <workItem from="1672598524788" duration="8565000" />
+      <workItem from="1672598524788" duration="14324000" />
+      <workItem from="1672845133080" duration="196000" />
+      <workItem from="1672845373743" duration="5725000" />
     </task>
     <task id="LOCAL-00001" summary="Renamed analysis section">
       <created>1668788853734</created>
@@ -206,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672337260632</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="bit of work">
+      <created>1672685103946</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672685103946</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +243,7 @@
     <MESSAGE value="Lil edits" />
     <MESSAGE value="Lil edit" />
     <MESSAGE value="a bunch of stoof" />
-    <option name="LAST_COMMIT_MESSAGE" value="a bunch of stoof" />
+    <MESSAGE value="bit of work" />
+    <option name="LAST_COMMIT_MESSAGE" value="bit of work" />
   </component>
 </project>
