@@ -7,7 +7,7 @@ allowing computers to understand human speech.
 At the most basic level, ASR consists of simply running a recording of human speech through a
 computer model and producing a transcript of said speech.
 Nowadays most ASR is conducted using deep learning models, trained on large datasets of human
-speech and using varying pre- and post-processing steps.
+speech and using varying pre- and post-processing steps.\\
 
 The metric upon which ASR systems are compared is their accuracy, often reported as a percentage
 word error rate (WER) where lower WER equals higher per-word accuracy.
@@ -33,6 +33,8 @@ have already been used to evaluate both early and more recent models.
 
 \section{Modern ASR}\label{sec:modern-asr}
 
+\subsection{Whisper}\label{subsec:whisper}
+
 In late September 2022, the OpenAI research laboratory (known for their `GPT-3' language model)
 released a new open-source ASR system known as `Whisper'~\cite{whisper}.
 Whisper is unique in being very large (trained on 680,000 hours of speech data), open-source, and
@@ -46,7 +48,16 @@ previous state-of-the-art `wav2vec 2.0'~\cite{wav2vec}.
 Interestingly, Whisper doesn't achieve higher performance than some other models on specific
 corpora, for example on LibriSpeech test-other~\cite{librispeech} it is outperformed by
 two models built atop wav2vec~\cite{zhang2020,chung2021}, though across a more diverse set
-of speech corpora Whisper achieves much higher lower WER~\cite{whisper}.\\
+of speech corpora Whisper achieves much lower WER~\cite{whisper}.
+
+\subsection{wav2vec 2.0}\label{subsec:wav2vec}
+
+\subsection{ASR Architecture}\label{subsec:asr-architecture}
+
+Modern ASR systems use a natural language model to perform next-token prediction.
+This means they can better predict which words should follow in a sentence based off the previous
+words, that is, using the contextual information present in the sentence to weight their
+predictions.
 
 \section{Elderly Speech}\label{sec:elderly-speech}
 
@@ -67,25 +78,32 @@ decrease in rate of speech, and a higher `type/token ratio'.
     that sentence would be $\frac{15}{20} = 0.75$.
 \end{itemize}
 
-There is evidence to suggest that ASR is more error-prone for elderly speakers (\>65 years of
-age) than other age groups~\cite{picone1990}.
-Despite this research being conducted with relatively primitive ASR techniques, its findings are
-backed up by the paper accompanying the VOTE400 corpus~\cite{vote400}, a Korean elderly speech
-database.
-
+Evidence suggests that ASR is more error-prone for elderly speakers (\>65 years of
+age) than other age groups~\cite{picone1990,vote400}.
+Speaker age is shown to have a significant impact on the frequency spectrum present in their
+speech\cite{Taylor2020Mar}.
+This deviation in frequency may be to blame for some amount of ASR transcription error, though
+this is something to be explored later in this work.
 
 \section{Data Collection}\label{sec:data-collection}
 
 The key requirement for comparing these systems is a large dataset of speech recordings over a
 wide range of ages, with labels denoting the age of the speaker and an accurate transcript to
 compare ASR performance against.
-There is a surprising lack of relevant resources online, with most speech corpora featuring
-labeled speaker age not featuring a diverse age range.
+There is a surprising lack of relevant resources to date, with most speech corpora which feature
+labeled speaker age not containing a diverse age range, and very few corpora oriented towards
+elderly speakers.
 
-The LifeLUCID Corpus is, however, collected with the express purpose of providing a wide range of
+Unless the lack of data becomes too detrimental to the completion of this work, only English data
+shall be sought out because most published ASR systems function only when transcribing English
+or achieve much poorer accuracy scores when transcribing other languages.
+
+The LifeLUCID corpus was collected with the express purpose of providing a wide range of
 speaker ages~\cite{lifelucid}.
 This resource has great potential in providing an insight into the age-variable performance of
 ASR because it features 104 British English speakers between 8 and 85 years of age.
+
+Likewise, the MATCH corpus~\cite{Georgila2010Sep} contains
 
 It is of interest to observe any patterns in errors made by each system, especially if there are
 any similarities in where they lose accuracy.
@@ -101,7 +119,14 @@ frequently misplaced.
 Alternatively, phonemes may be used instead of words to generate the \emph{phone error rate}
 (PER) and this may provide a more useful insight into phonetic trends in ASR performance.
 Speech corpora do not often provide phoneme labels, though these labels may be generated using
-software such as the Python library NLTK~\cite{nltk}.
+software such as the Python NLTK package~\cite{nltk}.
+
+PER is shown to often be lower than WER~\cite{fang2020}, suggesting that ASR systems have
+difficulty transcribing similar phonetic structures (i.e.\ words that sound almost identical).
+Due to modern ASR systems like Whisper using a natural-language model, if many rare and complex
+words follow each other, false predictions may create a domino-effect and cause an incorrect
+transcription to be picked over a more accurate one.
+
 The major issue with using PER is that ASR systems such as Whisper opt to use pre-trained
 tokenizers~\cite{huggingfacetransformers} to decode tokens produced by the model into text to
 form a transcript, thus limiting the ability to collect phonetic information directly from the
@@ -111,3 +136,16 @@ By collating word-labelling errors, it may be possible to derive phoneme errors 
 these false labels as phonemes generated by NLTK\@.
 A pattern drawn from phonetic errors should provide more insight into causes of poor labelling.
 
+\subsection{Bespoke Systems}\label{subsec:bespoke-systems}
+
+While most ASR systems aim to transcribe all speech of a specific language, irrespective of
+speaker demographic, there may be some utility in the creation of a bespoke system which opts
+only to produce accurate transcriptions of elderly speakers.
+
+Work produced by Baba et al.\ demonstrates an increase in ASR accuracy for elderly speakers when
+adapting an existing ASR model to include elderly speaker data\cite{baba2004}.
+Also, in a preliminary experiment conducted by Jang et al.\ they claim a similar
+finding~\cite{vote400} when fine-tuning another existing ASR model.
+
+It follows, then, that with a large enough collection of elderly speaker data it may be possible
+to adapt an English-language ASR system using elderly speaker data to produce improved results.
