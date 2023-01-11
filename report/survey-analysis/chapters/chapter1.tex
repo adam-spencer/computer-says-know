@@ -5,12 +5,33 @@ rate (WER) in 2011~\cite{seide2011} to 5.1\% in 2021~\cite{Ng2021} on the same S
 corpus~\cite{switchboard}.
 Though this increase in accuracy is promising for the average English speaker, elderly speakers
 have different speech patterns~\cite{Horton2010} and are transcribed less accurately than other age
-groups~\cite{picone1990}.
+groups~\cite{picone1990}.\\
 
-\\
-The objective of this work is to provide an in-depth understanding of how the differences
-between elderly and non-elderly speech influence the accuracy of different types of ASR systems,
-and which (if any) current models best fit the task of transcribing elderly speech.
+ASR systems' performance is evaluated using huge datasets of pre-transcribed speech, called
+speech corpora, which contain metadata regarding the demographic of the speakers.
+Existing, commonly used datasets~\cite{librispeech, switchboard} often contain very few samples
+from people over the age of 60, meaning even if a state-of-the-art system is shown to be more
+accurate than a human transcriber~\cite{chung2021} on a specific dataset, their performance can
+be very poor when processing elderly speech.\\
+
+This work aims to provide an in-depth understanding of the differences between elderly and
+non-elderly speech and how these differences influence the accuracy of ASR systems.
+It will also explore current research to inform the ways through which improvements to ASR systems'
+ability to process elderly speakers could be realised.
 
 \section{Overview of the Report}\label{sec:overview-of-the-report}
 
+This is a preliminary report aiming to provide an overview of relevant literature an detail the
+aims of the project, including progress on the project so far.
+Excluding the introduction, the report is split into three chapters as follows;
+
+\begin{itemize}
+    \item A literature survey which provides an understanding of the field of ASR, the problems
+    faced by ASR when processing elderly speech, and existing ASR research which has informed the
+    trajectory of the project;
+    followed by
+    \item A distillation of the requirements of the project as informed by the literature;
+    and finally
+    \item A summary of the progress completed to this date, conclusions formed thus far, and the
+    plan for the remainder of the project.
+\end{itemize}

@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02837691-366f-45ed-bd3c-e54e4688b7be" name="Changes" comment="Removed appendices">
+    <list default="true" id="02837691-366f-45ed-bd3c-e54e4688b7be" name="Changes" comment="deleted zip file">
+      <change afterPath="$PROJECT_DIR$/survey-analysis/chapters/projplan.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myReport.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/survey-analysis/chapters/appendixA.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/survey-analysis/chapters/appendixB.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey-analysis/chapters/abstract.tex" beforeDir="false" afterPath="$PROJECT_DIR$/survey-analysis/chapters/abstract.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey-analysis/chapters/chapter1.tex" beforeDir="false" afterPath="$PROJECT_DIR$/survey-analysis/chapters/chapter1.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey-analysis/chapters/chapter3.tex" beforeDir="false" afterPath="$PROJECT_DIR$/survey-analysis/chapters/chapter3.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/survey-analysis/chapters/chapter4.tex" beforeDir="false" afterPath="$PROJECT_DIR$/survey-analysis/chapters/chapter4.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/survey-analysis/chapters/chapter5.tex" beforeDir="false" afterPath="$PROJECT_DIR$/survey-analysis/chapters/chapter5.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +139,7 @@
       <workItem from="1672330113357" duration="8324000" />
       <workItem from="1672598524788" duration="14324000" />
       <workItem from="1672845133080" duration="196000" />
-      <workItem from="1672845373743" duration="39798000" />
+      <workItem from="1672845373743" duration="50948000" />
     </task>
     <task id="LOCAL-00001" summary="Renamed analysis section">
       <created>1668788853734</created>
@@ -323,7 +323,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673386432094</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Removed appendices and merged chap4 and 5">
+      <created>1673388910149</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1673388910149</updated>
+    </task>
+    <task id="LOCAL-00028" summary="deleted zip file">
+      <created>1673388919412</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1673388919412</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,6 +378,8 @@
     <MESSAGE value="format" />
     <MESSAGE value="workspace?" />
     <MESSAGE value="Removed appendices" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed appendices" />
+    <MESSAGE value="Removed appendices and merged chap4 and 5" />
+    <MESSAGE value="deleted zip file" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted zip file" />
   </component>
 </project>
