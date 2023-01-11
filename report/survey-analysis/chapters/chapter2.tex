@@ -4,22 +4,21 @@
 
 Automatic Speech Recognition (ASR) is a subfield of computer science which develops technology
 allowing computers to understand human speech.
-At the most basic level, ASR consists of simply running a recording of human speech through a
+At the most basic level, ASR operation consists of running a recording of human speech through a
 computer model and producing a transcript of said speech.
-Nowadays most ASR is conducted using deep learning models, trained on large datasets of human
+Nowadays most ASR is conducted using deep learning models trained on large datasets of human
 speech and using varying pre- and post-processing steps.\\
 
 The metric upon which ASR systems are compared is their accuracy, often reported as a percentage
-word error rate (WER) where lower WER equals higher per-word accuracy.
+word error rate (WER) where lower WER indicates higher per-word accuracy.
 WER is calculated as
 \[
     \text{WER} = \frac{S + D + I}{N}
 \]
 Where $S$,$D$, and $I$ are substitutions, deletions, and insertions respectively, and $N$ is the
 total number of words in the reference transcript~\cite{gaikwad2010review}.
-Such systems may also be compared across other metrics (for example, time complexity) but these
-comparisons won't be covered in detail in this work because they aren't relevant factors on system
-accuracy.
+Such systems may also be compared across other metrics (for example, time complexity) but won't
+be covered because this work is only concerned with system accuracy.
 
 \section{Speech Corpora}\label{sec:speech-corpora}
 
