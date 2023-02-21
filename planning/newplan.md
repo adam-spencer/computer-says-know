@@ -16,6 +16,11 @@ Instead, I believe that returning to my original plan and creating a semi-automa
 
 ## Plan
 
+Feedback I received on my previous plan indicated an uneven allocation of workload across weeks; I've tried to keep this in mind when assigning tasks for each week, though I note that the workload of other modules is due to increase towards the end of the semester.
+To ease my total workload for this semester, I have allocated important decisions (such as building a basic UI to build from) earlier.
+
+As mentioned in the first section, I will be providing a strong plan for the only the first 9 weeks, leaving the 2 remaining weeks as time to refine the project and provide some leeway to deal with inevitible unforseen issues before hand-in.
+
 
 ### Work To Do
 
@@ -45,5 +50,46 @@ Before organising work into a weekly schedule, I've broken down what work I curr
   * Temporal and financial costs compared with system accuracy
   * This may be aided by some kind of demonstration, perhaps testing my system using volunteers.
 
-### Week-by-week breakdown
+I'm sure that this won't be representative of every single task to complete or question to answer, but I believe that this list gives a reasonable place to start building a plan from.
+
+---
+
+### Week-by-week Breakdown
+
+#### Week 1
+
+- Begin new literature review, shifting focus from elderly speakers to semi-automated transcription tools, examining existing tools and the nature of transcription.
+- Decide on a UI paradigm to follow - graphical vs terminal.
+
+#### Week 2
+
+- 
+
+#### Week 3
+
+- 
+
+#### Week 4
+
+- 
+
+#### Week 5
+
+- 
+
+#### Week 6
+
+- 
+
+#### Week 7
+
+- 
+
+#### Week 8
+
+- 
+
+#### Week 9
+
+- 
 

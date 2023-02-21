@@ -1,5 +1,6 @@
-# New Plan Notes
+# Planning Notes
 
+---
 
 ## Where I'm At
 
@@ -9,6 +10,7 @@
 - To remedy this, JB has requested I consolidate a plan for the remainder of the project. 
 - Another criticism of my work was that the plan I had produced already wasn't detailed enough (along with the rest of the project).
 
+---
 
 ## What Now?
 
