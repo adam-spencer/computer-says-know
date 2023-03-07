@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02837691-366f-45ed-bd3c-e54e4688b7be" name="Changes" comment="fixed formatting">
+    <list default="true" id="02837691-366f-45ed-bd3c-e54e4688b7be" name="Changes" comment="grammar etc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/survey-analysis/chapters/chapter1.tex" beforeDir="false" afterPath="$PROJECT_DIR$/survey-analysis/chapters/chapter1.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +134,7 @@
       <workItem from="1672330113357" duration="8324000" />
       <workItem from="1672598524788" duration="14324000" />
       <workItem from="1672845133080" duration="196000" />
-      <workItem from="1672845373743" duration="53794000" />
+      <workItem from="1672845373743" duration="54452000" />
     </task>
     <task id="LOCAL-00001" summary="Renamed analysis section">
       <created>1668788853734</created>
@@ -354,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673457082621</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="grammar etc">
+      <created>1673457598005</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1673457598005</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +378,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added mycomment command" />
     <MESSAGE value="Added a bunch of papers" />
     <MESSAGE value="idea junk" />
     <MESSAGE value="Lil edits" />
@@ -397,6 +402,7 @@
     <MESSAGE value="done mayhaps?" />
     <MESSAGE value="done methinks?" />
     <MESSAGE value="fixed formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed formatting" />
+    <MESSAGE value="grammar etc" />
+    <option name="LAST_COMMIT_MESSAGE" value="grammar etc" />
   </component>
 </project>

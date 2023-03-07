@@ -58,20 +58,22 @@ I'm sure that this won't be representative of every single task to complete or q
 
 #### Week 1
 
-- Begin new literature review, shifting focus from elderly speakers to semi-automated transcription tools, examining existing tools and the nature of transcription.
-- Decide on a UI paradigm to follow - graphical vs terminal.
+- Re-review literature, fleshing out what has already been written and removing parts which no longer relate to the project (elderly speech, fine-tuning ASR).
+- Begin surveying literature on semi-automated transcription and transcription in general, making sure to take notes. 
 
 #### Week 2
 
-- 
+- Decide on a language (Rails? Node.js? Rust?) to build a UI in. I currently believe that an in-browser app would be a good way to go because developing GUI across platforms seems like an unnecessary complexity for this project.
+- Produce some user interface designs, perhaps following what Jon had described (differing levels of automation, would be a very interesting idea).
 
 #### Week 3
 
-- 
+- Produce some basic UI to be refined through the project. This will enable testing and a solid foundation to build from.
 
 #### Week 4
 
-- 
+- Search for literature relating to ASR confidence/intelligibility scoring. Is the `average logprob` that Whisper produces a potentially relevant metric?
+- Use Whisper to transcribe some corpus data and try out confidence score techniques. Perhaps use WER to determine how well a technique has performed.
 
 #### Week 5
 

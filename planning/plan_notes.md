@@ -42,3 +42,19 @@ This gives me just about 11 weeks to finish. It'd be best if I could get this pr
 With a stronger focus on creating a tool I should have more time for coding (yay) which should be way more fun :)
 
 Again, however, I need to get this lit review out of the way. Just thinking about it is causing me a real ass pain right now. Maybe I should get that checked...
+
+
+## 23 Feb notes
+
+- Finding errors in tool
+- evaluate how well tool works
+- focus on evaluation
+- reduction in error vs costs
+- comapre human time in system vs quality of transcription
+- plot y= wer, x=cost
+- find high-quality intelligibility score
+- evaluate intellibility metric in aplication-driven manner
+- ASR error prediction rather than intelligibility?
+- Assume transcription task is using difficult data
+- non-intrusive intellibility measure
+- Take whisper, take dataset, measure intellibility from Whisper internals, use that as metric to rank transcriptions
