@@ -1,13 +1,5 @@
 \chapter{Literature Survey}\label{ch:literature-survey}
 
-\section{What is ASR?}\label{sec:what-is-asr}
-
-\section{Speech Corpora}\label{sec:}
-
-\section{Modern ASR}\label{sec:modern-asr}
-
-\subsection{Whisper}\label{subsec:whisper}
-
 \section{Understanding Transcription}\label{sec:transcription}
 
 \subsection{Manual Transcription}\label{subsec:manual-transcription}
@@ -15,6 +7,41 @@
 \subsection{Semi-Automatic Transcription}\label{subsec:semi-auto-transcription}
 
 \subsection{Fully-Automatic Transcription}\label{subsec:full-auto-transcription}
+
+
+\section{What is ASR?}\label{sec:what-is-asr}
+
+Automatic Speech Recognition (ASR) is a subfield of computer science which develops technology aimed at allowing computers to understand human speech.
+At the most basic level, ASR operation consists of running a recording of human speech through a computer model and producing a transcript of said speech.
+Nowadays most ASR is conducted using machine learning models trained on large datasets of human speech and using a variety of pre- and post-processing steps.\\
+
+The metric upon which ASR systems are compared is their accuracy, often reported as a percentage word error rate (WER) where lower WER indicates higher per-word accuracy.
+WER is calculated as
+\[
+    \text{WER} = \frac{S + D + I}{N}
+\]
+Where $S$,$D$, and $I$ are substitutions, deletions, and insertions respectively, and $N$ is the total number of words in the reference transcript~\cite{gaikwad2010review}.
+Such systems may also be compared across other metrics (for example, time complexity) but won't be covered because this work is only concerned with system accuracy.
+
+\section{Speech Corpora}\label{sec:} \mycomment{Should this be before or after the section on modern ASR? Seems to me that it builds an understanding necessary for grasping ASR}
+
+\section{Modern ASR}\label{sec:modern-asr}
+
+\mycomment{Should write something about the state of modern ASR here...}
+
+\subsection{Whisper}\label{subsec:whisper}
+
+In late September 2022, the OpenAI research laboratory (known for their `GPT-3' language model) released a new open-source ASR system known as `Whisper'~\cite{whisper}.
+Whisper is unique in being very large (trained on 680,000 hours of speech data), open-source, and fully supervised;
+all the training data used to create the model has been accurately labeled and
+quality-checked by humans, unlike the much larger unsupervised `BigSSL' model (1,000,000+ hours of data)~\cite{bigssl}.
+
+Whisper uses a natural language model to perform next-token prediction (in layperson's
+terms, there is a secondary system trying to ensure the intelligibility of sentences produced from transcription).
+Practically, this means that conversational speech (i.e.\ speech which flows as sentences rather than disjoint terms) should be transcribed with a higher degree of accuracy.\\
+
+Their accuracy results are promising across a range of different speech corpora, outperforming previous state-of-the-art `wav2vec 2.0'~\cite{wav2vec}.
+Interestingly, Whisper doesn't achieve higher performance than some other models on specific corpora, for example on LibriSpeech test-other~\cite{librispeech} it is outperformed by two models built atop wav2vec~\cite{zhang2020,chung2021}, though across a more diverse set of speech corpora Whisper achieves much lower WER~\cite{whisper}.
 
 \section{Collection of Example Data}\label{sec:}
 \section{}\label{sec:}
