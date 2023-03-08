@@ -8,14 +8,17 @@ import textgrid as tg
 import re
 import argparse
 
+END_TOKENS = {'SIL', 'SILP'} # As described in documentation
+
 def main():
   # Parse Arguments
   parser = argparse.ArgumentParser()
-  parser.add_argument('dirname', help='Name of dir to find textgrids in')
+  parser.add_argument('in_dir', help='Name of dir to find textgrids in')
+  parser.add_argument('out_dir', help='Name of dir to write JSON files to')
   args = parser.parse_args()
 
   # New Path object @ specified path
-  dir_path = Path(args['dirname'])
+  dir_path = Path(args['in_dir'])
   if not dir_path.is_dir():
     raise ValueError(f'{dir_path} is Not a directory!')
 
