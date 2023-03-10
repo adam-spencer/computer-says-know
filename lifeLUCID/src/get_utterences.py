@@ -31,7 +31,7 @@ def segment_utterances(grid:tg.TextGrid, /, normalise:bool) -> (
 
   :param grid: The Praat TextGrid to segment into utterances.
   :param normalise: Enable lowercase text normalisation.
-  :returns: dict of structure { segment_num -> { start_time, end_time, transcript }
+  :returns: dict of structure { segment_num -> { start_time, end_time, transcript } }
   """
   segments = dict()
   start_time = float()
@@ -57,6 +57,15 @@ def segment_utterances(grid:tg.TextGrid, /, normalise:bool) -> (
       interval.mark = interval.mark.lower()
     seg_words.append(interval.mark)
   return segments
+
+def write_to_json(utterances:dict, outdir:Path) -> None:
+  """
+  Write utterances out to the given output directory in JSON format.
+
+  :param utterances: Utterances dict.
+  :param outdir: Path to output directory.
+  """
+  pass
 
 def main():
   # Parse Arguments
