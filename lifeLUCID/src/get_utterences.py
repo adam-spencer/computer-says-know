@@ -78,12 +78,14 @@ def main():
   normalise = not args['no-normalise']
 
   # New Path object @ specified path
-  dir_path = Path(args['in_dir'])
-  if not dir_path.is_dir():
-    raise ValueError(f'{dir_path} is Not a directory!')
+  in_dir_path = Path(args['in_dir'])
+  out_dir_path = Path(args['out_dir'])
+  for p in [in_dir_path, out_dir_path]:
+    if not p.is_dir():
+      raise ValueError(f'{p} is Not a directory!')
 
   all_utterances = dict()
-  for file in dir_path.iterdir():
+  for file in in_dir_path.iterdir():
     if 'Ac.TextGrid' not in file.name:
       continue
     grid = tg.TextGrid.fromFile(file)
