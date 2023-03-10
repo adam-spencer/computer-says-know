@@ -20,28 +20,6 @@ from typing import Union
 BREAK_TOKENS = {'SILP', '<GA>'} # As described in documentation
 JUNK_TOKENS = {'SIL', '<BELL>'}
 
-def main():
-  # Parse Arguments
-  parser = argparse.ArgumentParser()
-  parser.add_argument('in_dir', help='Name of dir to find textgrids in')
-  parser.add_argument('out_dir', help='Name of dir to write JSON files to')
-  parser.add_argument('--no-normalise', '-n', action='store_true',
-                      help='Disable case normalisation')
-  args = parser.parse_args()
-  normalise = not args['no-normalise']
-
-  # New Path object @ specified path
-  dir_path = Path(args['in_dir'])
-  if not dir_path.is_dir():
-    raise ValueError(f'{dir_path} is Not a directory!')
-
-  all_utterances = dict()
-  for file in dir_path.iterdir():
-    if 'Ac.TextGrid' not in file.name:
-      continue
-    grid = tg.TextGrid.fromFile(file)
-    all_utterances[file.name] = segment_utterances(grid, normalise=normalise)
-
 def segment_utterances(grid:tg.TextGrid, /, normalise:bool) -> (
     dict[int, dict[str, Union[float, str]]]):
   """
@@ -79,6 +57,28 @@ def segment_utterances(grid:tg.TextGrid, /, normalise:bool) -> (
       interval.mark = interval.mark.lower()
     seg_words.append(interval.mark)
   return segments
+
+def main():
+  # Parse Arguments
+  parser = argparse.ArgumentParser()
+  parser.add_argument('in_dir', help='Name of dir to find textgrids in')
+  parser.add_argument('out_dir', help='Name of dir to write JSON files to')
+  parser.add_argument('--no-normalise', '-n', action='store_true',
+                      help='Disable case normalisation')
+  args = parser.parse_args()
+  normalise = not args['no-normalise']
+
+  # New Path object @ specified path
+  dir_path = Path(args['in_dir'])
+  if not dir_path.is_dir():
+    raise ValueError(f'{dir_path} is Not a directory!')
+
+  all_utterances = dict()
+  for file in dir_path.iterdir():
+    if 'Ac.TextGrid' not in file.name:
+      continue
+    grid = tg.TextGrid.fromFile(file)
+    all_utterances[file.name] = segment_utterances(grid, normalise=normalise)
 
 if __name__ == '__main__':
   # main()
