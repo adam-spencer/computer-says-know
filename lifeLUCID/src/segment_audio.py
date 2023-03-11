@@ -3,7 +3,11 @@
 segment_audio.py
 
 Generate audio segments using a JSON input.
+
+Copyright Adam Spencer, 2023.
 """
+
+__author__ = 'Adam Spencer'
 
 import soundfile as sf
 import numpy as np
@@ -11,18 +15,43 @@ import json
 import argparse
 from pathlib import Path
 
-def generate_segments(filename:Path, json:Path, channel:int,
-                      verbose:bool) -> np.ndarray:
+def generate_segments(filename:Path, json_file:Path, channel:int, out_dir:Path,
+                      v:bool) -> list[np.ndarray]:
   """
+  Generate audio segments given an audio file and segment metadata.
 
+  :param filename: Path to input file.
+  :param json_file: Path to JSON segment metadata.
+  :param channel: Which audio channel is being segmented.
+  :param v: Verbose output.
+  :returns: List containing segmented audio represented by Numpy arrays.
   """
-  pass
+  audio_list = []
+  vprint(v, 'Loading metadata...')
+  with open(json_file) as f:
+    seg_data = json.load(f)
 
-def save_segments(segs:np.ndarray, outpath:Path, verbose:bool) -> None:
-  """
+  vprint(v, 'Loading audio...')
+  sig, fs = sf.read(filename)
+  sig = sig[:, channel]
 
+  vprint(v, 'Beginning segmentation...')
+  for seg_n, seg_meta in seg_data.items():
+    slice_start = int(fs * seg_meta['start'])
+    slice_end = int(fs * seg_meta['end'])
+    outpath = out_dir / f'{seg_n}.wav'
+    sf.write(outpath, sig[slice_start:slice_end], fs)
+  vprint(v, 'Done!')
+
+def vprint(verbose:bool, msg:str) -> None:
   """
-  pass
+  Verbose mode printing.
+  
+  :param verbose: Verbose mode bool.
+  :param msg: Message to print.
+  """
+  if verbose:
+    print(msg)
 
 def main() -> None:
   parser = argparse.ArgumentParser()
@@ -30,8 +59,8 @@ def main() -> None:
   parser.add_argument('json_file',
                       help='Input JSON file containing segment definitions')
   parser.add_argument('out_dir', help='Output directory')
-  parser.add_argument('--use-channel', '-u', choices=range(0,2),
-                      help='Use a specific channel, 0 = L, 1 = R, 2 = B',
+  parser.add_argument('--channel', '-c', choices=[0,1],
+                      help='Specify channel, 0 = L, 1 = R',
                       default=0)
   parser.add_argument('--verbose', '-v', action='store_true',
                       help='Activate verbose output')
@@ -43,8 +72,7 @@ def main() -> None:
   if in_file.is_dir() or json_file.is_dir() or not out_dir.is_dir():
     raise ValueError(f"Incorrect input spec!")
 
-  segments = generate_segments(in_file, json_file, args.channel, args.verbose)
-  save_segments(segments, out_dir, args.verbose)
+  generate_segments(in_file, json_file, args.channel, out_dir, args.verbose)
 
 if __name__ == '__main__':
   main()
