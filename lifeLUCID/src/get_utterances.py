@@ -7,6 +7,8 @@ into utterances according to the documentation provided by with the LifeLUCID
 corpus (V.Hazan et al.).
 
 The utterances are written to JSON files in a given output directory.
+
+Copyright Adam Spencer 03/2023
 """
 
 __author__ = 'Adam Spencer'
@@ -20,10 +22,10 @@ from typing import Union
 BREAK_TOKENS = {'SILP', '<GA>'} # As described in documentation
 JUNK_TOKENS = {'SIL', '<BELL>'}
 
-def segment_utterances(grid:tg.TextGrid, /, normalise:bool) -> (
+def find_utterances(grid:tg.TextGrid, /, normalise:bool) -> (
     dict[int, dict[str, Union[float, str]]]):
   """
-  Segment a Praat TextGrid into utterances, with start and end times and the
+  Find all utterances in a Praat TextGrid file, returning start and end times and the
   transcription as provided in the TextGrid.
 
   Utterance ends and beginnings are found using the `BREAK_TOKENS`, and any
@@ -58,14 +60,16 @@ def segment_utterances(grid:tg.TextGrid, /, normalise:bool) -> (
     seg_words.append(interval.mark)
   return segments
 
-def write_to_json(utterances:dict, outdir:Path) -> None:
+def write_to_json(utterances:dict, output_file:Path) -> None:
   """
   Write utterances out to the given output directory in JSON format.
 
-  :param utterances: Utterances dict.
-  :param outdir: Path to output directory.
+  :param utterances: Utterances dict 
+  structure { segment_num -> { start_time, end_time, transcript } }
+  :param output_file: Path to output file.
   """
-  pass
+  with open(output_file, 'w') as f:
+    json.dump(utterances, f,  indent=2)
 
 def main():
   # Parse Arguments
@@ -75,27 +79,25 @@ def main():
   parser.add_argument('--no-normalise', '-n', action='store_true',
                       help='Disable case normalisation')
   args = parser.parse_args()
-  normalise = not args['no-normalise']
+  normalise = not args.no_normalise
 
-  # New Path object @ specified path
-  in_dir_path = Path(args['in_dir'])
-  out_dir_path = Path(args['out_dir'])
+  # New Path objects @ specified paths
+  in_dir_path = Path(args.in_dir)
+  out_dir_path = Path(args.out_dir)
   for p in [in_dir_path, out_dir_path]:
     if not p.is_dir():
       raise ValueError(f'{p} is Not a directory!')
 
-  all_utterances = dict()
+  # Find utterences in input dir, output JSON to output dir
   for file in in_dir_path.iterdir():
     if 'Ac.TextGrid' not in file.name:
       continue
     grid = tg.TextGrid.fromFile(file)
-    all_utterances[file.name] = segment_utterances(grid, normalise=normalise)
+    utterances = find_utterances(grid, normalise=normalise)
+    out_path = out_dir_path / file.name.replace('TextGrid', 'json')
+    write_to_json(utterances, out_path)
 
 if __name__ == '__main__':
-  # main()
-  # For testing...
-  grid = tg.TextGrid.fromFile('/Users/adamspencer/Documents/University/third-year/diss/lifeLUCID/textgrids/NORM/OA01OA02FNORMF2_F2_Ac.TextGrid')
-  x = segment_utterances(grid, True)
-  for key, val in x.items():
-    print(val, '\n')
+  main()
+  print('Done!')
 
