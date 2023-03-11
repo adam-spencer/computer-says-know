@@ -28,7 +28,6 @@ def generate_segments(filename:Path, json_file:Path, channel:int, out_dir:Path,
   :param v: Verbose output.
   :returns: List containing segmented audio represented by Numpy arrays.
   """
-  audio_list = []
   vprint(v, 'Loading metadata...')
   with open(json_file) as f:
     seg_data = json.load(f)
