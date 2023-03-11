@@ -15,6 +15,8 @@ import json
 import argparse
 from pathlib import Path
 
+from utils import vprint
+
 def generate_segments(filename:Path, json_file:Path, channel:int, out_dir:Path,
                       v:bool) -> list[np.ndarray]:
   """
@@ -42,16 +44,6 @@ def generate_segments(filename:Path, json_file:Path, channel:int, out_dir:Path,
     outpath = out_dir / f'{seg_n}.wav'
     sf.write(outpath, sig[slice_start:slice_end], fs)
   vprint(v, 'Done!')
-
-def vprint(verbose:bool, msg:str) -> None:
-  """
-  Verbose mode printing.
-  
-  :param verbose: Verbose mode bool.
-  :param msg: Message to print.
-  """
-  if verbose:
-    print(msg)
 
 def main() -> None:
   parser = argparse.ArgumentParser()
