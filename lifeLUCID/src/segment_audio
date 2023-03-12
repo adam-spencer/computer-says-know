@@ -2,7 +2,7 @@
 """
 segment_audio
 
-Generate audio segments using a JSON input.
+Generate audio segments to some specification described in a JSON file.
 
 Copyright Adam Spencer, 2023.
 """
@@ -17,19 +17,19 @@ from pathlib import Path
 
 from utils import vprint
 
-def generate_segments(filename:Path, json_file:Path, channel:int, out_dir:Path,
-                      v:bool) -> list[np.ndarray]:
+def generate_segments(filename:Path, spec_file:Path, out_dir:Path, channel:int,
+                      v:bool) -> None:
   """
   Generate audio segments given an audio file and segment metadata.
 
   :param filename: Path to input file.
-  :param json_file: Path to JSON segment metadata.
+  :param spec_file: Path to JSON segment metadata.
   :param channel: Which audio channel is being segmented.
   :param v: Verbose output.
   :returns: List containing segmented audio represented by Numpy arrays.
   """
   vprint(v, 'Loading metadata...')
-  with open(json_file) as f:
+  with open(spec_file) as f:
     seg_data = json.load(f)
 
   vprint(v, 'Loading audio...')
@@ -44,26 +44,41 @@ def generate_segments(filename:Path, json_file:Path, channel:int, out_dir:Path,
     sf.write(outpath, sig[slice_start:slice_end], fs)
   vprint(v, 'Done!')
 
+def run_over_dir(audio_dir:Path, spec_dir:Path, out_dir:Path,
+                 channel:int, v:bool) -> None:
+  # Must find the matching spec and audio files, then generate a new output
+  # subdirectory, then pass these into generate_segments() in a loop.
+  pass
+
 def main() -> None:
   parser = argparse.ArgumentParser()
-  parser.add_argument('in_file', help='Input audio file')
-  parser.add_argument('json_file',
-                      help='Input JSON file containing segment definitions')
+  parser.add_argument('audio_file', help='Input audio file/directory')
+  parser.add_argument('spec_file',
+                      help='Input JSON file/directory containing segment \
+                      specification')
   parser.add_argument('out_dir', help='Output directory')
   parser.add_argument('--channel', '-c', choices=[0,1],
                       help='Specify channel, 0 = L, 1 = R',
                       default=0)
+  parser.add_argument('--dir-mode', '-d', action='store_true',
+                      help='Activate directory mode')
   parser.add_argument('--verbose', '-v', action='store_true',
                       help='Activate verbose output')
   args = parser.parse_args()
 
-  in_file = Path(args.in_file)
-  json_file = Path(args.json_file)
+  audio_file = Path(args.audio_file)
+  spec_file = Path(args.spec_file)
   out_dir = Path(args.out_dir)
-  if in_file.is_dir() or json_file.is_dir() or not out_dir.is_dir():
-    raise ValueError(f"Incorrect input spec!")
 
-  generate_segments(in_file, json_file, args.channel, out_dir, args.verbose)
+  # This is mildly janky; there must be a better way!
+  if out_dir.is_dir():
+    if args.dir_mode and audio_file.is_dir() and spec_file.is_dir():
+      run_over_dir(audio_file, spec_file, out_dir, args.channel, args.verbose)
+      return
+    elif not args.dir_mode and not audio_file.is_dir() and not spec_file.is_dir():
+      generate_segments(audio_file, spec_file, out_dir, args.channel, args.verbose)
+      return
+  raise ValueError('Incorrect path specification!')
 
 if __name__ == '__main__':
   main()
