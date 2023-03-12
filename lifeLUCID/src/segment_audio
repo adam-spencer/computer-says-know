@@ -13,6 +13,7 @@ import soundfile as sf
 import numpy as np
 import json
 import argparse
+import re
 from pathlib import Path
 
 from utils import vprint
@@ -40,7 +41,7 @@ def generate_segments(filename:Path, spec_file:Path, out_dir:Path, channel:int,
   for seg_n, seg_meta in seg_data.items():
     slice_start = int(fs * seg_meta['start'])
     slice_end = int(fs * seg_meta['end'])
-    outpath = out_dir / f'{seg_n}.wav'
+    outpath = out_dir / f'{int(seg_n):03d}.wav'
     sf.write(outpath, sig[slice_start:slice_end], fs)
   vprint(v, 'Done!')
 
@@ -48,7 +49,28 @@ def run_over_dir(audio_dir:Path, spec_dir:Path, out_dir:Path,
                  channel:int, v:bool) -> None:
   # Must find the matching spec and audio files, then generate a new output
   # subdirectory, then pass these into generate_segments() in a loop.
-  pass
+  if channel == 0:
+    spec_ext = 'Ac.json'
+  else:
+    spec_ext = 'Bc.json'
+
+  vprint(v, 'Looping over files...')
+  if v:
+    counter = 0
+    total_files = len(list(audio_dir.glob('*')))
+
+  for audio_file in audio_dir.iterdir():
+    if v:
+      counter += 1
+      print(f'Progress: {counter} / {total_files}', end='\r')
+    purename = audio_file.name.removesuffix('.wav')
+    spec_file = spec_dir / f'{purename}_{spec_ext}'
+    if spec_file.exists():
+      out_subdir = out_dir / purename
+      out_subdir.mkdir(exist_ok=True)
+      generate_segments(audio_file, spec_file, out_subdir, channel, False)
+    else:
+      vprint(v, f"Couldn't find a spec file for {purename}!")
 
 def main() -> None:
   parser = argparse.ArgumentParser()
