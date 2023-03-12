@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-get_utterances.py
+get_utterances
 
 Given a directory of Praat TextGrid files, this program segments them all
 into utterances according to the documentation provided by with the LifeLUCID
@@ -8,7 +8,7 @@ corpus (V.Hazan et al.).
 
 The utterances are written to JSON files in a given output directory.
 
-Copyright Adam Spencer 03/2023
+Copyright Adam Spencer, 03/2023
 """
 
 __author__ = 'Adam Spencer'
@@ -90,7 +90,7 @@ def main():
 
   # Find utterences in input dir, output JSON to output dir
   for file in in_dir_path.iterdir():
-    if 'Ac.TextGrid' not in file.name:
+    if '.TextGrid' not in file.name:
       continue
     grid = tg.TextGrid.fromFile(file)
     utterances = find_utterances(grid, normalise=normalise)
