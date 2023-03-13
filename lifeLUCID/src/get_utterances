@@ -20,6 +20,10 @@ TODO:
   This could be easily remedied by allowing, say, a half-second
   minimum distance between utterances. This would prevent a single 
   spoken section being split up unnecesarily.
+
+  Perhaps a maximum threshold between words too! This would mean 
+  any pauses for umm-ing or SIL tokens that continue for too long
+  cause the current utterance to end and the next begin.
 """
 
 __author__ = 'Adam Spencer'
@@ -30,7 +34,8 @@ import textgrid as tg
 from pathlib import Path
 from typing import Union
 
-BREAK_TOKENS = {'SILP', '<GA>'} # As described in documentation
+# As described in documentation
+BREAK_TOKENS = {'SILP', '<GA>'} 
 JUNK_TOKENS = {'SIL', '<BELL>'}
 
 def find_utterances(grid:tg.TextGrid, /, normalise:bool) -> (
