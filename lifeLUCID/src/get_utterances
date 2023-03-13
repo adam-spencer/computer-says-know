@@ -11,6 +11,17 @@ The utterances are written to JSON files in a given output directory.
 Copyright Adam Spencer, 03/2023
 """
 
+"""
+TODO:
+  Allow user-specified minimum time distance / time threshold.
+  Sometimes a single utterance is split in to multiple due to a 
+  SILP token, despite the speaker not stopping all mouth noise.
+
+  This could be easily remedied by allowing, say, a half-second
+  minimum distance between utterances. This would prevent a single 
+  spoken section being split up unnecesarily.
+"""
+
 __author__ = 'Adam Spencer'
 
 import argparse
