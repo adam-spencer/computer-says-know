@@ -3,11 +3,13 @@
 do_whisper
 
 Given a directory of audio segment subdirectories and accompanying directory of
-JSON specification files, run Whisper on the audio and write the output back to
-the specfication files.
+JSON specification files, run Whisper on the audio and write the output to a 
+specified destination.
 
 Copyright Adam Spencer, 03/2023
 """
+
+__author__ = 'Adam Spencer'
 
 import whisper
 import torch
@@ -18,7 +20,14 @@ from pathlib import Path
 from utils import vprint
 
 def main():
-  pass
+  parser = argparse.ArgumentParser()
+  parser.add_argument('audio_in',
+                      help='Directory containing audio segment subdirectories')
+  parser.add_argument('spec_in',
+                      help='Directory containing segment specification files')
+  parser.add_argument('out_dir', help='Output directory')
+  parser.add_argument('--verbose', '-v', action='store_true',
+                      help='Enable verbose output')
 
 if __name__ == '__main__':
   main()
