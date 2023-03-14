@@ -23,11 +23,22 @@ def main():
   parser = argparse.ArgumentParser()
   parser.add_argument('audio_in',
                       help='Directory containing audio segment subdirectories')
-  parser.add_argument('spec_in',
+  parser.add_argument('spec_dir',
                       help='Directory containing segment specification files')
   parser.add_argument('out_dir', help='Output directory')
   parser.add_argument('--verbose', '-v', action='store_true',
                       help='Enable verbose output')
+  args = parser.parse_args()
+
+  audio_superdir = Path(args.audio_in)
+  spec_dir = Path(args.spec_dir)
+  out_dir = Path(args.out_dir)
+
+  out_dir.mkdir()
+  if audio_superdir.is_dir() and spec_dir.is_dir():
+    pass
+  else:
+    raise ValueError('One or more specified directories is not a directory!')
 
 if __name__ == '__main__':
   main()
