@@ -19,6 +19,21 @@ from pathlib import Path
 
 from utils import vprint
 
+def run_whisper(model:whisper.Whisper, audio_dir:Path,
+                opts:dict) -> dict[str, whisper.DecodingResult]:
+  """
+  Run Whisper over a directory of audio segments and return the results.
+
+  :param model: Whisper model to use.
+  :param audio_dir: Directory containing audio segments.
+  :param opts: Decoding options for Whisper to use.
+  :returns: Dict of structure: { key -> result }
+  """
+  pass
+
+def write_to_json():
+  pass
+
 def main():
   parser = argparse.ArgumentParser()
   parser.add_argument('audio_in',
@@ -26,6 +41,12 @@ def main():
   parser.add_argument('spec_dir',
                       help='Directory containing segment specification files')
   parser.add_argument('out_dir', help='Output directory')
+  parser.add_argument('--model', default='base.en',
+                      help='Whisper model to use, default `base.en`')
+  parser.add_argument('--device', default='cpu',
+                      help='Device for Whisper to use, default `cpu`')
+  parser.add_argument('--no-fp16', action='store_true',
+                      help='Disable FP16, useful on M1 Mac')
   parser.add_argument('--verbose', '-v', action='store_true',
                       help='Enable verbose output')
   args = parser.parse_args()
@@ -34,11 +55,15 @@ def main():
   spec_dir = Path(args.spec_dir)
   out_dir = Path(args.out_dir)
 
-  out_dir.mkdir()
-  if audio_superdir.is_dir() and spec_dir.is_dir():
-    pass
-  else:
+  out_dir.mkdir() # Create output directory
+  if not(audio_superdir.is_dir() and spec_dir.is_dir()):
     raise ValueError('One or more specified directories is not a directory!')
+
+  model = whisper.load_model(args.model)
+  for audio_subdir in audio_superdir.iterdir():
+    if not audio_subdir.is_dir():
+      continue
+    run_whisper(model, audio_subdir, opts)
 
 if __name__ == '__main__':
   main()
