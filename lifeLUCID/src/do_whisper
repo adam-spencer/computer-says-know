@@ -59,11 +59,14 @@ def main():
   if not(audio_superdir.is_dir() and spec_dir.is_dir()):
     raise ValueError('One or more specified directories is not a directory!')
 
-  model = whisper.load_model(args.model)
+  model = whisper.load_model(args.model).to(args.device)
+  opts = dict(beam_size=5, best_of=5, task='transcribe', language='en',
+              fp16=(not args.no_fp16))
+
   for audio_subdir in audio_superdir.iterdir():
-    if not audio_subdir.is_dir():
-      continue
-    run_whisper(model, audio_subdir, opts)
+    if audio_subdir.is_dir():
+      result = run_whisper(model, audio_subdir, opts)
+      write_to_json() # needs updating obvs
 
 if __name__ == '__main__':
   main()
