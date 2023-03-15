@@ -15,12 +15,16 @@ import whisper
 import torch
 import json
 import argparse
+import re
 from pathlib import Path
 
 from utils import vprint
 
-def run_whisper(model:whisper.Whisper, audio_dir:Path,
-                opts:dict) -> dict[str, whisper.DecodingResult]:
+WAVFILE = re.compile(r'.+?(?=.wav)')
+
+def run_whisper(model:whisper.Whisper, audio_dir:Path, 
+                opts:whisper.DecodingOptions
+                ) -> dict[str, whisper.DecodingResult]:
   """
   Run Whisper over a directory of audio segments and return the results.
 
@@ -29,7 +33,15 @@ def run_whisper(model:whisper.Whisper, audio_dir:Path,
   :param opts: Decoding options for Whisper to use.
   :returns: Dict of structure: { key -> result }
   """
-  pass
+  result_dict = dict()
+  for audio_file in audio_dir.iterdir():
+    if fname := WAVFILE.match(audio_file.name):
+      fname = fname.lstrip('0')
+      audio = whisper.load_audio(audio_file)
+      audio = whisper.pad_or_trim(audio)
+      mel = whisper.log_mel_spectrogram(audio, device=model.device)
+      result_dict[fname] = whisper.decode(model, mel, opts)
+  return result_dict
 
 def write_to_json():
   pass
@@ -60,8 +72,7 @@ def main():
     raise ValueError('One or more specified directories is not a directory!')
 
   model = whisper.load_model(args.model).to(args.device)
-  opts = dict(beam_size=5, best_of=5, task='transcribe', language='en',
-              fp16=(not args.no_fp16))
+  opts = whisper.DecodingOptions(language='en', fp16=(not args.no_fp16))
 
   for audio_subdir in audio_superdir.iterdir():
     if audio_subdir.is_dir():
