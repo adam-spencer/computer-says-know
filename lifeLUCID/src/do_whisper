@@ -23,7 +23,7 @@ from utils import vprint
 WAVFILE = re.compile(r'.+?(?=.wav)')
 
 def run_whisper(model:whisper.Whisper, audio_dir:Path, 
-                opts:whisper.DecodingOptions, v:bool
+                opts:dict, v:bool
                 ) -> dict[str, whisper.DecodingResult]:
   """
   Run Whisper over a directory of audio segments and return the results.
@@ -39,11 +39,8 @@ def run_whisper(model:whisper.Whisper, audio_dir:Path,
       fname = fname.group().lstrip('0')
       if fname == '':
         fname = '0'
-      audio = whisper.load_audio(audio_file)
-      audio = whisper.pad_or_trim(audio)
-      mel = whisper.log_mel_spectrogram(audio).to(model.device)
-      result_dict[fname] = whisper.decode(model, mel, opts)
-      print(result_dict[fname].text)
+      result_dict[fname] = model.transcribe(str(audio_file), **opts)
+      vprint(v, result_dict[fname]['text'])
   return result_dict
 
 def write_to_json(whisper_result:dict, spec_file:Path, out_file:Path) -> None:
@@ -58,9 +55,7 @@ def write_to_json(whisper_result:dict, spec_file:Path, out_file:Path) -> None:
   with open(spec_file) as f:
     spec_dict = json.load(f)
   for k in spec_dict.keys():
-    result = asdict(whisper_result[k])
-    result.pop('audio_features') # TODO: Save audio_features to a pickle file?
-    spec_dict[k].update(result)
+    spec_dict[k].update(whisper=whisper_result[k])
   with open(out_file, 'w') as f:
     json.dump(spec_dict, f, indent=2)
 
@@ -90,15 +85,10 @@ def main():
     raise ValueError('One or more specified directories is not a directory!')
 
   model = whisper.load_model(args.model).to(args.device)
-  opts = whisper.DecodingOptions(language='en', fp16=(not args.no_fp16))
+  opts = dict(language='en', fp16=(not args.no_fp16))
 
-  if args.verbose:
-    counter = 0
-    n_dirs = len(list(audio_superdir.glob('*')))
   for audio_subdir in audio_superdir.iterdir():
-    if args.verbose:
-      counter += 1
-      print(f'Progress : {counter} / {n_dirs}', end='\r')
+    vprint(args.verbose, f'At folder: {audio_subdir}')
     if audio_subdir.is_dir():
       if (spec_file := spec_dir / f'{audio_subdir.name}_Ac.json').exists():
         result = run_whisper(model, audio_subdir, opts, args.verbose)
