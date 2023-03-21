@@ -1,11 +1,37 @@
 #!/usr/bin/env python
 """
 calculate_wer
+
+Calculate the WER of a file output by `do_whisper` and either print the result
+to stdout or write in JSON format to some output location.
 """
 import argparse
 import jiwer as jw
 import json
 from pathlib import Path
+
+def get_file_wer(transcript_file:Path) -> dict:
+  """
+  Get WER from a transcript JSON file as returned by do_whisper.
+
+  :param transcript_file: Path to transcript file.
+  :returns: Dictionary representation of file with added WER.
+  """
+  pass
+
+def write_out(wer_dict:dict, /, out_path:Path=None, stdout:bool=False) -> None:
+  """
+  Write the WER output either to a specified file or to stdout.
+  Output is in JSON format.
+
+  :param wer_dict: WER dictionary as output by `get_file_wer()`
+  :param out_path: Path to write output to.
+  :param stdout: Write output to stdout rather than to a file.
+  """
+  if out_path is None and not stdout:
+    raise ValueError('Must either supply a path or choose to print to stdout!')
+
+  pass
 
 def main():
   parser = argparse.ArgumentParser()
@@ -15,11 +41,15 @@ def main():
                       printed to stdout')
   args = parser.parse_args()
 
-  in_path = Path(args.in_file)
+  in_file_path = Path(args.in_file)
   if save_output := args.output_dir is not None:
     out_path = Path(args.output_dir)
 
-  if in_path.is_dir():
+  if in_file_path.is_dir():
+    wer_dict = get_file_wer(in_file_path)
+    write_out(wer_dict, stdout=True)
+
+  else:
     pass
 
 if __name__ == '__main__':
