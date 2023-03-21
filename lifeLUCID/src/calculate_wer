@@ -75,7 +75,15 @@ def main():
     out_path = Path(args.output_dir)
 
   if in_file_path.is_dir():
-    pass
+    if not save_output:
+      raise ValueError('Must supply an output dir when input is dir')
+    for file in in_file_path.iterdir():
+      if not file.name.endswith('.json'):
+        continue
+      wer_dict = get_file_wer(file)
+      write_path = out_path / file.name.replace('.json', '_wer.json')
+      write_out(wer_dict, out_path=write_path)
+
   else:
     wer_dict = get_file_wer(in_file_path)
     if save_output:
