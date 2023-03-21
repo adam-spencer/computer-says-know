@@ -10,6 +10,20 @@ import jiwer as jw
 import json
 from pathlib import Path
 
+# This standardises strings for better comparison
+TRANSFORM = jw.Compose( 
+    [
+      jw.ToLowerCase(),
+      jw.ExpandCommonEnglishContractions(),
+      jw.RemoveKaldiNonWords(),
+      jw.RemoveWhiteSpace(replace_by_space=True),
+      jw.RemovePunctuation(),
+      jw.RemoveMultipleSpaces(),
+      jw.Strip(),
+      jw.ReduceToListOfListOfWords()
+    ]
+)
+
 def get_file_wer(transcript_file:Path) -> dict:
   """
   Get WER from a transcript JSON file as returned by do_whisper.
@@ -17,7 +31,9 @@ def get_file_wer(transcript_file:Path) -> dict:
   :param transcript_file: Path to transcript file.
   :returns: Dictionary representation of file with added WER.
   """
-  pass
+  with open(transcript_file) as file:
+    data_dict = json.load(file)
+  return data_dict
 
 def write_out(wer_dict:dict, /, out_path:Path=None, stdout:bool=False) -> None:
   """
