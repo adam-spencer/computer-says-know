@@ -39,8 +39,9 @@ def get_file_wer(transcript_file:Path) -> dict:
     data_dict = json.load(file)
   
   for idx, data in data_dict.items():
-    wer = jw.wer(data['reference'], data['whisper']['text'],
-           reference_transform=TRANSFORM, hypothesis_transform=TRANSFORM)
+    wer = jw.wer(data['transcript'], data['whisper']['text'],
+                 reference_transform=TRANSFORM,
+                 hypothesis_transform=TRANSFORM)
     data_dict[idx]['wer'] = wer
 
   return data_dict
