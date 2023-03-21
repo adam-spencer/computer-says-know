@@ -4,7 +4,11 @@ calculate_wer
 
 Calculate the WER of a file output by `do_whisper` and either print the result
 to stdout or write in JSON format to some output location.
+
+Copyright Adam Spencer, 03/2023
 """
+__author__ = 'Adam Spencer'
+
 import argparse
 import jiwer as jw
 import json
