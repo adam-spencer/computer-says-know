@@ -52,8 +52,11 @@ def write_out(wer_dict:dict, /, out_path:Path=None, stdout:bool=False) -> None:
   """
   if out_path is None and not stdout:
     raise ValueError('Must either supply a path or choose to print to stdout!')
-
-  pass
+  if stdout:
+    print(json.dumps(wer_dict, indent=2))
+  else:
+    with open(out_path, 'w') as f:
+      json.dump(out_path, f)
 
 def main():
   parser = argparse.ArgumentParser()
