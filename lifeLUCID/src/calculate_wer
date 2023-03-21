@@ -73,6 +73,7 @@ def main():
   in_file_path = Path(args.in_file)
   if save_output := args.output_dir is not None:
     out_path = Path(args.output_dir)
+    out_path.mkdir(exist_ok=True)
 
   if in_file_path.is_dir():
     if not save_output:
