@@ -71,11 +71,14 @@ def main():
     out_path = Path(args.output_dir)
 
   if in_file_path.is_dir():
-    wer_dict = get_file_wer(in_file_path)
-    write_out(wer_dict, stdout=True)
-
-  else:
     pass
+  else:
+    wer_dict = get_file_wer(in_file_path)
+    if save_output:
+      out_path = out_path / in_file_path.name.replace('.json', '_wer.json')
+      write_out(wer_dict, out_path=out_path)
+    else:
+      write_out(wer_dict, stdout=True)
 
 if __name__ == '__main__':
   main()
