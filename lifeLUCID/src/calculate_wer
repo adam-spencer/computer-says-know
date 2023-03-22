@@ -12,21 +12,11 @@ __author__ = 'Adam Spencer'
 import argparse
 import jiwer as jw
 import json
+from whisper.normalizers import EnglishTextNormalizer
 from pathlib import Path
 
-# This standardises strings for better comparison
-TRANSFORM = jw.Compose( 
-    [
-      jw.ToLowerCase(),
-      jw.ExpandCommonEnglishContractions(),
-      jw.RemoveKaldiNonWords(),
-      jw.RemoveWhiteSpace(replace_by_space=True),
-      jw.RemovePunctuation(),
-      jw.RemoveMultipleSpaces(),
-      jw.Strip(),
-      jw.ReduceToListOfListOfWords()
-    ]
-)
+# This normalises strings for better comparison
+normalise = EnglishTextNormalizer()
 
 def get_file_wer(transcript_file:Path) -> dict:
   """
@@ -39,10 +29,9 @@ def get_file_wer(transcript_file:Path) -> dict:
     data_dict = json.load(file)
   
   for idx, data in data_dict.items():
-    wer = jw.wer(data['transcript'], data['whisper']['text'],
-                 reference_transform=TRANSFORM,
-                 hypothesis_transform=TRANSFORM)
-    data_dict[idx]['wer'] = wer
+    ref = normalise(data['transcript'])
+    hyp = normalise(data['whisper']['text'])
+    data_dict[idx]['wer'] = jw.wer(ref, hyp)
 
   return data_dict
 
@@ -61,7 +50,7 @@ def write_out(wer_dict:dict, /, out_path:Path=None, stdout:bool=False) -> None:
     print(json.dumps(wer_dict, indent=2))
   else:
     with open(out_path, 'w') as f:
-      json.dump(out_path, f)
+      json.dump(wer_dict, f)
 
 def main():
   parser = argparse.ArgumentParser()
@@ -78,7 +67,7 @@ def main():
 
   if in_file_path.is_dir():
     if not save_output:
-      raise ValueError('Must supply an output dir when input is dir')
+      raise ValueError('Must supply an output dir when input is dir!')
     for file in in_file_path.iterdir():
       if not file.name.endswith('.json'):
         continue
