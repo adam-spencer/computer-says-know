@@ -14,9 +14,14 @@ import jiwer as jw
 import json
 from whisper.normalizers import EnglishTextNormalizer
 from pathlib import Path
+import re
 
 # This normalises strings for better comparison
 normalise = EnglishTextNormalizer()
+
+# Used to ensure only utterance entries (numerical idx) in the transcript file 
+# are parsed.
+only_digits = re.compile(r'^\d+$')
 
 def get_file_wer(transcript_file:Path) -> dict:
   """
@@ -28,11 +33,20 @@ def get_file_wer(transcript_file:Path) -> dict:
   with open(transcript_file) as file:
     data_dict = json.load(file)
   
+  wer_total = 0.0
+  n_utterances = 0
   for idx, data in data_dict.items():
+    if not only_digits.match(idx):
+      continue
     ref = normalise(data['transcript'])
     hyp = normalise(data['whisper']['text'])
-    data_dict[idx]['wer'] = jw.wer(ref, hyp)
+    wer = jw.wer(ref, hyp)
+    wer_total += wer
+    data_dict[idx]['wer'] = wer
+    n_utterances += 1
 
+  wer_average = wer_total / n_utterances
+  data_dict['stats'] = {'wer_average' : wer_average}
   return data_dict
 
 def write_out(wer_dict:dict, /, out_path:Path=None, stdout:bool=False) -> None:
