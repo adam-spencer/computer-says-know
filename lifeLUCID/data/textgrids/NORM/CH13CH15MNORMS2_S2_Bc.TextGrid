@@ -1,0 +1,2702 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 623.137 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "B-words" 
+        xmin = 0 
+        xmax = 623.137 
+        intervals: size = 672 
+        intervals [1]:
+            xmin = 0 
+            xmax = 19.1 
+            text = "<GA>" 
+        intervals [2]:
+            xmin = 19.1 
+            xmax = 19.27 
+            text = "Is" 
+        intervals [3]:
+            xmin = 19.27 
+            xmax = 19.49 
+            text = "there" 
+        intervals [4]:
+            xmin = 19.49 
+            xmax = 19.55 
+            text = "a" 
+        intervals [5]:
+            xmin = 19.55 
+            xmax = 20.45 
+            text = "pedestrian" 
+        intervals [6]:
+            xmin = 20.45 
+            xmax = 20.949 
+            text = "sign" 
+        intervals [7]:
+            xmin = 20.949 
+            xmax = 22.288117913832203 
+            text = "SIL" 
+        intervals [8]:
+            xmin = 22.288117913832203 
+            xmax = 22.857687074829933 
+            text = "SILP" 
+        intervals [9]:
+            xmin = 22.857687074829933 
+            xmax = 25.026439909297054 
+            text = "SIL" 
+        intervals [10]:
+            xmin = 25.026439909297054 
+            xmax = 27.385941043083903 
+            text = "SILP" 
+        intervals [11]:
+            xmin = 27.385941043083903 
+            xmax = 27.97 
+            text = "UH" 
+        intervals [12]:
+            xmin = 27.97 
+            xmax = 28.3 
+            text = "like" 
+        intervals [13]:
+            xmin = 28.3 
+            xmax = 28.45 
+            text = "on" 
+        intervals [14]:
+            xmin = 28.45 
+            xmax = 28.54 
+            text = "the" 
+        intervals [15]:
+            xmin = 28.54 
+            xmax = 28.87 
+            text = "lamp" 
+        intervals [16]:
+            xmin = 28.87 
+            xmax = 29.559 
+            text = "post" 
+        intervals [17]:
+            xmin = 29.559 
+            xmax = 32.14 
+            text = "SIL" 
+        intervals [18]:
+            xmin = 32.14 
+            xmax = 32.44 
+            text = "like" 
+        intervals [19]:
+            xmin = 32.44 
+            xmax = 32.89 
+            text = "saying" 
+        intervals [20]:
+            xmin = 32.89 
+            xmax = 33.43 
+            text = "Beware" 
+        intervals [21]:
+            xmin = 33.43 
+            xmax = 34.15 
+            text = "pedestrians" 
+        intervals [22]:
+            xmin = 34.15 
+            xmax = 34.39 
+            text = "That's" 
+        intervals [23]:
+            xmin = 34.39 
+            xmax = 34.45 
+            text = "a" 
+        intervals [24]:
+            xmin = 34.45 
+            xmax = 35.009 
+            text = "difference" 
+        intervals [25]:
+            xmin = 35.009 
+            xmax = 35.67913832199547 
+            text = "SIL" 
+        intervals [26]:
+            xmin = 35.67913832199547 
+            xmax = 36.13798185941043 
+            text = "SILP" 
+        intervals [27]:
+            xmin = 36.13798185941043 
+            xmax = 36.79 
+            text = "SIL" 
+        intervals [28]:
+            xmin = 36.79 
+            xmax = 36.939 
+            text = "If" 
+        intervals [29]:
+            xmin = 36.939 
+            xmax = 37.01 
+            text = "SIL" 
+        intervals [30]:
+            xmin = 37.01 
+            xmax = 37.06 
+            text = "are" 
+        intervals [31]:
+            xmin = 37.06 
+            xmax = 37.37 
+            text = "signs" 
+        intervals [32]:
+            xmin = 37.37 
+            xmax = 37.74 
+            text = "saying" 
+        intervals [33]:
+            xmin = 37.74 
+            xmax = 38.21 
+            text = "shine" 
+        intervals [34]:
+            xmin = 38.21 
+            xmax = 38.44 
+            text = "and" 
+        intervals [35]:
+            xmin = 38.44 
+            xmax = 39.099 
+            text = "puller" 
+        intervals [36]:
+            xmin = 39.099 
+            xmax = 40.39836734693878 
+            text = "SIL" 
+        intervals [37]:
+            xmin = 40.39836734693878 
+            xmax = 42.217891156462585 
+            text = "SILP" 
+        intervals [38]:
+            xmin = 42.217891156462585 
+            xmax = 43.23 
+            text = "<BELL>" 
+        intervals [39]:
+            xmin = 43.23 
+            xmax = 43.869 
+            text = "YES" 
+        intervals [40]:
+            xmin = 43.869 
+            xmax = 44.48 
+            text = "SIL" 
+        intervals [41]:
+            xmin = 44.48 
+            xmax = 44.58 
+            text = "At" 
+        intervals [42]:
+            xmin = 44.58 
+            xmax = 44.67 
+            text = "the" 
+        intervals [43]:
+            xmin = 44.67 
+            xmax = 45.06 
+            text = "top" 
+        intervals [44]:
+            xmin = 45.06 
+            xmax = 45.359 
+            text = "YES" 
+        intervals [45]:
+            xmin = 45.359 
+            xmax = 45.81832199546485 
+            text = "SIL" 
+        intervals [46]:
+            xmin = 45.81832199546485 
+            xmax = 48.047936507936505 
+            text = "SILP" 
+        intervals [47]:
+            xmin = 48.047936507936505 
+            xmax = 48.58 
+            text = "SIL" 
+        intervals [48]:
+            xmin = 48.58 
+            xmax = 48.939 
+            text = "Okay" 
+        intervals [49]:
+            xmin = 48.939 
+            xmax = 51.62 
+            text = "SIL" 
+        intervals [50]:
+            xmin = 51.62 
+            xmax = 51.999 
+            text = "So" 
+        intervals [51]:
+            xmin = 51.999 
+            xmax = 52.21 
+            text = "SIL" 
+        intervals [52]:
+            xmin = 52.21 
+            xmax = 52.69 
+            text = "baby" 
+        intervals [53]:
+            xmin = 52.69 
+            xmax = 53.2 
+            text = "kicking" 
+        intervals [54]:
+            xmin = 53.2 
+            xmax = 53.41 
+            text = "his" 
+        intervals [55]:
+            xmin = 53.41 
+            xmax = 53.86 
+            text = "teddy" 
+        intervals [56]:
+            xmin = 53.86 
+            xmax = 54.22 
+            text = "bear" 
+        intervals [57]:
+            xmin = 54.22 
+            xmax = 54.4 
+            text = "out" 
+        intervals [58]:
+            xmin = 54.4 
+            xmax = 54.58 
+            text = "on" 
+        intervals [59]:
+            xmin = 54.58 
+            xmax = 54.7 
+            text = "the" 
+        intervals [60]:
+            xmin = 54.7 
+            xmax = 55.339 
+            text = "road" 
+        intervals [61]:
+            xmin = 55.339 
+            xmax = 56.31836734693877 
+            text = "SIL" 
+        intervals [62]:
+            xmin = 56.31836734693877 
+            xmax = 57.76766439909297 
+            text = "<BELL>" 
+        intervals [63]:
+            xmin = 57.76766439909297 
+            xmax = 59.53 
+            text = "SILP" 
+        intervals [64]:
+            xmin = 59.53 
+            xmax = 59.969 
+            text = "No" 
+        intervals [65]:
+            xmin = 59.969 
+            xmax = 60.36 
+            text = "SIL" 
+        intervals [66]:
+            xmin = 60.36 
+            xmax = 60.709 
+            text = "down" 
+        intervals [67]:
+            xmin = 60.709 
+            xmax = 60.81 
+            text = "SIL" 
+        intervals [68]:
+            xmin = 60.81 
+            xmax = 61.399 
+            text = "button" 
+        intervals [69]:
+            xmin = 61.399 
+            xmax = 63.061796190546985 
+            text = "SIL" 
+        intervals [70]:
+            xmin = 63.061796190546985 
+            xmax = 66.95142857142858 
+            text = "SILP" 
+        intervals [71]:
+            xmin = 66.95142857142858 
+            xmax = 71.23 
+            text = "SIL" 
+        intervals [72]:
+            xmin = 71.23 
+            xmax = 71.599 
+            text = "Okay" 
+        intervals [73]:
+            xmin = 71.599 
+            xmax = 72.32624564489424 
+            text = "SIL" 
+        intervals [74]:
+            xmin = 72.32624564489424 
+            xmax = 73.59315148624823 
+            text = "SILP" 
+        intervals [75]:
+            xmin = 73.59315148624823 
+            xmax = 74.2058855077129 
+            text = "SIL" 
+        intervals [76]:
+            xmin = 74.2058855077129 
+            xmax = 81.83 
+            text = "SILP" 
+        intervals [77]:
+            xmin = 81.83 
+            xmax = 82.52 
+            text = "yeah" 
+        intervals [78]:
+            xmin = 82.52 
+            xmax = 82.67 
+            text = "I" 
+        intervals [79]:
+            xmin = 82.67 
+            xmax = 82.97 
+            text = "see" 
+        intervals [80]:
+            xmin = 82.97 
+            xmax = 83.269 
+            text = "that" 
+        intervals [81]:
+            xmin = 83.269 
+            xmax = 83.46 
+            text = "SIL" 
+        intervals [82]:
+            xmin = 83.46 
+            xmax = 84.2892970521542 
+            text = "SILP" 
+        intervals [83]:
+            xmin = 84.2892970521542 
+            xmax = 84.99893424036281 
+            text = "SIL" 
+        intervals [84]:
+            xmin = 84.99893424036281 
+            xmax = 88.71 
+            text = "SILP" 
+        intervals [85]:
+            xmin = 88.71 
+            xmax = 88.83 
+            text = "It" 
+        intervals [86]:
+            xmin = 88.83 
+            xmax = 89.01 
+            text = "just" 
+        intervals [87]:
+            xmin = 89.01 
+            xmax = 89.31 
+            text = "says" 
+        intervals [88]:
+            xmin = 89.31 
+            xmax = 89.67 
+            text = "pay" 
+        intervals [89]:
+            xmin = 89.67 
+            xmax = 90.659 
+            text = "bills" 
+        intervals [90]:
+            xmin = 90.659 
+            xmax = 91.63839002267575 
+            text = "SIL" 
+        intervals [91]:
+            xmin = 91.63839002267575 
+            xmax = 93.10764172335601 
+            text = "SILP" 
+        intervals [92]:
+            xmin = 93.10764172335601 
+            xmax = 95.08 
+            text = "SIL" 
+        intervals [93]:
+            xmin = 95.08 
+            xmax = 95.38 
+            text = "Other" 
+        intervals [94]:
+            xmin = 95.38 
+            xmax = 95.86 
+            text = "people" 
+        intervals [95]:
+            xmin = 95.86 
+            xmax = 96.34 
+            text = "walking" 
+        intervals [96]:
+            xmin = 96.34 
+            xmax = 96.73 
+            text = "across" 
+        intervals [97]:
+            xmin = 96.73 
+            xmax = 96.85 
+            text = "the" 
+        intervals [98]:
+            xmin = 96.85 
+            xmax = 97.489 
+            text = "road" 
+        intervals [99]:
+            xmin = 97.489 
+            xmax = 98.3182993197279 
+            text = "SIL" 
+        intervals [100]:
+            xmin = 98.3182993197279 
+            xmax = 102.34 
+            text = "SILP" 
+        intervals [101]:
+            xmin = 102.34 
+            xmax = 102.55 
+            text = "No" 
+        intervals [102]:
+            xmin = 102.55 
+            xmax = 103.44 
+            text = "sIX" 
+        intervals [103]:
+            xmin = 103.44 
+            xmax = 103.81 
+            text = "SIL" 
+        intervals [104]:
+            xmin = 103.81 
+            xmax = 104.04 
+            text = "That's" 
+        intervals [105]:
+            xmin = 104.04 
+            xmax = 104.949 
+            text = "aSILSI" 
+        intervals [106]:
+            xmin = 104.949 
+            xmax = 107.75784580498868 
+            text = "SIL" 
+        intervals [107]:
+            xmin = 107.75784580498868 
+            xmax = 109.01 
+            text = "SILP" 
+        intervals [108]:
+            xmin = 109.01 
+            xmax = 109.56 
+            text = "OKS" 
+        intervals [109]:
+            xmin = 109.56 
+            xmax = 109.83 
+            text = "So" 
+        intervals [110]:
+            xmin = 109.83 
+            xmax = 110.1 
+            text = "that's" 
+        intervals [111]:
+            xmin = 110.1 
+            xmax = 110.31 
+            text = "no" 
+        intervals [112]:
+            xmin = 110.31 
+            xmax = 111.149 
+            text = "different" 
+        intervals [113]:
+            xmin = 111.149 
+            xmax = 116.81 
+            text = "SILP" 
+        intervals [114]:
+            xmin = 116.81 
+            xmax = 117.08 
+            text = "YeS" 
+        intervals [115]:
+            xmin = 117.08 
+            xmax = 117.32 
+            text = "there" 
+        intervals [116]:
+            xmin = 117.32 
+            xmax = 117.769 
+            text = "is" 
+        intervals [117]:
+            xmin = 117.769 
+            xmax = 119.25873015873016 
+            text = "SIL" 
+        intervals [118]:
+            xmin = 119.25873015873016 
+            xmax = 120.71784580498867 
+            text = "SILP" 
+        intervals [119]:
+            xmin = 120.71784580498867 
+            xmax = 121.44 
+            text = "SIL" 
+        intervals [120]:
+            xmin = 121.44 
+            xmax = 121.71 
+            text = "a" 
+        intervals [121]:
+            xmin = 121.71 
+            xmax = 122.09 
+            text = "yEAH" 
+        intervals [122]:
+            xmin = 122.09 
+            xmax = 122.339 
+            text = "no" 
+        intervals [123]:
+            xmin = 122.339 
+            xmax = 122.39 
+            text = "SIL" 
+        intervals [124]:
+            xmin = 122.39 
+            xmax = 122.789 
+            text = "reason" 
+        intervals [125]:
+            xmin = 122.789 
+            xmax = 123.79324624773417 
+            text = "SIL" 
+        intervals [126]:
+            xmin = 123.79324624773417 
+            xmax = 135.17281179138322 
+            text = "SILP" 
+        intervals [127]:
+            xmin = 135.17281179138322 
+            xmax = 136.43224489795918 
+            text = "SIL" 
+        intervals [128]:
+            xmin = 136.43224489795918 
+            xmax = 139.09158730158728 
+            text = "SILP" 
+        intervals [129]:
+            xmin = 139.09158730158728 
+            xmax = 140.01102040816326 
+            text = "SIL" 
+        intervals [130]:
+            xmin = 140.01102040816326 
+            xmax = 144.539 
+            text = "SILP" 
+        intervals [131]:
+            xmin = 144.539 
+            xmax = 145.19 
+            text = "UH" 
+        intervals [132]:
+            xmin = 145.19 
+            xmax = 145.779 
+            text = "bank" 
+        intervals [133]:
+            xmin = 145.779 
+            xmax = 146.07 
+            text = "SIL" 
+        intervals [134]:
+            xmin = 146.07 
+            xmax = 146.889 
+            text = "PHONE" 
+        intervals [135]:
+            xmin = 146.889 
+            xmax = 149.83753173787196 
+            text = "SILP" 
+        intervals [136]:
+            xmin = 149.83753173787196 
+            xmax = 150.11 
+            text = "UH" 
+        intervals [137]:
+            xmin = 150.11 
+            xmax = 150.41 
+            text = "let" 
+        intervals [138]:
+            xmin = 150.41 
+            xmax = 150.5 
+            text = "us" 
+        intervals [139]:
+            xmin = 150.5 
+            xmax = 150.92 
+            text = "sell" 
+        intervals [140]:
+            xmin = 150.92 
+            xmax = 151.13 
+            text = "your" 
+        intervals [141]:
+            xmin = 151.13 
+            xmax = 151.7 
+            text = "home" 
+        intervals [142]:
+            xmin = 151.7 
+            xmax = 152.18 
+            text = "SIL" 
+        intervals [143]:
+            xmin = 152.18 
+            xmax = 152.81 
+            text = "Real" 
+        intervals [144]:
+            xmin = 152.81 
+            xmax = 153.41 
+            text = "estate" 
+        intervals [145]:
+            xmin = 153.41 
+            xmax = 154.309 
+            text = "agents" 
+        intervals [146]:
+            xmin = 154.309 
+            xmax = 155.42 
+            text = "SILP" 
+        intervals [147]:
+            xmin = 155.42 
+            xmax = 156.219 
+            text = "OK" 
+        intervals [148]:
+            xmin = 156.219 
+            xmax = 159.42816326530613 
+            text = "SIL" 
+        intervals [149]:
+            xmin = 159.42816326530613 
+            xmax = 164.48 
+            text = "SILP" 
+        intervals [150]:
+            xmin = 164.48 
+            xmax = 165.259 
+            text = "yes" 
+        intervals [151]:
+            xmin = 165.259 
+            xmax = 167.51356552501872 
+            text = "SIL" 
+        intervals [152]:
+            xmin = 167.51356552501872 
+            xmax = 173.41 
+            text = "SILP" 
+        intervals [153]:
+            xmin = 173.41 
+            xmax = 174.19 
+            text = "yes" 
+        intervals [154]:
+            xmin = 174.19 
+            xmax = 175.289 
+            text = "SILP" 
+        intervals [155]:
+            xmin = 175.289 
+            xmax = 175.9080498866213 
+            text = "<BELL>" 
+        intervals [156]:
+            xmin = 175.9080498866213 
+            xmax = 177.23736961451246 
+            text = "SILP" 
+        intervals [157]:
+            xmin = 177.23736961451246 
+            xmax = 177.93 
+            text = "SIL" 
+        intervals [158]:
+            xmin = 177.93 
+            xmax = 178.679 
+            text = "Yes" 
+        intervals [159]:
+            xmin = 178.679 
+            xmax = 180.11 
+            text = "SIL" 
+        intervals [160]:
+            xmin = 180.11 
+            xmax = 180.28 
+            text = "it's" 
+        intervals [161]:
+            xmin = 180.28 
+            xmax = 180.48 
+            text = "the" 
+        intervals [162]:
+            xmin = 180.48 
+            xmax = 181.08 
+            text = "headaches" 
+        intervals [163]:
+            xmin = 181.08 
+            xmax = 181.21 
+            text = "the" 
+        intervals [164]:
+            xmin = 181.21 
+            xmax = 181.839 
+            text = "pills" 
+        intervals [165]:
+            xmin = 181.839 
+            xmax = 182.33 
+            text = "SIL" 
+        intervals [166]:
+            xmin = 182.33 
+            xmax = 182.91 
+            text = "2" 
+        intervals [167]:
+            xmin = 182.91 
+            xmax = 183.5 
+            text = "4" 
+        intervals [168]:
+            xmin = 183.5 
+            xmax = 183.919 
+            text = "1" 
+        intervals [169]:
+            xmin = 183.919 
+            xmax = 184.83902494331065 
+            text = "SILP" 
+        intervals [170]:
+            xmin = 184.83902494331065 
+            xmax = 185.31861678004535 
+            text = "SIL" 
+        intervals [171]:
+            xmin = 185.31861678004535 
+            xmax = 185.89 
+            text = "UH" 
+        intervals [172]:
+            xmin = 185.89 
+            xmax = 186.26 
+            text = "Up" 
+        intervals [173]:
+            xmin = 186.26 
+            xmax = 186.51 
+            text = "on" 
+        intervals [174]:
+            xmin = 186.51 
+            xmax = 186.63 
+            text = "the" 
+        intervals [175]:
+            xmin = 186.63 
+            xmax = 186.93 
+            text = "top" 
+        intervals [176]:
+            xmin = 186.93 
+            xmax = 187.13 
+            text = "4" 
+        intervals [177]:
+            xmin = 187.13 
+            xmax = 187.6 
+            text = "thumbs" 
+        intervals [178]:
+            xmin = 187.6 
+            xmax = 188.069 
+            text = "see" 
+        intervals [179]:
+            xmin = 188.069 
+            xmax = 188.74809523809523 
+            text = "<BELL>" 
+        intervals [180]:
+            xmin = 188.74809523809523 
+            xmax = 190.33696145124716 
+            text = "SILP" 
+        intervals [181]:
+            xmin = 190.33696145124716 
+            xmax = 191.1 
+            text = "SIL" 
+        intervals [182]:
+            xmin = 191.1 
+            xmax = 191.72 
+            text = "Okay" 
+        intervals [183]:
+            xmin = 191.72 
+            xmax = 191.96 
+            text = "Yeah" 
+        intervals [184]:
+            xmin = 191.96 
+            xmax = 192.189 
+            text = "That's" 
+        intervals [185]:
+            xmin = 192.189 
+            xmax = 192.35 
+            text = "SIL" 
+        intervals [186]:
+            xmin = 192.35 
+            xmax = 192.41 
+            text = "a" 
+        intervals [187]:
+            xmin = 192.41 
+            xmax = 192.85 
+            text = "difference" 
+        intervals [188]:
+            xmin = 192.85 
+            xmax = 193.44841269841268 
+            text = "<BELL>" 
+        intervals [189]:
+            xmin = 193.44841269841268 
+            xmax = 194.31645229552055 
+            text = "SILP" 
+        intervals [190]:
+            xmin = 194.31645229552055 
+            xmax = 197.3976771937139 
+            text = "SIL" 
+        intervals [191]:
+            xmin = 197.3976771937139 
+            xmax = 200.4 
+            text = "SILP" 
+        intervals [192]:
+            xmin = 200.4 
+            xmax = 201.229 
+            text = "Yes" 
+        intervals [193]:
+            xmin = 201.229 
+            xmax = 203.32587302800033 
+            text = "SIL" 
+        intervals [194]:
+            xmin = 203.32587302800033 
+            xmax = 206.409 
+            text = "SILP" 
+        intervals [195]:
+            xmin = 206.409 
+            xmax = 206.67 
+            text = "SIL" 
+        intervals [196]:
+            xmin = 206.67 
+            xmax = 207.01 
+            text = "No" 
+        intervals [197]:
+            xmin = 207.01 
+            xmax = 207.1 
+            text = "it" 
+        intervals [198]:
+            xmin = 207.1 
+            xmax = 207.399 
+            text = "says" 
+        intervals [199]:
+            xmin = 207.399 
+            xmax = 207.5 
+            text = "SIL" 
+        intervals [200]:
+            xmin = 207.5 
+            xmax = 207.909 
+            text = "betting" 
+        intervals [201]:
+            xmin = 207.909 
+            xmax = 208.44 
+            text = "SIL" 
+        intervals [202]:
+            xmin = 208.44 
+            xmax = 208.97 
+            text = "betting" 
+        intervals [203]:
+            xmin = 208.97 
+            xmax = 209.54 
+            text = "shop" 
+        intervals [204]:
+            xmin = 209.54 
+            xmax = 209.799 
+            text = "in" 
+        intervals [205]:
+            xmin = 209.799 
+            xmax = 211.06836734693877 
+            text = "SIL" 
+        intervals [206]:
+            xmin = 211.06836734693877 
+            xmax = 213.21 
+            text = "SILP" 
+        intervals [207]:
+            xmin = 213.21 
+            xmax = 213.52 
+            text = "No" 
+        intervals [208]:
+            xmin = 213.52 
+            xmax = 213.63 
+            text = "it" 
+        intervals [209]:
+            xmin = 213.63 
+            xmax = 213.96 
+            text = "doesn't" 
+        intervals [210]:
+            xmin = 213.96 
+            xmax = 214.23 
+            text = "say" 
+        intervals [211]:
+            xmin = 214.23 
+            xmax = 214.929 
+            text = "anything" 
+        intervals [212]:
+            xmin = 214.929 
+            xmax = 215.6385941043084 
+            text = "SILP" 
+        intervals [213]:
+            xmin = 215.6385941043084 
+            xmax = 216.58795918367346 
+            text = "SIL" 
+        intervals [214]:
+            xmin = 216.58795918367346 
+            xmax = 218.20244407453015 
+            text = "<BELL>" 
+        intervals [215]:
+            xmin = 218.20244407453015 
+            xmax = 228.78027210884352 
+            text = "SIL" 
+        intervals [216]:
+            xmin = 228.78027210884352 
+            xmax = 232.36 
+            text = "SILP" 
+        intervals [217]:
+            xmin = 232.36 
+            xmax = 232.83 
+            text = "UH" 
+        intervals [218]:
+            xmin = 232.83 
+            xmax = 233.369 
+            text = "YES" 
+        intervals [219]:
+            xmin = 233.369 
+            xmax = 235.5937005248011 
+            text = "SIL" 
+        intervals [220]:
+            xmin = 235.5937005248011 
+            xmax = 237.40617404636345 
+            text = "SILP" 
+        intervals [221]:
+            xmin = 237.40617404636345 
+            xmax = 238.4941117762994 
+            text = "SIL" 
+        intervals [222]:
+            xmin = 238.4941117762994 
+            xmax = 239.20998422197155 
+            text = "SILP" 
+        intervals [223]:
+            xmin = 239.20998422197155 
+            xmax = 239.9917922876398 
+            text = "SIL" 
+        intervals [224]:
+            xmin = 239.9917922876398 
+            xmax = 241.69669903325374 
+            text = "SILP" 
+        intervals [225]:
+            xmin = 241.69669903325374 
+            xmax = 243.7153101061927 
+            text = "SIL" 
+        intervals [226]:
+            xmin = 243.7153101061927 
+            xmax = 245.2647971761015 
+            text = "SILP" 
+        intervals [227]:
+            xmin = 245.2647971761015 
+            xmax = 246.22 
+            text = "UH" 
+        intervals [228]:
+            xmin = 246.22 
+            xmax = 246.55 
+            text = "THREE" 
+        intervals [229]:
+            xmin = 246.55 
+            xmax = 247.23 
+            text = "explore" 
+        intervals [230]:
+            xmin = 247.23 
+            xmax = 247.5 
+            text = "key" 
+        intervals [231]:
+            xmin = 247.5 
+            xmax = 247.869 
+            text = "YES" 
+        intervals [232]:
+            xmin = 247.869 
+            xmax = 247.92 
+            text = "SIL" 
+        intervals [233]:
+            xmin = 247.92 
+            xmax = 248.299 
+            text = "is" 
+        intervals [234]:
+            xmin = 248.299 
+            xmax = 248.35 
+            text = "SIL" 
+        intervals [235]:
+            xmin = 248.35 
+            xmax = 248.53 
+            text = "a" 
+        intervals [236]:
+            xmin = 248.53 
+            xmax = 248.97 
+            text = "o'clock" 
+        intervals [237]:
+            xmin = 248.97 
+            xmax = 249.849 
+            text = "SILP" 
+        intervals [238]:
+            xmin = 249.849 
+            xmax = 250.06 
+            text = "SIL" 
+        intervals [239]:
+            xmin = 250.06 
+            xmax = 250.15 
+            text = "I" 
+        intervals [240]:
+            xmin = 250.15 
+            xmax = 250.39 
+            text = "don't" 
+        intervals [241]:
+            xmin = 250.39 
+            xmax = 250.69 
+            text = "think" 
+        intervals [242]:
+            xmin = 250.69 
+            xmax = 250.789 
+            text = "it" 
+        intervals [243]:
+            xmin = 250.789 
+            xmax = 250.9 
+            text = "SIL" 
+        intervals [244]:
+            xmin = 250.9 
+            xmax = 251.29 
+            text = "that" 
+        intervals [245]:
+            xmin = 251.29 
+            xmax = 251.75 
+            text = "difference" 
+        intervals [246]:
+            xmin = 251.75 
+            xmax = 251.91 
+            text = "would" 
+        intervals [247]:
+            xmin = 251.91 
+            xmax = 252.19 
+            text = "be" 
+        intervals [248]:
+            xmin = 252.19 
+            xmax = 252.51 
+            text = "that" 
+        intervals [249]:
+            xmin = 252.51 
+            xmax = 253.229 
+            text = "hard" 
+        intervals [250]:
+            xmin = 253.229 
+            xmax = 256.96839002267575 
+            text = "SILP" 
+        intervals [251]:
+            xmin = 256.96839002267575 
+            xmax = 259.43782312925174 
+            text = "SIL" 
+        intervals [252]:
+            xmin = 259.43782312925174 
+            xmax = 268.57 
+            text = "SILP" 
+        intervals [253]:
+            xmin = 268.57 
+            xmax = 268.71 
+            text = "A" 
+        intervals [254]:
+            xmin = 268.71 
+            xmax = 269.04 
+            text = "green" 
+        intervals [255]:
+            xmin = 269.04 
+            xmax = 269.34 
+            text = "car" 
+        intervals [256]:
+            xmin = 269.34 
+            xmax = 269.73 
+            text = "Yes" 
+        intervals [257]:
+            xmin = 269.73 
+            xmax = 269.97 
+            text = "There" 
+        intervals [258]:
+            xmin = 269.97 
+            xmax = 270.299 
+            text = "is" 
+        intervals [259]:
+            xmin = 270.299 
+            xmax = 271.0087755102041 
+            text = "SIL" 
+        intervals [260]:
+            xmin = 271.0087755102041 
+            xmax = 273.22 
+            text = "SILP" 
+        intervals [261]:
+            xmin = 273.22 
+            xmax = 273.669 
+            text = "TWO" 
+        intervals [262]:
+            xmin = 273.669 
+            xmax = 274.3986621315193 
+            text = "SIL" 
+        intervals [263]:
+            xmin = 274.3986621315193 
+            xmax = 280.1 
+            text = "SILP" 
+        intervals [264]:
+            xmin = 280.1 
+            xmax = 280.529 
+            text = "YeS" 
+        intervals [265]:
+            xmin = 280.529 
+            xmax = 284.9915941931765 
+            text = "SIL" 
+        intervals [266]:
+            xmin = 284.9915941931765 
+            xmax = 286.8566303016382 
+            text = "<BELL>" 
+        intervals [267]:
+            xmin = 286.8566303016382 
+            xmax = 297.88 
+            text = "SILP" 
+        intervals [268]:
+            xmin = 297.88 
+            xmax = 297.99 
+            text = "A" 
+        intervals [269]:
+            xmin = 297.99 
+            xmax = 298.38 
+            text = "wedding" 
+        intervals [270]:
+            xmin = 298.38 
+            xmax = 298.83 
+            text = "dreSS" 
+        intervals [271]:
+            xmin = 298.83 
+            xmax = 299.129 
+            text = "YeS" 
+        intervals [272]:
+            xmin = 299.129 
+            xmax = 299.19 
+            text = "SIL" 
+        intervals [273]:
+            xmin = 299.19 
+            xmax = 299.43 
+            text = "Does" 
+        intervals [274]:
+            xmin = 299.43 
+            xmax = 299.49 
+            text = "it" 
+        intervals [275]:
+            xmin = 299.49 
+            xmax = 299.73 
+            text = "have" 
+        intervals [276]:
+            xmin = 299.73 
+            xmax = 299.79 
+            text = "a" 
+        intervals [277]:
+            xmin = 299.79 
+            xmax = 300.09 
+            text = "pink" 
+        intervals [278]:
+            xmin = 300.09 
+            xmax = 300.809 
+            text = "crease" 
+        intervals [279]:
+            xmin = 300.809 
+            xmax = 301.64237472118003 
+            text = "SIL" 
+        intervals [280]:
+            xmin = 301.64237472118003 
+            xmax = 302.71 
+            text = "SILP" 
+        intervals [281]:
+            xmin = 302.71 
+            xmax = 302.92 
+            text = "And" 
+        intervals [282]:
+            xmin = 302.92 
+            xmax = 303.189 
+            text = "does" 
+        intervals [283]:
+            xmin = 303.189 
+            xmax = 303.8290929705216 
+            text = "SILP" 
+        intervals [284]:
+            xmin = 303.8290929705216 
+            xmax = 304.63 
+            text = "SIL" 
+        intervals [285]:
+            xmin = 304.63 
+            xmax = 305.409 
+            text = "difference" 
+        intervals [286]:
+            xmin = 305.409 
+            xmax = 309.2 
+            text = "SILP" 
+        intervals [287]:
+            xmin = 309.2 
+            xmax = 309.54 
+            text = "No" 
+        intervals [288]:
+            xmin = 309.54 
+            xmax = 309.66 
+            text = "The" 
+        intervals [289]:
+            xmin = 309.66 
+            xmax = 310.05 
+            text = "sign" 
+        intervals [290]:
+            xmin = 310.05 
+            xmax = 310.2 
+            text = "is" 
+        intervals [291]:
+            xmin = 310.2 
+            xmax = 310.679 
+            text = "play" 
+        intervals [292]:
+            xmin = 310.679 
+            xmax = 311.4864854120989 
+            text = "SIL" 
+        intervals [293]:
+            xmin = 311.4864854120989 
+            xmax = 312.62622970060323 
+            text = "SILP" 
+        intervals [294]:
+            xmin = 312.62622970060323 
+            xmax = 316.33 
+            text = "SIL" 
+        intervals [295]:
+            xmin = 316.33 
+            xmax = 316.75 
+            text = "We" 
+        intervals [296]:
+            xmin = 316.75 
+            xmax = 317.169 
+            text = "have" 
+        intervals [297]:
+            xmin = 317.169 
+            xmax = 317.32 
+            text = "SIL" 
+        intervals [298]:
+            xmin = 317.32 
+            xmax = 318.569 
+            text = "gonE" 
+        intervals [299]:
+            xmin = 318.569 
+            xmax = 319 
+            text = "SIL" 
+        intervals [300]:
+            xmin = 319 
+            xmax = 319.15 
+            text = "How" 
+        intervals [301]:
+            xmin = 319.15 
+            xmax = 319.39 
+            text = "many" 
+        intervals [302]:
+            xmin = 319.39 
+            xmax = 320.449 
+            text = "differences" 
+        intervals [303]:
+            xmin = 320.449 
+            xmax = 328.11 
+            text = "SILP" 
+        intervals [304]:
+            xmin = 328.11 
+            xmax = 328.47 
+            text = "Seven" 
+        intervals [305]:
+            xmin = 328.47 
+            xmax = 328.85 
+            text = "different" 
+        intervals [306]:
+            xmin = 328.85 
+            xmax = 330.249 
+            text = "show" 
+        intervals [307]:
+            xmin = 330.249 
+            xmax = 330.81 
+            text = "SILP" 
+        intervals [308]:
+            xmin = 330.81 
+            xmax = 331.46 
+            text = "twelve" 
+        intervals [309]:
+            xmin = 331.46 
+            xmax = 331.9 
+            text = "SIL" 
+        intervals [310]:
+            xmin = 331.9 
+            xmax = 332.26 
+            text = "So" 
+        intervals [311]:
+            xmin = 332.26 
+            xmax = 332.47 
+            text = "we've" 
+        intervals [312]:
+            xmin = 332.47 
+            xmax = 332.71 
+            text = "got" 
+        intervals [313]:
+            xmin = 332.71 
+            xmax = 333.25 
+            text = "five" 
+        intervals [314]:
+            xmin = 333.25 
+            xmax = 333.899 
+            text = "left" 
+        intervals [315]:
+            xmin = 333.899 
+            xmax = 334.4983900226758 
+            text = "SIL" 
+        intervals [316]:
+            xmin = 334.4983900226758 
+            xmax = 338.78804988662137 
+            text = "SILP" 
+        intervals [317]:
+            xmin = 338.78804988662137 
+            xmax = 339.7 
+            text = "SIL" 
+        intervals [318]:
+            xmin = 339.7 
+            xmax = 340.45 
+            text = "Yeah" 
+        intervals [319]:
+            xmin = 340.45 
+            xmax = 341.07 
+            text = "Basically" 
+        intervals [320]:
+            xmin = 341.07 
+            xmax = 341.55 
+            text = "none" 
+        intervals [321]:
+            xmin = 341.55 
+            xmax = 341.959 
+            text = "left" 
+        intervals [322]:
+            xmin = 341.959 
+            xmax = 342.85834467120185 
+            text = "SIL" 
+        intervals [323]:
+            xmin = 342.85834467120185 
+            xmax = 348.0479138321996 
+            text = "SILP" 
+        intervals [324]:
+            xmin = 348.0479138321996 
+            xmax = 348.53734693877556 
+            text = "UH" 
+        intervals [325]:
+            xmin = 348.53734693877556 
+            xmax = 349.84 
+            text = "SILP" 
+        intervals [326]:
+            xmin = 349.84 
+            xmax = 350.44 
+            text = "Yes" 
+        intervals [327]:
+            xmin = 350.44 
+            xmax = 350.62 
+            text = "it's" 
+        intervals [328]:
+            xmin = 350.62 
+            xmax = 350.74 
+            text = "the" 
+        intervals [329]:
+            xmin = 350.74 
+            xmax = 351.11 
+            text = "bra" 
+        intervals [330]:
+            xmin = 351.11 
+            xmax = 351.26 
+            text = "SILP" 
+        intervals [331]:
+            xmin = 351.26 
+            xmax = 351.43 
+            text = "Is" 
+        intervals [332]:
+            xmin = 351.43 
+            xmax = 351.69 
+            text = "does" 
+        intervals [333]:
+            xmin = 351.69 
+            xmax = 351.79 
+            text = "it" 
+        intervals [334]:
+            xmin = 351.79 
+            xmax = 352 
+            text = "have" 
+        intervals [335]:
+            xmin = 352 
+            xmax = 352.06 
+            text = "a" 
+        intervals [336]:
+            xmin = 352.06 
+            xmax = 352.69 
+            text = "Brown" 
+        intervals [337]:
+            xmin = 352.69 
+            xmax = 353.209 
+            text = "Root" 
+        intervals [338]:
+            xmin = 353.209 
+            xmax = 353.99843537414966 
+            text = "SIL" 
+        intervals [339]:
+            xmin = 353.99843537414966 
+            xmax = 357.78 
+            text = "SILP" 
+        intervals [340]:
+            xmin = 357.78 
+            xmax = 358.559 
+            text = "Yes" 
+        intervals [341]:
+            xmin = 358.559 
+            xmax = 360.02 
+            text = "SIL" 
+        intervals [342]:
+            xmin = 360.02 
+            xmax = 360.28 
+            text = "it's" 
+        intervals [343]:
+            xmin = 360.28 
+            xmax = 360.42 
+            text = "the" 
+        intervals [344]:
+            xmin = 360.42 
+            xmax = 360.96 
+            text = "road" 
+        intervals [345]:
+            xmin = 360.96 
+            xmax = 361.86 
+            text = "<GA>" 
+        intervals [346]:
+            xmin = 361.86 
+            xmax = 362.16 
+            text = "Does" 
+        intervals [347]:
+            xmin = 362.16 
+            xmax = 362.28 
+            text = "the" 
+        intervals [348]:
+            xmin = 362.28 
+            xmax = 362.64 
+            text = "road" 
+        intervals [349]:
+            xmin = 362.64 
+            xmax = 362.91 
+            text = "have" 
+        intervals [350]:
+            xmin = 362.91 
+            xmax = 363.45 
+            text = "pink" 
+        intervals [351]:
+            xmin = 363.45 
+            xmax = 364.379 
+            text = "paths" 
+        intervals [352]:
+            xmin = 364.379 
+            xmax = 365.7885034013606 
+            text = "SIL" 
+        intervals [353]:
+            xmin = 365.7885034013606 
+            xmax = 366.85 
+            text = "SILP" 
+        intervals [354]:
+            xmin = 366.85 
+            xmax = 367.18 
+            text = "okay" 
+        intervals [355]:
+            xmin = 367.18 
+            xmax = 367.54 
+            text = "SIL" 
+        intervals [356]:
+            xmin = 367.54 
+            xmax = 367.69 
+            text = "Is" 
+        intervals [357]:
+            xmin = 367.69 
+            xmax = 367.81 
+            text = "the" 
+        intervals [358]:
+            xmin = 367.81 
+            xmax = 368.17 
+            text = "road" 
+        intervals [359]:
+            xmin = 368.17 
+            xmax = 368.65 
+            text = "grey" 
+        intervals [360]:
+            xmin = 368.65 
+            xmax = 368.949 
+            text = "with" 
+        intervals [361]:
+            xmin = 368.949 
+            xmax = 369.01 
+            text = "SIL" 
+        intervals [362]:
+            xmin = 369.01 
+            xmax = 369.549 
+            text = "bright" 
+        intervals [363]:
+            xmin = 369.549 
+            xmax = 370.03 
+            text = "SIL" 
+        intervals [364]:
+            xmin = 370.03 
+            xmax = 370.39 
+            text = "white" 
+        intervals [365]:
+            xmin = 370.39 
+            xmax = 371.11 
+            text = "stripes" 
+        intervals [366]:
+            xmin = 371.11 
+            xmax = 371.23 
+            text = "on" 
+        intervals [367]:
+            xmin = 371.23 
+            xmax = 371.29 
+            text = "a" 
+        intervals [368]:
+            xmin = 371.29 
+            xmax = 372.1 
+            text = "pedestrian" 
+        intervals [369]:
+            xmin = 372.1 
+            xmax = 372.58 
+            text = "crossing" 
+        intervals [370]:
+            xmin = 372.58 
+            xmax = 372.76 
+            text = "with" 
+        intervals [371]:
+            xmin = 372.76 
+            xmax = 373.12 
+            text = "two" 
+        intervals [372]:
+            xmin = 373.12 
+            xmax = 373.54 
+            text = "brown" 
+        intervals [373]:
+            xmin = 373.54 
+            xmax = 373.99 
+            text = "dogs" 
+        intervals [374]:
+            xmin = 373.99 
+            xmax = 374.589 
+            text = "crossing" 
+        intervals [375]:
+            xmin = 374.589 
+            xmax = 375.23802721088435 
+            text = "SIL" 
+        intervals [376]:
+            xmin = 375.23802721088435 
+            xmax = 375.8179591836735 
+            text = "SILP" 
+        intervals [377]:
+            xmin = 375.8179591836735 
+            xmax = 376.56 
+            text = "SIL" 
+        intervals [378]:
+            xmin = 376.56 
+            xmax = 376.939 
+            text = "Okay" 
+        intervals [379]:
+            xmin = 376.939 
+            xmax = 377.7287755102041 
+            text = "SIL" 
+        intervals [380]:
+            xmin = 377.7287755102041 
+            xmax = 383.69 
+            text = "SILP" 
+        intervals [381]:
+            xmin = 383.69 
+            xmax = 384.049 
+            text = "YeS" 
+        intervals [382]:
+            xmin = 384.049 
+            xmax = 384.38 
+            text = "SIL" 
+        intervals [383]:
+            xmin = 384.38 
+            xmax = 384.65 
+            text = "and" 
+        intervals [384]:
+            xmin = 384.65 
+            xmax = 384.86 
+            text = "is" 
+        intervals [385]:
+            xmin = 384.86 
+            xmax = 385.07 
+            text = "there" 
+        intervals [386]:
+            xmin = 385.07 
+            xmax = 385.16 
+            text = "a" 
+        intervals [387]:
+            xmin = 385.16 
+            xmax = 385.76 
+            text = "boy" 
+        intervals [388]:
+            xmin = 385.76 
+            xmax = 386.269 
+            text = "standing" 
+        intervals [389]:
+            xmin = 386.269 
+            xmax = 386.63 
+            text = "SIL" 
+        intervals [390]:
+            xmin = 386.63 
+            xmax = 387.05 
+            text = "outside" 
+        intervals [391]:
+            xmin = 387.05 
+            xmax = 387.14 
+            text = "the" 
+        intervals [392]:
+            xmin = 387.14 
+            xmax = 387.74 
+            text = "pharmacy" 
+        intervals [393]:
+            xmin = 387.74 
+            xmax = 388.13 
+            text = "looking" 
+        intervals [394]:
+            xmin = 388.13 
+            xmax = 388.22 
+            text = "at" 
+        intervals [395]:
+            xmin = 388.22 
+            xmax = 388.61 
+            text = "headache" 
+        intervals [396]:
+            xmin = 388.61 
+            xmax = 389.29 
+            text = "proposed" 
+        intervals [397]:
+            xmin = 389.29 
+            xmax = 389.56 
+            text = "two" 
+        intervals [398]:
+            xmin = 389.56 
+            xmax = 389.74 
+            text = "for" 
+        intervals [399]:
+            xmin = 389.74 
+            xmax = 390.07 
+            text = "one" 
+        intervals [400]:
+            xmin = 390.07 
+            xmax = 390.129 
+            text = "SILP" 
+        intervals [401]:
+            xmin = 390.129 
+            xmax = 392.3180045351474 
+            text = "SIL" 
+        intervals [402]:
+            xmin = 392.3180045351474 
+            xmax = 392.87714285714287 
+            text = "SILP" 
+        intervals [403]:
+            xmin = 392.87714285714287 
+            xmax = 394.78 
+            text = "SIL" 
+        intervals [404]:
+            xmin = 394.78 
+            xmax = 394.979 
+            text = "Set" 
+        intervals [405]:
+            xmin = 394.979 
+            xmax = 395.04 
+            text = "SIL" 
+        intervals [406]:
+            xmin = 395.04 
+            xmax = 395.18 
+            text = "the" 
+        intervals [407]:
+            xmin = 395.18 
+            xmax = 395.739 
+            text = "top" 
+        intervals [408]:
+            xmin = 395.739 
+            xmax = 399.31 
+            text = "SILP" 
+        intervals [409]:
+            xmin = 399.31 
+            xmax = 399.56 
+            text = "two" 
+        intervals [410]:
+            xmin = 399.56 
+            xmax = 399.74 
+            text = "for" 
+        intervals [411]:
+            xmin = 399.74 
+            xmax = 400.189 
+            text = "one" 
+        intervals [412]:
+            xmin = 400.189 
+            xmax = 400.34 
+            text = "SIL" 
+        intervals [413]:
+            xmin = 400.34 
+            xmax = 400.7 
+            text = "headache" 
+        intervals [414]:
+            xmin = 400.7 
+            xmax = 401.06 
+            text = "pills" 
+        intervals [415]:
+            xmin = 401.06 
+            xmax = 401.27 
+            text = "two" 
+        intervals [416]:
+            xmin = 401.27 
+            xmax = 401.45 
+            text = "for" 
+        intervals [417]:
+            xmin = 401.45 
+            xmax = 401.75 
+            text = "one" 
+        intervals [418]:
+            xmin = 401.75 
+            xmax = 402.23 
+            text = "under" 
+        intervals [419]:
+            xmin = 402.23 
+            xmax = 403.229 
+            text = "SILP" 
+        intervals [420]:
+            xmin = 403.229 
+            xmax = 403.45 
+            text = "SIL" 
+        intervals [421]:
+            xmin = 403.45 
+            xmax = 403.88 
+            text = "Okay" 
+        intervals [422]:
+            xmin = 403.88 
+            xmax = 404.1 
+            text = "That's" 
+        intervals [423]:
+            xmin = 404.1 
+            xmax = 404.18 
+            text = "the" 
+        intervals [424]:
+            xmin = 404.18 
+            xmax = 404.919 
+            text = "difference" 
+        intervals [425]:
+            xmin = 404.919 
+            xmax = 407.8152468505741 
+            text = "SIL" 
+        intervals [426]:
+            xmin = 407.8152468505741 
+            xmax = 414.62 
+            text = "SILP" 
+        intervals [427]:
+            xmin = 414.62 
+            xmax = 414.98 
+            text = "Red" 
+        intervals [428]:
+            xmin = 414.98 
+            xmax = 415.97 
+            text = "Stripes" 
+        intervals [429]:
+            xmin = 415.97 
+            xmax = 417.56 
+            text = "SILP" 
+        intervals [430]:
+            xmin = 417.56 
+            xmax = 417.8 
+            text = "Yeah" 
+        intervals [431]:
+            xmin = 417.8 
+            xmax = 418.09 
+            text = "That's" 
+        intervals [432]:
+            xmin = 418.09 
+            xmax = 418.509 
+            text = "okay" 
+        intervals [433]:
+            xmin = 418.509 
+            xmax = 420.338276643991 
+            text = "SIL" 
+        intervals [434]:
+            xmin = 420.338276643991 
+            xmax = 423.86 
+            text = "SILP" 
+        intervals [435]:
+            xmin = 423.86 
+            xmax = 424.7 
+            text = "globally" 
+        intervals [436]:
+            xmin = 424.7 
+            xmax = 424.909 
+            text = "YES" 
+        intervals [437]:
+            xmin = 424.909 
+            xmax = 424.97 
+            text = "SIL" 
+        intervals [438]:
+            xmin = 424.97 
+            xmax = 425.09 
+            text = "The" 
+        intervals [439]:
+            xmin = 425.09 
+            xmax = 425.45 
+            text = "dudes" 
+        intervals [440]:
+            xmin = 425.45 
+            xmax = 425.929 
+            text = "play" 
+        intervals [441]:
+            xmin = 425.929 
+            xmax = 428.69 
+            text = "SIL" 
+        intervals [442]:
+            xmin = 428.69 
+            xmax = 428.84 
+            text = "is" 
+        intervals [443]:
+            xmin = 428.84 
+            xmax = 428.96 
+            text = "the" 
+        intervals [444]:
+            xmin = 428.96 
+            xmax = 429.38 
+            text = "dull" 
+        intervals [445]:
+            xmin = 429.38 
+            xmax = 429.879 
+            text = "grief" 
+        intervals [446]:
+            xmin = 429.879 
+            xmax = 429.95 
+            text = "SIL" 
+        intervals [447]:
+            xmin = 429.95 
+            xmax = 430.249 
+            text = "the" 
+        intervals [448]:
+            xmin = 430.249 
+            xmax = 430.43 
+            text = "SIL" 
+        intervals [449]:
+            xmin = 430.43 
+            xmax = 430.82 
+            text = "real" 
+        intervals [450]:
+            xmin = 430.82 
+            xmax = 431.33 
+            text = "estate" 
+        intervals [451]:
+            xmin = 431.33 
+            xmax = 432.349 
+            text = "agents" 
+        intervals [452]:
+            xmin = 432.349 
+            xmax = 432.9790702947846 
+            text = "SIL" 
+        intervals [453]:
+            xmin = 432.9790702947846 
+            xmax = 434.47841269841274 
+            text = "SILP" 
+        intervals [454]:
+            xmin = 434.47841269841274 
+            xmax = 435.33 
+            text = "SIL" 
+        intervals [455]:
+            xmin = 435.33 
+            xmax = 435.66 
+            text = "down" 
+        intervals [456]:
+            xmin = 435.66 
+            xmax = 435.779 
+            text = "the" 
+        intervals [457]:
+            xmin = 435.779 
+            xmax = 436.22 
+            text = "SIL" 
+        intervals [458]:
+            xmin = 436.22 
+            xmax = 436.509 
+            text = "Yeah" 
+        intervals [459]:
+            xmin = 436.509 
+            xmax = 437.12868480725626 
+            text = "SIL" 
+        intervals [460]:
+            xmin = 437.12868480725626 
+            xmax = 438.95793650793655 
+            text = "SILP" 
+        intervals [461]:
+            xmin = 438.95793650793655 
+            xmax = 439.66 
+            text = "UH" 
+        intervals [462]:
+            xmin = 439.66 
+            xmax = 440.229 
+            text = "green" 
+        intervals [463]:
+            xmin = 440.229 
+            xmax = 441.0108229549893 
+            text = "SILP" 
+        intervals [464]:
+            xmin = 441.0108229549893 
+            xmax = 444.25579739622685 
+            text = "SIL" 
+        intervals [465]:
+            xmin = 444.25579739622685 
+            xmax = 446.64 
+            text = "SILP" 
+        intervals [466]:
+            xmin = 446.64 
+            xmax = 446.979 
+            text = "YeS" 
+        intervals [467]:
+            xmin = 446.979 
+            xmax = 450.0883673469388 
+            text = "SILP" 
+        intervals [468]:
+            xmin = 450.0883673469388 
+            xmax = 451.79 
+            text = "<BELL>" 
+        intervals [469]:
+            xmin = 451.79 
+            xmax = 452.07 
+            text = "GREY" 
+        intervals [470]:
+            xmin = 452.07 
+            xmax = 452.42 
+            text = "flow" 
+        intervals [471]:
+            xmin = 452.42 
+            xmax = 452.49 
+            text = "SILP" 
+        intervals [472]:
+            xmin = 452.49 
+            xmax = 452.74 
+            text = "YeS" 
+        intervals [473]:
+            xmin = 452.74 
+            xmax = 452.94 
+            text = "that's" 
+        intervals [474]:
+            xmin = 452.94 
+            xmax = 453.24 
+            text = "great" 
+        intervals [475]:
+            xmin = 453.24 
+            xmax = 453.69 
+            text = "thrill" 
+        intervals [476]:
+            xmin = 453.69 
+            xmax = 454.089 
+            text = "SIL" 
+        intervals [477]:
+            xmin = 454.089 
+            xmax = 456.09825396825397 
+            text = "SILP" 
+        intervals [478]:
+            xmin = 456.09825396825397 
+            xmax = 456.5975283446712 
+            text = "SIL" 
+        intervals [479]:
+            xmin = 456.5975283446712 
+            xmax = 457.05698412698416 
+            text = "<BELL>" 
+        intervals [480]:
+            xmin = 457.05698412698416 
+            xmax = 457.63 
+            text = "UHM" 
+        intervals [481]:
+            xmin = 457.63 
+            xmax = 458.32 
+            text = "Brown" 
+        intervals [482]:
+            xmin = 458.32 
+            xmax = 458.589 
+            text = "with" 
+        intervals [483]:
+            xmin = 458.589 
+            xmax = 458.65 
+            text = "SIL" 
+        intervals [484]:
+            xmin = 458.65 
+            xmax = 459.13 
+            text = "green" 
+        intervals [485]:
+            xmin = 459.13 
+            xmax = 459.55 
+            text = "paint" 
+        intervals [486]:
+            xmin = 459.55 
+            xmax = 459.85 
+            text = "lay" 
+        intervals [487]:
+            xmin = 459.85 
+            xmax = 460.559 
+            text = "set" 
+        intervals [488]:
+            xmin = 460.559 
+            xmax = 461.4982993197279 
+            text = "SIL" 
+        intervals [489]:
+            xmin = 461.4982993197279 
+            xmax = 463.12759637188213 
+            text = "SILP" 
+        intervals [490]:
+            xmin = 463.12759637188213 
+            xmax = 464.7 
+            text = "SIL" 
+        intervals [491]:
+            xmin = 464.7 
+            xmax = 464.85 
+            text = "Is" 
+        intervals [492]:
+            xmin = 464.85 
+            xmax = 465.12 
+            text = "there" 
+        intervals [493]:
+            xmin = 465.12 
+            xmax = 465.69 
+            text = "safety" 
+        intervals [494]:
+            xmin = 465.69 
+            xmax = 465.84 
+            text = "in" 
+        intervals [495]:
+            xmin = 465.84 
+            xmax = 465.96 
+            text = "the" 
+        intervals [496]:
+            xmin = 465.96 
+            xmax = 466.929 
+            text = "background" 
+        intervals [497]:
+            xmin = 466.929 
+            xmax = 468.43947368768755 
+            text = "SIL" 
+        intervals [498]:
+            xmin = 468.43947368768755 
+            xmax = 469.54263018710867 
+            text = "SILP" 
+        intervals [499]:
+            xmin = 469.54263018710867 
+            xmax = 470.3338576270621 
+            text = "OK" 
+        intervals [500]:
+            xmin = 470.3338576270621 
+            xmax = 478.12 
+            text = "SILP" 
+        intervals [501]:
+            xmin = 478.12 
+            xmax = 478.55 
+            text = "I'm" 
+        intervals [502]:
+            xmin = 478.55 
+            xmax = 478.76 
+            text = "too" 
+        intervals [503]:
+            xmin = 478.76 
+            xmax = 479.36 
+            text = "cool" 
+        intervals [504]:
+            xmin = 479.36 
+            xmax = 479.94 
+            text = "SILPS" 
+        intervals [505]:
+            xmin = 479.94 
+            xmax = 480.16 
+            text = "Do" 
+        intervals [506]:
+            xmin = 480.16 
+            xmax = 480.32 
+            text = "you" 
+        intervals [507]:
+            xmin = 480.32 
+            xmax = 480.799 
+            text = "mean" 
+        intervals [508]:
+            xmin = 480.799 
+            xmax = 483.8785487528345 
+            text = "SILP" 
+        intervals [509]:
+            xmin = 483.8785487528345 
+            xmax = 485.86886621315193 
+            text = "SIL" 
+        intervals [510]:
+            xmin = 485.86886621315193 
+            xmax = 486.17 
+            text = "UH" 
+        intervals [511]:
+            xmin = 486.17 
+            xmax = 486.67 
+            text = "YeS" 
+        intervals [512]:
+            xmin = 486.67 
+            xmax = 502.01150302581743 
+            text = "<GA>" 
+        intervals [513]:
+            xmin = 502.01150302581743 
+            xmax = 507.61 
+            text = "SILP" 
+        intervals [514]:
+            xmin = 507.61 
+            xmax = 508.159 
+            text = "1" 
+        intervals [515]:
+            xmin = 508.159 
+            xmax = 508.719 
+            text = "SUH" 
+        intervals [516]:
+            xmin = 508.719 
+            xmax = 509.06 
+            text = "SIL" 
+        intervals [517]:
+            xmin = 509.06 
+            xmax = 509.479 
+            text = "KID" 
+        intervals [518]:
+            xmin = 509.479 
+            xmax = 509.6 
+            text = "SIL" 
+        intervals [519]:
+            xmin = 509.6 
+            xmax = 510.319 
+            text = "FOR" 
+        intervals [520]:
+            xmin = 510.319 
+            xmax = 514.34 
+            text = "SILP" 
+        intervals [521]:
+            xmin = 514.34 
+            xmax = 514.999 
+            text = "3" 
+        intervals [522]:
+            xmin = 514.999 
+            xmax = 516.2485941043084 
+            text = "SIL" 
+        intervals [523]:
+            xmin = 516.2485941043084 
+            xmax = 518.2880952380953 
+            text = "SILP" 
+        intervals [524]:
+            xmin = 518.2880952380953 
+            xmax = 518.71 
+            text = "UH" 
+        intervals [525]:
+            xmin = 518.71 
+            xmax = 519.399 
+            text = "Yes" 
+        intervals [526]:
+            xmin = 519.399 
+            xmax = 521.0084807256236 
+            text = "SIL" 
+        intervals [527]:
+            xmin = 521.0084807256236 
+            xmax = 525.137858159191 
+            text = "SILP" 
+        intervals [528]:
+            xmin = 525.137858159191 
+            xmax = 525.939 
+            text = "UH" 
+        intervals [529]:
+            xmin = 525.939 
+            xmax = 526.33 
+            text = "SIL" 
+        intervals [530]:
+            xmin = 526.33 
+            xmax = 527.209 
+            text = "Turquoise" 
+        intervals [531]:
+            xmin = 527.209 
+            xmax = 528.1781179138322 
+            text = "SIL" 
+        intervals [532]:
+            xmin = 528.1781179138322 
+            xmax = 530.169 
+            text = "SILP" 
+        intervals [533]:
+            xmin = 530.169 
+            xmax = 530.9387528344671 
+            text = "YES" 
+        intervals [534]:
+            xmin = 530.9387528344671 
+            xmax = 531.43 
+            text = "SIL" 
+        intervals [535]:
+            xmin = 531.43 
+            xmax = 531.76 
+            text = "And" 
+        intervals [536]:
+            xmin = 531.76 
+            xmax = 532.08 
+            text = "just" 
+        intervals [537]:
+            xmin = 532.08 
+            xmax = 532.24 
+            text = "the" 
+        intervals [538]:
+            xmin = 532.24 
+            xmax = 532.63 
+            text = "clothes" 
+        intervals [539]:
+            xmin = 532.63 
+            xmax = 533.2 
+            text = "shop" 
+        intervals [540]:
+            xmin = 533.2 
+            xmax = 533.47 
+            text = "was" 
+        intervals [541]:
+            xmin = 533.47 
+            xmax = 533.889 
+            text = "so" 
+        intervals [542]:
+            xmin = 533.889 
+            xmax = 534.07 
+            text = "SIL" 
+        intervals [543]:
+            xmin = 534.07 
+            xmax = 534.38 
+            text = "bright" 
+        intervals [544]:
+            xmin = 534.38 
+            xmax = 534.72 
+            text = "dress" 
+        intervals [545]:
+            xmin = 534.72 
+            xmax = 534.879 
+            text = "have" 
+        intervals [546]:
+            xmin = 534.879 
+            xmax = 534.97 
+            text = "SIL" 
+        intervals [547]:
+            xmin = 534.97 
+            xmax = 535.63 
+            text = "brown" 
+        intervals [548]:
+            xmin = 535.63 
+            xmax = 536.33 
+            text = "outlines" 
+        intervals [549]:
+            xmin = 536.33 
+            xmax = 536.43 
+            text = "that" 
+        intervals [550]:
+            xmin = 536.43 
+            xmax = 536.59 
+            text = "the" 
+        intervals [551]:
+            xmin = 536.59 
+            xmax = 537.249 
+            text = "doors" 
+        intervals [552]:
+            xmin = 537.249 
+            xmax = 538.1383673469388 
+            text = "SIL" 
+        intervals [553]:
+            xmin = 538.1383673469388 
+            xmax = 538.91 
+            text = "SILP" 
+        intervals [554]:
+            xmin = 538.91 
+            xmax = 539.53 
+            text = "okay" 
+        intervals [555]:
+            xmin = 539.53 
+            xmax = 541.34 
+            text = "SILP" 
+        intervals [556]:
+            xmin = 541.34 
+            xmax = 541.65 
+            text = "Right" 
+        intervals [557]:
+            xmin = 541.65 
+            xmax = 541.89 
+            text = "hand" 
+        intervals [558]:
+            xmin = 541.89 
+            xmax = 542.19 
+            text = "nose" 
+        intervals [559]:
+            xmin = 542.19 
+            xmax = 542.73 
+            text = "yes" 
+        intervals [560]:
+            xmin = 542.73 
+            xmax = 543.5402453434743 
+            text = "SIL" 
+        intervals [561]:
+            xmin = 543.5402453434743 
+            xmax = 559.84 
+            text = "SILP" 
+        intervals [562]:
+            xmin = 559.84 
+            xmax = 560.09 
+            text = "And" 
+        intervals [563]:
+            xmin = 560.09 
+            xmax = 560.58 
+            text = "purple" 
+        intervals [564]:
+            xmin = 560.58 
+            xmax = 561.019 
+            text = "stands" 
+        intervals [565]:
+            xmin = 561.019 
+            xmax = 561.09 
+            text = "SIL" 
+        intervals [566]:
+            xmin = 561.09 
+            xmax = 561.35 
+            text = "No" 
+        intervals [567]:
+            xmin = 561.35 
+            xmax = 561.62 
+            text = "that's" 
+        intervals [568]:
+            xmin = 561.62 
+            xmax = 561.69 
+            text = "the" 
+        intervals [569]:
+            xmin = 561.69 
+            xmax = 562.59 
+            text = "difference" 
+        intervals [570]:
+            xmin = 562.59 
+            xmax = 563.1795011337869 
+            text = "SIL" 
+        intervals [571]:
+            xmin = 563.1795011337869 
+            xmax = 564.09 
+            text = "SILP" 
+        intervals [572]:
+            xmin = 564.09 
+            xmax = 564.23 
+            text = "How" 
+        intervals [573]:
+            xmin = 564.23 
+            xmax = 564.539 
+            text = "many" 
+        intervals [574]:
+            xmin = 564.539 
+            xmax = 564.65 
+            text = "SIL" 
+        intervals [575]:
+            xmin = 564.65 
+            xmax = 564.77 
+            text = "we" 
+        intervals [576]:
+            xmin = 564.77 
+            xmax = 565.01 
+            text = "got" 
+        intervals [577]:
+            xmin = 565.01 
+            xmax = 565.37 
+            text = "now" 
+        intervals [578]:
+            xmin = 565.37 
+            xmax = 565.64 
+            text = "One" 
+        intervals [579]:
+            xmin = 565.64 
+            xmax = 565.939 
+            text = "kid" 
+        intervals [580]:
+            xmin = 565.939 
+            xmax = 567.0279365079365 
+            text = "SILP" 
+        intervals [581]:
+            xmin = 567.0279365079365 
+            xmax = 567.69 
+            text = "UH" 
+        intervals [582]:
+            xmin = 567.69 
+            xmax = 568.6095011337869 
+            text = "SILP" 
+        intervals [583]:
+            xmin = 568.6095011337869 
+            xmax = 569.3 
+            text = "SIL" 
+        intervals [584]:
+            xmin = 569.3 
+            xmax = 570.08 
+            text = "Six" 
+        intervals [585]:
+            xmin = 570.08 
+            xmax = 570.56 
+            text = "SIL" 
+        intervals [586]:
+            xmin = 570.56 
+            xmax = 570.7 
+            text = "There" 
+        intervals [587]:
+            xmin = 570.7 
+            xmax = 570.8 
+            text = "are" 
+        intervals [588]:
+            xmin = 570.8 
+            xmax = 571.13 
+            text = "six" 
+        intervals [589]:
+            xmin = 571.13 
+            xmax = 571.52 
+            text = "shoes" 
+        intervals [590]:
+            xmin = 571.52 
+            xmax = 571.64 
+            text = "all" 
+        intervals [591]:
+            xmin = 571.64 
+            xmax = 572.24 
+            text = "together" 
+        intervals [592]:
+            xmin = 572.24 
+            xmax = 572.33 
+            text = "in" 
+        intervals [593]:
+            xmin = 572.33 
+            xmax = 572.6 
+            text = "my" 
+        intervals [594]:
+            xmin = 572.6 
+            xmax = 573.05 
+            text = "clothes" 
+        intervals [595]:
+            xmin = 573.05 
+            xmax = 573.579 
+            text = "shop" 
+        intervals [596]:
+            xmin = 573.579 
+            xmax = 575.0484353741497 
+            text = "SIL" 
+        intervals [597]:
+            xmin = 575.0484353741497 
+            xmax = 577.1376190476191 
+            text = "SILP" 
+        intervals [598]:
+            xmin = 577.1376190476191 
+            xmax = 578.37 
+            text = "SIL" 
+        intervals [599]:
+            xmin = 578.37 
+            xmax = 578.55 
+            text = "How" 
+        intervals [600]:
+            xmin = 578.55 
+            xmax = 578.85 
+            text = "many" 
+        intervals [601]:
+            xmin = 578.85 
+            xmax = 578.91 
+            text = "a" 
+        intervals [602]:
+            xmin = 578.91 
+            xmax = 579.389 
+            text = "fecal" 
+        intervals [603]:
+            xmin = 579.389 
+            xmax = 580.2381405895692 
+            text = "SIL" 
+        intervals [604]:
+            xmin = 580.2381405895692 
+            xmax = 583.15 
+            text = "SILP" 
+        intervals [605]:
+            xmin = 583.15 
+            xmax = 583.59 
+            text = "know" 
+        intervals [606]:
+            xmin = 583.59 
+            xmax = 583.77 
+            text = "How" 
+        intervals [607]:
+            xmin = 583.77 
+            xmax = 584.07 
+            text = "many" 
+        intervals [608]:
+            xmin = 584.07 
+            xmax = 584.789 
+            text = "shoes" 
+        intervals [609]:
+            xmin = 584.789 
+            xmax = 585.4582086167801 
+            text = "SIL" 
+        intervals [610]:
+            xmin = 585.4582086167801 
+            xmax = 586.77 
+            text = "<BELL>" 
+        intervals [611]:
+            xmin = 586.77 
+            xmax = 587.219 
+            text = "For" 
+        intervals [612]:
+            xmin = 587.219 
+            xmax = 587.6 
+            text = "SIL" 
+        intervals [613]:
+            xmin = 587.6 
+            xmax = 587.829 
+            text = "Okay" 
+        intervals [614]:
+            xmin = 587.829 
+            xmax = 587.91 
+            text = "SIL" 
+        intervals [615]:
+            xmin = 587.91 
+            xmax = 588.19 
+            text = "That's" 
+        intervals [616]:
+            xmin = 588.19 
+            xmax = 588.24 
+            text = "the" 
+        intervals [617]:
+            xmin = 588.24 
+            xmax = 588.99 
+            text = "difference" 
+        intervals [618]:
+            xmin = 588.99 
+            xmax = 589.38 
+            text = "SIL" 
+        intervals [619]:
+            xmin = 589.38 
+            xmax = 589.56 
+            text = "We've" 
+        intervals [620]:
+            xmin = 589.56 
+            xmax = 589.8 
+            text = "only" 
+        intervals [621]:
+            xmin = 589.8 
+            xmax = 589.949 
+            text = "got" 
+        intervals [622]:
+            xmin = 589.949 
+            xmax = 590.19 
+            text = "SIL" 
+        intervals [623]:
+            xmin = 590.19 
+            xmax = 590.61 
+            text = "twenty" 
+        intervals [624]:
+            xmin = 590.61 
+            xmax = 590.82 
+            text = "nine" 
+        intervals [625]:
+            xmin = 590.82 
+            xmax = 591.529 
+            text = "seconds" 
+        intervals [626]:
+            xmin = 591.529 
+            xmax = 599.88 
+            text = "SILP" 
+        intervals [627]:
+            xmin = 599.88 
+            xmax = 600.78 
+            text = "three" 
+        intervals [628]:
+            xmin = 600.78 
+            xmax = 601.409 
+            text = "differences" 
+        intervals [629]:
+            xmin = 601.409 
+            xmax = 601.69 
+            text = "SIL" 
+        intervals [630]:
+            xmin = 601.69 
+            xmax = 601.8 
+            text = "are" 
+        intervals [631]:
+            xmin = 601.8 
+            xmax = 602.04 
+            text = "there" 
+        intervals [632]:
+            xmin = 602.04 
+            xmax = 602.4 
+            text = "red" 
+        intervals [633]:
+            xmin = 602.4 
+            xmax = 602.939 
+            text = "blobs" 
+        intervals [634]:
+            xmin = 602.939 
+            xmax = 603.01 
+            text = "SIL" 
+        intervals [635]:
+            xmin = 603.01 
+            xmax = 603.249 
+            text = "off" 
+        intervals [636]:
+            xmin = 603.249 
+            xmax = 603.51 
+            text = "SIL" 
+        intervals [637]:
+            xmin = 603.51 
+            xmax = 603.789 
+            text = "and" 
+        intervals [638]:
+            xmin = 603.789 
+            xmax = 603.94 
+            text = "SIL" 
+        intervals [639]:
+            xmin = 603.94 
+            xmax = 604.109 
+            text = "on" 
+        intervals [640]:
+            xmin = 604.109 
+            xmax = 604.24 
+            text = "SIL" 
+        intervals [641]:
+            xmin = 604.24 
+            xmax = 604.54 
+            text = "under" 
+        intervals [642]:
+            xmin = 604.54 
+            xmax = 605.04 
+            text = "left" 
+        intervals [643]:
+            xmin = 605.04 
+            xmax = 605.36 
+            text = "so" 
+        intervals [644]:
+            xmin = 605.36 
+            xmax = 605.59 
+            text = "you'll" 
+        intervals [645]:
+            xmin = 605.59 
+            xmax = 606.089 
+            text = "home" 
+        intervals [646]:
+            xmin = 606.089 
+            xmax = 606.6 
+            text = "SIL" 
+        intervals [647]:
+            xmin = 606.6 
+            xmax = 607.219 
+            text = "three" 
+        intervals [648]:
+            xmin = 607.219 
+            xmax = 609.15 
+            text = "SILP" 
+        intervals [649]:
+            xmin = 609.15 
+            xmax = 609.45 
+            text = "red" 
+        intervals [650]:
+            xmin = 609.45 
+            xmax = 610.02 
+            text = "blobs" 
+        intervals [651]:
+            xmin = 610.02 
+            xmax = 610.409 
+            text = "under" 
+        intervals [652]:
+            xmin = 610.409 
+            xmax = 610.68 
+            text = "SIL" 
+        intervals [653]:
+            xmin = 610.68 
+            xmax = 610.98 
+            text = "real" 
+        intervals [654]:
+            xmin = 610.98 
+            xmax = 611.37 
+            text = "estate" 
+        intervals [655]:
+            xmin = 611.37 
+            xmax = 611.88 
+            text = "agents" 
+        intervals [656]:
+            xmin = 611.88 
+            xmax = 612.15 
+            text = "let" 
+        intervals [657]:
+            xmin = 612.15 
+            xmax = 612.24 
+            text = "us" 
+        intervals [658]:
+            xmin = 612.24 
+            xmax = 612.57 
+            text = "sell" 
+        intervals [659]:
+            xmin = 612.57 
+            xmax = 612.75 
+            text = "your" 
+        intervals [660]:
+            xmin = 612.75 
+            xmax = 613.079 
+            text = "home" 
+        intervals [661]:
+            xmin = 613.079 
+            xmax = 613.42 
+            text = "SIL" 
+        intervals [662]:
+            xmin = 613.42 
+            xmax = 615.36 
+            text = "SILP" 
+        intervals [663]:
+            xmin = 615.36 
+            xmax = 615.749 
+            text = "YeS" 
+        intervals [664]:
+            xmin = 615.749 
+            xmax = 616.03 
+            text = "SILP" 
+        intervals [665]:
+            xmin = 616.03 
+            xmax = 616.47 
+            text = "yeS" 
+        intervals [666]:
+            xmin = 616.47 
+            xmax = 617.71 
+            text = "SILP" 
+        intervals [667]:
+            xmin = 617.71 
+            xmax = 619.399 
+            text = "Jee" 
+        intervals [668]:
+            xmin = 619.399 
+            xmax = 619.45 
+            text = "SIL" 
+        intervals [669]:
+            xmin = 619.45 
+            xmax = 619.799 
+            text = "YeS" 
+        intervals [670]:
+            xmin = 619.799 
+            xmax = 620.3080952380952 
+            text = "SIL" 
+        intervals [671]:
+            xmin = 620.3080952380952 
+            xmax = 621.8377097505669 
+            text = "SILP" 
+        intervals [672]:
+            xmin = 621.8377097505669 
+            xmax = 623.137 
+            text = "<GA>" 
