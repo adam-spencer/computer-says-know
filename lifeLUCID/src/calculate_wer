@@ -40,7 +40,13 @@ def get_file_wer(transcript_file:Path) -> dict:
       continue
     ref = normalise(data['transcript'])
     hyp = normalise(data['whisper']['text'])
-    wer = jw.wer(ref, hyp)
+    if ref == '' or hyp == '':
+      if ref == hyp:
+        wer = 0.0
+      else:
+        wer = 1.0
+    else:
+      wer = jw.wer(ref, hyp)
     wer_total += wer
     data_dict[idx]['wer'] = wer
     n_utterances += 1
