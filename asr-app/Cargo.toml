@@ -7,4 +7,5 @@ edition = "2021"
 
 [dependencies]
 crossterm = "0.26.1"
-tui = { package = "ratatui" }
+json = "*"
+ratatui = "0.20.1"
