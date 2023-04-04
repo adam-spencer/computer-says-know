@@ -12,6 +12,8 @@ use ratatui::{
 };
 use std::{error::Error, io};
 
+mod data_reader;
+
 struct App<'a> {
     state: TableState,
     items: Vec<Vec<&'a str>>,
