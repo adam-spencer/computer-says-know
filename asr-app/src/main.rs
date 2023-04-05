@@ -7,6 +7,13 @@ use cursive::views::Dialog;
 use cursive_table_view::{TableViewItem, TableView};
 use serde::{Serialize, Deserialize};
 
+
+// TODO:
+//   * Restructure the JSON files themselves, having "{ filename : 000.wav, ... }'
+//     etc. rather than "'0' : {...}"
+//   * Fix this stuff- seems almost working strangely enough :O
+//   *
+
 #[derive(Serialize, Deserialize, Debug, Clone)]
 struct WhisperSegments {
     id: i8,
