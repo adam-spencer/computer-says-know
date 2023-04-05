@@ -1,8 +1,10 @@
 use serde::{Serialize, Deserialize};
-use std::path::Path;
-use std::fs::File;
-use std::io::BufReader;
-use std::error::Error;
+use std:: {
+    path::Path,
+    fs::File,
+    io::BufReader,
+    error::Error,
+};
 
 #[derive(Serialize, Deserialize, Debug)]
 struct WhisperSegments {
