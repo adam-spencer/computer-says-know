@@ -48,4 +48,6 @@ impl TranscriptDataReader {
 
         Ok(tdr)
     }
+
+    pub fn 
 }

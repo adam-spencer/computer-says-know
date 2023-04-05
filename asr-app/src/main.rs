@@ -1,72 +1,118 @@
-use std::{error::Error, io, env};
-mod data_reader;
-use data_reader::TranscriptDataReader;
-use cursive::{views::{SelectView, Dialog, LinearLayout, Button, DummyView, EditView}, Cursive,};
+use std::cmp::Ordering;
+use std::{fs::File, io::BufReader, error::Error,};
+use std::env;
+use cursive::align::HAlign;
 use cursive::traits::*;
+use cursive::views::Dialog;
+use cursive_table_view::{TableViewItem, TableView};
+use serde::{Serialize, Deserialize};
 
-fn main() {
-    // let args: Vec<String> = env::args().collect();
-    // assert!(args.len() == 2, "Usage: {} <file path>", args[0]);
-    // let tdr = TranscriptDataReader::new(&args[1]);
-    
-    let mut siv = cursive::default();
-
-    let select = SelectView::<String>::new()
-        .on_submit(on_submit)
-        .with_name("select")
-        .fixed_size((10,5));
-    let buttons = LinearLayout::vertical()
-        .child(Button::new("Add new", add_name))
-        .child(Button::new("Delete", delete_name))
-        .child(DummyView)
-        .child(Button::new("Quit", Cursive::quit));
-
-    siv.add_layer(Dialog::around(LinearLayout::horizontal()
-            .child(select)
-            .child(DummyView)
-            .child(buttons))
-        .title("Select a profile"));
-
-    siv.run();
+#[derive(Serialize, Deserialize, Debug, Clone)]
+struct WhisperSegments {
+    id: i8,
+    seek: i8,
+    start: f32,
+    end: f32,
+    text: String,
+    tokens: Vec<i32>,
+    temperature: f32,
+    avg_logprob: f64,
+    compression_ratio: f64,
+    no_speech_prob: f64,
 }
 
-fn add_name(s: &mut Cursive) {
-    fn ok(s: &mut Cursive, name: &str) {
-        s.call_on_name("select", |view: &mut SelectView<String>| {
-            view.add_item_str(name);
-        });
-        s.pop_layer();
+#[derive(Serialize, Deserialize, Debug, Clone)]
+struct WhisperData {
+    text: String,
+    segments: Vec<WhisperSegments>,
+    language: String,
+}
+
+#[derive(Serialize, Deserialize, Debug, Clone)]
+pub struct TranscriptData {
+    idx: i32,
+    start: f32,
+    end: f32,
+    transcript: String,
+    whisper: WhisperData,
+}
+
+#[derive(Debug)]
+pub struct TranscriptDataReader {
+    filepath: String,
+    pub data: Vec<TranscriptData>,
+}
+
+impl TranscriptDataReader {
+    pub fn new(filepath: &String) -> Result<Self, Box<dyn Error>> {
+        let file = File::open(filepath)?;
+        let reader = BufReader::new(file);
+        let tdr = Self {
+            filepath : filepath.to_string(),
+            data : serde_json::from_reader(reader)?,
+        };
+
+        Ok(tdr)
     }
-
-    s.add_layer(Dialog::around(EditView::new()
-                               .on_submit(ok)
-                               .with_name("name")
-                               .fixed_width(10))
-                .title("Enter a new name")
-                .button("Ok", |s| {
-                    let name = s.call_on_name("name", |v: &mut EditView| {
-                        v.get_content()
-                    }).unwrap();
-                    ok(s, &name)
-                })
-                .button("Cancel", |s| {
-                    s.pop_layer();
-                }));
 }
 
-fn delete_name(s: &mut Cursive) {
-    let mut select = s.find_name::<SelectView<String>>("select").unwrap();
-    match select.selected_id() {
-        None => s.add_layer(Dialog::info("No name to remove")),
-        Some(focus) => {
-            select.remove_item(focus);
+#[derive(Copy, Clone, PartialEq, Eq, Hash)]
+enum BasicColumn {
+    ID,
+    Hypothesis,
+    Reference,
+}
+
+impl BasicColumn {
+   fn as_str(&self) -> &str {
+       match *self {
+           BasicColumn::ID => "ID",
+           BasicColumn::Hypothesis => "Hypothesis",
+           BasicColumn::Reference => "Reference",
+       }
+   }
+}
+
+impl TableViewItem<BasicColumn> for TranscriptData {
+    fn to_column(&self, column: BasicColumn) -> String {
+        match column {
+            BasicColumn::ID => format!("{}", self.idx),
+            BasicColumn::Hypothesis => self.transcript.to_string(),
+            BasicColumn::Reference => self.whisper.text.to_string(),
+        }
+    }
+    fn cmp(&self, other: &Self, column: BasicColumn) -> Ordering
+    where
+        Self: Sized,
+    {
+        match column {
+            BasicColumn::ID => self.idx.cmp(&other.idx),
+            BasicColumn::Hypothesis => self.transcript.cmp(&other.transcript),
+            BasicColumn::Reference => self.whisper.text.cmp(&other.whisper.text),
         }
     }
 }
 
-fn on_submit(s: &mut Cursive, name: &str) {
-    s.pop_layer();
-    s.add_layer(Dialog::text(format!("Name: {}\nAwesome: yes", name))
-                .title(format!("{}'s info", name))
-                .button("Quit", Cursive::quit));
-}
+fn main() {
+    env::set_var("RUST_BACKTRACE", "1");
+    let args: Vec<String> = env::args().collect();
+    assert!(args.len() == 2, "Usage: {} <file path>", args[0]);
+    let tdr = TranscriptDataReader::new(&args[1]).unwrap();
+
+    let mut siv = cursive::default();
+    let mut table = TableView::<TranscriptData, BasicColumn>::new()
+        .column(BasicColumn::ID, "ID", |c| c.width_percent(10))
+        .column(BasicColumn::Hypothesis, "Hypothesis",
+                |c| c.align(HAlign::Center))
+        .column(BasicColumn::Reference, "Reference",
+                |c| c.align(HAlign::Right));
+
+    table.set_items(tdr.data);
+
+    siv.add_layer(Dialog::around(table
+                                 .with_name("table")
+                                 .min_size((100,100)))
+                  .title("Table View"));
+    siv.run();
+} 
+
