@@ -1,10 +1,5 @@
 use serde::{Serialize, Deserialize};
-use std:: {
-    path::Path,
-    fs::File,
-    io::BufReader,
-    error::Error,
-};
+use std::{fs::File, io::BufReader, error::Error,};
 
 #[derive(Serialize, Deserialize, Debug)]
 struct WhisperSegments {
@@ -37,18 +32,17 @@ struct TranscriptData {
 }
 
 #[derive(Debug)]
-struct TranscriptDataReader {
+pub struct TranscriptDataReader {
     filepath: String,
     data: Vec<TranscriptData>,
 }
 
 impl TranscriptDataReader {
-    pub fn new(path: &Path) -> Result<Self, Box<dyn Error>> {
-        let file = File::open(path)?;
+    pub fn new(filepath: &String) -> Result<Self, Box<dyn Error>> {
+        let file = File::open(filepath)?;
         let reader = BufReader::new(file);
-        let path_str = path.to_str().expect("Error in filepath!");
         let tdr = Self {
-            filepath : path_str.to_string(),
+            filepath : filepath.to_string(),
             data : serde_json::from_reader(reader)?,
         };
 
