@@ -1,32 +1,72 @@
 use std::{error::Error, io, env};
 mod data_reader;
 use data_reader::TranscriptDataReader;
-use cursive::{views::{TextView, Dialog}, Cursive};
+use cursive::{views::{SelectView, Dialog, LinearLayout, Button, DummyView, EditView}, Cursive,};
+use cursive::traits::*;
 
 fn main() {
     // let args: Vec<String> = env::args().collect();
     // assert!(args.len() == 2, "Usage: {} <file path>", args[0]);
     // let tdr = TranscriptDataReader::new(&args[1]);
+    
     let mut siv = cursive::default();
 
-    siv.add_layer(Dialog::text("This is a survery!\nPress <Next> when you're ready.")
-                  .title("Important Survey")
-                  .button("Next", show_next));
+    let select = SelectView::<String>::new()
+        .on_submit(on_submit)
+        .with_name("select")
+        .fixed_size((10,5));
+    let buttons = LinearLayout::vertical()
+        .child(Button::new("Add new", add_name))
+        .child(Button::new("Delete", delete_name))
+        .child(DummyView)
+        .child(Button::new("Quit", Cursive::quit));
+
+    siv.add_layer(Dialog::around(LinearLayout::horizontal()
+            .child(select)
+            .child(DummyView)
+            .child(buttons))
+        .title("Select a profile"));
+
     siv.run();
 }
 
-fn show_next(s: &mut Cursive) {
-    s.pop_layer();
-    s.add_layer(Dialog::text("Did you do the thing?")
-        .title("Question 1")
-        .button("Yes!", |s| show_answer(s, "I knew it! Well done!"))
-        .button("No!", |s| show_answer(s, "I knew you couldn't be trusted!"))
-        .button("Uh?", |s| s.add_layer(Dialog::info("Try again!"))));
+fn add_name(s: &mut Cursive) {
+    fn ok(s: &mut Cursive, name: &str) {
+        s.call_on_name("select", |view: &mut SelectView<String>| {
+            view.add_item_str(name);
+        });
+        s.pop_layer();
+    }
+
+    s.add_layer(Dialog::around(EditView::new()
+                               .on_submit(ok)
+                               .with_name("name")
+                               .fixed_width(10))
+                .title("Enter a new name")
+                .button("Ok", |s| {
+                    let name = s.call_on_name("name", |v: &mut EditView| {
+                        v.get_content()
+                    }).unwrap();
+                    ok(s, &name)
+                })
+                .button("Cancel", |s| {
+                    s.pop_layer();
+                }));
 }
 
-fn show_answer(s: &mut Cursive, msg: &str) {
+fn delete_name(s: &mut Cursive) {
+    let mut select = s.find_name::<SelectView<String>>("select").unwrap();
+    match select.selected_id() {
+        None => s.add_layer(Dialog::info("No name to remove")),
+        Some(focus) => {
+            select.remove_item(focus);
+        }
+    }
+}
+
+fn on_submit(s: &mut Cursive, name: &str) {
     s.pop_layer();
-    s.add_layer(Dialog::text(msg)
-                .title("Results")
-                .button("Finish", |s| s.quit()));
+    s.add_layer(Dialog::text(format!("Name: {}\nAwesome: yes", name))
+                .title(format!("{}'s info", name))
+                .button("Quit", Cursive::quit));
 }
