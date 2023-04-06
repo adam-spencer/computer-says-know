@@ -11,11 +11,16 @@ class TranscriptionApp(App):
   """
   A Textual app to demonstrate semi-automatic transcription.
   """
+  BINDINGS = [
+      ('p','play_sound','Play Audio'),
+  ]
+
   def compose(self) -> ComposeResult:
     """ 
     Create child widgets for the app.
     """
     yield DataTable(fixed_columns=1)
+    yield Footer()
 
   def on_mount(self) -> None:
     table = self.query_one(DataTable) # get col names
@@ -24,14 +29,16 @@ class TranscriptionApp(App):
     for row in rows:
       table.add_row(*row, height=ROW_HEIGHT)
 
-  def populate_data(self, data):
-    self.data_in = data
+  def populate_data(self, data_linker:AudioDataLinker):
+    self.data_in = data_linker.data_for_table()
+    self.data_linker = data_linker
 
-  def action_toggle_ref(self) -> None:
-    """
-    An action to toggle reference text.
-    """
-    pass
+  def action_play_sound(self):
+    if self.selected is not None:
+      self.data_linker.play_audio(self.selected)
+
+  def on_data_table_cell_highlighted(self, message: DataTable.CellHighlighted):
+    self.selected = message.coordinate.row
 
 if __name__ == "__main__":
   if len(sys.argv) != 3:
@@ -48,5 +55,5 @@ if __name__ == "__main__":
     sys.exit(-1)
 
   app = TranscriptionApp()
-  app.populate_data(data_linker.data_for_table())
+  app.populate_data(data_linker)
   app.run()
