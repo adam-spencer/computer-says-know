@@ -1,9 +1,12 @@
+import textwrap
 import soundfile as sf
 import sounddevice as sd
 import pandas as pd
 import numpy as np
 import json
 from pathlib import Path
+
+WRAP_WIDTH = 50
 
 class AudioDataLinker:
   """ 
@@ -40,8 +43,14 @@ class AudioDataLinker:
     """
     table_rows = [('ID', 'Hypothesis', 'Reference')]
     for idx, utterance in self.data.items():
+      ref = wrap(utterance['transcript'])
+      hyp = wrap(utterance['whisper']['text'])
       table_rows.append(
-          (idx, utterance['whisper']['text'], utterance['transcript']))
+          (idx, hyp, ref))
     return table_rows
 
-
+def wrap(string:str) -> str:
+  """
+  Apply text wrapping to a string.
+  """
+  return '\n'.join(textwrap.wrap(string, width=WRAP_WIDTH))

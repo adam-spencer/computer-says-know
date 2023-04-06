@@ -5,12 +5,12 @@ from pathlib import Path
 
 from transcript_audio import AudioDataLinker
 
+ROW_HEIGHT = 3
+
 class TranscriptionApp(App):
   """
   A Textual app to demonstrate semi-automatic transcription.
   """
-  CSS_PATH="./asr_app.css"
-
   def compose(self) -> ComposeResult:
     """ 
     Create child widgets for the app.
@@ -22,7 +22,7 @@ class TranscriptionApp(App):
     rows = iter(self.data_in)
     table.add_columns(*next(rows))
     for row in rows:
-      table.add_row(*row, height=2)
+      table.add_row(*row, height=ROW_HEIGHT)
 
   def populate_data(self, data):
     self.data_in = data
