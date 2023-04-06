@@ -6,7 +6,7 @@ import numpy as np
 import json
 from pathlib import Path
 
-WRAP_WIDTH = 50
+WRAP_WIDTH = 40
 
 class AudioDataLinker:
   """ 
@@ -23,7 +23,7 @@ class AudioDataLinker:
       self.data = json.load(f)
     self.audio_dir = audio_dir
 
-  def play_audio(self, idx:str) -> bool:
+  def play_audio(self, idx:int) -> bool:
     """ 
     Play audio correlated with an utterance.
 
