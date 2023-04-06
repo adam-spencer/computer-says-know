@@ -3,7 +3,7 @@ from textual.widgets import Header, Footer, DataTable
 import sys
 from pathlib import Path
 
-from transcript_audio import AudioDataLinker
+from audio_data_link import AudioDataLinker
 
 ROW_HEIGHT = 3
 
