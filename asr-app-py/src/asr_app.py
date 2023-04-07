@@ -1,5 +1,6 @@
 from textual.app import App, ComposeResult
 from textual.widgets import Header, Footer, DataTable
+from textual.widgets.data_table import Column
 import sys
 from pathlib import Path
 
@@ -19,11 +20,11 @@ class TranscriptionApp(App):
     """ 
     Create child widgets for the app.
     """
-    yield DataTable(fixed_columns=1)
+    yield DataTable(fixed_columns=1, zebra_stripes=True, )
     yield Footer()
 
   def on_mount(self) -> None:
-    table = self.query_one(DataTable) # get col names
+    table = self.query_one(DataTable)
     rows = iter(self.data_in)
     table.add_columns(*next(rows))
     for row in rows:
