@@ -10,8 +10,9 @@ def normalise_file(file:Path) -> dict:
   """Load a whisper output file and normalise the text within"""
   with open(file) as f:
     data = json.load(f)
-  data['transcript'] = normaliser(data['transcript'])
-  data['whisper']['text'] = normaliser(data['whisper']['text'])
+  for utterance in data.values():
+    utterance['transcript'] = normaliser(utterance['transcript'])
+    utterance['whisper']['text'] = normaliser(utterance['whisper']['text'])
   return data
 
 def write_to_output(file:Path, data:dict) -> None:
