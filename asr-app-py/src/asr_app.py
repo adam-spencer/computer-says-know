@@ -20,7 +20,7 @@ class TranscriptionApp(App):
     """ 
     Create child widgets for the app.
     """
-    yield DataTable(fixed_columns=1, zebra_stripes=True, )
+    yield DataTable(fixed_columns=1, zebra_stripes=True)
     yield Footer()
 
   def on_mount(self) -> None:
