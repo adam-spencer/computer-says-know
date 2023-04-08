@@ -1,2 +1,45 @@
-\chapter{Conclusions}\label{ch:conclusions}
+\chapter{Implementation and Testing}\label{ch:implementation-and-testing}
 
+\section{Preparing the Data}
+
+While the LifeLUCID corpus\cite{lifelucid} consists of conversational audio recordings, each of these recordings are presented as individual stereo WAVE files approximately 10 minutes in length, with each speaker recorded seperately in either the left or right channel.
+Time-aligned transcriptions accompany these data in \emph{Praat TextGrid} format.
+
+\subsection{The TextGrid Format}
+
+\emph{Praat} is a piece of software for speech recording and analysis\cite{praat} and a \emph{TextGrid} is used to represent individual 'speech tokens' (i.e. spoken words, moments of silence) and the times at which they begin and end.
+\mycomment{Add an example screenshot of a TextGrid file here}
+Due to Whisper being written entirely in Python, to maintain language-homogeneity a Python library named \texttt{textgrid.py}\cite{textgridpy} was used to read and manipulate TextGrid files rather than dealing with the transcription data using \emph{Praat}.
+
+According to their documentation, the \emph{TextGrid} files for LifeLUCID\cite{lifelucid} contain some special, non-speech tokens to denote certain parts of the speech recordings as follows:
+
+\begin{itemize}
+  \item \texttt{<SILP>} denotes time where one participant is silent and the other is talking.
+  \item \texttt{<SIL>} denotes silent time between words, where the speaker is silent but the other participant is also silent, such as when the speaker is taking a breath.
+  \item \texttt{<GA>} denotes either the time before the task begun but the recording had started or external noises picked up by the microphone. 
+  \item \texttt{<BELL>} replaces moments when a participant has pressed their bell, these moments are also silent in the recording.
+\end{itemize}
+
+Given that these special tokens are marked by the times at which they begin and end, it was possible to segment the large audio files into hundereds of short utterances.
+
+\subsection{Generating Utterances}
+
+The contents, beginning, and end of every utterance where computed using the data available in the \emph{TextGrid} files using a Python script named \texttt{get_utterances}.
+This script operates over a directory containing \emph{TextGrid} files, writing out the utterances as files in \emph{JSON} format.
+
+The script also takes as args; a minimum time between tokens required to end the utterance and a maximum pause time allowed within one utterance.
+These thresholds allow utterances to be fine-tuned by a user, leading to fewer drawn-out or unreasonably short utterances.
+
+\emph{JSON} was selected due to its ability to be easily read and understood by a human, unlike \emph{TextGrids}.
+This allowed for simple verification of the data without the need for more specific software to view the files.
+
+\subsection{Audio Segmentation}
+
+Another Python script named \texttt{segment_audio} was created to generate audio files for each utterance. 
+Given two directories as input; one containing \texttt{.json} files (as output by \texttt{get_utterances} and the other containing \texttt{.wav} files representing each audio recording, the audio is split along the beginning and end times of each utterance and output to a new directory.
+
+This script uses the \emph{python-soundfile} module\cite{pysoundfile} to load audio files into \emph{NumPy}\cite{numpy} arrays.
+By multiplying the sampling rate of the audio by the start- and end-times of each utterance, the array indices at the start and end of each utterance are computed.
+Array slices between these indices represent each utterance, which can then be saved to new audio files using the \emph{python-soundfile} module.
+
+\section{ASR With Whisper}
