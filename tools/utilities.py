@@ -25,7 +25,7 @@ class TableToJSON:
       print("Generating groups...")
     self.grouped = self.df.groupby('speaker')
 
-  def encode(self, savepath:str=None) -> Union[str, None]:
+  def encode(self, savepath:Union[None, str]=None) -> Union[str, None]:
     """
     Encode the loaded table into JSON file format.
 
@@ -35,8 +35,8 @@ class TableToJSON:
     data_dict = dict()
     if self.verbose:
       print('Converting to dict...')
-      counter = 0
-      end = len(self.grouped.groups)
+    counter = 0
+    end = len(self.grouped.groups)
     for speaker, table in self.grouped:
       data_dict[speaker] = (table[['fileID','transcript']]
                             .set_index('fileID')

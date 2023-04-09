@@ -57,8 +57,9 @@ def run_over_dir(audio_dir:Path, spec_dir:Path, out_dir:Path,
   spec_ext = 'Ac.json'
 
   vprint(v, 'Looping over files...')
+  counter = 0
+  total_files = 0
   if v:
-    counter = 0
     total_files = len(list(audio_dir.glob('*')))
 
   for audio_file in audio_dir.iterdir():
