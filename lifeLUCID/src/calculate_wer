@@ -10,98 +10,106 @@ Copyright Adam Spencer, 03/2023
 __author__ = 'Adam Spencer'
 
 import argparse
-import jiwer as jw
 import json
-from whisper.normalizers import EnglishTextNormalizer
-from pathlib import Path
 import re
+from pathlib import Path
+
+import jiwer as jw
+from whisper.normalizers import EnglishTextNormalizer
 
 # This normalises strings for better comparison
 normalise = EnglishTextNormalizer()
 
-# Used to ensure only utterance entries (numerical idx) in the transcript file 
+# Used to ensure only utterance entries (numerical idx) in the transcript file
 # are parsed.
 only_digits = re.compile(r'^\d+$')
 
-def get_file_wer(transcript_file:Path) -> dict:
-  """
-  Get WER from a transcript JSON file as returned by do_whisper.
 
-  :param transcript_file: Path to transcript file.
-  :returns: Dictionary representation of file with added WER.
-  """
-  with open(transcript_file) as file:
-    data_dict = json.load(file)
-  
-  wer_total = 0.0
-  n_utterances = 0
-  for idx, data in data_dict.items():
-    if not only_digits.match(idx):
-      continue
-    ref = normalise(data['transcript'])
-    hyp = normalise(data['whisper']['text'])
-    if ref == '' or hyp == '':
-      if ref == hyp:
-        wer = 0.0
-      else:
-        wer = 1.0
+def get_file_wer(transcript_file: Path) -> dict:
+    """
+    Get WER from a transcript JSON file as returned by do_whisper.
+
+    :param transcript_file: Path to transcript file.
+    :returns: Dictionary representation of file with added WER.
+    """
+    with open(transcript_file) as file:
+        data_dict = json.load(file)
+
+    wer_total = 0.0
+    n_utterances = 0
+    for idx, data in data_dict.items():
+        if not only_digits.match(idx):
+            continue
+        ref = normalise(data['transcript'])
+        hyp = normalise(data['whisper']['text'])
+        if ref == '' or hyp == '':
+            if ref == hyp:
+                wer = 0.0
+            else:
+                wer = 1.0
+        else:
+            wer = jw.wer(ref, hyp)
+        wer_total += wer
+        data_dict[idx]['wer'] = wer
+        n_utterances += 1
+
+    wer_average = wer_total / n_utterances
+    data_dict['stats'] = {'wer_average': wer_average}
+    return data_dict
+
+
+def write_out(wer_dict: dict, /, out_path: Path = None,
+              stdout: bool = False) -> None:
+    """
+    Write the WER output either to a specified file or to stdout.
+    Output is in JSON format.
+
+    :param wer_dict: WER dictionary as output by `get_file_wer()`
+    :param out_path: Path to write output to.
+    :param stdout: Write output to stdout rather than to a file.
+    """
+    if out_path is None and not stdout:
+        raise ValueError(
+            'Must either supply a path or choose to print to stdout!')
+    if stdout:
+        print(json.dumps(wer_dict, indent=2))
     else:
-      wer = jw.wer(ref, hyp)
-    wer_total += wer
-    data_dict[idx]['wer'] = wer
-    n_utterances += 1
+        with open(out_path, 'w') as f:
+            json.dump(wer_dict, f, indent=2)
 
-  wer_average = wer_total / n_utterances
-  data_dict['stats'] = {'wer_average' : wer_average}
-  return data_dict
-
-def write_out(wer_dict:dict, /, out_path:Path=None, stdout:bool=False) -> None:
-  """
-  Write the WER output either to a specified file or to stdout.
-  Output is in JSON format.
-
-  :param wer_dict: WER dictionary as output by `get_file_wer()`
-  :param out_path: Path to write output to.
-  :param stdout: Write output to stdout rather than to a file.
-  """
-  if out_path is None and not stdout:
-    raise ValueError('Must either supply a path or choose to print to stdout!')
-  if stdout:
-    print(json.dumps(wer_dict, indent=2))
-  else:
-    with open(out_path, 'w') as f:
-      json.dump(wer_dict, f)
 
 def main():
-  parser = argparse.ArgumentParser()
-  parser.add_argument('in_file', help='Input file')
-  parser.add_argument('--output-dir','-o',
-                      help='Output dir, if none is supplied then result is \
+    parser = argparse.ArgumentParser()
+    parser.add_argument('in_file', help='Input file')
+    parser.add_argument('--output-dir', '-o',
+                        help='Output dir, if none is supplied then result is \
                       printed to stdout')
-  args = parser.parse_args()
+    args = parser.parse_args()
 
-  in_file_path = Path(args.in_file)
-  if save_output := args.output_dir is not None:
-    out_path = Path(args.output_dir)
-    out_path.mkdir(exist_ok=True)
+    in_file_path = Path(args.in_file)
+    if save_output := args.output_dir is not None:
+        out_path = Path(args.output_dir)
+        out_path.mkdir(exist_ok=True)
 
-  if in_file_path.is_dir():
-    if not save_output:
-      raise ValueError('Must supply an output dir when input is dir!')
-    for file in in_file_path.iterdir():
-      if not file.name.endswith('.json'):
-        continue
-      wer_dict = get_file_wer(file)
-      write_path = out_path / file.name.replace('.json', '_wer.json')
-      write_out(wer_dict, out_path=write_path)
+    if in_file_path.is_dir():
+        if not save_output:
+            raise ValueError('Must supply an output dir when input is dir!')
+        for file in in_file_path.iterdir():
+            if not file.name.endswith('.json'):
+                continue
+            wer_dict = get_file_wer(file)
+            write_path = out_path / file.name.replace('.json', '_wer.json')
+            write_out(wer_dict, out_path=write_path)
 
-  else:
-    wer_dict = get_file_wer(in_file_path)
-    if save_output:
-      out_path = out_path / in_file_path.name.replace('.json', '_wer.json')
-      write_out(wer_dict, out_path=out_path)
     else:
-      write_out(wer_dict, stdout=True)
+        wer_dict = get_file_wer(in_file_path)
+        if save_output:
+            out_path = out_path / \
+                in_file_path.name.replace('.json', '_wer.json')
+            write_out(wer_dict, out_path=out_path)
+        else:
+            write_out(wer_dict, stdout=True)
+
 
 if __name__ == '__main__':
-  main()
+    main()
