@@ -1,0 +1,75 @@
+\begin{thebibliography}{10}
+
+\bibitem{gaikwad2010review}
+S.~K. Gaikwad, B.~W. Gawali, and P.~Yannawar, ``A review on speech recognition
+  technique,'' {\em International Journal of Computer Applications}, vol.~10,
+  no.~3, pp.~16--24, 2010.
+
+\bibitem{whisper}
+A.~Radford, J.~W. Kim, T.~Xu, G.~Brockman, C.~McLeavey, and I.~Sutskever,
+  ``Robust speech recognition via large-scale weak supervision.''
+  arXiv:2212.04356, 2022.
+
+\bibitem{bigssl}
+Y.~Zhang, D.~S. Park, W.~Han, J.~Qin, A.~Gulati, J.~Shor, A.~Jansen, Y.~Xu,
+  Y.~Huang, S.~Wang, Z.~Zhou, B.~Li, M.~Ma, W.~Chan, J.~Yu, Y.~Wang, L.~Cao,
+  K.~C. Sim, B.~Ramabhadran, T.~N. Sainath, F.~Beaufays, Z.~Chen, Q.~V. Le,
+  C.-C. Chiu, R.~Pang, and Y.~Wu, ``{BigSSL}: Exploring the frontier of
+  large-scale semi-supervised learning for automatic speech recognition,'' {\em
+  {IEEE} Journal of Selected Topics in Signal Processing}, vol.~16,
+  pp.~1519--1532, oct 2022.
+
+\bibitem{wav2vec}
+A.~Baevski, Y.~Zhou, A.~Mohamed, and M.~Auli, ``wav2vec 2.0: A framework for
+  self-supervised learning of speech representations,'' in {\em Advances in
+  Neural Information Processing Systems} (H.~Larochelle, M.~Ranzato,
+  R.~Hadsell, M.~Balcan, and H.~Lin, eds.), vol.~33, pp.~12449--12460, Curran
+  Associates, Inc., 2020.
+
+\bibitem{librispeech}
+V.~Panayotov, G.~Chen, D.~Povey, and S.~Khudanpur, ``Librispeech: An asr corpus
+  based on public domain audio books,'' in {\em 2015 IEEE International
+  Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pp.~5206--5210, 2015.
+
+\bibitem{zhang2020}
+Y.~Zhang, J.~Qin, D.~S. Park, W.~Han, C.-C. Chiu, R.~Pang, Q.~V. Le, and Y.~Wu,
+  ``Pushing the limits of semi-supervised learning for automatic speech
+  recognition,'' 2020.
+
+\bibitem{chung2021}
+Y.-A. Chung, Y.~Zhang, W.~Han, C.-C. Chiu, J.~Qin, R.~Pang, and Y.~Wu,
+  ``W2v-bert: Combining contrastive learning and masked language modeling for
+  self-supervised speech pre-training,'' 2021.
+
+\bibitem{lifelucid}
+O.~Tuomainen, L.~Taschenberger, and V.~Hazan, ``{LifeLUCID Corpus: Recordings
+  of Speakers Aged 8 to 85 Years Engaged in Interactive Task in the Presence of
+  Energetic and Informational Masking, 2017-2020},'' {\em UK Data Service}, May
+  2021.
+
+\bibitem{praat}
+``{Praat: doing Phonetics by Computer},'' Mar. 2023.
+\newblock [Online; accessed 8. Apr. 2023].
+
+\bibitem{textgridpy}
+K.~Gorman, ``textgrid.py,'' Apr. 2023.
+\newblock [Online; accessed 8. Apr. 2023].
+
+\bibitem{pysoundfile}
+B.~Bechtold, ``{python-soundfile},'' 2013.
+\newblock [Online; accessed 8. Apr. 2023].
+
+\bibitem{numpy}
+C.~R. Harris, K.~J. Millman, S.~f.~J. van~der Walt, R.~Gommers, P.~Virtanen,
+  D.~Cournapeau, E.~Wieser, J.~Taylor, S.~Berg, N.~J. Smith, R.~Kern, M.~Picus,
+  S.~Hoyer, M.~H. van Kerkwijk, M.~Brett, A.~Haldane, J.~Fern{\'a}ndez~del
+  R{\'\i}o, M.~Wiebe, P.~Peterson, P.~G{\'e}rard-Marchant, K.~Sheppard,
+  T.~Reddy, W.~Weckesser, H.~Abbasi, C.~Gohlke, and T.~E. Oliphant, ``Array
+  programming with {NumPy},'' {\em Nature}, vol.~585, pp.~357--362, 2020.
+
+\bibitem{pypi-whis}
+``{openai-whisper},'' Apr. 2023.
+\newblock [Online; accessed 10. Apr. 2023].
+
+\end{thebibliography}
