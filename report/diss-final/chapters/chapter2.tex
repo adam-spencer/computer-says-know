@@ -1,6 +1,16 @@
 \chapter{Literature Survey}\label{ch:literature-survey}
+\mycomment{
+    Include a bit of text here to explain the structure of this section.
+
+    * remember to do some comparisons between papers! 
+    * this section should look at trends in the area of my  research
+    * fake-ness (or 'synthetic'-ness) is correct!
+  }
 
 \section{Understanding Transcription}\label{sec:transcription}
+\mycomment{
+    Perhaps move this down a bit?
+  }
 
 \subsection{Manual Transcription}\label{subsec:manual-transcription}
 
@@ -22,11 +32,20 @@ Since the 1970s, the problem of speech recognition has viewed more as one to be 
 Today, speech recognition systems are ubiquitous in everyday computing tasks; 
 integrated into operating systems and search engines, with uses ranging from `virtual assistants' (e.g., Apple's Siri, Amazon's Alexa) to providing people with disabilities the means to operate computer systems.
 
-\subsection{Problems in Modern ASR}
+\subsection{How Does Modern ASR Work?}
+\mycomment{
+    This section should adress the technical ins and outs of how ASR works, featuring a nice diagram or two.
+
+    This'd be a nice way to demonstrate my understanding of the workings of an ASR system.
+
+    Also mention supervised and unsupervised systems and the advantages/disadvantages of each.
+  }
+
+\subsection{Problems in ASR}
 
 Despite their ubiquity, modern ASR systems aren't without fault.
 Cutting edge systems like \emph(wav2vec) are capable of achieving greater-than-human scores on specific datasets\cite{wav2vec2,bigssl,chung2021} such as \emph{LibriSpeech}\cite{librispeech}, achieving as low as 1.4\% error\cite{zhang2020}.
-\mycomment{talk about supervised/unsupervised}
+
 A major problem with comes when the data is not `clean', for example, background noise is present, microphones are far away, the speaker has an atypical speech pattern, etc. 
 In this setting, \emph{wav2vec} achieves much poorer scores with word error rates as high as 65\%\cite{whisper} on the \emph{CHiME6} corpus\cite{chime6}.
 
@@ -42,7 +61,11 @@ In a practical setting this means that conversational speech (i.e.\ speech which
 
 \subsection{ASR Confidence}
 
-\section{Speech Corpora}\label{sec:} \mycomment{Should this be before or after the section on modern ASR? Seems to me that it builds an understanding necessary for grasping ASR}
+\section{Speech Corpora}\label{sec:} 
+
+\mycomment{
+  I think this section should be short and sweet. Just lay out what a corpus is, the history of corpora, conversational corpora, 
+}
 
 \section{Modern ASR}\label{sec:modern-asr}
 
