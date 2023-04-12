@@ -7,18 +7,6 @@
     * fake-ness (or 'synthetic'-ness) is correct!
   }
 
-\section{Understanding Transcription}\label{sec:transcription}
-\mycomment{
-    Perhaps move this down a bit?
-  }
-
-\subsection{Manual Transcription}\label{subsec:manual-transcription}
-
-\subsection{Semi-Automatic Transcription}\label{subsec:semi-auto-transcription}
-
-\subsection{Fully-Automatic Transcription}\label{subsec:full-auto-transcription}
-
-
 \section{Automatic Speech Recognition}\label{sec:what-is-asr}
 
 \subsection{What is ASR?}
@@ -28,6 +16,12 @@ The research and development of ASR has been a part of computer science since th
 These early attempts at recognising human speech treated it as a `pattern recognition' problem, the theory being that words could be constructed by recognising the pattern created in a speech signal as a set of spoken phonemes\cite{Rabiner2004Jan}. 
 This paradigm falls apart when the system must be re-tuned for each individual, even for simple tasks such as recognising spoken digits\cite{asr-52}.
 
+\mycomment{
+        might be worth giving a bit more of an understanding of how much the field has 'blown up' since its inception.
+
+        * what came before CNNs?
+        * why are CNNs used now but not pre-y2k?
+    }
 Since the 1970s, the problem of speech recognition has viewed more as one to be solved using statistical methods\cite{early-asr,Rabiner2004Jan,LevinsonS.E.1983Aitt}, with todays cutting-edge systems using Convolutional Neural Networks (CNNs)\cite{whisper,wav2vec2,bigssl,chung2021}, a method which requires massive quantities of data and computing power.
 Today, speech recognition systems are ubiquitous in everyday computing tasks; 
 integrated into operating systems and search engines, with uses ranging from `virtual assistants' (e.g., Apple's Siri, Amazon's Alexa) to providing people with disabilities the means to operate computer systems.
@@ -49,6 +43,10 @@ Cutting edge systems like \emph(wav2vec) are capable of achieving greater-than-h
 A major problem with comes when the data is not `clean', for example, background noise is present, microphones are far away, the speaker has an atypical speech pattern, etc. 
 In this setting, \emph{wav2vec} achieves much poorer scores with word error rates as high as 65\%\cite{whisper} on the \emph{CHiME6} corpus\cite{chime6}.
 
+\mycomment{
+        do more on problems here. set the scene for why transcription can't just be performed entirely by a computer (to be expanded on in the section about semi-/full-auto transcription)
+    }
+
 \subsection{Whisper}
 
 In late September 2022, the OpenAI research laboratory (known for such projects as GPT-3/4 and ChatGPT) released a new open-source ASR system known as `Whisper'~\cite{whisper}.
@@ -60,21 +58,29 @@ Whisper uses a natural language model to perform next-token prediction (in laype
 In a practical setting this means that conversational speech (i.e.\ speech which flows as sentences rather than semantically-disjoint terms) should be transcribed with a higher degree of accuracy.
 
 \subsection{ASR Confidence}
+\mycomment{
+        This could probably be a section of its own- there's lots to talk about here!
+    }
 
-\section{Speech Corpora}\label{sec:} 
-
+\section{Speech Corpora}\label{sec:}
 \mycomment{
   I think this section should be short and sweet. Just lay out what a corpus is, the history of corpora, conversational corpora, 
 }
 
-\section{Modern ASR}\label{sec:modern-asr}
+\section{Understanding Transcription}\label{sec:transcription}
+\mycomment{
+    Perhaps move this down a bit?
+  }
 
-\mycomment{Should write something about the state of modern ASR here...}
+\subsection{Manual Transcription}\label{subsec:manual-transcription}
 
-\section{Collection of Example Data}\label{sec:}
-\section{}\label{sec:}
-\section{}\label{sec:}
-\section{}\label{sec:}
+\subsection{Semi-Automatic Transcription}\label{subsec:semi-auto-transcription}
+
+\subsection{Fully-Automatic Transcription}\label{subsec:full-auto-transcription}
 
 \section{Summary}\label{sec:lit-survey-summary}
+\mycomment{
+        is this strictly necessary? maybe look at what others have done in their dissertations.
 
+        intuitively I think that the next chapter should build on what I've said here
+    }
