@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.3)  10 APR 2023 15:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.3)  12 APR 2023 17:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**myReport
-(./myReport.tex
+**dissertation
+(./dissertation.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-09-28>
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/book.cls
@@ -159,10 +159,7 @@ File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count278
 \l__pdf_internal_box=\box53
 )
-(./myReport.aux
-
-LaTeX Warning: Label `sec:' multiply defined.
-
+(./dissertation.aux
 
 LaTeX Warning: Label `sec:' multiply defined.
 
@@ -176,7 +173,7 @@ LaTeX Warning: Label `sec:' multiply defined.
 LaTeX Warning: Label `sec:' multiply defined.
 
 )
-\openout1 = `myReport.aux'.
+\openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
@@ -298,22 +295,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
 ]) [2
 
-] (./myReport.toc [3
+] (./dissertation.toc [3
 
 ])
 \tf@toc=\write3
-\openout3 = `myReport.toc'.
+\openout3 = `dissertation.toc'.
 
- [4] (./myReport.lof)
+ [4]
+(./dissertation.lof)
 \tf@lof=\write4
-\openout4 = `myReport.lof'.
+\openout4 = `dissertation.lof'.
 
+ [5
 
-[5
-
-] (./myReport.lot)
+] (./dissertation.lot)
 \tf@lot=\write5
-\openout5 = `myReport.lot'.
+\openout5 = `dissertation.lot'.
 
  [6
 
@@ -324,43 +321,9 @@ Chapter 1.
 
 ]
 Chapter 2.
-
-Overfull \hbox (14.76312pt too wide) in paragraph at lines 14--17
-\OT1/cmr/m/n/10.95 Automatic Speech Recog-ni-tion (ASR) is a sub-field of com-p
-uter sci-ence which de-vel-ops tech-nol-ogy
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--17
-
- []
-
-
-Overfull \hbox (4.14777pt too wide) in paragraph at lines 34--38
-\OT1/cmr/m/n/10.95 by hu-mans, un-like the much larger un-su-per-vised `BigSSL'
- model (1,000,000+ hours of data) [[]]. 
- []
-
 [2
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 39--42
-
- []
-
-
-Overfull \hbox (13.60556pt too wide) in paragraph at lines 43--45
-[]\OT1/cmr/m/n/10.95 Their ac-cu-racy re-sults are promis-ing across a range of
- dif-fer-ent speech cor-pora, out-per-form-ing
- []
-
-
-Overfull \hbox (17.19771pt too wide) in paragraph at lines 43--45
-\OT1/cmr/m/n/10.95 per-for-mance than some other mod-els on spe-cific cor-pora,
- for ex-am-ple on Lib-riSpeech test-other [[]]
- []
-
-) (./chapters/chapter3.tex [3]
+]) (./chapters/chapter3.tex [3]
 Chapter 3.
 ) (./chapters/chapter4.tex [4
 
@@ -385,11 +348,23 @@ Chapter 6.
 
 ]
 Chapter 7.
-) (./myReport.bbl [10
+) (./dissertation.bbl [10
 
 ] [11
 
-]) [12] [13
+]
+Underfull \hbox (badness 1552) in paragraph at lines 63--66
+[]\OT1/cmr/m/n/10.95 S. Watan-abe, M. I. Man-del, J. Barker, and E. Vin-cent, `
+`Chime-6 chal-lenge:
+ []
+
+
+Underfull \hbox (badness 3354) in paragraph at lines 63--66
+\OT1/cmr/m/n/10.95 Tack-ling mul-ti-speaker speech recog-ni-tion for un-seg-men
+ted record-ings,'' \OT1/cmr/m/it/10.95 CoRR\OT1/cmr/m/n/10.95 ,
+ []
+
+) [12] [13
 
 
 ] (./chapters/appendixA.tex
@@ -400,35 +375,34 @@ Appendix A.
 Appendix B.
 ) [15
 
-] (./myReport.aux)
+] (./dissertation.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3485 strings out of 475071
- 57573 string characters out of 5778910
- 408098 words of memory out of 5000000
- 24807 multiletter control sequences out of 15000+600000
+ 3489 strings out of 475071
+ 57721 string characters out of 5778910
+ 408109 words of memory out of 5000000
+ 24811 multiletter control sequences out of 15000+600000
  477256 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,6n,67p,1429b,279s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,6n,67p,1433b,279s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
-cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/loc
-al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loca
-l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local
-/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/
-texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on myReport.pdf (22 pages, 270671 bytes).
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/lo
+cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
+al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local
+/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on dissertation.pdf (22 pages, 265145 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
+ 127 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

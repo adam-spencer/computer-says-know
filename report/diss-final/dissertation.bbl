@@ -1,14 +1,38 @@
 \begin{thebibliography}{10}
 
-\bibitem{gaikwad2010review}
-S.~K. Gaikwad, B.~W. Gawali, and P.~Yannawar, ``A review on speech recognition
-  technique,'' {\em International Journal of Computer Applications}, vol.~10,
-  no.~3, pp.~16--24, 2010.
+\bibitem{Rabiner2004Jan}
+L.~R. Rabiner, ``{Automatic Speech Recognition - A Brief History of the
+  Technology Development},'' {\em Scinapse}, Jan. 2004.
+
+\bibitem{vocoder}
+D.~W. H., ``The vocoder,'' {\em Bell. Labs. Rec.}, vol.~18, p.~122, 1939.
+
+\bibitem{asr-52}
+K.~H. Davis, R.~Biddulph, and S.~Balashek, ``Automatic recognition of spoken
+  digits,'' {\em The Journal of the Acoustical Society of America}, vol.~24,
+  no.~6, pp.~637--642, 1952.
+
+\bibitem{early-asr}
+F.~Jelinek, ``Continuous speech recognition by statistical methods,'' {\em
+  Proceedings of the IEEE}, vol.~64, no.~4, pp.~532--556, 1976.
+
+\bibitem{LevinsonS.E.1983Aitt}
+S.~E. Levinson, L.~R. Rabiner, and M.~M. Sondhi, ``An introduction to the
+  application of the theory of probabilistic functions of a markov process to
+  automatic speech recognition,'' {\em Bell System Technical Journal}, vol.~62,
+  no.~4, pp.~1035--1074, 1983.
 
 \bibitem{whisper}
 A.~Radford, J.~W. Kim, T.~Xu, G.~Brockman, C.~McLeavey, and I.~Sutskever,
   ``Robust speech recognition via large-scale weak supervision.''
   arXiv:2212.04356, 2022.
+
+\bibitem{wav2vec2}
+A.~Baevski, Y.~Zhou, A.~Mohamed, and M.~Auli, ``wav2vec 2.0: A framework for
+  self-supervised learning of speech representations,'' in {\em Advances in
+  Neural Information Processing Systems} (H.~Larochelle, M.~Ranzato,
+  R.~Hadsell, M.~Balcan, and H.~Lin, eds.), vol.~33, pp.~12449--12460, Curran
+  Associates, Inc., 2020.
 
 \bibitem{bigssl}
 Y.~Zhang, D.~S. Park, W.~Han, J.~Qin, A.~Gulati, J.~Shor, A.~Jansen, Y.~Xu,
@@ -19,12 +43,10 @@ Y.~Zhang, D.~S. Park, W.~Han, J.~Qin, A.~Gulati, J.~Shor, A.~Jansen, Y.~Xu,
   {IEEE} Journal of Selected Topics in Signal Processing}, vol.~16,
   pp.~1519--1532, oct 2022.
 
-\bibitem{wav2vec}
-A.~Baevski, Y.~Zhou, A.~Mohamed, and M.~Auli, ``wav2vec 2.0: A framework for
-  self-supervised learning of speech representations,'' in {\em Advances in
-  Neural Information Processing Systems} (H.~Larochelle, M.~Ranzato,
-  R.~Hadsell, M.~Balcan, and H.~Lin, eds.), vol.~33, pp.~12449--12460, Curran
-  Associates, Inc., 2020.
+\bibitem{chung2021}
+Y.-A. Chung, Y.~Zhang, W.~Han, C.-C. Chiu, J.~Qin, R.~Pang, and Y.~Wu,
+  ``W2v-bert: Combining contrastive learning and masked language modeling for
+  self-supervised speech pre-training,'' 2021.
 
 \bibitem{librispeech}
 V.~Panayotov, G.~Chen, D.~Povey, and S.~Khudanpur, ``Librispeech: An asr corpus
@@ -37,10 +59,10 @@ Y.~Zhang, J.~Qin, D.~S. Park, W.~Han, C.-C. Chiu, R.~Pang, Q.~V. Le, and Y.~Wu,
   ``Pushing the limits of semi-supervised learning for automatic speech
   recognition,'' 2020.
 
-\bibitem{chung2021}
-Y.-A. Chung, Y.~Zhang, W.~Han, C.-C. Chiu, J.~Qin, R.~Pang, and Y.~Wu,
-  ``W2v-bert: Combining contrastive learning and masked language modeling for
-  self-supervised speech pre-training,'' 2021.
+\bibitem{chime6}
+S.~Watanabe, M.~I. Mandel, J.~Barker, and E.~Vincent, ``Chime-6 challenge:
+  Tackling multispeaker speech recognition for unsegmented recordings,'' {\em
+  CoRR}, vol.~abs/2004.09249, 2020.
 
 \bibitem{lifelucid}
 O.~Tuomainen, L.~Taschenberger, and V.~Hazan, ``{LifeLUCID Corpus: Recordings
