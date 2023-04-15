@@ -1,50 +1,70 @@
 #!/usr/bin/env python
 import json
 import sys
-from whisper.normalizers import EnglishTextNormalizer
 from pathlib import Path
+
+from whisper.normalizers import EnglishTextNormalizer
 
 normaliser = EnglishTextNormalizer()
 
-def normalise_file(file:Path) -> dict:
-  """Load a whisper output file and normalise the text within"""
-  with open(file) as f:
-    data = json.load(f)
-  for utterance in data.values():
-    utterance['transcript'] = normaliser(utterance['transcript'])
-    utterance['whisper']['text'] = normaliser(utterance['whisper']['text'])
-  return data
+HESITATION_TOKENS = {
+    'er', 'erm', 'ermm', 'um', 'umm', 'uhm', 'uhmm', 'uh', 'uhh', 'uhhh', 'ER',
+    'ERM', 'ERMM', 'UM', 'UMM', 'UHM', 'UHMM', 'UH', 'UHH', 'UHHH'
+}
 
-def write_to_output(file:Path, data:dict) -> None:
-  """Write the normalised data to a JSON file as output"""
-  with open(file, 'w') as f:
-    json.dump(data, f, indent=2)
+
+def normalise_string(inp: str) -> str:
+    """Remove hesitations and normalise a string"""
+    inp_norm = normaliser(inp)
+    to_return = ''
+    for word in inp_norm.split():
+        if word not in HESITATION_TOKENS:
+            to_return += word + ' '
+    return to_return.strip()
+
+
+def normalise_file(file: Path) -> dict:
+    """Load a whisper output file and normalise the text within"""
+    with open(file) as f:
+        data = json.load(f)
+    for utterance in data.values():
+        utterance['transcript'] = normalise_string(utterance['transcript'])
+        utterance['whisper']['text'] = normalise_string(
+            utterance['whisper']['text'])
+    return data
+
+
+def write_to_output(file: Path, data: dict) -> None:
+    """Write the normalised data to a JSON file as output"""
+    with open(file, 'w') as f:
+        json.dump(data, f, indent=2)
+
 
 def main():
-  if len(sys.argv) != 3:
-    print(f'Usage: {sys.argv[0]} [INPUT] [OUTPUT]')
-    sys.exit(-1)
+    if len(sys.argv) != 3:
+        print(f'Usage: {sys.argv[0]} [INPUT] [OUTPUT]')
+        sys.exit(-1)
 
-  input_path = Path(sys.argv[1])
-  output_path = Path(sys.argv[2])
-  output_path.mkdir(exist_ok=True)
+    input_path = Path(sys.argv[1])
+    output_path = Path(sys.argv[2])
+    output_path.mkdir(exist_ok=True)
 
-  if not input_path.exists():
-    print('Couldn\'t find the input file(s)!')
-    sys.exit(-1)
+    if not input_path.exists():
+        print('Couldn\'t find the input file(s)!')
+        sys.exit(-1)
 
-  if input_path.is_dir():
-    for file in input_path.iterdir():
-      if not (fname := file.name).endswith('.json'):
-        continue
-      data = normalise_file(file)
-      file_out = output_path / fname.replace('.json', '_norm.json')
-      write_to_output(file_out, data)
-  else:
-    data = normalise_file(input_path)
-    file_out = output_path / input_path.name.replace('.json', '_norm.json')
-    write_to_output(file_out, data)
+    if input_path.is_dir():
+        for file in input_path.iterdir():
+            if not (fname := file.name).endswith('.json'):
+                continue
+            data = normalise_file(file)
+            file_out = output_path / fname.replace('.json', '_norm.json')
+            write_to_output(file_out, data)
+    else:
+        data = normalise_file(input_path)
+        file_out = output_path / input_path.name.replace('.json', '_norm.json')
+        write_to_output(file_out, data)
 
 
 if __name__ == "__main__":
-  main()
+    main()
