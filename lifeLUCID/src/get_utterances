@@ -32,8 +32,8 @@ JUNK_TOKENS = {
 def find_utterances(grid: tg.TextGrid, /, normalise: bool, min_break: float,
                     max_pause: float) -> dict[int, dict[str, Union[float, str]]]:
     """
-    Find all utterances in a Praat TextGrid file, returning start and end times and the
-    transcription as provided in the TextGrid.
+    Find all utterances in a Praat TextGrid file, returning start and end times
+    and the transcription as provided in the TextGrid.
 
     Utterance ends and beginnings are found using the `BREAK_TOKENS`, and any
     non-speaking tokens (as defined in `JUNK_TOKENS`) are removed.
@@ -42,7 +42,8 @@ def find_utterances(grid: tg.TextGrid, /, normalise: bool, min_break: float,
     :param normalise: Enable lowercase text normalisation.
     :param min_break: Minimum time between tokens required for break.
     :param max_pause: Maximum allowed pause time within an utterance.
-    :returns: dict of structure { segment_num -> { start_time, end_time, transcript } }
+    :returns: dict of structure 
+              { segment_num -> { start_time, end_time, transcript } }
     """
     segments = dict()
     start_time = float()
@@ -57,8 +58,8 @@ def find_utterances(grid: tg.TextGrid, /, normalise: bool, min_break: float,
         duration = interval.duration()
 
         # Find non-speech tokens and decide whether or not to end the utterance
-        # NOTE: `continue` statments are used to prevent writing non-speech tokens
-        # to the transcript
+        # NOTE: `continue` statments are used to prevent writing non-speech
+        # tokens to the transcript
         if interval.mark in JUNK_TOKENS:
             if seg_ongoing and duration > max_pause:
                 break_now = True
