@@ -24,7 +24,20 @@ This paradigm falls apart when the system must be re-tuned for each individual, 
     }
 
 In the 1970s, statistical methods including Hidden Markov Modelling (HMM) became a clear pathway to improving speech recognition.
-By viewing 
+By viewing
+\mycomment{
+        how does HMM work?
+                * treat speech as a continuous sequence of discrete states
+                * each state is modelled as a feature vector corresponding to an acoustic signal
+                * assume that each state is generated from a probabilistic distribution correlated with another state in the model
+                * through training, the model may estimate which states best correlate with an input signal
+                * the most likely sequence of states is decoded, generating a transcription
+
+        problems with HMM?
+                * assumption that successive frames of speech are independent, thus the probability of a sequence of observations may be written as a product of the probabilities of individual observations
+                * assumption that distirbutions of individaul observation params can be well represented as a mixture of Gaussian or autoregressive densities
+                * markov assumption - prob of being in a state at time 't' is only dependednt on the state at time 't-1' is innapropriate for speech because dependencies often extend through several states
+        }
 
 Since the 1970s the problem of speech recognition has been viewed more as one to be solved using statistical methods than by attempting to precisely match patterns\cite{Rabiner2004Jan}.
 
