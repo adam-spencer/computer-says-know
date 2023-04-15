@@ -1,4 +1,12 @@
 #!/usr/bin/env python
+"""
+normalise_text
+
+Normalise the text output by Whisper.
+
+Normalisation is done using `whisper.normalizer.EnglishTextNormalizer` and
+removing hesitations as defined in `HESITATION_TOKENS`.
+"""
 import json
 import sys
 from pathlib import Path

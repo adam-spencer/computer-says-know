@@ -10,6 +10,9 @@ This should mean that hesitations aren't present in the reference transcripts an
 I could, however, make direct edits to the output of Whisper rather than doing this all over again.
 The transcripts are all already done, it's just the WER calculations that need this!
 
+UPDATE:
+I've now added hesitation removal to text normalisation.
+
 TODO:
 * Should edit `src/calculate_wer` to calculate other measures that `jiwer` allows:
     + Be mindful that CER will include spaces in the calculation. May be worth some kind of normalisation to remove spaces.
