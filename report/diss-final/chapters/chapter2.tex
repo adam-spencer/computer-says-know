@@ -12,9 +12,9 @@
 \subsection{What is ASR?}
 
 Automatic Speech Recognition (ASR) is a technology which allows computers to recognise and produce a text transcription of spoken language.
-The research and development of ASR has been a part of computer science since the late 1930s\cite{Rabiner2004Jan,vocoder}, with rudimentary systems being constructed as early as the 1950s\cite{asr-52}.
-These early attempts at recognising human speech treated it as a `pattern recognition' problem, the theory being that words could be constructed by recognising the pattern created in a speech signal as a set of spoken phonemes\cite{Rabiner2004Jan}. 
-This paradigm falls apart when the system must be re-tuned for each individual, even for simple tasks such as recognising spoken digits\cite{asr-52}.
+The research and development of technology involving speech has been a part of computer science since the late 1930s\cite{Rabiner2004Jan,vocoder}, with rudimentary ASR systems being constructed as early as the 1950s\cite{asr-52}.
+These early attempts at recognising human speech treated it as a `pattern matching' problem, the theory being that words could be constructed by matching the pattern created in a speech signal to corresponding spoken phonemes\cite{Rabiner2004Jan}. 
+This paradigm falls apart when the system must be re-tuned for each individual, even for simple tasks such as recognising spoken digits\cite{asr-52}, due to the fact that individual speakers don't produce exactly the same signal for each phoneme\cite{Horton2010}.
 
 \mycomment{
         might be worth giving a bit more of an understanding of how much the field has 'blown up' since its inception.
@@ -22,13 +22,24 @@ This paradigm falls apart when the system must be re-tuned for each individual, 
         * what came before CNNs?
         * why are CNNs used now but not pre-y2k?
     }
-Since the 1970s, the problem of speech recognition has viewed more as one to be solved using statistical methods\cite{early-asr,Rabiner2004Jan,LevinsonS.E.1983Aitt}, with todays cutting-edge systems using Convolutional Neural Networks (CNNs)\cite{whisper,wav2vec2,bigssl,chung2021}, a method which requires massive quantities of data and computing power.
+
+In the 1970s, statistical methods including Hidden Markov Modelling (HMM) became a clear pathway to improving speech recognition.
+By viewing 
+
+Since the 1970s the problem of speech recognition has been viewed more as one to be solved using statistical methods than by attempting to precisely match patterns\cite{Rabiner2004Jan}.
+
+
+Such methods are still incorporated into modern research, such as Hidden Markovian Models, which were first applied to ASR in the '70s\cite{baker1975stochastic} but continue to play a part in new research\cite{hmm2023,bengio1999markovian}.
+
+
+with todays cutting-edge systems using Convolutional Neural Networks (CNNs)\cite{whisper,wav2vec2,bigssl,chung2021}, a method which requires massive quantities of data and computing power.
+
 Today, speech recognition systems are ubiquitous in everyday computing tasks; 
 integrated into operating systems and search engines, with uses ranging from `virtual assistants' (e.g., Apple's Siri, Amazon's Alexa) to providing people with disabilities the means to operate computer systems.
 
 \subsection{How Does Modern ASR Work?}
 \mycomment{
-    This section should adress the technical ins and outs of how ASR works, featuring a nice diagram or two.
+    This section should adress the technical ins and outs of how ASR works, featuring a diagram or two.
 
     This'd be a nice way to demonstrate my understanding of the workings of an ASR system.
 
