@@ -13,6 +13,6 @@ The transcripts are all already done, it's just the WER calculations that need t
 TODO:
 * Should edit `src/calculate_wer` to calculate other measures that `jiwer` allows:
     + Be mindful that CER will include spaces in the calculation. May be worth some kind of normalisation to remove spaces.
-* Add removal of hesitation tokens to `src/normalise_text`
+* Add removal of hesitation tokens to `src/normalise_text` (to save me time re-computing audio segments and re-transcribing)
 
 ---
