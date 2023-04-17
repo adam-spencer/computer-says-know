@@ -17,15 +17,6 @@ These early attempts at recognising human speech treated it as a `pattern matchi
 This paradigm falls apart when the system must be re-tuned for each individual, even for simple tasks such as recognising spoken digits\cite{asr-52}, due to the fact that individual speakers don't produce exactly the same signal for each phoneme\cite{Horton2010}.
 
 \mycomment{
-        might be worth giving a bit more of an understanding of how much the field has 'blown up' since its inception.
-
-        * what came before CNNs?
-        * why are CNNs used now but not pre-y2k?
-    }
-
-In the 1970s, statistical methods including Hidden Markov Modelling (HMM) became a clear pathway to improving speech recognition.
-By viewing
-\mycomment{
         how does HMM work?
                 * treat speech as a continuous sequence of discrete states
                 * each state is modelled as a feature vector corresponding to an acoustic signal
@@ -39,11 +30,26 @@ By viewing
                 * markov assumption - prob of being in a state at time 't' is only dependednt on the state at time 't-1' is innapropriate for speech because dependencies often extend through several states
         }
 
-Since the 1970s the problem of speech recognition has been viewed more as one to be solved using statistical methods than by attempting to precisely match patterns\cite{Rabiner2004Jan}.
+Since the 1970s, finding the solution to the problem of pattern matching for speech recognition has been considered unviable through the precise matching of patterns but instead finding the most probable pattern using statistical modelling\cite{Rabiner2004Jan}.
+The method which became most widely adopted and is still at the heart of modern ASR is Hidden Markovian Modelling, which was first applied to ASR in the '70s\cite{baker1975stochastic} and continued through the '90s\cite{bengio1999markovian} until today\cite{hmm2023}.
+
+\subsection{Hidden Markov Models}
+
+In his 1960 work\cite{dynkin1960}, Dynkin describes a Markov process by using the example of a particle in space;
+
+\say{
+        Suppose a particle is in random motion in a space $E$ during the interval of time $[0,\zeta]$.
+        If the position of the particle is known at the instant $t$, supplementary information regarding the phenomena observed up till the instant $t$ (and in particular, regarding the nature of the motion until $t$) has no effect on prognosis of the motion after the instant $t$ (for a known "present", the "future" and the "past" are independent of eachother).
+        The instant $\zeta$ at which the motion is cut off may be random.
+}
 
 
-Such methods are still incorporated into modern research, such as Hidden Markovian Models, which were first applied to ASR in the '70s\cite{baker1975stochastic} but continue to play a part in new research\cite{hmm2023,bengio1999markovian}.
+\mycomment{
+        might be worth giving a bit more of an understanding of how much the field has 'blown up' since its inception.
 
+        * what came before CNNs?
+        * why are CNNs used now but not pre-y2k?
+    }
 
 with todays cutting-edge systems using Convolutional Neural Networks (CNNs)\cite{whisper,wav2vec2,bigssl,chung2021}, a method which requires massive quantities of data and computing power.
 
