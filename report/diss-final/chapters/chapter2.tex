@@ -35,14 +35,24 @@ The method which became most widely adopted and is still at the heart of modern 
 
 \subsection{Hidden Markov Models}
 
-In his 1960 work\cite{dynkin1960}, Dynkin describes a Markov process by using the example of a particle in space;
+In his 1960 work\cite{dynkin1960}, Dynkin describes a Markov process using the example of a randomly-moving particle in space;
 
 \say{
-        Suppose a particle is in random motion in a space $E$ during the interval of time $[0,\zeta]$.
         If the position of the particle is known at the instant $t$, supplementary information regarding the phenomena observed up till the instant $t$ (and in particular, regarding the nature of the motion until $t$) has no effect on prognosis of the motion after the instant $t$ (for a known "present", the "future" and the "past" are independent of eachother).
-        The instant $\zeta$ at which the motion is cut off may be random.
 }
 
+From his description, we can draw the following assumptions for modelling a system as a Markov process;
+
+\begin{itemize}
+  \item The system consists of states.
+  \item The system is \emph{in motion}, i.e. moving between states.
+  \item This motion is random.
+  \item The motion observed prior to $t$ (say, $t-1$) does not influence $t+k$ where $k \geq 1$.
+  \item Because the particle is constantly moving between states, the state at time $t$ depends only on the state immediately prior, $t-1$.
+  \item There is some probability, $p$, that the system moves from one state to another.
+\end{itemize}
+
+A \emph{Hidden} Markov Model 
 
 \mycomment{
         might be worth giving a bit more of an understanding of how much the field has 'blown up' since its inception.
