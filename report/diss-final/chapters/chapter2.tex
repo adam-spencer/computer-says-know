@@ -52,7 +52,15 @@ From his description, we can draw the following assumptions for modelling a syst
   \item There is some probability, $p$, that the system moves from one state to another.
 \end{itemize}
 
-A \emph{Hidden} Markov Model 
+In a \emph{Hidden} Markov Model (HMM), the states and transition probabilities between them are known, but for some ouput sequence the order and selection of states used to produce the output is not known.
+Knowing both the states and transition probabilities, it is therefore possible to calculate the most probable set of inputs used to produce the output.
+
+To apply this model to speech, treat speech as a continuous sequence of discrete states, where each state is a feature vector representing an acoustic signal (either whole words, phonemes or even sub-phonetic features\cite{bengio1999markovian}).
+Assuming that each state is generated from a probabilistic distribution correlated with other states in the model\cite{Rabiner1989Feb} (i.e. probability that one state follows another) and having trained these distributions on known data, the output signal (i.e. the speech signal) can be used to determine the most probable sequence of tokens spoken.
+Using a language model, these tokens may be decoded to construct a transcription\cite{bengio1999markovian}.
+
+Despite making up much of the research foundational to modern ASR, Markov models have a crucial flaw when applied to speech; parts of speech are dependent on more than just the part immediately before (i.e. $t-1$).
+For instance in a presentation discussing \emph{hats} it is unlikely that the word \emph{cat} would be used, despite the phonetics of the word being largely the same.
 
 \mycomment{
         might be worth giving a bit more of an understanding of how much the field has 'blown up' since its inception.
