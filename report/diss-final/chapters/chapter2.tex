@@ -57,30 +57,16 @@ Knowing both the states and transition probabilities, it is therefore possible t
 
 To apply this model to speech, treat speech as a continuous sequence of discrete states, where each state is a feature vector representing an acoustic signal (either whole words, phonemes or even sub-phonetic features\cite{bengio1999markovian}).
 Assuming that each state is generated from a probabilistic distribution correlated with other states in the model\cite{Rabiner1989Feb} (i.e. probability that one state follows another) and having trained these distributions on known data, the output signal (i.e. the speech signal) can be used to determine the most probable sequence of tokens spoken.
-Using a language model, these tokens may be decoded to construct a transcription\cite{bengio1999markovian}.
+These tokens may then be decoded by a language model to construct a transcription\cite{bengio1999markovian}.
 
 Despite making up much of the research foundational to modern ASR, Markov models have a crucial flaw when applied to speech; parts of speech are dependent on more than just the part immediately before (i.e. $t-1$).
 For instance in a presentation discussing \emph{hats} it is unlikely that the word \emph{cat} would be used, despite the phonetics of the word being largely the same.
 
-\mycomment{
-        might be worth giving a bit more of an understanding of how much the field has 'blown up' since its inception.
-
-        * what came before CNNs?
-        * why are CNNs used now but not pre-y2k?
-    }
-
-with todays cutting-edge systems using Convolutional Neural Networks (CNNs)\cite{whisper,wav2vec2,bigssl,chung2021}, a method which requires massive quantities of data and computing power.
-
-Today, speech recognition systems are ubiquitous in everyday computing tasks; 
-integrated into operating systems and search engines, with uses ranging from `virtual assistants' (e.g., Apple's Siri, Amazon's Alexa) to providing people with disabilities the means to operate computer systems.
-
 \subsection{How Does Modern ASR Work?}
 \mycomment{
-    This section should adress the technical ins and outs of how ASR works, featuring a diagram or two.
+        'attention is all you need' - encoder-decoder transformer
 
-    This'd be a nice way to demonstrate my understanding of the workings of an ASR system.
-
-    Also mention supervised and unsupervised systems and the advantages/disadvantages of each.
+        neural networks and transformers!
   }
 
 \subsection{Problems in ASR}
