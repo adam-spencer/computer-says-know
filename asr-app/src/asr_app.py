@@ -4,6 +4,7 @@ from pathlib import Path
 
 from audio_data_link import AudioDataLinker
 from textual.app import App, ComposeResult
+from textual.coordinate import Coordinate
 from textual.widgets import DataTable, Footer
 
 ROW_HEIGHT = 4
@@ -45,8 +46,8 @@ class TranscriptionApp(App):
         self.data_linker = data_linker
 
     def action_play_sound(self):
-        if self.selected is not None:
-            self.data_linker.play_audio(self.selected)
+        if self.selected_idx is not None:
+            self.data_linker.play_audio(self.selected_idx)
 
     def sort_fn(self, col: str):
         rev = False
@@ -54,7 +55,8 @@ class TranscriptionApp(App):
             rev = True
         self.current_sort_col = col
         self.reversed_sort = rev
-        self.query_one(DataTable).sort(col, reverse=rev)
+        dt = self.query_one(DataTable)
+        dt.sort(col, reverse=rev)
 
     def action_sort_id(self):
         self.sort_fn('ID')
@@ -66,7 +68,9 @@ class TranscriptionApp(App):
         self.sort_fn('Average Log Probability')
 
     def on_data_table_cell_highlighted(self, message: DataTable.CellHighlighted):
-        self.selected = message.coordinate.row
+        row_num = message.coordinate.row
+        idx_coord = Coordinate(row_num, 0)
+        self.selected_idx = self.query_one(DataTable).get_cell_at(idx_coord)
 
 
 def launcher():
