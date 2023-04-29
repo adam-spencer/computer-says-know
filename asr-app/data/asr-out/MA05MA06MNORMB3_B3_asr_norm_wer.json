@@ -1,0 +1,3939 @@
+{
+  "0": {
+    "start": 7.19,
+    "end": 13.999,
+    "transcript": "okay beach scene going top left there is a there is a lady in a green",
+    "whisper": {
+      "text": "okay speech scene i am going top left there is a lady in a green",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.2,
+          "text": " Okay, speech scene.",
+          "tokens": [
+            50363,
+            16805,
+            11,
+            4046,
+            3715,
+            13,
+            50473
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3812108834584554,
+          "compression_ratio": 0.9295774647887324,
+          "no_speech_prob": 0.12993769347667694
+        },
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 2.2,
+          "end": 6.96,
+          "text": " I'm going top left, there's a lady in a green.",
+          "tokens": [
+            50473,
+            314,
+            1101,
+            1016,
+            1353,
+            1364,
+            11,
+            612,
+            338,
+            257,
+            10846,
+            287,
+            257,
+            4077,
+            13,
+            50711
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3812108834584554,
+          "compression_ratio": 0.9295774647887324,
+          "no_speech_prob": 0.12993769347667694
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.375,
+    "avg_logprob": -0.3812108834584554
+  },
+  "1": {
+    "start": 14.56,
+    "end": 22.609,
+    "transcript": "thingy i do not know what it is called under under kind of shelter blue shelter and she has got a table with table tennis tennis rackets some socks",
+    "whisper": {
+      "text": "thingy i do not know what it is called under a kind of shelter a blue shelter and she has got a table with table tennis tennis rackets some socks",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 3.7600000000000002,
+          "text": " thingy, I don't know what it's called, under a kind of shelter, a blue shelter and she's",
+          "tokens": [
+            50363,
+            1517,
+            88,
+            11,
+            314,
+            836,
+            470,
+            760,
+            644,
+            340,
+            338,
+            1444,
+            11,
+            739,
+            257,
+            1611,
+            286,
+            11772,
+            11,
+            257,
+            4171,
+            11772,
+            290,
+            673,
+            338,
+            50551
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.23753625293110692,
+          "compression_ratio": 1.3243243243243243,
+          "no_speech_prob": 0.18542852997779846
+        },
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 3.7600000000000002,
+          "end": 8.040000000000001,
+          "text": " got a table with table tennis, tennis rackets, some socks.",
+          "tokens": [
+            50551,
+            1392,
+            257,
+            3084,
+            351,
+            3084,
+            20790,
+            11,
+            20790,
+            19127,
+            1039,
+            11,
+            617,
+            24359,
+            13,
+            50765
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.23753625293110692,
+          "compression_ratio": 1.3243243243243243,
+          "no_speech_prob": 0.18542852997779846
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.06896551724137931,
+    "avg_logprob": -0.23753625293110692
+  },
+  "2": {
+    "start": 23.12,
+    "end": 28.84,
+    "transcript": "and some sh shells 2 socks actually you got have you got 3 okay excellent good work",
+    "whisper": {
+      "text": "and some shells 2 socks actually you got have you got excellent good work",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 3.16,
+          "text": " and some shells, two socks, actually.",
+          "tokens": [
+            50363,
+            290,
+            617,
+            19679,
+            11,
+            734,
+            24359,
+            11,
+            1682,
+            13,
+            50521
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4077619772690993,
+          "compression_ratio": 1.0789473684210527,
+          "no_speech_prob": 0.0252489373087883
+        },
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 3.16,
+          "end": 5.68,
+          "text": " You got, have you got, excellent, good work.",
+          "tokens": [
+            50521,
+            921,
+            1392,
+            11,
+            423,
+            345,
+            1392,
+            11,
+            6275,
+            11,
+            922,
+            670,
+            13,
+            50647
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4077619772690993,
+          "compression_ratio": 1.0789473684210527,
+          "no_speech_prob": 0.0252489373087883
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.17647058823529413,
+    "avg_logprob": -0.4077619772690993
+  },
+  "3": {
+    "start": 30.29,
+    "end": 32.329,
+    "transcript": "no balls where are the balls",
+    "whisper": {
+      "text": "no balls where are the balls",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.0,
+          "text": " No balls.",
+          "tokens": [
+            50363,
+            1400,
+            11333,
+            13,
+            50413
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2635659804710975,
+          "compression_ratio": 0.9375,
+          "no_speech_prob": 0.03828878700733185
+        },
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 1.0,
+          "end": 2.0,
+          "text": " Where are the balls?",
+          "tokens": [
+            50413,
+            6350,
+            389,
+            262,
+            11333,
+            30,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2635659804710975,
+          "compression_ratio": 0.9375,
+          "no_speech_prob": 0.03828878700733185
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.2635659804710975
+  },
+  "4": {
+    "start": 35.03,
+    "end": 36.97,
+    "transcript": "0 really okay interesting",
+    "whisper": {
+      "text": "really okay interesting",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.0,
+          "text": " Really, okay interesting",
+          "tokens": [
+            50363,
+            16123,
+            11,
+            8788,
+            3499,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2416429008756365,
+          "compression_ratio": 0.75,
+          "no_speech_prob": 0.0017164385644719005
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.25,
+    "avg_logprob": -0.2416429008756365
+  },
+  "5": {
+    "start": 37.51,
+    "end": 39.999,
+    "transcript": "okay there is a box of tennis rackets underneath the table",
+    "whisper": {
+      "text": "okay there is a box of tennis rackets underneath the table",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.84,
+          "text": " Okay, there's a box of tennis rackets underneath the table.",
+          "tokens": [
+            50363,
+            16805,
+            11,
+            612,
+            338,
+            257,
+            3091,
+            286,
+            20790,
+            19127,
+            1039,
+            14638,
+            262,
+            3084,
+            13,
+            50505
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.28214597702026367,
+          "compression_ratio": 0.9076923076923077,
+          "no_speech_prob": 0.0015318363439291716
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.28214597702026367
+  },
+  "6": {
+    "start": 41.23622,
+    "end": 41.51409,
+    "transcript": "yeah",
+    "whisper": {
+      "text": "yeah",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.54,
+          "text": " Yeah.",
+          "tokens": [
+            50363,
+            9425,
+            13,
+            50440
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.48969111442565916,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.036390773952007294
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.48969111442565916
+  },
+  "7": {
+    "start": 42.72,
+    "end": 44.2,
+    "transcript": "yeah correct how",
+    "whisper": {
+      "text": "yup correct",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.5,
+          "text": " Yup, correct.",
+          "tokens": [
+            50363,
+            575,
+            929,
+            11,
+            3376,
+            13,
+            50438
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.594740629196167,
+          "compression_ratio": 0.6190476190476191,
+          "no_speech_prob": 0.14826861023902893
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.6666666666666666,
+    "avg_logprob": -0.594740629196167
+  },
+  "8": {
+    "start": 44.54,
+    "end": 46.71132,
+    "transcript": "the shell things how many are there of them",
+    "whisper": {
+      "text": "the shell things how many are there of them",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.0,
+          "text": " The shell things, how many are there of them?",
+          "tokens": [
+            50363,
+            383,
+            7582,
+            1243,
+            11,
+            703,
+            867,
+            389,
+            612,
+            286,
+            606,
+            30,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3553035259246826,
+          "compression_ratio": 0.9375,
+          "no_speech_prob": 0.027669347822666168
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.3553035259246826
+  },
+  "9": {
+    "start": 48.459,
+    "end": 49.27715,
+    "transcript": "22 on the left",
+    "whisper": {
+      "text": "2 on the left",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.84,
+          "text": " Two on the left.",
+          "tokens": [
+            50363,
+            4930,
+            319,
+            262,
+            1364,
+            13,
+            50405
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.34090015292167664,
+          "compression_ratio": 0.6666666666666666,
+          "no_speech_prob": 0.1879451870918274
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.25,
+    "avg_logprob": -0.34090015292167664
+  },
+  "10": {
+    "start": 50.04,
+    "end": 50.419,
+    "transcript": "or",
+    "whisper": {
+      "text": "or .",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.5,
+          "text": " or...",
+          "tokens": [
+            50363,
+            393,
+            986,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.6993175029754639,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.8650936484336853
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.6993175029754639
+  },
+  "11": {
+    "start": 52.28,
+    "end": 53.999,
+    "transcript": "i have got 2 on the left and one on the right",
+    "whisper": {
+      "text": "i have got 2 on the left and one on the right",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.0,
+          "text": " I've got two on the left and one on the right.",
+          "tokens": [
+            50363,
+            314,
+            1053,
+            1392,
+            734,
+            319,
+            262,
+            1364,
+            290,
+            530,
+            319,
+            262,
+            826,
+            13,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.24195408821105957,
+          "compression_ratio": 1.0,
+          "no_speech_prob": 0.010219579562544823
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.24195408821105957
+  },
+  "12": {
+    "start": 55.98,
+    "end": 56.689,
+    "transcript": "you have not okay",
+    "whisper": {
+      "text": "you have not okay",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.84,
+          "text": " You haven't, okay.",
+          "tokens": [
+            50363,
+            921,
+            4398,
+            470,
+            11,
+            8788,
+            13,
+            50405
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4614018334282769,
+          "compression_ratio": 0.6923076923076923,
+          "no_speech_prob": 0.009303607977926731
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.4614018334282769
+  },
+  "13": {
+    "start": 58.01058,
+    "end": 58.42033,
+    "transcript": "yeah",
+    "whisper": {
+      "text": "yeah",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.5,
+          "text": " Yeah.",
+          "tokens": [
+            50363,
+            9425,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5104576110839844,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.04740633815526962
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.5104576110839844
+  },
+  "14": {
+    "start": 59.46,
+    "end": 59.879,
+    "transcript": "okay",
+    "whisper": {
+      "text": "okay",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.84,
+          "text": " Okay.",
+          "tokens": [
+            50363,
+            16805,
+            13,
+            50405
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.402543306350708,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.19883993268013
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.402543306350708
+  },
+  "15": {
+    "start": 60.39,
+    "end": 69.84,
+    "transcript": "let us go up a little bit there is a somebody in black with a kind of australian style hat not with the corks but brown trousers fishing for a shark",
+    "whisper": {
+      "text": "let us go up a little bit there is a somebody in black with a kind of australian style hat not with the corks but brown trousers fishing for a shark",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 4.4,
+          "text": " let's go up a little bit there's a somebody in black with a kind of",
+          "tokens": [
+            50363,
+            1309,
+            338,
+            467,
+            510,
+            257,
+            1310,
+            1643,
+            612,
+            338,
+            257,
+            8276,
+            287,
+            2042,
+            351,
+            257,
+            1611,
+            286,
+            50583
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.18778668223200617,
+          "compression_ratio": 1.3035714285714286,
+          "no_speech_prob": 0.018992725759744644
+        },
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 4.4,
+          "end": 11.200000000000001,
+          "text": " Australian style hat not with the corks but brown trousers fishing for a shark",
+          "tokens": [
+            50583,
+            6638,
+            3918,
+            6877,
+            407,
+            351,
+            262,
+            1162,
+            591,
+            475,
+            7586,
+            37191,
+            12478,
+            329,
+            257,
+            21027,
+            50923
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.18778668223200617,
+          "compression_ratio": 1.3035714285714286,
+          "no_speech_prob": 0.018992725759744644
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.18778668223200617
+  },
+  "16": {
+    "start": 70.65,
+    "end": 71.309,
+    "transcript": "black rod",
+    "whisper": {
+      "text": "black rod",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.64,
+          "text": " Black Rod.",
+          "tokens": [
+            50363,
+            2619,
+            6882,
+            13,
+            50395
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.6882238388061523,
+          "compression_ratio": 0.5555555555555556,
+          "no_speech_prob": 0.10541027039289474
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.6882238388061523
+  },
+  "17": {
+    "start": 71.94,
+    "end": 78.299,
+    "transcript": "shark is jumping up and out of the water breaching yeah gray shark big teeth big eye",
+    "whisper": {
+      "text": "shark is jumping up and out of the water breaching yep gray shark big teeth big eye",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 3.16,
+          "text": " Shark is jumping up and out of the water, breaching.",
+          "tokens": [
+            50363,
+            28616,
+            318,
+            14284,
+            510,
+            290,
+            503,
+            286,
+            262,
+            1660,
+            11,
+            46837,
+            13,
+            50521
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2955054896218436,
+          "compression_ratio": 1.0853658536585367,
+          "no_speech_prob": 0.03166243061423302
+        },
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 3.16,
+          "end": 6.24,
+          "text": " Yep, grey shark, big teeth, big eye.",
+          "tokens": [
+            50521,
+            40810,
+            11,
+            13791,
+            21027,
+            11,
+            1263,
+            9941,
+            11,
+            1263,
+            4151,
+            13,
+            50675
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2955054896218436,
+          "compression_ratio": 1.0853658536585367,
+          "no_speech_prob": 0.03166243061423302
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.058823529411764705,
+    "avg_logprob": -0.2955054896218436
+  },
+  "18": {
+    "start": 79.40027,
+    "end": 81.47,
+    "transcript": "few splashes around him",
+    "whisper": {
+      "text": "a few splashes around him",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.0,
+          "text": " A few splashes around him.",
+          "tokens": [
+            50363,
+            317,
+            1178,
+            4328,
+            7465,
+            1088,
+            683,
+            13,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.35457231998443606,
+          "compression_ratio": 0.7647058823529411,
+          "no_speech_prob": 0.022382210940122604
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.25,
+    "avg_logprob": -0.35457231998443606
+  },
+  "19": {
+    "start": 82.04,
+    "end": 83.459,
+    "transcript": "is there is there anything else in the",
+    "whisper": {
+      "text": "is there anything else in this",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.0,
+          "text": " Is there anything else in this?",
+          "tokens": [
+            50363,
+            1148,
+            612,
+            1997,
+            2073,
+            287,
+            428,
+            30,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3386342763900757,
+          "compression_ratio": 0.8157894736842105,
+          "no_speech_prob": 0.1954881101846695
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.375,
+    "avg_logprob": -0.3386342763900757
+  },
+  "20": {
+    "start": 83.75,
+    "end": 85.529,
+    "transcript": "i do not really have anything else in the sea",
+    "whisper": {
+      "text": "i do not really have anything else in the sea",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.2,
+          "text": " I don't really have anything else in the sea.",
+          "tokens": [
+            50363,
+            314,
+            836,
+            470,
+            1107,
+            423,
+            1997,
+            2073,
+            287,
+            262,
+            5417,
+            13,
+            50473
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.23856411661420548,
+          "compression_ratio": 0.8490566037735849,
+          "no_speech_prob": 0.0033896821551024914
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.23856411661420548
+  },
+  "21": {
+    "start": 85.79,
+    "end": 86.209,
+    "transcript": "but",
+    "whisper": {
+      "text": "po",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.5,
+          "text": " Po-",
+          "tokens": [
+            50363,
+            7695,
+            12,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4164337158203125,
+          "compression_ratio": 0.2727272727272727,
+          "no_speech_prob": 0.593751072883606
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 1.0,
+    "avg_logprob": -0.4164337158203125
+  },
+  "22": {
+    "start": 86.67,
+    "end": 88.709,
+    "transcript": "nothing else in the sea okay so going round",
+    "whisper": {
+      "text": "nothing else in the sea okay so going around",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.0,
+          "text": " Nothing else in the sea.",
+          "tokens": [
+            50363,
+            10528,
+            2073,
+            287,
+            262,
+            5417,
+            13,
+            50413
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4003447925343233,
+          "compression_ratio": 0.8867924528301887,
+          "no_speech_prob": 0.026511022821068764
+        },
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 1.0,
+          "end": 2.0,
+          "text": " Okay, so going around.",
+          "tokens": [
+            50413,
+            16805,
+            11,
+            523,
+            1016,
+            1088,
+            13,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4003447925343233,
+          "compression_ratio": 0.8867924528301887,
+          "no_speech_prob": 0.026511022821068764
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.1111111111111111,
+    "avg_logprob": -0.4003447925343233
+  },
+  "23": {
+    "start": 89.16,
+    "end": 92.099,
+    "transcript": "i have there is top some rocks on the right",
+    "whisper": {
+      "text": "i have there is some rocks on the right",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.88,
+          "text": " I have, there's some rocks on the right.",
+          "tokens": [
+            50363,
+            314,
+            423,
+            11,
+            612,
+            338,
+            617,
+            12586,
+            319,
+            262,
+            826,
+            13,
+            50507
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.37187174388340544,
+          "compression_ratio": 0.8695652173913043,
+          "no_speech_prob": 0.006585079710930586
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.1,
+    "avg_logprob": -0.37187174388340544
+  },
+  "24": {
+    "start": 93.159,
+    "end": 95.579,
+    "transcript": "there is a seagull perched on top of the rocks",
+    "whisper": {
+      "text": "there is a seagull perched on top of the rocks",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.32,
+          "text": " There's a seagull perched on top of the rocks.",
+          "tokens": [
+            50363,
+            1318,
+            338,
+            257,
+            384,
+            363,
+            724,
+            49264,
+            319,
+            1353,
+            286,
+            262,
+            12586,
+            13,
+            50479
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2755682170391083,
+          "compression_ratio": 0.8518518518518519,
+          "no_speech_prob": 0.007482950575649738
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.2755682170391083
+  },
+  "25": {
+    "start": 97.03782,
+    "end": 100.469,
+    "transcript": "right in the the the very highest pinnacle of the rock",
+    "whisper": {
+      "text": "right in the very highest pinnacle of the rock",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 5.28,
+          "text": " right in the very highest pinnacle of the rock.",
+          "tokens": [
+            50363,
+            826,
+            287,
+            262,
+            845,
+            4511,
+            45985,
+            286,
+            262,
+            3881,
+            13,
+            50627
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4040072147662823,
+          "compression_ratio": 0.94,
+          "no_speech_prob": 0.005010286811739206
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.18181818181818182,
+    "avg_logprob": -0.4040072147662823
+  },
+  "26": {
+    "start": 102.43305,
+    "end": 102.93228,
+    "transcript": "okay",
+    "whisper": {
+      "text": "okay",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.5,
+          "text": " Okay.",
+          "tokens": [
+            50363,
+            16805,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.44937520027160643,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.046099480241537094
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.44937520027160643
+  },
+  "27": {
+    "start": 103.49,
+    "end": 104.079,
+    "transcript": "",
+    "whisper": {
+      "text": "",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.0,
+          "text": " um",
+          "tokens": [
+            50363,
+            23781,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.1960059553384781,
+          "compression_ratio": 0.2,
+          "no_speech_prob": 0.3273618817329407
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.1960059553384781
+  },
+  "28": {
+    "start": 104.57,
+    "end": 105.259,
+    "transcript": "one there",
+    "whisper": {
+      "text": "one that",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.84,
+          "text": " One that.",
+          "tokens": [
+            50363,
+            1881,
+            326,
+            13,
+            50405
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.6308313608169556,
+          "compression_ratio": 0.5294117647058824,
+          "no_speech_prob": 0.5407464504241943
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.5,
+    "avg_logprob": -0.6308313608169556
+  },
+  "29": {
+    "start": 105.769,
+    "end": 114.309,
+    "transcript": "at the bottom of that big rock there are 3 small rocks to the left and then there is 2 directly in front and then there is 2 to the right do you have",
+    "whisper": {
+      "text": "at the bottom of that big rock there are 3 small rocks to the left and then there is 2 directly in front and then there is 2 to the right",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 4.12,
+          "text": " At the bottom of that big rock there are three small rocks to the left and then there's two",
+          "tokens": [
+            50363,
+            1629,
+            262,
+            4220,
+            286,
+            326,
+            1263,
+            3881,
+            612,
+            389,
+            1115,
+            1402,
+            12586,
+            284,
+            262,
+            1364,
+            290,
+            788,
+            612,
+            338,
+            734,
+            50569
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.1845574765592008,
+          "compression_ratio": 1.4845360824742269,
+          "no_speech_prob": 0.012314659543335438
+        },
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 4.12,
+          "end": 8.52,
+          "text": " directly in front and then there's two to the right.",
+          "tokens": [
+            50569,
+            3264,
+            287,
+            2166,
+            290,
+            788,
+            612,
+            338,
+            734,
+            284,
+            262,
+            826,
+            13,
+            50789
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.1845574765592008,
+          "compression_ratio": 1.4845360824742269,
+          "no_speech_prob": 0.012314659543335438
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.08823529411764706,
+    "avg_logprob": -0.1845574765592008
+  },
+  "30": {
+    "start": 115.5,
+    "end": 119.279,
+    "transcript": "okay and then below that there is a sign saying north beach white sign",
+    "whisper": {
+      "text": "okay and then below that there is a sign saying north beach white sign",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 3.64,
+          "text": " Okay, and then below that there's a sign saying North Beach white sign",
+          "tokens": [
+            50363,
+            16805,
+            11,
+            290,
+            788,
+            2174,
+            326,
+            612,
+            338,
+            257,
+            1051,
+            2282,
+            2258,
+            8511,
+            2330,
+            1051,
+            50545
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.24475251303778756,
+          "compression_ratio": 0.9859154929577465,
+          "no_speech_prob": 0.0082553680986166
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.24475251303778756
+  },
+  "31": {
+    "start": 121.18,
+    "end": 122.159,
+    "transcript": "okay excellent",
+    "whisper": {
+      "text": "okay excellent",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.96,
+          "text": " Okay, excellent.",
+          "tokens": [
+            50363,
+            16805,
+            11,
+            6275,
+            13,
+            50411
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.39794748170035227,
+          "compression_ratio": 0.6666666666666666,
+          "no_speech_prob": 0.030854670330882072
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.39794748170035227
+  },
+  "32": {
+    "start": 123.19,
+    "end": 127.969,
+    "transcript": "yeah brilliant okay blue bin full of crap with some flies",
+    "whisper": {
+      "text": "yeah brilliant okay blue bin full of crap with some flies",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 4.4,
+          "text": " Yeah, brilliant. Okay, um blue bin full of crap with some flies",
+          "tokens": [
+            50363,
+            9425,
+            11,
+            10457,
+            13,
+            16805,
+            11,
+            23781,
+            4171,
+            9874,
+            1336,
+            286,
+            18824,
+            351,
+            617,
+            17607,
+            50583
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2649226188659668,
+          "compression_ratio": 0.9264705882352942,
+          "no_speech_prob": 0.054205674678087234
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.2649226188659668
+  },
+  "33": {
+    "start": 129.58708,
+    "end": 137.08,
+    "transcript": "0 really okay yeah think i spotted some flies then bottom bottom right there is the guy waving saying hey",
+    "whisper": {
+      "text": "i really okay i think i spotted some flies then bottom bottom right there is a guy waving saying hey",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 3.2800000000000002,
+          "text": " I really, okay, I think I spotted some flies.",
+          "tokens": [
+            50363,
+            314,
+            1107,
+            11,
+            8788,
+            11,
+            314,
+            892,
+            314,
+            13489,
+            617,
+            17607,
+            13,
+            50527
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4615220715922694,
+          "compression_ratio": 1.1630434782608696,
+          "no_speech_prob": 0.12237260490655899
+        },
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 3.2800000000000002,
+          "end": 7.36,
+          "text": " Um, then bottom, bottom right there's a guy waving saying hey",
+          "tokens": [
+            50527,
+            21039,
+            11,
+            788,
+            4220,
+            11,
+            4220,
+            826,
+            612,
+            338,
+            257,
+            3516,
+            25849,
+            2282,
+            17207,
+            50731
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4615220715922694,
+          "compression_ratio": 1.1630434782608696,
+          "no_speech_prob": 0.12237260490655899
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.15,
+    "avg_logprob": -0.4615220715922694
+  },
+  "34": {
+    "start": 140.26,
+    "end": 140.649,
+    "transcript": "okay",
+    "whisper": {
+      "text": "okay",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.5,
+          "text": " Okay.",
+          "tokens": [
+            50363,
+            16805,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.43199915885925294,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.0326867438852787
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.43199915885925294
+  },
+  "35": {
+    "start": 141.63,
+    "end": 144.4335,
+    "transcript": "yeah and purple flip flops",
+    "whisper": {
+      "text": "yeah and purple flip flops",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.44,
+          "text": " Yeah, and purple flip-flops.",
+          "tokens": [
+            50363,
+            9425,
+            11,
+            290,
+            14032,
+            14283,
+            12,
+            2704,
+            2840,
+            13,
+            50485
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5105363130569458,
+          "compression_ratio": 0.7777777777777778,
+          "no_speech_prob": 0.0042307390831410885
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.5105363130569458
+  },
+  "36": {
+    "start": 145.11,
+    "end": 146.36855,
+    "transcript": "and a purple hat",
+    "whisper": {
+      "text": "purple heart",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.8000000000000003,
+          "text": " purple heart.",
+          "tokens": [
+            50363,
+            14032,
+            2612,
+            13,
+            50503
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.6809372107187907,
+          "compression_ratio": 0.6190476190476191,
+          "no_speech_prob": 0.2270803302526474
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.75,
+    "avg_logprob": -0.6809372107187907
+  },
+  "37": {
+    "start": 146.95726,
+    "end": 150.359,
+    "transcript": "then there is a red car that is stuck in in the sand",
+    "whisper": {
+      "text": "then there is a red car that is stuck in the sand",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 3.36,
+          "text": " Then there's a red car that's stuck in the sand.",
+          "tokens": [
+            50363,
+            3244,
+            612,
+            338,
+            257,
+            2266,
+            1097,
+            326,
+            338,
+            7819,
+            287,
+            262,
+            6450,
+            13,
+            50531
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2849142253398895,
+          "compression_ratio": 0.96,
+          "no_speech_prob": 0.045525241643190384
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.07692307692307693,
+    "avg_logprob": -0.2849142253398895
+  },
+  "38": {
+    "start": 151.14,
+    "end": 151.57,
+    "transcript": "there is a dog",
+    "whisper": {
+      "text": "as a dol",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.0,
+          "text": " As a dol-",
+          "tokens": [
+            50363,
+            1081,
+            257,
+            288,
+            349,
+            12,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.6698775291442871,
+          "compression_ratio": 0.5294117647058824,
+          "no_speech_prob": 0.4502505362033844
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.75,
+    "avg_logprob": -0.6698775291442871
+  },
+  "39": {
+    "start": 151.86,
+    "end": 154.359,
+    "transcript": "there is a dog driving it excellent",
+    "whisper": {
+      "text": "there is a dog driving it excellent",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.48,
+          "text": " There's a dog driving it, excellent.",
+          "tokens": [
+            50363,
+            1318,
+            338,
+            257,
+            3290,
+            5059,
+            340,
+            11,
+            6275,
+            13,
+            50487
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3673419952392578,
+          "compression_ratio": 0.8181818181818182,
+          "no_speech_prob": 0.0904640257358551
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.3673419952392578
+  },
+  "40": {
+    "start": 154.77,
+    "end": 157.66462,
+    "transcript": "pink seats the dogs sat on blue seat",
+    "whisper": {
+      "text": "pink seats the dog sat on the blue seat",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.8000000000000003,
+          "text": " pink seats, the dog sat on the blue seat, um",
+          "tokens": [
+            50363,
+            11398,
+            8632,
+            11,
+            262,
+            3290,
+            3332,
+            319,
+            262,
+            4171,
+            5852,
+            11,
+            23781,
+            50503
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4526136080423991,
+          "compression_ratio": 0.9777777777777777,
+          "no_speech_prob": 0.0764365866780281
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.25,
+    "avg_logprob": -0.4526136080423991
+  },
+  "41": {
+    "start": 159.4,
+    "end": 160.27,
+    "transcript": "0 really nice",
+    "whisper": {
+      "text": "really i swear .",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.0,
+          "text": " Really, I swear...",
+          "tokens": [
+            50363,
+            16123,
+            11,
+            314,
+            21192,
+            986,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.7656088471412659,
+          "compression_ratio": 0.6923076923076923,
+          "no_speech_prob": 0.39955633878707886
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 1.0,
+    "avg_logprob": -0.7656088471412659
+  },
+  "42": {
+    "start": 160.75,
+    "end": 166.449,
+    "transcript": "god we are good right there are 2 guys pushing the car and one of them is saying push",
+    "whisper": {
+      "text": "god we are good right there are 2 guys pushing the car and one of them is saying push",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.44,
+          "text": " God, we're good.",
+          "tokens": [
+            50363,
+            1793,
+            11,
+            356,
+            821,
+            922,
+            13,
+            50435
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2698616520051033,
+          "compression_ratio": 1.0963855421686748,
+          "no_speech_prob": 0.12297007441520691
+        },
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 1.44,
+          "end": 4.24,
+          "text": " Right, there are two guys pushing the car",
+          "tokens": [
+            50435,
+            6498,
+            11,
+            612,
+            389,
+            734,
+            3730,
+            7796,
+            262,
+            1097,
+            50575
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2698616520051033,
+          "compression_ratio": 1.0963855421686748,
+          "no_speech_prob": 0.12297007441520691
+        },
+        {
+          "id": 2,
+          "seek": 0,
+          "start": 4.24,
+          "end": 5.88,
+          "text": " and one of them is saying, push.",
+          "tokens": [
+            50575,
+            290,
+            530,
+            286,
+            606,
+            318,
+            2282,
+            11,
+            4574,
+            13,
+            50657
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2698616520051033,
+          "compression_ratio": 1.0963855421686748,
+          "no_speech_prob": 0.12297007441520691
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.2698616520051033
+  },
+  "43": {
+    "start": 168.94923,
+    "end": 170.119,
+    "transcript": "no just push",
+    "whisper": {
+      "text": "no just push",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.0,
+          "text": " No, just push",
+          "tokens": [
+            50363,
+            1400,
+            11,
+            655,
+            4574,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.18428829738071986,
+          "compression_ratio": 0.6190476190476191,
+          "no_speech_prob": 0.004669561050832272
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.18428829738071986
+  },
+  "44": {
+    "start": 171.72,
+    "end": 172.6,
+    "transcript": "okay excellent",
+    "whisper": {
+      "text": "okay excellent",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.84,
+          "text": " Okay, excellent.",
+          "tokens": [
+            50363,
+            16805,
+            11,
+            6275,
+            13,
+            50405
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4581647941044399,
+          "compression_ratio": 0.6666666666666666,
+          "no_speech_prob": 0.007943915203213692
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.4581647941044399
+  },
+  "45": {
+    "start": 173.75,
+    "end": 184.659,
+    "transcript": "there is 11 of pushing is in white shirt with blue jeans i think kind of thing and the other guy is wearing a orange hat and a green shirt and black trousers",
+    "whisper": {
+      "text": "there is one of the guy pushing is in white shirt with blue jeans i think kind of thing and the other guy is wearing an orange hat and a green shirt and black trousers",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 5.76,
+          "text": " There's, one of the guy pushing is in white shirt with blue jeans, I think, kind of thing.",
+          "tokens": [
+            50363,
+            1318,
+            338,
+            11,
+            530,
+            286,
+            262,
+            3516,
+            7796,
+            318,
+            287,
+            2330,
+            10147,
+            351,
+            4171,
+            21029,
+            11,
+            314,
+            892,
+            11,
+            1611,
+            286,
+            1517,
+            13,
+            50651
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.28217862447102865,
+          "compression_ratio": 1.3359375,
+          "no_speech_prob": 0.06796276569366455
+        },
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 5.76,
+          "end": 10.88,
+          "text": " And the other guy is wearing an orange hat and a green shirt and black trousers.",
+          "tokens": [
+            50651,
+            843,
+            262,
+            584,
+            3516,
+            318,
+            5762,
+            281,
+            10912,
+            6877,
+            290,
+            257,
+            4077,
+            10147,
+            290,
+            2042,
+            37191,
+            13,
+            50907
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.28217862447102865,
+          "compression_ratio": 1.3359375,
+          "no_speech_prob": 0.06796276569366455
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.12121212121212122,
+    "avg_logprob": -0.28217862447102865
+  },
+  "46": {
+    "start": 185.82,
+    "end": 189.55977,
+    "transcript": "and he is and he is the guy in front he he is like in the foreground",
+    "whisper": {
+      "text": "and he is the guy in front he is like in the foreground",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 3.68,
+          "text": " and he's the guy in front, he's like in the foreground.",
+          "tokens": [
+            50363,
+            290,
+            339,
+            338,
+            262,
+            3516,
+            287,
+            2166,
+            11,
+            339,
+            338,
+            588,
+            287,
+            262,
+            36282,
+            13,
+            50547
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.23855331208970812,
+          "compression_ratio": 1.0185185185185186,
+          "no_speech_prob": 0.0039115482941269875
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.23529411764705882,
+    "avg_logprob": -0.23855331208970812
+  },
+  "47": {
+    "start": 190.14,
+    "end": 195.209,
+    "transcript": "yeah if you look directly below the dog there are 3 seagulls pecking at the ground",
+    "whisper": {
+      "text": "yeah if you look directly below the dog there are 3 seagulls pecking at the ground",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 5.04,
+          "text": " Yeah, if you look directly below the dog, there are three seagulls pecking at the ground.",
+          "tokens": [
+            50363,
+            9425,
+            11,
+            611,
+            345,
+            804,
+            3264,
+            2174,
+            262,
+            3290,
+            11,
+            612,
+            389,
+            1115,
+            384,
+            363,
+            724,
+            82,
+            613,
+            44377,
+            379,
+            262,
+            2323,
+            13,
+            50615
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.19448344524090105,
+          "compression_ratio": 1.072289156626506,
+          "no_speech_prob": 0.012163080275058746
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.19448344524090105
+  },
+  "48": {
+    "start": 197.01,
+    "end": 197.48,
+    "transcript": "2",
+    "whisper": {
+      "text": "teeth",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.5,
+          "text": " teeth.",
+          "tokens": [
+            50363,
+            9941,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.7546899318695068,
+          "compression_ratio": 0.42857142857142855,
+          "no_speech_prob": 0.7756844162940979
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 1.0,
+    "avg_logprob": -0.7546899318695068
+  },
+  "49": {
+    "start": 197.79,
+    "end": 198.279,
+    "transcript": "or 3",
+    "whisper": {
+      "text": "2 or 3",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.84,
+          "text": " Two or three.",
+          "tokens": [
+            50363,
+            4930,
+            393,
+            1115,
+            13,
+            50405
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.6068313462393624,
+          "compression_ratio": 0.6190476190476191,
+          "no_speech_prob": 0.2789091467857361
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.5,
+    "avg_logprob": -0.6068313462393624
+  },
+  "50": {
+    "start": 198.59,
+    "end": 198.77082,
+    "transcript": "no",
+    "whisper": {
+      "text": "nice",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.84,
+          "text": " Nice.",
+          "tokens": [
+            50363,
+            18460,
+            13,
+            50405
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.1382898807525635,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.2334180772304535
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 1.0,
+    "avg_logprob": -0.1382898807525635
+  },
+  "51": {
+    "start": 199.56,
+    "end": 200.309,
+    "transcript": "3 yeah okay",
+    "whisper": {
+      "text": "yeah okay",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.0,
+          "text": " Yeah, okay",
+          "tokens": [
+            50363,
+            9425,
+            11,
+            8788,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4489051103591919,
+          "compression_ratio": 0.5555555555555556,
+          "no_speech_prob": 0.1316688060760498
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.3333333333333333,
+    "avg_logprob": -0.4489051103591919
+  },
+  "52": {
+    "start": 200.95,
+    "end": 204.809,
+    "transcript": "then we have got a lady with a pink rubber ring",
+    "whisper": {
+      "text": "then we have got a lady with a pink rubber ring",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 3.84,
+          "text": " Then we've got a lady with a pink rubber ring.",
+          "tokens": [
+            50363,
+            3244,
+            356,
+            1053,
+            1392,
+            257,
+            10846,
+            351,
+            257,
+            11398,
+            14239,
+            5858,
+            13,
+            50555
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.1887787183125814,
+          "compression_ratio": 0.8846153846153846,
+          "no_speech_prob": 0.002187039703130722
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.1887787183125814
+  },
+  "53": {
+    "start": 205.95,
+    "end": 207.96,
+    "transcript": "and she is wearing a gr green bikini",
+    "whisper": {
+      "text": "and she is wearing a green bikini",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.92,
+          "text": " and she's wearing a green bikini.",
+          "tokens": [
+            50363,
+            290,
+            673,
+            338,
+            5762,
+            257,
+            4077,
+            45810,
+            13,
+            50459
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2667585936459628,
+          "compression_ratio": 0.8048780487804879,
+          "no_speech_prob": 0.026663977652788162
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.125,
+    "avg_logprob": -0.2667585936459628
+  },
+  "54": {
+    "start": 208.75626,
+    "end": 209.669,
+    "transcript": "blonde hair",
+    "whisper": {
+      "text": "blonde hair",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.0,
+          "text": " blonde hair",
+          "tokens": [
+            50363,
+            21541,
+            4190,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3063838481903076,
+          "compression_ratio": 0.5789473684210527,
+          "no_speech_prob": 0.05828814581036568
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.3063838481903076
+  },
+  "55": {
+    "start": 210.72,
+    "end": 214.289,
+    "transcript": "the rubber ring has got like an a green nozzle on it or something see that yeah",
+    "whisper": {
+      "text": "the rubbering has got like a green nozzle on it or something do you see that yeah",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 3.44,
+          "text": " The rubbering's got like a green nozzle on it or something. Do you see that? Yeah.",
+          "tokens": [
+            50363,
+            383,
+            14239,
+            278,
+            338,
+            1392,
+            588,
+            257,
+            4077,
+            46031,
+            319,
+            340,
+            393,
+            1223,
+            13,
+            2141,
+            345,
+            766,
+            326,
+            30,
+            9425,
+            13,
+            50535
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2811497052510579,
+          "compression_ratio": 1.0123456790123457,
+          "no_speech_prob": 0.02875230647623539
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.29411764705882354,
+    "avg_logprob": -0.2811497052510579
+  },
+  "56": {
+    "start": 214.49,
+    "end": 214.71,
+    "transcript": "yeah",
+    "whisper": {
+      "text": "yeah",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.54,
+          "text": " Yeah.",
+          "tokens": [
+            50363,
+            9425,
+            13,
+            50440
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5728898525238038,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.058211445808410645
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.5728898525238038
+  },
+  "57": {
+    "start": 215.75755,
+    "end": 216.02129,
+    "transcript": "0",
+    "whisper": {
+      "text": "it is",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.0,
+          "text": " It's",
+          "tokens": [
+            50363,
+            632,
+            338,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.7469302654266358,
+          "compression_ratio": 0.3333333333333333,
+          "no_speech_prob": 0.6884823441505432
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 2.0,
+    "avg_logprob": -0.7469302654266358
+  },
+  "58": {
+    "start": 216.91,
+    "end": 217.629,
+    "transcript": "pink nozzle",
+    "whisper": {
+      "text": "paint nozzle",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.72,
+          "text": " Paint Nozzle.",
+          "tokens": [
+            50363,
+            23467,
+            1400,
+            26413,
+            13,
+            50399
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.7070212364196777,
+          "compression_ratio": 0.6190476190476191,
+          "no_speech_prob": 0.023024078458547592
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.5,
+    "avg_logprob": -0.7070212364196777
+  },
+  "59": {
+    "start": 219.53,
+    "end": 220.409,
+    "transcript": "yeah yeah cool okay",
+    "whisper": {
+      "text": "yeah yeah cool okay",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.16,
+          "text": " Yeah, yeah, cool, okay.",
+          "tokens": [
+            50363,
+            9425,
+            11,
+            10194,
+            11,
+            3608,
+            11,
+            8788,
+            13,
+            50421
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3962584842335094,
+          "compression_ratio": 0.8518518518518519,
+          "no_speech_prob": 0.006342356093227863
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.3962584842335094
+  },
+  "60": {
+    "start": 220.8515,
+    "end": 222.709,
+    "transcript": "then next to that there is a taxi",
+    "whisper": {
+      "text": "and next to that is a taxi",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.8,
+          "text": " Um, and next to that is a taxi.",
+          "tokens": [
+            50363,
+            21039,
+            11,
+            290,
+            1306,
+            284,
+            326,
+            318,
+            257,
+            17536,
+            13,
+            50453
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3905479724590595,
+          "compression_ratio": 0.7948717948717948,
+          "no_speech_prob": 0.03189171850681305
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.25,
+    "avg_logprob": -0.3905479724590595
+  },
+  "61": {
+    "start": 223.57,
+    "end": 226.069,
+    "transcript": "and it is white with black doors",
+    "whisper": {
+      "text": "and it is white with black doors",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.4,
+          "text": " and it's white with black doors.",
+          "tokens": [
+            50363,
+            290,
+            340,
+            338,
+            2330,
+            351,
+            2042,
+            8215,
+            13,
+            50483
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.38175335797396576,
+          "compression_ratio": 0.8,
+          "no_speech_prob": 0.023756587877869606
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.38175335797396576
+  },
+  "62": {
+    "start": 226.54,
+    "end": 228.679,
+    "transcript": "and brown strips up the middle",
+    "whisper": {
+      "text": "and brown strips up the middle",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.04,
+          "text": " and brown strips up the middle.",
+          "tokens": [
+            50363,
+            290,
+            7586,
+            22670,
+            510,
+            262,
+            3504,
+            13,
+            50465
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2792668342590332,
+          "compression_ratio": 0.7948717948717948,
+          "no_speech_prob": 0.0015185807133093476
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.2792668342590332
+  },
+  "63": {
+    "start": 231.35,
+    "end": 233.989,
+    "transcript": "yes it is tax one yes agreed",
+    "whisper": {
+      "text": "yes it is tax one yes agreed",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.64,
+          "text": " Yes, it's Tax 1, yes, agreed.",
+          "tokens": [
+            50363,
+            3363,
+            11,
+            340,
+            338,
+            9241,
+            352,
+            11,
+            3763,
+            11,
+            4987,
+            13,
+            50495
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5083325931004116,
+          "compression_ratio": 0.8285714285714286,
+          "no_speech_prob": 0.016878701746463776
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.5083325931004116
+  },
+  "64": {
+    "start": 236.41,
+    "end": 237.22,
+    "transcript": "no it does not",
+    "whisper": {
+      "text": "no it does not",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.84,
+          "text": " No, it doesn't.",
+          "tokens": [
+            50363,
+            1400,
+            11,
+            340,
+            1595,
+            470,
+            13,
+            50405
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.335984018113878,
+          "compression_ratio": 0.6521739130434783,
+          "no_speech_prob": 0.02594883181154728
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.335984018113878
+  },
+  "65": {
+    "start": 237.63,
+    "end": 239.369,
+    "transcript": "where what what door does it say that on",
+    "whisper": {
+      "text": "what door does it say that on",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.68,
+          "text": " What door does it say that on?",
+          "tokens": [
+            50363,
+            1867,
+            3420,
+            857,
+            340,
+            910,
+            326,
+            319,
+            30,
+            50447
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2876549417322332,
+          "compression_ratio": 0.8823529411764706,
+          "no_speech_prob": 0.046917106956243515
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.2222222222222222,
+    "avg_logprob": -0.2876549417322332
+  },
+  "66": {
+    "start": 241.3,
+    "end": 245.769,
+    "transcript": "driver is door excellent okay does a taxi on top of the taxi say taxi",
+    "whisper": {
+      "text": "driver is door excellent okay does the taxi on top of the taxi say taxi",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.36,
+          "text": " Driver's door, excellent, okay.",
+          "tokens": [
+            50363,
+            12434,
+            338,
+            3420,
+            11,
+            6275,
+            11,
+            8788,
+            13,
+            50481
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.21671964724858603,
+          "compression_ratio": 1.0571428571428572,
+          "no_speech_prob": 0.013402128592133522
+        },
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 2.36,
+          "end": 4.64,
+          "text": " Does the taxi on top of the taxi say taxi?",
+          "tokens": [
+            50481,
+            8314,
+            262,
+            17536,
+            319,
+            1353,
+            286,
+            262,
+            17536,
+            910,
+            17536,
+            30,
+            50595
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.21671964724858603,
+          "compression_ratio": 1.0571428571428572,
+          "no_speech_prob": 0.013402128592133522
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.06666666666666667,
+    "avg_logprob": -0.21671964724858603
+  },
+  "67": {
+    "start": 247.18754,
+    "end": 249.039,
+    "transcript": "is there anything in your taxi",
+    "whisper": {
+      "text": "is there anything in your taxi",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.0,
+          "text": " Is there anything in your taxi?",
+          "tokens": [
+            50363,
+            1148,
+            612,
+            1997,
+            287,
+            534,
+            17536,
+            30,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.057883942127227785,
+          "compression_ratio": 0.7948717948717948,
+          "no_speech_prob": 0.0041142841801047325
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.057883942127227785
+  },
+  "68": {
+    "start": 249.55,
+    "end": 250.07,
+    "transcript": "or anyone",
+    "whisper": {
+      "text": "or anyone",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.5,
+          "text": " or anyone.",
+          "tokens": [
+            50363,
+            393,
+            2687,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4701167345046997,
+          "compression_ratio": 0.5555555555555556,
+          "no_speech_prob": 0.18382695317268372
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.4701167345046997
+  },
+  "69": {
+    "start": 252.04,
+    "end": 253.39,
+    "transcript": "yeah yeah excellent",
+    "whisper": {
+      "text": "yeah yeah excellent",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.0,
+          "text": " Yeah, yeah, excellent",
+          "tokens": [
+            50363,
+            9425,
+            11,
+            10194,
+            11,
+            6275,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.20787453651428223,
+          "compression_ratio": 0.84,
+          "no_speech_prob": 0.02486971765756607
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.20787453651428223
+  },
+  "70": {
+    "start": 253.69,
+    "end": 261.44,
+    "transcript": "good observation directly above that there is a a green sign saying one night only love shack which sounds fun",
+    "whisper": {
+      "text": "good observation directly above that is a green sign saying one night only love shack which sounds fun",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 4.8,
+          "text": " good observation. Directly above that is a green sign saying",
+          "tokens": [
+            50363,
+            922,
+            13432,
+            13,
+            4128,
+            306,
+            2029,
+            326,
+            318,
+            257,
+            4077,
+            1051,
+            2282,
+            50603
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3003080509327076,
+          "compression_ratio": 1.0714285714285714,
+          "no_speech_prob": 0.10075798630714417
+        },
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 4.8,
+          "end": 7.76,
+          "text": " One Night Only Love Shack, which sounds fun.",
+          "tokens": [
+            50603,
+            1881,
+            5265,
+            5514,
+            5896,
+            41149,
+            11,
+            543,
+            5238,
+            1257,
+            13,
+            50751
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3003080509327076,
+          "compression_ratio": 1.0714285714285714,
+          "no_speech_prob": 0.10075798630714417
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.1,
+    "avg_logprob": -0.3003080509327076
+  },
+  "71": {
+    "start": 261.95272,
+    "end": 262.319,
+    "transcript": "",
+    "whisper": {
+      "text": ".",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.5,
+          "text": " Um...",
+          "tokens": [
+            50363,
+            21039,
+            986,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.6867720603942871,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.6539633870124817
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.6867720603942871
+  },
+  "72": {
+    "start": 264.22,
+    "end": 264.639,
+    "transcript": "okay",
+    "whisper": {
+      "text": "okay",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.84,
+          "text": " Okay.",
+          "tokens": [
+            50363,
+            16805,
+            13,
+            50405
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.40644407272338867,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.05273176357150078
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.40644407272338867
+  },
+  "73": {
+    "start": 265.0,
+    "end": 265.48,
+    "transcript": "cool",
+    "whisper": {
+      "text": "cool",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.5,
+          "text": " Cool.",
+          "tokens": [
+            50363,
+            15226,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.460477876663208,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.12564106285572052
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.460477876663208
+  },
+  "74": {
+    "start": 265.88531,
+    "end": 268.389,
+    "transcript": "to the left of that there is a smoothies bar",
+    "whisper": {
+      "text": "to the left of that there is a smoothies bar",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.46,
+          "text": " Um, to the left of that there's a smoothies bar.",
+          "tokens": [
+            50363,
+            21039,
+            11,
+            284,
+            262,
+            1364,
+            286,
+            326,
+            612,
+            338,
+            257,
+            7209,
+            444,
+            2318,
+            13,
+            50486
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3053322679856244,
+          "compression_ratio": 0.9230769230769231,
+          "no_speech_prob": 0.008358195424079895
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.3053322679856244
+  },
+  "75": {
+    "start": 269.22,
+    "end": 270.34,
+    "transcript": "and it says smoothies in",
+    "whisper": {
+      "text": "and it says smoothies and",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.12,
+          "text": " And it says smoothies and.",
+          "tokens": [
+            50363,
+            843,
+            340,
+            1139,
+            7209,
+            444,
+            290,
+            13,
+            50419
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.49580936431884765,
+          "compression_ratio": 0.7647058823529411,
+          "no_speech_prob": 0.035433679819107056
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.2,
+    "avg_logprob": -0.49580936431884765
+  },
+  "76": {
+    "start": 270.73,
+    "end": 272.859,
+    "transcript": "red background with black writing",
+    "whisper": {
+      "text": "red background with black writing",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.08,
+          "text": " red background with black writing.",
+          "tokens": [
+            50363,
+            2266,
+            4469,
+            351,
+            2042,
+            3597,
+            13,
+            50467
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3635055489010281,
+          "compression_ratio": 0.8292682926829268,
+          "no_speech_prob": 0.11147793382406235
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.3635055489010281
+  },
+  "77": {
+    "start": 273.46685,
+    "end": 276.459,
+    "transcript": "gray and then it is g mostly green the shack",
+    "whisper": {
+      "text": "gray and then it is mostly green the shack",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.96,
+          "text": " grey and then it's mostly green, the shack.",
+          "tokens": [
+            50363,
+            13791,
+            290,
+            788,
+            340,
+            338,
+            4632,
+            4077,
+            11,
+            262,
+            32772,
+            13,
+            50511
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.44842311314174105,
+          "compression_ratio": 0.8775510204081632,
+          "no_speech_prob": 0.007980270311236382
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.1,
+    "avg_logprob": -0.44842311314174105
+  },
+  "78": {
+    "start": 277.87,
+    "end": 279.00208,
+    "transcript": "and",
+    "whisper": {
+      "text": "and",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.84,
+          "text": " And, uh.",
+          "tokens": [
+            50363,
+            843,
+            11,
+            21480,
+            13,
+            50405
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.7101167270115444,
+          "compression_ratio": 0.5,
+          "no_speech_prob": 0.2366952896118164
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.7101167270115444
+  },
+  "79": {
+    "start": 280.05,
+    "end": 283.29,
+    "transcript": "mine just says peaches so i am clicking that and there is",
+    "whisper": {
+      "text": "minda says peaches so i am clicking that and there is a",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 3.2600000000000002,
+          "text": " Minda says peaches, so I'm clicking that and there's a",
+          "tokens": [
+            50363,
+            10175,
+            64,
+            1139,
+            613,
+            3694,
+            11,
+            523,
+            314,
+            1101,
+            12264,
+            326,
+            290,
+            612,
+            338,
+            257,
+            50526
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2722965081532796,
+          "compression_ratio": 0.9,
+          "no_speech_prob": 0.19884130358695984
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.25,
+    "avg_logprob": -0.2722965081532796
+  },
+  "80": {
+    "start": 283.759,
+    "end": 285.159,
+    "transcript": "do you have a blender on your counter",
+    "whisper": {
+      "text": "do you have a blender on your counter",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.4000000000000001,
+          "text": " Do you have a blender on your counter?",
+          "tokens": [
+            50363,
+            2141,
+            345,
+            423,
+            257,
+            40047,
+            319,
+            534,
+            3753,
+            30,
+            50433
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2444191575050354,
+          "compression_ratio": 0.8636363636363636,
+          "no_speech_prob": 0.029474418610334396
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.2444191575050354
+  },
+  "81": {
+    "start": 287.95,
+    "end": 288.31,
+    "transcript": "yeah",
+    "whisper": {
+      "text": "yeah",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.5,
+          "text": " Yeah.",
+          "tokens": [
+            50363,
+            9425,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.34013364315032957,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.056583039462566376
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.34013364315032957
+  },
+  "82": {
+    "start": 288.76,
+    "end": 294.819,
+    "transcript": "yeah no i have not got that just above the blender i got for some reason like 4 black squares",
+    "whisper": {
+      "text": "yeah no i have not got that just above the blender i have got for some reason like 4 black squares",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.04,
+          "text": " Yeah, no, I haven't got that.",
+          "tokens": [
+            50363,
+            9425,
+            11,
+            645,
+            11,
+            314,
+            4398,
+            470,
+            1392,
+            326,
+            13,
+            50465
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2675166538783482,
+          "compression_ratio": 1.141304347826087,
+          "no_speech_prob": 0.08416859805583954
+        },
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 2.04,
+          "end": 4.36,
+          "text": " Just above the blender, I've got, for some reason,",
+          "tokens": [
+            50465,
+            2329,
+            2029,
+            262,
+            40047,
+            11,
+            314,
+            1053,
+            1392,
+            11,
+            329,
+            617,
+            1738,
+            11,
+            50581
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2675166538783482,
+          "compression_ratio": 1.141304347826087,
+          "no_speech_prob": 0.08416859805583954
+        },
+        {
+          "id": 2,
+          "seek": 0,
+          "start": 4.36,
+          "end": 5.96,
+          "text": " like four black squares.",
+          "tokens": [
+            50581,
+            588,
+            1440,
+            2042,
+            24438,
+            13,
+            50661
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2675166538783482,
+          "compression_ratio": 1.141304347826087,
+          "no_speech_prob": 0.08416859805583954
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.05,
+    "avg_logprob": -0.2675166538783482
+  },
+  "83": {
+    "start": 295.81,
+    "end": 296.129,
+    "transcript": "yeah",
+    "whisper": {
+      "text": "yeah",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.54,
+          "text": " Yeah.",
+          "tokens": [
+            50363,
+            9425,
+            13,
+            50440
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.24396770000457763,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.12243183702230453
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.24396770000457763
+  },
+  "84": {
+    "start": 297.509,
+    "end": 306.03,
+    "transcript": "okay that is quite a lot now 11 thing i have not talked about yet is the sandcastle which is if you look half right in the middle of the screen pretty much",
+    "whisper": {
+      "text": "okay that is quite a lot now 11 thing i have not talked about yet is the sand castle which is if you look half right in the middle of the screen pretty much",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 5.54,
+          "text": " Okay, that's quite a lot now one one thing I haven't talked about yet is the sand castle",
+          "tokens": [
+            50363,
+            16805,
+            11,
+            326,
+            338,
+            2407,
+            257,
+            1256,
+            783,
+            530,
+            530,
+            1517,
+            314,
+            4398,
+            470,
+            6619,
+            546,
+            1865,
+            318,
+            262,
+            6450,
+            16669,
+            50640
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.16552558759363686,
+          "compression_ratio": 1.3008130081300813,
+          "no_speech_prob": 0.022992027923464775
+        },
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 5.54,
+          "end": 8.34,
+          "text": " Which is if you look half right in the middle of the screen pretty much",
+          "tokens": [
+            50640,
+            9022,
+            318,
+            611,
+            345,
+            804,
+            2063,
+            826,
+            287,
+            262,
+            3504,
+            286,
+            262,
+            3159,
+            2495,
+            881,
+            50780
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.16552558759363686,
+          "compression_ratio": 1.3008130081300813,
+          "no_speech_prob": 0.022992027923464775
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.06060606060606061,
+    "avg_logprob": -0.16552558759363686
+  },
+  "85": {
+    "start": 306.69,
+    "end": 306.909,
+    "transcript": "yeah",
+    "whisper": {
+      "text": "yeah",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.5,
+          "text": " Yeah.",
+          "tokens": [
+            50363,
+            9425,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5449945449829101,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.2298947274684906
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.5449945449829101
+  },
+  "86": {
+    "start": 308.25,
+    "end": 311.099,
+    "transcript": "yeahs which one is the which one is are your red and which your blue",
+    "whisper": {
+      "text": "yeah which ones are your red and which are your blue",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.84,
+          "text": " Yeah, which ones are your red and which are your blue?",
+          "tokens": [
+            50363,
+            9425,
+            11,
+            543,
+            3392,
+            389,
+            534,
+            2266,
+            290,
+            543,
+            389,
+            534,
+            4171,
+            30,
+            50505
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3362745940685272,
+          "compression_ratio": 1.1020408163265305,
+          "no_speech_prob": 0.013875767588615417
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.5333333333333333,
+    "avg_logprob": -0.3362745940685272
+  },
+  "87": {
+    "start": 313.98,
+    "end": 314.309,
+    "transcript": "yeah",
+    "whisper": {
+      "text": "yeah",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.84,
+          "text": " Yeah.",
+          "tokens": [
+            50363,
+            9425,
+            13,
+            50405
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.559980821609497,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.10409971326589584
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.559980821609497
+  },
+  "88": {
+    "start": 316.24,
+    "end": 318.899,
+    "transcript": "yeah okay great and above that is there a bucket and spade",
+    "whisper": {
+      "text": "yeah okay great and above that is there a bucket and spade",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.64,
+          "text": " Yeah okay great, and above that is there a bucket and spade?",
+          "tokens": [
+            50363,
+            9425,
+            8788,
+            1049,
+            11,
+            290,
+            2029,
+            326,
+            318,
+            612,
+            257,
+            19236,
+            290,
+            599,
+            671,
+            30,
+            50495
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.31135310067070854,
+          "compression_ratio": 0.9523809523809523,
+          "no_speech_prob": 0.0037238113582134247
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.31135310067070854
+  },
+  "89": {
+    "start": 320.47,
+    "end": 322.55,
+    "transcript": "red bucket yellow spade okay",
+    "whisper": {
+      "text": "red bucket yellow spade okay",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.96,
+          "text": " Red bucket, yellow spade, okay.",
+          "tokens": [
+            50363,
+            2297,
+            19236,
+            11,
+            7872,
+            599,
+            671,
+            11,
+            8788,
+            13,
+            50461
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4205983877182007,
+          "compression_ratio": 0.7948717948717948,
+          "no_speech_prob": 0.02348441258072853
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.4205983877182007
+  },
+  "90": {
+    "start": 323.52528,
+    "end": 326.419,
+    "transcript": "shit seems",
+    "whisper": {
+      "text": "shiiiii that seems like",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.1,
+          "text": " Shiiiii-",
+          "tokens": [
+            50363,
+            911,
+            4178,
+            15479,
+            12,
+            50418
+          ],
+          "temperature": 1.0,
+          "avg_logprob": -1.8227845705472505,
+          "compression_ratio": 0.8333333333333334,
+          "no_speech_prob": 0.039202384650707245
+        },
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 2.2600000000000002,
+          "end": 2.7600000000000002,
+          "text": " That seems like-",
+          "tokens": [
+            50476,
+            1320,
+            2331,
+            588,
+            12,
+            50501
+          ],
+          "temperature": 1.0,
+          "avg_logprob": -1.8227845705472505,
+          "compression_ratio": 0.8333333333333334,
+          "no_speech_prob": 0.039202384650707245
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 1.5,
+    "avg_logprob": -1.8227845705472505
+  },
+  "91": {
+    "start": 326.67,
+    "end": 328.259,
+    "transcript": "i do not know how many that is 123",
+    "whisper": {
+      "text": "i do not know how many that is 123",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.0,
+          "text": " I don't know how many that is.",
+          "tokens": [
+            50363,
+            314,
+            836,
+            470,
+            760,
+            703,
+            867,
+            326,
+            318,
+            13,
+            50413
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3119670391082764,
+          "compression_ratio": 0.9038461538461539,
+          "no_speech_prob": 0.03552914038300514
+        },
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 1.0,
+          "end": 1.56,
+          "text": " One, two, three.",
+          "tokens": [
+            50413,
+            1881,
+            11,
+            734,
+            11,
+            1115,
+            13,
+            50441
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3119670391082764,
+          "compression_ratio": 0.9038461538461539,
+          "no_speech_prob": 0.03552914038300514
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.3119670391082764
+  },
+  "92": {
+    "start": 328.71,
+    "end": 333.949,
+    "transcript": "456789 10 11 12 that is 12 i think we have got",
+    "whisper": {
+      "text": "4 5 6 7 8 9 10 11 12 that is 12 i think we have got",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 5.2,
+          "text": " 4, 5, 6, 7, 8, 9, 10, 11, 12, that's 12 I think we've got.",
+          "tokens": [
+            50363,
+            604,
+            11,
+            642,
+            11,
+            718,
+            11,
+            767,
+            11,
+            807,
+            11,
+            860,
+            11,
+            838,
+            11,
+            1367,
+            11,
+            1105,
+            11,
+            326,
+            338,
+            1105,
+            314,
+            892,
+            356,
+            1053,
+            1392,
+            13,
+            50623
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.18751514752705892,
+          "compression_ratio": 0.9666666666666667,
+          "no_speech_prob": 0.016056450083851814
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.5,
+    "avg_logprob": -0.18751514752705892
+  },
+  "93": {
+    "start": 334.86,
+    "end": 336.289,
+    "transcript": "should should we finish",
+    "whisper": {
+      "text": "should we finish",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.0,
+          "text": " Should we finish?",
+          "tokens": [
+            50363,
+            10358,
+            356,
+            5461,
+            30,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.27682667119162424,
+          "compression_ratio": 0.68,
+          "no_speech_prob": 0.01760769449174404
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.25,
+    "avg_logprob": -0.27682667119162424
+  },
+  "94": {
+    "start": 336.53,
+    "end": 336.8,
+    "transcript": "yeah",
+    "whisper": {
+      "text": "yeah",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.5,
+          "text": " Yeah.",
+          "tokens": [
+            50363,
+            9425,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5477601528167725,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.11858411133289337
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.5477601528167725
+  },
+  "95": {
+    "start": 337.28,
+    "end": 337.81,
+    "transcript": "okay",
+    "whisper": {
+      "text": "okay",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.54,
+          "text": " OK.",
+          "tokens": [
+            50363,
+            7477,
+            13,
+            50440
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.44440393447875975,
+          "compression_ratio": 0.2727272727272727,
+          "no_speech_prob": 0.1914547085762024
+        }
+      ],
+      "language": "en"
+    },
+    "wer": 0.0,
+    "avg_logprob": -0.44440393447875975
+  }
+}
