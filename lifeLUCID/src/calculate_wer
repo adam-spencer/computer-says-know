@@ -25,6 +25,15 @@ normalise = EnglishTextNormalizer()
 only_digits = re.compile(r'^\d+$')
 
 
+def get_avg_logprob(data: dict) -> float:
+    n_segs = 0.0
+    total_logprob = 0.0
+    for seg in data['whisper']['segments']:
+        n_segs += 1.0
+        total_logprob += seg['avg_logprob']
+    return total_logprob / n_segs
+
+
 def get_file_wer(transcript_file: Path) -> dict:
     """
     Get WER from a transcript JSON file as returned by do_whisper.
@@ -51,6 +60,7 @@ def get_file_wer(transcript_file: Path) -> dict:
             wer = jw.wer(ref, hyp)
         wer_total += wer
         data_dict[idx]['wer'] = wer
+        data_dict[idx]['avg_logprob'] = get_avg_logprob(data)
         n_utterances += 1
 
     wer_average = wer_total / n_utterances
