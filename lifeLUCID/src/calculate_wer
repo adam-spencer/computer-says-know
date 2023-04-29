@@ -26,11 +26,19 @@ only_digits = re.compile(r'^\d+$')
 
 
 def get_avg_logprob(data: dict) -> float:
+    """
+    Get an average value for the log posterior probability.
+
+    :param data: Data for single utterance.
+    :returns: Average log posterior probability / number of utterance segments
+    """
     n_segs = 0.0
     total_logprob = 0.0
     for seg in data['whisper']['segments']:
         n_segs += 1.0
         total_logprob += seg['avg_logprob']
+    if n_segs <= 0.0:
+        return None
     return total_logprob / n_segs
 
 
