@@ -34,7 +34,7 @@ class AudioDataLinker:
         audio_file = self.audio_dir / f'{idx:03d}.wav'
         if not audio_file.exists():
             return False
-        sd.play(*sf.read(audio_file), blocking=True)
+        sd.play(*sf.read(audio_file))  # , blocking=True)
 
     def data_for_table(self, height: int = 2) -> list:
         """ 
@@ -42,12 +42,15 @@ class AudioDataLinker:
 
         :returns: List containing table rows.
         """
-        table_rows = [('ID', 'Hypothesis', 'Reference')]
+        table_rows = [('ID', 'Hypothesis', 'Reference',
+                       'Average Log Probability', 'WER')]
         for idx, utterance in self.data.items():
-            ref = wrap(utterance['transcript'])
             hyp = wrap(utterance['whisper']['text'])
+            ref = wrap(utterance['transcript'])
+            avg_logprob = utterance['avg_logprob']
+            wer = utterance['wer']
             table_rows.append(
-                (idx, hyp, ref))
+                (int(idx), hyp, ref, float(avg_logprob), float(wer)))
         return table_rows
 
 
