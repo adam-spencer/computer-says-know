@@ -1,4 +1,5 @@
-import sys
+import cmd
+import shutil
 from pathlib import Path
 
 from audio_data_link import AudioDataLinker
@@ -68,20 +69,43 @@ class TranscriptionApp(App):
         self.selected = message.coordinate.row
 
 
+def launcher():
+    """
+    Launcher for my ASR App!
+
+    In order for this to work, asr_app.py must be run from the `asr-app/src`
+    directory.
+
+    It will open up a list of conversatiosn to choose from, take a user's input
+    as a number corresponding to a conversation and then the app will launch.
+
+    :returns: something...
+    """
+    data_path = Path('../data')
+    asr_data_path = data_path / 'asr-out'
+    audio_dirs_list = sorted(
+        [i for i in (data_path / 'audio').iterdir() if i.is_dir()])
+
+    # Present the conversations by code and allow the user to choose
+    convos = [f'{idx:2} : {d.name} ' for idx, d in enumerate(audio_dirs_list)]
+    cli = cmd.Cmd()
+    print('Choose a conversation:\n')
+    cli.columnize(convos, displaywidth=shutil.get_terminal_size().columns)
+    chosen_audio = audio_dirs_list[int(input('\n-> '))]
+
+    # Find the data file corresponding to the chosen conversation
+    chosen_data = None
+    for f in asr_data_path.iterdir():
+        if chosen_audio.name in f.name:
+            chosen_data = f
+    if chosen_data:
+        return (chosen_data, chosen_audio)
+    raise IndexError('Can\'t find data for selected conversation')
+
+
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print(f'Usage: {sys.argv[0]} path/to/audio/ path/to/data.json')
-        sys.exit(-1)
-
-    audio_dir = Path(sys.argv[1])
-    data_file = Path(sys.argv[2])
-    if audio_dir.is_dir() and data_file.exists():
-        data_linker = AudioDataLinker(audio_dir, data_file)
-    else:
-        print('Something is wrong with your input!')
-        print(f'I got {audio_dir} and {data_file}')
-        sys.exit(-1)
-
+    data_file, audio_dir = launcher()
+    data_linker = AudioDataLinker(audio_dir, data_file)
     app = TranscriptionApp()
     app.populate_data(data_linker)
     app.run()
