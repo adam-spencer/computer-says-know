@@ -25,7 +25,19 @@
 
 ---
 
-### Slide 3: Semi-Automatic Transcription
+### Slide 3: Confident Computation
+
+* Whisper finds the most probable sequence of words
+* Outputs an average (log) probability for a given input
+* If input is split into utterances, each utterance is given a score
+* Caveats:
+    + This score is just a measure of proximity to a decision boundary - not always indicative of accuracy
+    + Due to Whisper being trained on 65% English audio, these errors are much more likely to appear in other languages less prominent in the training set
+    + For this work, solely English language-audio is used
+
+\pagebreak
+
+### Slide 4: Semi-Automatic Transcription
 
 * If automatic transcription is fast but inaccurate
 * And manual transcription is accurate but slow
@@ -35,17 +47,6 @@
     + human transcriber is required to listen to a smaller subset of the set of audio
     + i.e. more efficient
     + ASR does the heavy lifting
-
-\pagebreak
-
-### Slide 4: Confident Computation
-
-* Whisper finds the most probable sequence of words
-* Outputs an average (log) probability for a given input
-* If input is split into utterances, each utterance is given a score
-* Caveats:
-    + This score is just a measure of proximity to a decision boundary - not always indicative of accuracy
-    + Due to Whisper being trained on 65% English audio, these errors are much more likely to appear in other languages less prominent in the training set
 
 ---
 
