@@ -16,20 +16,6 @@ The research and development of technology involving speech has been a part of c
 These early attempts at recognising human speech treated it as a `pattern matching' problem, the theory being that words could be constructed by matching the pattern created in a speech signal to corresponding spoken phonemes\cite{Rabiner2004Jan}. 
 This paradigm falls apart when the system must be re-tuned for each individual, even for simple tasks such as recognising spoken digits\cite{asr-52}, due to the fact that individual speakers don't produce exactly the same signal for each phoneme\cite{Horton2010}.
 
-\mycomment{
-        how does HMM work?
-                * treat speech as a continuous sequence of discrete states
-                * each state is modelled as a feature vector corresponding to an acoustic signal
-                * assume that each state is generated from a probabilistic distribution correlated with another state in the model
-                * through training, the model may estimate which states best correlate with an input signal
-                * the most likely sequence of states is decoded, generating a transcription
-
-        problems with HMM?
-                * assumption that successive frames of speech are independent, thus the probability of a sequence of observations may be written as a product of the probabilities of individual observations
-                * assumption that distirbutions of individaul observation params can be well represented as a mixture of Gaussian or autoregressive densities
-                * markov assumption - prob of being in a state at time 't' is only dependednt on the state at time 't-1' is innapropriate for speech because dependencies often extend through several states
-        }
-
 Since the 1970s, finding the solution to the problem of pattern matching for speech recognition has been considered unviable through the precise matching of patterns but instead finding the most probable pattern using statistical modelling\cite{Rabiner2004Jan}.
 The method which became most widely adopted and is still at the heart of modern ASR is Hidden Markovian Modelling, which was first applied to ASR in the '70s\cite{baker1975stochastic} and continued through the '90s\cite{bengio1999markovian} until today\cite{hmm2023}.
 
@@ -63,12 +49,8 @@ Despite making up much of the research foundational to modern ASR, Markov models
 For instance in a presentation discussing \emph{hats} it is unlikely that the word \emph{cat} would be used, despite the phonetics of the word being largely the same.
 
 \subsection{How Does Modern ASR Work?}
-\mycomment{
-        'attention is all you need' - encoder-decoder transformer
 
-        neural networks and transformers!
-  }
-Nowadays ASR has moved towards what is known as the 'end-to-end' or 'encoder-decoder' model;
+Skipping ahead from the mid-1980s to the late-2010s and early '20s, ASR has moved towards what is known as the 'end-to-end' or 'encoder-decoder' model;
 at a high level, the input audio is encoded into features, these features are aligned with language and then decoded to produce an output transcript\cite{wang2019overview}.
 The key difference between modern approaches and the classical HMM-based approach is the use of widely researched 'machine-learning' techniques, including various forms of neural network\cite{mustafa2019comparative, amodei2016deep, hori2017advances, Kim2017Mar}.
 
@@ -82,6 +64,8 @@ The motivation for the \emph{Transformer} can be understood as follows;
 \end{itemize}
 
 In a multilayer network, self-attention layers are used to build relations between seperate parts of an input sequence by allowing each node (or 'attention head'\cite{shaw2018self}) to attend to all outputs from the previous layer.
+
+\mycomment{ perhaps delete this part? I'd rather not get bogged down in maths...}
 According to the work that introduced it\cite{vaswani2017attention}, attention in the Transformer architecture is calculated as;
 
 \[ \text{Attention}(Q,K,V) = \text{softmax}(\frac{QK^T}{\sqrt{d_k}})V \]
@@ -95,9 +79,10 @@ Where;
 
 
 \mycomment{
+        Replace 'self-attention' with 'attention' - we're using both self- and cross-attention
         Explain parameters for attention and link to speech recognition.
         Explained in vaswani2017 and shaw2018.
-        QKV and O are all weighted
+        QKV and O are all weighted - these weights create decision boundaries
         Transformer uses attention in encoding AND decoding
         }
 
@@ -126,6 +111,9 @@ if the model is too fine-tuned to its training data, performance will suffer whe
 
 For example, if an unsupervised model were trained using the voices of young people, it may perform with considerably poorer accuracy when used to transcribe elderly speakers due to differences inherent to their speech\cite{Horton2010}.
 
+\mycomment{
+        however, 
+}
 Whisper uses a natural language model to perform next-token prediction (in layperson's terms, there is a secondary system trying to ensure the intelligibility of sentences produced from transcription).
 In a practical setting this means that conversational speech (i.e.\ speech which flows as sentences rather than semantically-disjoint terms) should be transcribed with a higher degree of accuracy.
 
