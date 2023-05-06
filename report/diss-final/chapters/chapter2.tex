@@ -50,7 +50,7 @@ For instance in a presentation discussing \emph{hats} it is unlikely that the wo
 
 \subsection{How Does Modern ASR Work?}
 
-Skipping ahead from the mid-1980s to the late-2010s and early '20s, ASR has moved towards what is known as the 'end-to-end' or 'encoder-decoder' model;
+Skipping ahead from the mid-1980s to the current day, ASR has moved towards what is known as the 'end-to-end' or 'encoder-decoder' model;
 at a high level, the input audio is encoded into features, these features are aligned with language and then decoded to produce an output transcript\cite{wang2019overview}.
 The key difference between modern approaches and the classical HMM-based approach is the use of widely researched 'machine-learning' techniques, including various forms of neural network\cite{mustafa2019comparative, amodei2016deep, hori2017advances, Kim2017Mar}.
 
@@ -112,7 +112,7 @@ if the model is too fine-tuned to its training data, performance will suffer whe
 For example, if an unsupervised model were trained using the voices of young people, it may perform with considerably poorer accuracy when used to transcribe elderly speakers due to differences inherent to their speech\cite{Horton2010}.
 
 \mycomment{
-        however, 
+        THIS IS WRONG / NEEDS CHANGING VVV
 }
 Whisper uses a natural language model to perform next-token prediction (in layperson's terms, there is a secondary system trying to ensure the intelligibility of sentences produced from transcription).
 In a practical setting this means that conversational speech (i.e.\ speech which flows as sentences rather than semantically-disjoint terms) should be transcribed with a higher degree of accuracy.
