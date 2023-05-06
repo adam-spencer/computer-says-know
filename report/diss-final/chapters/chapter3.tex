@@ -1,6 +1,72 @@
-\chapter{Analysis}\label{ch:analysis}
+\chapter{Requirements and Analysis}\label{ch:req-and-analysis}
 
 \section{Project Requirements}\label{sec:requirements}
+
+The objective of this work is not to present a new paradigm through which transcription may develop, nor is it to produce a fully-working, infallible system which aims to receive actual use by transcribers.
+Rather, the aim of this work is to explore the current state of the field of ASR and to understand the extent that current ASR technology could provide aid to a human transcriber.
+
+To further understand its objective, the requirements of this work are as presented in the following subsections.
+
+\subsection{Motivate computer-aided transcription}
+
+Before exploring how a computer system may aid a human transcriber, it is important to understand;
+
+\begin{itemize}
+        \item \emph{why} a human transcriber may require aid;
+        \item to \emph{whom} a computer-aided transcription system would provide benefit; and
+        \item what the \emph{extent} of such a benefit would be.
+\end{itemize}
+
+\subsection{Generate transcripts using ASR}
+
+Evaluating the quality of ASR transcription requires a key set of data; ASR-generated transcripts.
+Rather than comparing different ASR systems, Whisper\cite{whisper} has been chosen as the only system to use for generating transcripts because;
+
+\begin{itemize}
+        \item it is new (made available in September 2022);
+        \item it is entirely free and open-source, meaning it is easily modifiable and available to be used without licence; and
+        \item it reportedly achieves very good results across different speech corpora.
+\end{itemize}
+
+Whisper\cite{whisper} is implemented in Python using the PyTorch\cite{pytorch} library which allows computation to take place on GPUs which support CUDA, meaning transcripts can be generated very quickly on a high-performance computer (HPC) system.
+Luckily, the University of Sheffield offers access to HPC clusters\cite{shef-hpc}, and I have been granted access to the \emph{Bessemer} cluster for the completion of this project.
+
+The key to generating useful transcripts is some high-quality speech recordings from a speech corpus.
+While preliminary testing of Whisper may use data from any available corpora, it would be very useful to obtain some data which is;
+
+\begin{itemize}
+        \item not present in Whisper's training data, as to prevent the model from regurgitating labels for data it has already seen; and
+        \item is well suited to the task of computer-aided transcription, as to enable more practical evaluation.
+\end{itemize}
+
+It is also useful, however, to understand the caveats related to using well-suited data!
+The na\"{i}ve assumption that all data seen by \emph{any} computer system is 'perfect' would misrepresent the usefulness of the system in question.
+To combat this, this work must acknowledge the limited extent to which a computer-aided transcription system using Whisper is viable, and evaluate how the viability could be increased to be more applicable to real-world tasks.
+
+\subsection{Experiment with confidence measures}
+
+Neural network confidence is widely discussed in the literature.
+Rather than attempt to create a novel method for calculating a system's confidence, this work should focus on re-creating and applying existing measures of confidence to Whisper, whether through modification to the model itself or through inference of the model's output.
+
+It would be of great utility to understand how system confidence may aid a human transcriber, as well as how exactly 'confidence' shall be defined in the case of this specific task.
+Such understandings would further refine the 'lens' through which the system may be evaluated, and as such are vital to the completion of this work.
+
+\subsection{Explore designs for computer-aided transcription}
+
+There's limited use in a purely theoretical exploration of a computer system which is designed to be interfaced with by a human, such as this.
+Providing various design concepts for a real computer system shall aid the reader in grasping the benefit of a 
+
+\section{Analysis}
+
+This section shall provide analyses of the requirements cited in \ref{sec:requirements}, presenting an analysis of each aforementioned requirement in corresponding order to that in which the requirements are given.
+The general intention of this section is to determine the lens through which the project shall be evaluated, and to contribute a detailed motivation for the decisions made in both the design and implementation of the project.
+
+The following subsections constitue an analysis of the aims of the project.
+
+\subsection{}
+\subsection{}
+\subsection{}
+\subsection{}
 
 \section{Ethical, Professional and Legal Issues}\label{sec:ethics-etc}
 
