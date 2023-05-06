@@ -1,0 +1,109 @@
+#!/usr/bin/env python
+"""
+do_whisper_confidence
+
+Given a directory of audio segment subdirectories and accompanying directory of
+JSON specification files, run `whisper-timestamped` on the audio and write the output to
+a specified destination.
+
+Copyright Adam Spencer, 03/2023
+"""
+
+__author__ = 'Adam Spencer'
+
+import argparse
+import json
+import re
+from pathlib import Path
+
+import whisper_timestamped as whisper
+from utils import vprint
+
+WAVFILE = re.compile(r'.+?(?=.wav)')
+
+
+def run_whisper(model: whisper.Whisper, audio_dir: Path,
+                opts: dict, v: bool
+                ) -> dict[str, whisper.DecodingResult]:
+    """
+    Run Whisper over a directory of audio segments and return the results.
+
+    :param model: Whisper model to use.
+    :param audio_dir: Directory containing audio segments.
+    :param opts: Decoding options for Whisper to use.
+    :returns: Dict of structure: { key -> result }
+    """
+    result_dict = dict()
+    for audio_file in audio_dir.iterdir():
+        if fname := WAVFILE.match(audio_file.name):
+            fname = fname.group().lstrip('0')
+            if fname == '':
+                fname = '0'
+            result_dict[fname] = model.transcribe(str(audio_file), **opts)
+            vprint(v, result_dict[fname]['text'])
+    return result_dict
+
+
+def write_to_json(whisper_result: dict, spec_file: Path, out_file: Path
+                  ) -> None:
+    """
+    Write whisper result and utterence spec to a new JSON file at the output
+    path.
+
+    :param whisper_result: Results of running Whisper.
+    :param spec_file: Path to JSON specification file.
+    :param out_file: Path to output file.
+    """
+    with open(spec_file) as f:
+        spec_dict = json.load(f)
+    for k in spec_dict.keys():
+        spec_dict[k].update(whisper=whisper_result[k])
+    with open(out_file, 'w') as f:
+        json.dump(spec_dict, f, indent=2, ensure_ascii=False)
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('audio_in',
+                        help='Directory containing audio segment \
+                        subdirectories')
+    parser.add_argument('spec_dir',
+                        help='Directory containing segment specification \
+                            files')
+    parser.add_argument('out_dir', help='Output directory')
+    parser.add_argument('--model', default='base.en',
+                        help='Whisper model to use, default `base.en`')
+    parser.add_argument('--device', default='cpu',
+                        help='Device for Whisper to use, default `cpu`')
+    parser.add_argument('--no-fp16', action='store_true',
+                        help='Disable FP16, useful on M1 Mac')
+    parser.add_argument('--verbose', '-v', action='store_true',
+                        help='Enable verbose output')
+    args = parser.parse_args()
+
+    audio_superdir = Path(args.audio_in)
+    spec_dir = Path(args.spec_dir)
+    out_dir = Path(args.out_dir)
+
+    out_dir.mkdir(exist_ok=True)  # Create output directory
+    if not (audio_superdir.is_dir() and spec_dir.is_dir()):
+        raise ValueError(
+            'One or more specified directories is not a directory!')
+
+    model = whisper.load_model(args.model).to(args.device)
+    opts = dict(language='en', fp16=(not args.no_fp16), best_of=5,
+                beam_size=5, temperature=(0.0, 0.2, 0.4, 0.6, 0.8, 1.0))
+
+    for audio_subdir in audio_superdir.iterdir():
+        vprint(args.verbose, f'At folder: {audio_subdir}')
+        if not audio_subdir.is_dir():
+            continue
+        if (spec_file := spec_dir / f'{audio_subdir.name}_Ac.json').exists():
+            result = run_whisper(model, audio_subdir, opts, args.verbose)
+            out_path = out_dir / f'{audio_subdir.name}_asr.json'
+            vprint(args.verbose, 'Writing to JSON...')
+            write_to_json(result, spec_file, out_path)
+
+
+if __name__ == '__main__':
+    main()
