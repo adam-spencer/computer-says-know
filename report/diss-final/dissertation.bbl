@@ -12,20 +12,80 @@ K.~H. Davis, R.~Biddulph, and S.~Balashek, ``Automatic recognition of spoken
   digits,'' {\em The Journal of the Acoustical Society of America}, vol.~24,
   no.~6, pp.~637--642, 1952.
 
-\bibitem{early-asr}
-F.~Jelinek, ``Continuous speech recognition by statistical methods,'' {\em
-  Proceedings of the IEEE}, vol.~64, no.~4, pp.~532--556, 1976.
+\bibitem{Horton2010}
+W.~S. Horton, D.~H. Spieler, and E.~Shriberg, ``{A corpus analysis of patterns
+  of age-related change in conversational speech.},'' {\em Psychol. Aging},
+  vol.~25, no.~3, p.~708, 2010.
 
-\bibitem{LevinsonS.E.1983Aitt}
-S.~E. Levinson, L.~R. Rabiner, and M.~M. Sondhi, ``An introduction to the
-  application of the theory of probabilistic functions of a markov process to
-  automatic speech recognition,'' {\em Bell System Technical Journal}, vol.~62,
-  no.~4, pp.~1035--1074, 1983.
+\bibitem{baker1975stochastic}
+J.~K. Baker, {\em Stochastic modeling as a means of automatic speech
+  recognition.}
+\newblock Carnegie Mellon University, 1975.
 
-\bibitem{whisper}
-A.~Radford, J.~W. Kim, T.~Xu, G.~Brockman, C.~McLeavey, and I.~Sutskever,
-  ``Robust speech recognition via large-scale weak supervision.''
-  arXiv:2212.04356, 2022.
+\bibitem{bengio1999markovian}
+Y.~Bengio {\em et~al.}, ``Markovian models for sequential data,'' {\em Neural
+  computing surveys}, vol.~2, no.~199, pp.~129--162, 1999.
+
+\bibitem{hmm2023}
+X.~Dong, W.~Cao, H.~Cheng, and T.~Zhang, ``Hidden markov model-driven speech
+  recognition for power dispatch,'' in {\em Tenth International Conference on
+  Applications and Techniques in Cyber Intelligence (ICATCI 2022)} (J.~H.
+  Abawajy, Z.~Xu, M.~Atiquzzaman, and X.~Zhang, eds.), (Cham), pp.~760--768,
+  Springer International Publishing, 2023.
+
+\bibitem{dynkin1960}
+E.~B. Dynkin, {\em Theory of Markov Processes}.
+\newblock Pergamon Press, 1960.
+
+\bibitem{Rabiner1989Feb}
+L.~R. Rabiner, ``{A tutorial on hidden Markov models and selected applications
+  in speech recognition},'' {\em Proc. IEEE}, vol.~77, pp.~257--286, Feb. 1989.
+
+\bibitem{wang2019overview}
+D.~Wang, X.~Wang, and S.~Lv, ``An overview of end-to-end automatic speech
+  recognition,'' {\em Symmetry}, vol.~11, no.~8, p.~1018, 2019.
+
+\bibitem{mustafa2019comparative}
+M.~K. Mustafa, T.~Allen, and K.~Appiah, ``A comparative review of dynamic
+  neural networks and hidden markov model methods for mobile on-device speech
+  recognition,'' {\em Neural Computing and Applications}, vol.~31,
+  pp.~891--899, 2019.
+
+\bibitem{amodei2016deep}
+D.~Amodei, S.~Ananthanarayanan, R.~Anubhai, J.~Bai, E.~Battenberg, C.~Case,
+  J.~Casper, B.~Catanzaro, Q.~Cheng, G.~Chen, {\em et~al.}, ``Deep speech 2:
+  End-to-end speech recognition in english and mandarin,'' in {\em
+  International conference on machine learning}, pp.~173--182, PMLR, 2016.
+
+\bibitem{hori2017advances}
+T.~Hori, S.~Watanabe, Y.~Zhang, and W.~Chan, ``Advances in joint ctc-attention
+  based end-to-end speech recognition with a deep cnn encoder and rnn-lm,''
+  {\em arXiv preprint arXiv:1706.02737}, 2017.
+
+\bibitem{Kim2017Mar}
+S.~Kim, T.~Hori, and S.~Watanabe, ``{Joint CTC-attention based end-to-end
+  speech recognition using multi-task learning},'' in {\em {2017 IEEE
+  International Conference on Acoustics, Speech and Signal Processing
+  (ICASSP)}}, pp.~4835--4839, IEEE, Mar. 2017.
+
+\bibitem{vaswani2017attention}
+A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~N. Gomez,
+  {\L}.~Kaiser, and I.~Polosukhin, ``Attention is all you need,'' {\em Advances
+  in neural information processing systems}, vol.~30, 2017.
+
+\bibitem{zeghidour2018fully}
+N.~Zeghidour, Q.~Xu, V.~Liptchinsky, N.~Usunier, G.~Synnaeve, and R.~Collobert,
+  ``Fully convolutional speech recognition,'' {\em arXiv preprint
+  arXiv:1812.06864}, 2018.
+
+\bibitem{graves2014towards}
+A.~Graves and N.~Jaitly, ``Towards end-to-end speech recognition with recurrent
+  neural networks,'' in {\em International conference on machine learning},
+  pp.~1764--1772, PMLR, 2014.
+
+\bibitem{shaw2018self}
+P.~Shaw, J.~Uszkoreit, and A.~Vaswani, ``Self-attention with relative position
+  representations,'' {\em arXiv preprint arXiv:1803.02155}, 2018.
 
 \bibitem{wav2vec2}
 A.~Baevski, Y.~Zhou, A.~Mohamed, and M.~Auli, ``wav2vec 2.0: A framework for
@@ -59,10 +119,34 @@ Y.~Zhang, J.~Qin, D.~S. Park, W.~Han, C.-C. Chiu, R.~Pang, Q.~V. Le, and Y.~Wu,
   ``Pushing the limits of semi-supervised learning for automatic speech
   recognition,'' 2020.
 
+\bibitem{whisper}
+A.~Radford, J.~W. Kim, T.~Xu, G.~Brockman, C.~McLeavey, and I.~Sutskever,
+  ``Robust speech recognition via large-scale weak supervision.''
+  arXiv:2212.04356, 2022.
+
 \bibitem{chime6}
 S.~Watanabe, M.~I. Mandel, J.~Barker, and E.~Vincent, ``Chime-6 challenge:
   Tackling multispeaker speech recognition for unsegmented recordings,'' {\em
   CoRR}, vol.~abs/2004.09249, 2020.
+
+\bibitem{baevski2021}
+A.~Baevski, W.-N. Hsu, A.~CONNEAU, and M.~Auli, ``Unsupervised speech
+  recognition,'' in {\em Advances in Neural Information Processing Systems}
+  (M.~Ranzato, A.~Beygelzimer, Y.~Dauphin, P.~Liang, and J.~W. Vaughan, eds.),
+  vol.~34, pp.~27826--27839, Curran Associates, Inc., 2021.
+
+\bibitem{pytorch}
+A.~Paszke, S.~Gross, F.~Massa, A.~Lerer, J.~Bradbury, G.~Chanan, T.~Killeen,
+  Z.~Lin, N.~Gimelshein, L.~Antiga, A.~Desmaison, A.~Kopf, E.~Yang, Z.~DeVito,
+  M.~Raison, A.~Tejani, S.~Chilamkurthy, B.~Steiner, L.~Fang, J.~Bai, and
+  S.~Chintala, ``Pytorch: An imperative style, high-performance deep learning
+  library,'' in {\em Advances in Neural Information Processing Systems 32},
+  pp.~8024--8035, Curran Associates, Inc., 2019.
+
+\bibitem{shef-hpc}
+``{High Performance Computing at Sheffield {\ifmmode---\else\textemdash\fi}
+  Sheffield HPC Documentation},'' May 2023.
+\newblock [Online; accessed 6. May 2023].
 
 \bibitem{lifelucid}
 O.~Tuomainen, L.~Taschenberger, and V.~Hazan, ``{LifeLUCID Corpus: Recordings

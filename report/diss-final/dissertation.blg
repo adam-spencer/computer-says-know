@@ -3,44 +3,46 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: dissertation.aux
 The style file: ieeetr.bst
 Database file #1: dissertation_bibliography.bib
-You've used 18 entries,
+Warning--can't use both author and editor fields in dynkin1960
+You've used 34 entries,
             1876 wiz_defined-function locations,
-            582 strings with 7420 characters,
-and the built_in function-call counts, 5084 in all, are:
-= -- 420
-> -- 343
+            676 strings with 10924 characters,
+and the built_in function-call counts, 9955 in all, are:
+= -- 845
+> -- 631
 < -- 0
-+ -- 122
-- -- 104
-* -- 412
-:= -- 777
-add.period$ -- 22
-call.type$ -- 18
-change.case$ -- 18
++ -- 223
+- -- 189
+* -- 792
+:= -- 1487
+add.period$ -- 41
+call.type$ -- 34
+change.case$ -- 32
 chr.to.int$ -- 0
-cite$ -- 18
-duplicate$ -- 203
-empty$ -- 433
-format.name$ -- 104
-if$ -- 1184
+cite$ -- 35
+duplicate$ -- 440
+empty$ -- 870
+format.name$ -- 189
+if$ -- 2338
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 11
-newline$ -- 61
-num.names$ -- 18
-pop$ -- 80
+int.to.str$ -- 34
+missing$ -- 28
+newline$ -- 112
+num.names$ -- 37
+pop$ -- 152
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 154
+skip$ -- 304
 stack$ -- 0
-substring$ -- 258
-swap$ -- 83
+substring$ -- 532
+swap$ -- 177
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 36
-width$ -- 20
-write$ -- 166
+warning$ -- 1
+while$ -- 77
+width$ -- 36
+write$ -- 318
+(There was 1 warning)
