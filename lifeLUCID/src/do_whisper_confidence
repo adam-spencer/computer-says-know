@@ -17,7 +17,6 @@ import re
 from pathlib import Path
 
 import whisper_timestamped as whisper
-from utils import vprint
 
 WAVFILE = re.compile(r'.+?(?=.wav)')
 
@@ -39,7 +38,8 @@ def run_whisper(model: whisper.Whisper, audio_dir: Path,
             fname = fname.group().lstrip('0')
             if fname == '':
                 fname = '0'
-            result_dict[fname] = model.transcribe(str(audio_file), **opts)
+            result_dict[fname] = whisper.transcribe(
+                model, str(audio_file), **opts)
             vprint(v, result_dict[fname]['text'])
     return result_dict
 
@@ -103,6 +103,17 @@ def main():
             out_path = out_dir / f'{audio_subdir.name}_asr.json'
             vprint(args.verbose, 'Writing to JSON...')
             write_to_json(result, spec_file, out_path)
+
+
+def vprint(verbose: bool, msg: str) -> None:
+    """
+    Verbose mode printing.
+
+    :param verbose: Verbose mode bool.
+    :param msg: Message to print.
+    """
+    if verbose:
+        print(msg)
 
 
 if __name__ == '__main__':
