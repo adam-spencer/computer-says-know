@@ -117,6 +117,8 @@ For example, if an unsupervised model were trained using the voices of young peo
 Whisper uses a natural language model to perform next-token prediction (in layperson's terms, there is a secondary system trying to ensure the intelligibility of sentences produced from transcription).
 In a practical setting this means that conversational speech (i.e.\ speech which flows as sentences rather than semantically-disjoint terms) should be transcribed with a higher degree of accuracy.
 
+Whisper is implemented in Python using the \emph{PyTorch}\cite{pytorch} library which allows computation to take place on GPUs which support CUDA, meaning transcripts can be generated very quickly on a high-performance computer (HPC) system.
+
 \section{ASR Confidence}
 \mycomment{
         This could probably be a section of its own- there's lots to talk about here!
