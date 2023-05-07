@@ -5,6 +5,8 @@
     * remember to do some comparisons between papers! 
     * this section should look at trends in the area of my  research
     * fake-ness (or 'synthetic'-ness) is correct!
+
+    Try and stick some figures in to spice it up a bit, currently reads a tad bare
   }
 
 \section{Automatic Speech Recognition}\label{sec:what-is-asr}
@@ -46,7 +48,7 @@ Assuming that each state is generated from a probabilistic distribution correlat
 These tokens may then be decoded by a language model to construct a transcription\cite{bengio1999markovian}.
 
 Despite making up much of the research foundational to modern ASR, Markov models have a crucial flaw when applied to speech; parts of speech are dependent on more than just the part immediately before (i.e. $t-1$).
-For instance in a presentation discussing \emph{hats} it is unlikely that the word \emph{cat} would be used, despite the phonetics of the word being largely the same.
+For instance, in a presentation discussing \emph{hats} it is unlikely that the word \emph{cat} would be used, despite the phonetics of the word being largely the same.
 
 \subsection{How Does Modern ASR Work?}
 
@@ -119,30 +121,34 @@ In a practical setting this means that conversational speech (i.e.\ speech which
 
 Whisper is implemented in Python using the \emph{PyTorch}\cite{pytorch} library which allows computation to take place on GPUs which support CUDA, meaning transcripts can be generated very quickly on a high-performance computer (HPC) system.
 
-\section{ASR Confidence}
+\subsection{Evaluating ASR Systems}
 \mycomment{
-        This could probably be a section of its own- there's lots to talk about here!
+        Write about WER, PER, CER etc. 
+        WER is most used (back this statement up)
+        Caveats for using WER
+        }
+
+\section{Confidence}
+\mycomment{
+       Write about what confidence is, then in subsections cover literature on the subject.
     }
 
 \section{Speech Corpora}\label{sec:}
 \mycomment{
-  I think this section should be short and sweet. Just lay out what a corpus is, the history of corpora, conversational corpora, 
+  I think this section should be short and sweet. Just lay out what a corpus is, quick overview of the history of corpora, conversational corpora, 
 }
 
-\section{Understanding Transcription}\label{sec:transcription}
+\section{Transcription}\label{sec:transcription}
 \mycomment{
     Perhaps move this down a bit?
   }
 
 \subsection{Manual Transcription}\label{subsec:manual-transcription}
 
-\subsection{Semi-Automatic Transcription}\label{subsec:semi-auto-transcription}
-
 \subsection{Fully-Automatic Transcription}\label{subsec:full-auto-transcription}
+
+\subsection{Semi-Automatic Transcription}\label{subsec:semi-auto-transcription}
 
 \section{Summary}\label{sec:lit-survey-summary}
 \mycomment{
-        is this strictly necessary? maybe look at what others have done in their dissertations.
-
-        intuitively I think that the next chapter should build on what I've said here
     }
