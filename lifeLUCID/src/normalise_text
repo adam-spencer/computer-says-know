@@ -42,7 +42,9 @@ def handle_confidence(segments: dict) -> dict:
     confidence_list = []
     total_utterance_confidence = 0.0
     for segment in segments:
-        total_utterance_confidence += segment['confidence']
+        if not (seg_conf := segment.get('confidence')):
+            continue
+        total_utterance_confidence += seg_conf
         for word in segment['words']:
             text = normalise_string(word['text'])
             if len(text) > 0:
@@ -98,7 +100,7 @@ def main():
         n_files = len(in_files)
         for idx, file in enumerate(in_files):
             if verbose:
-                print(f'Progress: {idx:3} / {n_files:3}')
+                print(f'Progress: {idx:3} / {n_files:3}', end='\r')
             if not (fname := file.name).endswith('.json'):
                 continue
             data = normalise_file(file, confidence_mode)
