@@ -31,6 +31,32 @@ def normalise_string(inp: str) -> str:
     return to_return.strip()
 
 
+def handle_confidence(segments: dict) -> dict:
+    """
+    Handle the confidence scores output by `whisper_timestamped`.
+
+    :param segments: `utterance['whisper']['segments']`
+    :returns: Confidence segments to be added to output dict
+    """
+    words_list = []
+    confidence_list = []
+    total_utterance_confidence = 0.0
+    for segment in segments:
+        total_utterance_confidence += segment['confidence']
+        for word in segment['words']:
+            text = normalise_string(word['text'])
+            if len(text) > 0:
+                words_list.append(text)
+                confidence_list.append(word['confidence'])
+    words = ' '.join(words_list)
+    avg_utt_confidence = total_utterance_confidence / len(segments)
+    return {
+        'words': words,
+        'confidence_scores': confidence_list,
+        'utterance_confidence': avg_utt_confidence,
+    }
+
+
 def normalise_file(file: Path, confidence_mode: bool) -> dict:
     """Load a whisper output file and normalise the text within"""
     with open(file) as f:
@@ -39,6 +65,8 @@ def normalise_file(file: Path, confidence_mode: bool) -> dict:
         utterance['transcript'] = normalise_string(utterance['transcript'])
         utterance['whisper']['text'] = normalise_string(
             utterance['whisper']['text'])
+        if confidence_mode and (segs := utterance['whisper'].get('segments')):
+            utterance['confidence_scoring'] = handle_confidence(segs)
     return data
 
 
