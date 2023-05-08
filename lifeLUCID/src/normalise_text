@@ -8,7 +8,7 @@ Normalisation is done using `whisper.normalizer.EnglishTextNormalizer` and
 removing hesitations as defined in `HESITATION_TOKENS`.
 """
 import json
-import sys
+from argparse import ArgumentParser
 from pathlib import Path
 
 from whisper.normalizers import EnglishTextNormalizer
@@ -31,7 +31,7 @@ def normalise_string(inp: str) -> str:
     return to_return.strip()
 
 
-def normalise_file(file: Path) -> dict:
+def normalise_file(file: Path, confidence_mode: bool) -> dict:
     """Load a whisper output file and normalise the text within"""
     with open(file) as f:
         data = json.load(f)
@@ -49,27 +49,28 @@ def write_to_output(file: Path, data: dict) -> None:
 
 
 def main():
-    if len(sys.argv) != 3:
-        print(f'Usage: {sys.argv[0]} [INPUT] [OUTPUT]')
-        sys.exit(-1)
+    parser = ArgumentParser()
+    parser.add_argument('input', help='Input file or directory')
+    parser.add_argument('output', help='Output directory')
+    parser.add_argument('--confidence-scores', '-c', action='store_true',
+                        help='Input contains confidence scores')
+    args = parser.parse_args()
 
-    input_path = Path(sys.argv[1])
-    output_path = Path(sys.argv[2])
+    input_path = Path(args.input)
+    output_path = Path(args.output)
     output_path.mkdir(exist_ok=True)
 
-    if not input_path.exists():
-        print('Couldn\'t find the input file(s)!')
-        sys.exit(-1)
+    confidence_mode = args.confidence_scores
 
     if input_path.is_dir():
         for file in input_path.iterdir():
             if not (fname := file.name).endswith('.json'):
                 continue
-            data = normalise_file(file)
+            data = normalise_file(file, confidence_mode)
             file_out = output_path / fname.replace('.json', '_norm.json')
             write_to_output(file_out, data)
     else:
-        data = normalise_file(input_path)
+        data = normalise_file(input_path, confidence_mode)
         file_out = output_path / input_path.name.replace('.json', '_norm.json')
         write_to_output(file_out, data)
 
