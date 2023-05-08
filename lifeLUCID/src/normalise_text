@@ -82,6 +82,8 @@ def main():
     parser.add_argument('output', help='Output directory')
     parser.add_argument('--confidence-scores', '-c', action='store_true',
                         help='Input contains confidence scores')
+    parser.add_argument('--verbose', '-v', action='store_true',
+                        help='Activate verbose output')
     args = parser.parse_args()
 
     input_path = Path(args.input)
@@ -89,9 +91,14 @@ def main():
     output_path.mkdir(exist_ok=True)
 
     confidence_mode = args.confidence_scores
+    verbose = args.verbose
 
     if input_path.is_dir():
-        for file in input_path.iterdir():
+        in_files = [f for f in input_path.iterdir()]
+        n_files = len(in_files)
+        for idx, file in enumerate(in_files):
+            if verbose:
+                print(f'Progress: {idx:3} / {n_files:3}')
             if not (fname := file.name).endswith('.json'):
                 continue
             data = normalise_file(file, confidence_mode)
