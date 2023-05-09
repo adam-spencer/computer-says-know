@@ -71,7 +71,6 @@ class AudioDataLinker:
         # TODO:
         #  * Do some text highlighting thing?
         #  * Blanking out of text below threshold?
-        #  * (in other file) sort on confidence measures
 
 
 class TableRow:
