@@ -128,7 +128,7 @@ class TableRow:
             self.hyp_to_print = self.hyp
 
     def for_table(self):
-        """Get row data in correct format for insertion into table"""
+        """Get row data in correct format for insertion into table."""
         if self.confidence_mode:
             return (int(self.idx), wrap_and_format(self.hyp_to_print), self.ref,
                     float(self.utt_conf), float(self.max_conf),
@@ -138,7 +138,7 @@ class TableRow:
                 self.avg_logprob), float(self.wer))
 
     def get_header(self):
-        """Get header row for table"""
+        """Get header row for table."""
         if self.confidence_mode:
             return ['ID', 'Hypothesis', 'Reference',
                     'Utterance Confidence', 'Max Conf.', 'Min Conf.', 'WER']
@@ -147,11 +147,11 @@ class TableRow:
                     'Average Log Probability', 'WER']
 
     def text_highlighting(self):
-        """Highlight text based on confidence measure"""
+        """Highlight text based on confidence measure."""
         pass
 
     def text_blanking(self, threshold: float) -> str:
-        """Blank out text based on confidence threshold"""
+        """Blank out text based on confidence threshold."""
         text_list = []
         for word, conf in self.token_conf_pair:
             if conf < threshold:

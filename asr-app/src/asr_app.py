@@ -34,6 +34,7 @@ class TranscriptionApp(App):
         yield Footer()
 
     def on_mount(self) -> None:
+        """This is run upon starting the App."""
         self.current_sort_col = 'ID'
         self.reversed_sort = False
         table = self.query_one(DataTable)
@@ -44,14 +45,17 @@ class TranscriptionApp(App):
             table.add_row(*row, height=ROW_HEIGHT)
 
     def populate_data(self, data_linker: AudioDataLinker):
+        """Populate table data."""
         self.data_in = data_linker.data_for_table()
         self.data_linker = data_linker
 
     def action_play_sound(self):
+        """Play the utterance."""
         if self.selected_idx is not None:
             self.data_linker.play_audio(self.selected_idx)
 
     def sort_fn(self, col: str):
+        """Function to sort a given column."""
         rev = False
         if self.current_sort_col == col and not self.reversed_sort:
             rev = True
@@ -83,6 +87,7 @@ class TranscriptionApp(App):
             self.sort_fn('Min Conf.')
 
     def on_data_table_cell_highlighted(self, message: DataTable.CellHighlighted):
+        """Keeps track of current highlighted cell to enable playing of sound."""
         row_num = message.coordinate.row
         idx_coord = Coordinate(row_num, 0)
         self.selected_idx = self.query_one(DataTable).get_cell_at(idx_coord)
