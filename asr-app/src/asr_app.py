@@ -88,7 +88,7 @@ class TranscriptionApp(App):
         self.selected_idx = self.query_one(DataTable).get_cell_at(idx_coord)
 
 
-def launcher() -> (Path, Path, bool):
+def launcher() -> (Path, Path, bool, bool, bool):
     """
     Launcher for my ASR App!
 
@@ -103,8 +103,17 @@ def launcher() -> (Path, Path, bool):
     print("Would you like to use data with confidence scores? [y/n]")
     use_confidence_inp = input("\n-> ")
     use_confidence = False
+    text_highlight = False
+    text_blanking = False
     if use_confidence_inp.lower() == 'y':
         use_confidence = True
+        print('\nWould you like to use text blanking, highlighting, or neither?'
+              + '[b/h/n]\n')
+        conf_opt = input('-> ').lower()
+        if conf_opt == 'b':
+            text_blanking = True
+        elif conf_opt == 'h':
+            text_highlight = True
 
     data_path = Path('../data')
     if use_confidence:
@@ -117,7 +126,7 @@ def launcher() -> (Path, Path, bool):
     # Present the conversations by code and allow the user to choose
     convos = [f'{idx:2} : {d.name} ' for idx, d in enumerate(audio_dirs_list)]
     cli = cmd.Cmd()
-    print('Choose a conversation:\n')
+    print('\nChoose a conversation:\n')
     cli.columnize(convos, displaywidth=shutil.get_terminal_size().columns)
     chosen_audio = audio_dirs_list[int(input('\n-> '))]
 
@@ -127,13 +136,15 @@ def launcher() -> (Path, Path, bool):
         if chosen_audio.name in f.name:
             chosen_data = f
     if chosen_data:
-        return (chosen_data, chosen_audio, use_confidence)
+        return (chosen_data, chosen_audio, use_confidence,
+                text_blanking, text_highlight)
     raise IndexError('Can\'t find data for selected conversation')
 
 
 if __name__ == "__main__":
-    data_file, audio_dir, confidence_mode = launcher()
-    data_linker = AudioDataLinker(audio_dir, data_file, confidence_mode)
+    data_file, audio_dir, confidence_mode, text_blanking, text_highlight = launcher()
+    data_linker = AudioDataLinker(
+        audio_dir, data_file, confidence_mode, text_blanking, text_highlight)
     app = TranscriptionApp()
     app.populate_data(data_linker)
     app.run()
