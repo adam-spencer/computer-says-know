@@ -82,7 +82,6 @@ class AudioDataLinker:
 
         # TODO:
         #  * Do some text highlighting thing?
-        #  * Blanking out of text below threshold?
 
 
 class TableRow:
