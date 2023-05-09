@@ -1,0 +1,7949 @@
+{
+  "0": {
+    "start": 27.7822,
+    "end": 30.82814,
+    "transcript": "okay top left yellow bird in a green bush",
+    "whisper": {
+      "text": "okay top left yellow bird and a green bush",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.54,
+          "text": " Okay, top left, yellow bird and a green bush.",
+          "tokens": [
+            50363,
+            16805,
+            11,
+            1353,
+            1364,
+            11,
+            7872,
+            6512,
+            290,
+            257,
+            4077,
+            24484,
+            13,
+            50505
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3753395080566406,
+          "compression_ratio": 0.8823529411764706,
+          "no_speech_prob": 0.0013119246577844024,
+          "confidence": 0.777,
+          "words": [
+            {
+              "text": "Okay,",
+              "start": 0.0,
+              "end": 0.28,
+              "confidence": 0.493
+            },
+            {
+              "text": "top",
+              "start": 0.56,
+              "end": 0.68,
+              "confidence": 0.987
+            },
+            {
+              "text": "left,",
+              "start": 0.68,
+              "end": 1.0,
+              "confidence": 0.755
+            },
+            {
+              "text": "yellow",
+              "start": 1.24,
+              "end": 1.5,
+              "confidence": 0.963
+            },
+            {
+              "text": "bird",
+              "start": 1.5,
+              "end": 1.76,
+              "confidence": 0.969
+            },
+            {
+              "text": "and",
+              "start": 1.76,
+              "end": 1.9,
+              "confidence": 0.526
+            },
+            {
+              "text": "a",
+              "start": 1.9,
+              "end": 2.0,
+              "confidence": 0.822
+            },
+            {
+              "text": "green",
+              "start": 2.0,
+              "end": 2.2,
+              "confidence": 0.993
+            },
+            {
+              "text": "bush.",
+              "start": 2.2,
+              "end": 2.54,
+              "confidence": 0.942
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "okay top left yellow bird and a green bush",
+      "confidence_scores": [
+        0.493,
+        0.987,
+        0.755,
+        0.963,
+        0.969,
+        0.526,
+        0.822,
+        0.993,
+        0.942
+      ],
+      "utterance_confidence": 0.777
+    }
+  },
+  "1": {
+    "start": 31.95611,
+    "end": 32.50004,
+    "transcript": "yup",
+    "whisper": {
+      "text": "yep",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.22,
+          "text": " Yep.",
+          "tokens": [
+            50363,
+            40810,
+            13,
+            50405
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.47406930923461915,
+          "compression_ratio": 0.3333333333333333,
+          "no_speech_prob": 0.010683396831154823,
+          "confidence": 0.647,
+          "words": [
+            {
+              "text": "Yep.",
+              "start": 0.0,
+              "end": 0.22,
+              "confidence": 0.647
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "yep",
+      "confidence_scores": [
+        0.647
+      ],
+      "utterance_confidence": 0.647
+    }
+  },
+  "2": {
+    "start": 34.46422,
+    "end": 36.319,
+    "transcript": " below them 2 sheep",
+    "whisper": {
+      "text": "below them 2 sheets",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.82,
+          "text": " below them two sheets",
+          "tokens": [
+            50363,
+            2174,
+            606,
+            734,
+            15747,
+            50553
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5313915525163923,
+          "compression_ratio": 0.7241379310344828,
+          "no_speech_prob": 0.5470448136329651,
+          "confidence": 0.6,
+          "words": [
+            {
+              "text": "below",
+              "start": 0.0,
+              "end": 0.8,
+              "confidence": 0.627
+            },
+            {
+              "text": "them",
+              "start": 0.8,
+              "end": 1.12,
+              "confidence": 0.971
+            },
+            {
+              "text": "two",
+              "start": 1.12,
+              "end": 1.56,
+              "confidence": 0.337
+            },
+            {
+              "text": "sheets",
+              "start": 1.56,
+              "end": 1.82,
+              "confidence": 0.634
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "below them 2 sheets",
+      "confidence_scores": [
+        0.627,
+        0.971,
+        0.337,
+        0.634
+      ],
+      "utterance_confidence": 0.6
+    }
+  },
+  "3": {
+    "start": 36.95,
+    "end": 39.159,
+    "transcript": "2 goats facing left and right",
+    "whisper": {
+      "text": "2 goats facing left and right",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.06,
+          "text": " Two goats facing left and right.",
+          "tokens": [
+            50363,
+            4930,
+            35199,
+            6476,
+            1364,
+            290,
+            826,
+            13,
+            50471
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4596279144287109,
+          "compression_ratio": 0.8,
+          "no_speech_prob": 0.012097959406673908,
+          "confidence": 0.733,
+          "words": [
+            {
+              "text": "Two",
+              "start": 0.0,
+              "end": 0.22,
+              "confidence": 0.184
+            },
+            {
+              "text": "goats",
+              "start": 0.22,
+              "end": 0.76,
+              "confidence": 0.986
+            },
+            {
+              "text": "facing",
+              "start": 0.76,
+              "end": 1.28,
+              "confidence": 0.911
+            },
+            {
+              "text": "left",
+              "start": 1.28,
+              "end": 1.56,
+              "confidence": 0.993
+            },
+            {
+              "text": "and",
+              "start": 1.56,
+              "end": 1.78,
+              "confidence": 0.994
+            },
+            {
+              "text": "right.",
+              "start": 1.78,
+              "end": 2.06,
+              "confidence": 0.834
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "2 goats facing left and right",
+      "confidence_scores": [
+        0.184,
+        0.986,
+        0.911,
+        0.993,
+        0.994,
+        0.834
+      ],
+      "utterance_confidence": 0.733
+    }
+  },
+  "4": {
+    "start": 41.48827,
+    "end": 42.99796,
+    "transcript": " in a square pen",
+    "whisper": {
+      "text": "in a square pen",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.12,
+          "text": " in a square pen.",
+          "tokens": [
+            50363,
+            287,
+            257,
+            6616,
+            3112,
+            13,
+            50423
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3739013969898224,
+          "compression_ratio": 0.6666666666666666,
+          "no_speech_prob": 0.017284005880355835,
+          "confidence": 0.919,
+          "words": [
+            {
+              "text": "in",
+              "start": 0.0,
+              "end": 0.34,
+              "confidence": 0.789
+            },
+            {
+              "text": "a",
+              "start": 0.34,
+              "end": 0.48,
+              "confidence": 0.993
+            },
+            {
+              "text": "square",
+              "start": 0.48,
+              "end": 0.78,
+              "confidence": 0.999
+            },
+            {
+              "text": "pen.",
+              "start": 0.78,
+              "end": 1.12,
+              "confidence": 0.915
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "in a square pen",
+      "confidence_scores": [
+        0.789,
+        0.993,
+        0.999,
+        0.915
+      ],
+      "utterance_confidence": 0.919
+    }
+  },
+  "5": {
+    "start": 44.1,
+    "end": 48.019,
+    "transcript": "below them a gray wooly sheep with a lamb behind it",
+    "whisper": {
+      "text": "below them a gray wooly sheep with a lamb behind it",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 3.86,
+          "text": " Below them a grey woolly sheep with a lamb behind it.",
+          "tokens": [
+            50363,
+            10383,
+            606,
+            257,
+            13791,
+            24486,
+            5098,
+            15900,
+            351,
+            257,
+            19343,
+            2157,
+            340,
+            13,
+            50557
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2010306715965271,
+          "compression_ratio": 0.8833333333333333,
+          "no_speech_prob": 0.000508451194036752,
+          "confidence": 0.871,
+          "words": [
+            {
+              "text": "Below",
+              "start": 0.0,
+              "end": 0.28,
+              "confidence": 0.737
+            },
+            {
+              "text": "them",
+              "start": 0.28,
+              "end": 0.68,
+              "confidence": 0.991
+            },
+            {
+              "text": "a",
+              "start": 0.68,
+              "end": 1.04,
+              "confidence": 0.469
+            },
+            {
+              "text": "grey",
+              "start": 1.04,
+              "end": 1.4,
+              "confidence": 0.843
+            },
+            {
+              "text": "woolly",
+              "start": 1.4,
+              "end": 1.78,
+              "confidence": 0.923
+            },
+            {
+              "text": "sheep",
+              "start": 1.78,
+              "end": 2.28,
+              "confidence": 0.972
+            },
+            {
+              "text": "with",
+              "start": 2.28,
+              "end": 2.72,
+              "confidence": 0.884
+            },
+            {
+              "text": "a",
+              "start": 2.72,
+              "end": 2.84,
+              "confidence": 0.981
+            },
+            {
+              "text": "lamb",
+              "start": 2.84,
+              "end": 3.16,
+              "confidence": 0.981
+            },
+            {
+              "text": "behind",
+              "start": 3.16,
+              "end": 3.56,
+              "confidence": 0.988
+            },
+            {
+              "text": "it.",
+              "start": 3.56,
+              "end": 3.86,
+              "confidence": 0.907
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "below them a gray wooly sheep with a lamb behind it",
+      "confidence_scores": [
+        0.737,
+        0.991,
+        0.469,
+        0.843,
+        0.923,
+        0.972,
+        0.884,
+        0.981,
+        0.981,
+        0.988,
+        0.907
+      ],
+      "utterance_confidence": 0.871
+    }
+  },
+  "6": {
+    "start": 49.19492,
+    "end": 49.74797,
+    "transcript": "yeah",
+    "whisper": {
+      "text": "yeah",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.18,
+          "text": " Yeah.",
+          "tokens": [
+            50363,
+            9425,
+            13,
+            50440
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3174896717071533,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.060595303773880005,
+          "confidence": 0.779,
+          "words": [
+            {
+              "text": "Yeah.",
+              "start": 0.0,
+              "end": 0.18,
+              "confidence": 0.779
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "yeah",
+      "confidence_scores": [
+        0.779
+      ],
+      "utterance_confidence": 0.779
+    }
+  },
+  "7": {
+    "start": 51.61737,
+    "end": 52.3097,
+    "transcript": "",
+    "whisper": {
+      "text": ".",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.66,
+          "text": " Uh...",
+          "tokens": [
+            50363,
+            28574,
+            986,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5886723041534424,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.16040198504924774,
+          "confidence": 0.449,
+          "words": [
+            {
+              "text": "Uh...",
+              "start": 0.0,
+              "end": 0.66,
+              "confidence": 0.449
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": ".",
+      "confidence_scores": [
+        0.449
+      ],
+      "utterance_confidence": 0.449
+    }
+  },
+  "8": {
+    "start": 52.9,
+    "end": 57.519,
+    "transcript": "to their right boy facing right orange hair green t_shirt blue shorts",
+    "whisper": {
+      "text": "to their right boy facing right orange hair green t_shirt blue shorts",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 4.5,
+          "text": " To their right, boy facing right, orange hair, green t-shirt, blue shorts.",
+          "tokens": [
+            50363,
+            1675,
+            511,
+            826,
+            11,
+            2933,
+            6476,
+            826,
+            11,
+            10912,
+            4190,
+            11,
+            4077,
+            256,
+            12,
+            15600,
+            11,
+            4171,
+            22078,
+            13,
+            50593
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.23664162375710227,
+          "compression_ratio": 1.0422535211267605,
+          "no_speech_prob": 0.0008243994088843465,
+          "confidence": 0.83,
+          "words": [
+            {
+              "text": "To",
+              "start": 0.0,
+              "end": 0.16,
+              "confidence": 0.547
+            },
+            {
+              "text": "their",
+              "start": 0.16,
+              "end": 0.32,
+              "confidence": 0.972
+            },
+            {
+              "text": "right,",
+              "start": 0.32,
+              "end": 0.74,
+              "confidence": 0.929
+            },
+            {
+              "text": "boy",
+              "start": 1.14,
+              "end": 1.3,
+              "confidence": 0.666
+            },
+            {
+              "text": "facing",
+              "start": 1.3,
+              "end": 1.72,
+              "confidence": 0.945
+            },
+            {
+              "text": "right,",
+              "start": 1.72,
+              "end": 1.96,
+              "confidence": 0.75
+            },
+            {
+              "text": "orange",
+              "start": 2.08,
+              "end": 2.42,
+              "confidence": 0.772
+            },
+            {
+              "text": "hair,",
+              "start": 2.42,
+              "end": 2.8,
+              "confidence": 0.946
+            },
+            {
+              "text": "green",
+              "start": 2.98,
+              "end": 3.22,
+              "confidence": 0.574
+            },
+            {
+              "text": "t-shirt,",
+              "start": 3.22,
+              "end": 3.72,
+              "confidence": 0.869
+            },
+            {
+              "text": "blue",
+              "start": 3.9,
+              "end": 4.02,
+              "confidence": 0.906
+            },
+            {
+              "text": "shorts.",
+              "start": 4.02,
+              "end": 4.5,
+              "confidence": 0.93
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "to their right boy facing right orange hair green t_shirt blue shorts",
+      "confidence_scores": [
+        0.547,
+        0.972,
+        0.929,
+        0.666,
+        0.945,
+        0.75,
+        0.772,
+        0.946,
+        0.574,
+        0.869,
+        0.906,
+        0.93
+      ],
+      "utterance_confidence": 0.83
+    }
+  },
+  "9": {
+    "start": 60.81,
+    "end": 61.66648,
+    "transcript": "yes",
+    "whisper": {
+      "text": "yes",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.28,
+          "text": " Yes.",
+          "tokens": [
+            50363,
+            3363,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5721404552459717,
+          "compression_ratio": 0.3333333333333333,
+          "no_speech_prob": 0.02014712430536747,
+          "confidence": 0.71,
+          "words": [
+            {
+              "text": "Yes.",
+              "start": 0.0,
+              "end": 0.28,
+              "confidence": 0.71
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "yes",
+      "confidence_scores": [
+        0.71
+      ],
+      "utterance_confidence": 0.71
+    }
+  },
+  "10": {
+    "start": 62.59217,
+    "end": 63.689,
+    "transcript": "and it says shoot",
+    "whisper": {
+      "text": "and it says shoot",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.92,
+          "text": " and it says shoot.",
+          "tokens": [
+            50363,
+            290,
+            340,
+            1139,
+            2686,
+            13,
+            50417
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4730965495109558,
+          "compression_ratio": 0.6923076923076923,
+          "no_speech_prob": 0.004348171874880791,
+          "confidence": 0.673,
+          "words": [
+            {
+              "text": "and",
+              "start": 0.0,
+              "end": 0.12,
+              "confidence": 0.539
+            },
+            {
+              "text": "it",
+              "start": 0.12,
+              "end": 0.26,
+              "confidence": 0.994
+            },
+            {
+              "text": "says",
+              "start": 0.26,
+              "end": 0.52,
+              "confidence": 0.989
+            },
+            {
+              "text": "shoot.",
+              "start": 0.52,
+              "end": 0.92,
+              "confidence": 0.51
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "and it says shoot",
+      "confidence_scores": [
+        0.539,
+        0.994,
+        0.989,
+        0.51
+      ],
+      "utterance_confidence": 0.673
+    }
+  },
+  "11": {
+    "start": 66.5594,
+    "end": 72.089,
+    "transcript": " above him there_is a person with a in a tractor with their hands arms raised",
+    "whisper": {
+      "text": "above him there_is a person in a tractor with their hands arms raised",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 5.32,
+          "text": " above him there's a person in a tractor with their hands arms raised.",
+          "tokens": [
+            50363,
+            2029,
+            683,
+            612,
+            338,
+            257,
+            1048,
+            287,
+            257,
+            38278,
+            351,
+            511,
+            2832,
+            5101,
+            4376,
+            13,
+            50715
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.25795698165893555,
+          "compression_ratio": 1.0298507462686568,
+          "no_speech_prob": 0.001080439891666174,
+          "confidence": 0.749,
+          "words": [
+            {
+              "text": "above",
+              "start": 0.0,
+              "end": 0.78,
+              "confidence": 0.289
+            },
+            {
+              "text": "him",
+              "start": 0.78,
+              "end": 1.22,
+              "confidence": 0.995
+            },
+            {
+              "text": "there's",
+              "start": 1.22,
+              "end": 1.92,
+              "confidence": 0.879
+            },
+            {
+              "text": "a",
+              "start": 1.92,
+              "end": 2.12,
+              "confidence": 0.994
+            },
+            {
+              "text": "person",
+              "start": 2.12,
+              "end": 2.48,
+              "confidence": 0.996
+            },
+            {
+              "text": "in",
+              "start": 2.48,
+              "end": 2.98,
+              "confidence": 0.549
+            },
+            {
+              "text": "a",
+              "start": 2.98,
+              "end": 3.12,
+              "confidence": 0.987
+            },
+            {
+              "text": "tractor",
+              "start": 3.12,
+              "end": 3.56,
+              "confidence": 0.939
+            },
+            {
+              "text": "with",
+              "start": 3.56,
+              "end": 3.76,
+              "confidence": 0.878
+            },
+            {
+              "text": "their",
+              "start": 3.76,
+              "end": 3.9,
+              "confidence": 0.949
+            },
+            {
+              "text": "hands",
+              "start": 3.9,
+              "end": 4.34,
+              "confidence": 0.839
+            },
+            {
+              "text": "arms",
+              "start": 4.34,
+              "end": 4.82,
+              "confidence": 0.251
+            },
+            {
+              "text": "raised.",
+              "start": 4.82,
+              "end": 5.32,
+              "confidence": 0.819
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "above him there_is a person in a tractor with their hands arms raised",
+      "confidence_scores": [
+        0.289,
+        0.995,
+        0.879,
+        0.994,
+        0.996,
+        0.549,
+        0.987,
+        0.939,
+        0.878,
+        0.949,
+        0.839,
+        0.251,
+        0.819
+      ],
+      "utterance_confidence": 0.749
+    }
+  },
+  "12": {
+    "start": 73.03423,
+    "end": 73.969,
+    "transcript": " shouting",
+    "whisper": {
+      "text": ". shouting",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.82,
+          "text": " uh... shouting",
+          "tokens": [
+            50363,
+            21480,
+            986,
+            19642,
+            50403
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.6884520848592123,
+          "compression_ratio": 0.6363636363636364,
+          "no_speech_prob": 0.24442891776561737,
+          "confidence": 0.488,
+          "words": [
+            {
+              "text": "uh...",
+              "start": 0.0,
+              "end": 0.32,
+              "confidence": 0.351
+            },
+            {
+              "text": "shouting",
+              "start": 0.32,
+              "end": 0.82,
+              "confidence": 0.943
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": ". shouting",
+      "confidence_scores": [
+        0.351,
+        0.943
+      ],
+      "utterance_confidence": 0.488
+    }
+  },
+  "13": {
+    "start": 74.62576,
+    "end": 74.99783,
+    "transcript": "",
+    "whisper": {
+      "text": "",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.02,
+          "end": 0.32,
+          "text": " uh",
+          "tokens": [
+            50363,
+            21480,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.6907325387001038,
+          "compression_ratio": 0.2,
+          "no_speech_prob": 0.8779457211494446,
+          "confidence": 0.056,
+          "words": [
+            {
+              "text": "uh",
+              "start": 0.02,
+              "end": 0.32,
+              "confidence": 0.056
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "",
+      "confidence_scores": [],
+      "utterance_confidence": 0.056
+    }
+  },
+  "14": {
+    "start": 75.7,
+    "end": 76.82955,
+    "transcript": "green tractor",
+    "whisper": {
+      "text": "green tactor",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.8,
+          "text": " Green Tactor",
+          "tokens": [
+            50363,
+            3469,
+            309,
+            11218,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.7406204541524252,
+          "compression_ratio": 0.6,
+          "no_speech_prob": 0.44464972615242004,
+          "confidence": 0.427,
+          "words": [
+            {
+              "text": "Green",
+              "start": 0.0,
+              "end": 0.3,
+              "confidence": 0.35
+            },
+            {
+              "text": "Tactor",
+              "start": 0.3,
+              "end": 0.8,
+              "confidence": 0.471
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "green tactor",
+      "confidence_scores": [
+        0.35,
+        0.471
+      ],
+      "utterance_confidence": 0.427
+    }
+  },
+  "15": {
+    "start": 77.66,
+    "end": 78.1226,
+    "transcript": "gray",
+    "whisper": {
+      "text": "that_is great",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.28,
+          "text": " That's great.",
+          "tokens": [
+            50363,
+            1320,
+            338,
+            1049,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.7882424763270787,
+          "compression_ratio": 0.6190476190476191,
+          "no_speech_prob": 0.5842818021774292,
+          "confidence": 0.502,
+          "words": [
+            {
+              "text": "That's",
+              "start": 0.0,
+              "end": 0.1,
+              "confidence": 0.32
+            },
+            {
+              "text": "great.",
+              "start": 0.1,
+              "end": 0.28,
+              "confidence": 0.787
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "that_is great",
+      "confidence_scores": [
+        0.32,
+        0.787
+      ],
+      "utterance_confidence": 0.502
+    }
+  },
+  "16": {
+    "start": 80.66,
+    "end": 82.069,
+    "transcript": "to their right is a big shed",
+    "whisper": {
+      "text": "to their right is a big shed",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.32,
+          "text": " To their right is a big shed.",
+          "tokens": [
+            50363,
+            1675,
+            511,
+            826,
+            318,
+            257,
+            1263,
+            14999,
+            13,
+            50433
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.31096904928034,
+          "compression_ratio": 0.7837837837837838,
+          "no_speech_prob": 0.011343355290591717,
+          "confidence": 0.854,
+          "words": [
+            {
+              "text": "To",
+              "start": 0.0,
+              "end": 0.16,
+              "confidence": 0.446
+            },
+            {
+              "text": "their",
+              "start": 0.16,
+              "end": 0.32,
+              "confidence": 0.996
+            },
+            {
+              "text": "right",
+              "start": 0.32,
+              "end": 0.54,
+              "confidence": 0.968
+            },
+            {
+              "text": "is",
+              "start": 0.54,
+              "end": 0.68,
+              "confidence": 0.787
+            },
+            {
+              "text": "a",
+              "start": 0.68,
+              "end": 0.78,
+              "confidence": 0.978
+            },
+            {
+              "text": "big",
+              "start": 0.78,
+              "end": 0.94,
+              "confidence": 0.99
+            },
+            {
+              "text": "shed.",
+              "start": 0.94,
+              "end": 1.32,
+              "confidence": 0.93
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "to their right is a big shed",
+      "confidence_scores": [
+        0.446,
+        0.996,
+        0.968,
+        0.787,
+        0.978,
+        0.99,
+        0.93
+      ],
+      "utterance_confidence": 0.854
+    }
+  },
+  "17": {
+    "start": 83.28,
+    "end": 84.029,
+    "transcript": "no writing",
+    "whisper": {
+      "text": "no writing",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.6,
+          "text": " No writing.",
+          "tokens": [
+            50363,
+            1400,
+            3597,
+            13,
+            50399
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.47285600503285724,
+          "compression_ratio": 0.5789473684210527,
+          "no_speech_prob": 0.020336519926786423,
+          "confidence": 0.812,
+          "words": [
+            {
+              "text": "No",
+              "start": 0.0,
+              "end": 0.2,
+              "confidence": 0.679
+            },
+            {
+              "text": "writing.",
+              "start": 0.2,
+              "end": 0.6,
+              "confidence": 0.887
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "no writing",
+      "confidence_scores": [
+        0.679,
+        0.887
+      ],
+      "utterance_confidence": 0.812
+    }
+  },
+  "18": {
+    "start": 84.95,
+    "end": 87.69572,
+    "transcript": "white shed with brown doors",
+    "whisper": {
+      "text": "white shed with brown doors",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.2,
+          "text": " white shed with brown doors.",
+          "tokens": [
+            50363,
+            2330,
+            14999,
+            351,
+            7586,
+            8215,
+            13,
+            50479
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.449911011589898,
+          "compression_ratio": 0.7777777777777778,
+          "no_speech_prob": 0.007557329256087542,
+          "confidence": 0.848,
+          "words": [
+            {
+              "text": "white",
+              "start": 0.0,
+              "end": 0.42,
+              "confidence": 0.647
+            },
+            {
+              "text": "shed",
+              "start": 0.42,
+              "end": 1.14,
+              "confidence": 0.947
+            },
+            {
+              "text": "with",
+              "start": 1.14,
+              "end": 1.36,
+              "confidence": 0.994
+            },
+            {
+              "text": "brown",
+              "start": 1.36,
+              "end": 1.72,
+              "confidence": 0.988
+            },
+            {
+              "text": "doors.",
+              "start": 1.72,
+              "end": 2.2,
+              "confidence": 0.785
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "white shed with brown doors",
+      "confidence_scores": [
+        0.647,
+        0.947,
+        0.994,
+        0.988,
+        0.785
+      ],
+      "utterance_confidence": 0.848
+    }
+  },
+  "19": {
+    "start": 88.48,
+    "end": 89.349,
+    "transcript": "brown doors",
+    "whisper": {
+      "text": "brown doors",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.74,
+          "text": " brown doors.",
+          "tokens": [
+            50363,
+            7586,
+            8215,
+            13,
+            50405
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5020623604456583,
+          "compression_ratio": 0.6,
+          "no_speech_prob": 0.19020870327949524,
+          "confidence": 0.76,
+          "words": [
+            {
+              "text": "brown",
+              "start": 0.0,
+              "end": 0.32,
+              "confidence": 0.724
+            },
+            {
+              "text": "doors.",
+              "start": 0.32,
+              "end": 0.74,
+              "confidence": 0.779
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "brown doors",
+      "confidence_scores": [
+        0.724,
+        0.779
+      ],
+      "utterance_confidence": 0.76
+    }
+  },
+  "20": {
+    "start": 90.98533,
+    "end": 92.649,
+    "transcript": "below them chap sawing wood",
+    "whisper": {
+      "text": "below them chapsawing wood",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.54,
+          "text": " below them chapsawing wood.",
+          "tokens": [
+            50363,
+            2174,
+            606,
+            442,
+            1686,
+            707,
+            278,
+            4898,
+            13,
+            50443
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.37681107087568805,
+          "compression_ratio": 0.7714285714285715,
+          "no_speech_prob": 0.011949433013796806,
+          "confidence": 0.775,
+          "words": [
+            {
+              "text": "below",
+              "start": 0.0,
+              "end": 0.24,
+              "confidence": 0.704
+            },
+            {
+              "text": "them",
+              "start": 0.24,
+              "end": 0.52,
+              "confidence": 0.993
+            },
+            {
+              "text": "chapsawing",
+              "start": 0.52,
+              "end": 1.32,
+              "confidence": 0.7
+            },
+            {
+              "text": "wood.",
+              "start": 1.32,
+              "end": 1.54,
+              "confidence": 0.883
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "below them chapsawing wood",
+      "confidence_scores": [
+        0.704,
+        0.993,
+        0.7,
+        0.883
+      ],
+      "utterance_confidence": 0.775
+    }
+  },
+  "21": {
+    "start": 94.34064,
+    "end": 94.71742,
+    "transcript": "yeah",
+    "whisper": {
+      "text": "yeah",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.14,
+          "end": 0.34,
+          "text": " Yeah.",
+          "tokens": [
+            50363,
+            9425,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4515079021453857,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.17168471217155457,
+          "confidence": 0.675,
+          "words": [
+            {
+              "text": "Yeah.",
+              "start": 0.14,
+              "end": 0.34,
+              "confidence": 0.675
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "yeah",
+      "confidence_scores": [
+        0.675
+      ],
+      "utterance_confidence": 0.675
+    }
+  },
+  "22": {
+    "start": 98.40647,
+    "end": 100.999,
+    "transcript": " and he_is got a white gray beard",
+    "whisper": {
+      "text": "and he_is got a white gray beard",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.46,
+          "text": " and he's got a white grey beard.",
+          "tokens": [
+            50363,
+            290,
+            339,
+            338,
+            1392,
+            257,
+            2330,
+            13791,
+            21213,
+            13,
+            50487
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.35285882155100506,
+          "compression_ratio": 0.8,
+          "no_speech_prob": 0.0018511720700189471,
+          "confidence": 0.856,
+          "words": [
+            {
+              "text": "and",
+              "start": 0.0,
+              "end": 0.64,
+              "confidence": 0.593
+            },
+            {
+              "text": "he's",
+              "start": 0.64,
+              "end": 0.88,
+              "confidence": 0.979
+            },
+            {
+              "text": "got",
+              "start": 0.88,
+              "end": 1.04,
+              "confidence": 0.999
+            },
+            {
+              "text": "a",
+              "start": 1.04,
+              "end": 1.24,
+              "confidence": 0.986
+            },
+            {
+              "text": "white",
+              "start": 1.24,
+              "end": 1.6,
+              "confidence": 0.906
+            },
+            {
+              "text": "grey",
+              "start": 1.6,
+              "end": 2.04,
+              "confidence": 0.642
+            },
+            {
+              "text": "beard.",
+              "start": 2.04,
+              "end": 2.46,
+              "confidence": 0.871
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "and he_is got a white gray beard",
+      "confidence_scores": [
+        0.593,
+        0.979,
+        0.999,
+        0.986,
+        0.906,
+        0.642,
+        0.871
+      ],
+      "utterance_confidence": 0.856
+    }
+  },
+  "23": {
+    "start": 101.9,
+    "end": 103.369,
+    "transcript": "red and white striped hat",
+    "whisper": {
+      "text": "red and white striped hat",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.34,
+          "text": " red and white striped hat.",
+          "tokens": [
+            50363,
+            2266,
+            290,
+            2330,
+            49807,
+            6877,
+            13,
+            50435
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.31821947627597386,
+          "compression_ratio": 0.7878787878787878,
+          "no_speech_prob": 0.015150351449847221,
+          "confidence": 0.909,
+          "words": [
+            {
+              "text": "red",
+              "start": 0.0,
+              "end": 0.2,
+              "confidence": 0.794
+            },
+            {
+              "text": "and",
+              "start": 0.2,
+              "end": 0.34,
+              "confidence": 0.874
+            },
+            {
+              "text": "white",
+              "start": 0.34,
+              "end": 0.54,
+              "confidence": 0.998
+            },
+            {
+              "text": "striped",
+              "start": 0.54,
+              "end": 0.98,
+              "confidence": 0.947
+            },
+            {
+              "text": "hat.",
+              "start": 0.98,
+              "end": 1.34,
+              "confidence": 0.926
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "red and white striped hat",
+      "confidence_scores": [
+        0.794,
+        0.874,
+        0.998,
+        0.947,
+        0.926
+      ],
+      "utterance_confidence": 0.909
+    }
+  },
+  "24": {
+    "start": 103.91,
+    "end": 104.899,
+    "transcript": "cap cap",
+    "whisper": {
+      "text": "cap cap",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.9,
+          "text": " Cap, cap.",
+          "tokens": [
+            50363,
+            4476,
+            11,
+            1451,
+            13,
+            50405
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.6429299627031598,
+          "compression_ratio": 0.5294117647058824,
+          "no_speech_prob": 0.2200404852628708,
+          "confidence": 0.362,
+          "words": [
+            {
+              "text": "Cap,",
+              "start": 0.0,
+              "end": 0.38,
+              "confidence": 0.284
+            },
+            {
+              "text": "cap.",
+              "start": 0.58,
+              "end": 0.9,
+              "confidence": 0.461
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "cap cap",
+      "confidence_scores": [
+        0.284,
+        0.461
+      ],
+      "utterance_confidence": 0.362
+    }
+  },
+  "25": {
+    "start": 105.5,
+    "end": 108.469,
+    "transcript": "and  below them 2 kids dressed as",
+    "whisper": {
+      "text": "and below them 2 kids dressed as",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.94,
+          "text": " and below them two kids dressed as",
+          "tokens": [
+            50363,
+            290,
+            2174,
+            606,
+            734,
+            3988,
+            12049,
+            355,
+            50503
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3540850400924683,
+          "compression_ratio": 0.8095238095238095,
+          "no_speech_prob": 0.0038500113878399134,
+          "confidence": 0.863,
+          "words": [
+            {
+              "text": "and",
+              "start": 0.0,
+              "end": 0.68,
+              "confidence": 0.656
+            },
+            {
+              "text": "below",
+              "start": 0.68,
+              "end": 1.42,
+              "confidence": 0.887
+            },
+            {
+              "text": "them",
+              "start": 1.42,
+              "end": 1.7,
+              "confidence": 0.996
+            },
+            {
+              "text": "two",
+              "start": 1.7,
+              "end": 2.02,
+              "confidence": 0.694
+            },
+            {
+              "text": "kids",
+              "start": 2.02,
+              "end": 2.36,
+              "confidence": 0.988
+            },
+            {
+              "text": "dressed",
+              "start": 2.36,
+              "end": 2.72,
+              "confidence": 0.974
+            },
+            {
+              "text": "as",
+              "start": 2.72,
+              "end": 2.94,
+              "confidence": 0.919
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "and below them 2 kids dressed as",
+      "confidence_scores": [
+        0.656,
+        0.887,
+        0.996,
+        0.694,
+        0.988,
+        0.974,
+        0.919
+      ],
+      "utterance_confidence": 0.863
+    }
+  },
+  "26": {
+    "start": 108.89,
+    "end": 110.149,
+    "transcript": "ghouls as ghosts",
+    "whisper": {
+      "text": "ghouls as ghosts",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.04,
+          "text": " ghouls as ghosts.",
+          "tokens": [
+            50363,
+            24997,
+            42033,
+            355,
+            25899,
+            13,
+            50425
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.42877840995788574,
+          "compression_ratio": 0.68,
+          "no_speech_prob": 0.17086848616600037,
+          "confidence": 0.883,
+          "words": [
+            {
+              "text": "ghouls",
+              "start": 0.0,
+              "end": 0.42,
+              "confidence": 0.895
+            },
+            {
+              "text": "as",
+              "start": 0.42,
+              "end": 0.62,
+              "confidence": 0.977
+            },
+            {
+              "text": "ghosts.",
+              "start": 0.62,
+              "end": 1.04,
+              "confidence": 0.829
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "ghouls as ghosts",
+      "confidence_scores": [
+        0.895,
+        0.977,
+        0.829
+      ],
+      "utterance_confidence": 0.883
+    }
+  },
+  "27": {
+    "start": 114.43,
+    "end": 115.09135,
+    "transcript": "k",
+    "whisper": {
+      "text": "okay",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.24,
+          "text": " Okay.",
+          "tokens": [
+            50363,
+            16805,
+            13,
+            50405
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4638357639312744,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.4815560281276703,
+          "confidence": 0.49,
+          "words": [
+            {
+              "text": "Okay.",
+              "start": 0.0,
+              "end": 0.24,
+              "confidence": 0.49
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "okay",
+      "confidence_scores": [
+        0.49
+      ],
+      "utterance_confidence": 0.49
+    }
+  },
+  "28": {
+    "start": 119.76,
+    "end": 123.109,
+    "transcript": "and they_have got one the left has got red trousers one on the right has got blue",
+    "whisper": {
+      "text": "and they_have got one left_is got red tres one on the right_is got blue",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.22,
+          "text": " and they've got, one left's got red tres,",
+          "tokens": [
+            50363,
+            290,
+            484,
+            1053,
+            1392,
+            11,
+            530,
+            1364,
+            338,
+            1392,
+            2266,
+            256,
+            411,
+            11,
+            50479
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.42008458651029146,
+          "compression_ratio": 1.1290322580645162,
+          "no_speech_prob": 0.006761226803064346,
+          "confidence": 0.517,
+          "words": [
+            {
+              "text": "and",
+              "start": 0.0,
+              "end": 0.24,
+              "confidence": 0.376
+            },
+            {
+              "text": "they've",
+              "start": 0.24,
+              "end": 0.5,
+              "confidence": 0.893
+            },
+            {
+              "text": "got,",
+              "start": 0.5,
+              "end": 0.74,
+              "confidence": 0.621
+            },
+            {
+              "text": "one",
+              "start": 1.08,
+              "end": 1.12,
+              "confidence": 0.748
+            },
+            {
+              "text": "left's",
+              "start": 1.12,
+              "end": 1.6,
+              "confidence": 0.485
+            },
+            {
+              "text": "got",
+              "start": 1.6,
+              "end": 1.72,
+              "confidence": 0.992
+            },
+            {
+              "text": "red",
+              "start": 1.72,
+              "end": 1.94,
+              "confidence": 0.983
+            },
+            {
+              "text": "tres,",
+              "start": 1.94,
+              "end": 2.22,
+              "confidence": 0.212
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 2.22,
+          "end": 3.24,
+          "text": " one on the right's got blue.",
+          "tokens": [
+            50479,
+            530,
+            319,
+            262,
+            826,
+            338,
+            1392,
+            4171,
+            13,
+            50549
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.42008458651029146,
+          "compression_ratio": 1.1290322580645162,
+          "no_speech_prob": 0.006761226803064346,
+          "confidence": 0.483,
+          "words": [
+            {
+              "text": "one",
+              "start": 2.22,
+              "end": 2.38,
+              "confidence": 0.018
+            },
+            {
+              "text": "on",
+              "start": 2.38,
+              "end": 2.5,
+              "confidence": 0.413
+            },
+            {
+              "text": "the",
+              "start": 2.5,
+              "end": 2.54,
+              "confidence": 0.994
+            },
+            {
+              "text": "right's",
+              "start": 2.54,
+              "end": 2.82,
+              "confidence": 0.901
+            },
+            {
+              "text": "got",
+              "start": 2.82,
+              "end": 2.94,
+              "confidence": 0.988
+            },
+            {
+              "text": "blue.",
+              "start": 2.94,
+              "end": 3.24,
+              "confidence": 0.699
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "and they_have got one left_is got red tres one on the right_is got blue",
+      "confidence_scores": [
+        0.376,
+        0.893,
+        0.621,
+        0.748,
+        0.485,
+        0.992,
+        0.983,
+        0.212,
+        0.018,
+        0.413,
+        0.994,
+        0.901,
+        0.988,
+        0.699
+      ],
+      "utterance_confidence": 0.5
+    }
+  },
+  "29": {
+    "start": 124.52381,
+    "end": 127.489,
+    "transcript": "below them a woman  cutting up something green",
+    "whisper": {
+      "text": "below them a woman cutting up something green",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.88,
+          "text": " below them a woman cutting up something green.",
+          "tokens": [
+            50363,
+            2174,
+            606,
+            257,
+            2415,
+            7720,
+            510,
+            1223,
+            4077,
+            13,
+            50505
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3881722688674927,
+          "compression_ratio": 0.9019607843137255,
+          "no_speech_prob": 0.012906617484986782,
+          "confidence": 0.795,
+          "words": [
+            {
+              "text": "below",
+              "start": 0.0,
+              "end": 0.2,
+              "confidence": 0.296
+            },
+            {
+              "text": "them",
+              "start": 0.2,
+              "end": 0.54,
+              "confidence": 0.986
+            },
+            {
+              "text": "a",
+              "start": 0.54,
+              "end": 0.88,
+              "confidence": 0.797
+            },
+            {
+              "text": "woman",
+              "start": 0.88,
+              "end": 1.22,
+              "confidence": 0.987
+            },
+            {
+              "text": "cutting",
+              "start": 1.22,
+              "end": 1.94,
+              "confidence": 0.948
+            },
+            {
+              "text": "up",
+              "start": 1.94,
+              "end": 2.2,
+              "confidence": 0.975
+            },
+            {
+              "text": "something",
+              "start": 2.2,
+              "end": 2.5,
+              "confidence": 0.982
+            },
+            {
+              "text": "green.",
+              "start": 2.5,
+              "end": 2.88,
+              "confidence": 0.779
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "below them a woman cutting up something green",
+      "confidence_scores": [
+        0.296,
+        0.986,
+        0.797,
+        0.987,
+        0.948,
+        0.975,
+        0.982,
+        0.779
+      ],
+      "utterance_confidence": 0.795
+    }
+  },
+  "30": {
+    "start": 129.04064,
+    "end": 131.889,
+    "transcript": " to her left is a boy with curly hair",
+    "whisper": {
+      "text": "to her left is a boy with curly hair",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.8,
+          "text": " To her left is a boy with curly hair.",
+          "tokens": [
+            50363,
+            1675,
+            607,
+            1364,
+            318,
+            257,
+            2933,
+            351,
+            45731,
+            4190,
+            13,
+            50505
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3497870151813214,
+          "compression_ratio": 0.8222222222222222,
+          "no_speech_prob": 0.03213034197688103,
+          "confidence": 0.849,
+          "words": [
+            {
+              "text": "To",
+              "start": 0.0,
+              "end": 0.72,
+              "confidence": 0.327
+            },
+            {
+              "text": "her",
+              "start": 0.72,
+              "end": 1.06,
+              "confidence": 0.996
+            },
+            {
+              "text": "left",
+              "start": 1.06,
+              "end": 1.46,
+              "confidence": 0.901
+            },
+            {
+              "text": "is",
+              "start": 1.46,
+              "end": 1.64,
+              "confidence": 0.911
+            },
+            {
+              "text": "a",
+              "start": 1.64,
+              "end": 1.78,
+              "confidence": 0.991
+            },
+            {
+              "text": "boy",
+              "start": 1.78,
+              "end": 1.98,
+              "confidence": 0.991
+            },
+            {
+              "text": "with",
+              "start": 1.98,
+              "end": 2.16,
+              "confidence": 0.993
+            },
+            {
+              "text": "curly",
+              "start": 2.16,
+              "end": 2.48,
+              "confidence": 0.998
+            },
+            {
+              "text": "hair.",
+              "start": 2.48,
+              "end": 2.8,
+              "confidence": 0.864
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "to her left is a boy with curly hair",
+      "confidence_scores": [
+        0.327,
+        0.996,
+        0.901,
+        0.911,
+        0.991,
+        0.991,
+        0.993,
+        0.998,
+        0.864
+      ],
+      "utterance_confidence": 0.849
+    }
+  },
+  "31": {
+    "start": 132.99,
+    "end": 135.729,
+    "transcript": "and a bowl something white bowl with something green",
+    "whisper": {
+      "text": "and the white bowl was something green",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.62,
+          "text": " and the white bowl was something green.",
+          "tokens": [
+            50363,
+            290,
+            262,
+            2330,
+            9396,
+            373,
+            1223,
+            4077,
+            13,
+            50499
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4392813769253818,
+          "compression_ratio": 0.8297872340425532,
+          "no_speech_prob": 0.0017645990010350943,
+          "confidence": 0.772,
+          "words": [
+            {
+              "text": "and",
+              "start": 0.0,
+              "end": 0.24,
+              "confidence": 0.785
+            },
+            {
+              "text": "the",
+              "start": 0.24,
+              "end": 0.48,
+              "confidence": 0.671
+            },
+            {
+              "text": "white",
+              "start": 0.48,
+              "end": 1.54,
+              "confidence": 0.788
+            },
+            {
+              "text": "bowl",
+              "start": 1.54,
+              "end": 1.84,
+              "confidence": 0.971
+            },
+            {
+              "text": "was",
+              "start": 1.84,
+              "end": 2.0,
+              "confidence": 0.415
+            },
+            {
+              "text": "something",
+              "start": 2.0,
+              "end": 2.26,
+              "confidence": 0.98
+            },
+            {
+              "text": "green.",
+              "start": 2.26,
+              "end": 2.62,
+              "confidence": 0.877
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "and the white bowl was something green",
+      "confidence_scores": [
+        0.785,
+        0.671,
+        0.788,
+        0.971,
+        0.415,
+        0.98,
+        0.877
+      ],
+      "utterance_confidence": 0.772
+    }
+  },
+  "32": {
+    "start": 139.03875,
+    "end": 139.54269,
+    "transcript": "",
+    "whisper": {
+      "text": "of",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.42,
+          "text": " of",
+          "tokens": [
+            50363,
+            286,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.7060397863388062,
+          "compression_ratio": 0.2,
+          "no_speech_prob": 0.7013746500015259,
+          "confidence": 0.109,
+          "words": [
+            {
+              "text": "of",
+              "start": 0.0,
+              "end": 0.42,
+              "confidence": 0.109
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "of",
+      "confidence_scores": [
+        0.109
+      ],
+      "utterance_confidence": 0.109
+    }
+  },
+  "33": {
+    "start": 140.46,
+    "end": 144.719,
+    "transcript": "and  sh below them there_is a bag saying potatoes",
+    "whisper": {
+      "text": "and below them there_is a bag saying potatoes",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 4.0,
+          "text": " and below them there's a bag saying potatoes.",
+          "tokens": [
+            50363,
+            290,
+            2174,
+            606,
+            612,
+            338,
+            257,
+            6131,
+            2282,
+            18821,
+            13,
+            50663
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.27794214395376354,
+          "compression_ratio": 0.9,
+          "no_speech_prob": 0.0006201154319569468,
+          "confidence": 0.889,
+          "words": [
+            {
+              "text": "and",
+              "start": 0.0,
+              "end": 0.62,
+              "confidence": 0.801
+            },
+            {
+              "text": "below",
+              "start": 0.62,
+              "end": 2.3,
+              "confidence": 0.724
+            },
+            {
+              "text": "them",
+              "start": 2.3,
+              "end": 2.66,
+              "confidence": 0.997
+            },
+            {
+              "text": "there's",
+              "start": 2.66,
+              "end": 2.9,
+              "confidence": 0.933
+            },
+            {
+              "text": "a",
+              "start": 2.9,
+              "end": 3.02,
+              "confidence": 0.997
+            },
+            {
+              "text": "bag",
+              "start": 3.02,
+              "end": 3.26,
+              "confidence": 0.996
+            },
+            {
+              "text": "saying",
+              "start": 3.26,
+              "end": 3.48,
+              "confidence": 0.989
+            },
+            {
+              "text": "potatoes.",
+              "start": 3.48,
+              "end": 4.0,
+              "confidence": 0.789
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "and below them there_is a bag saying potatoes",
+      "confidence_scores": [
+        0.801,
+        0.724,
+        0.997,
+        0.933,
+        0.997,
+        0.996,
+        0.989,
+        0.789
+      ],
+      "utterance_confidence": 0.889
+    }
+  },
+  "34": {
+    "start": 149.96536,
+    "end": 152.529,
+    "transcript": "okay  then on their left is a",
+    "whisper": {
+      "text": "okay then on their left is a_.",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.52,
+          "text": " Okay, then on their left is a...",
+          "tokens": [
+            50363,
+            16805,
+            11,
+            788,
+            319,
+            511,
+            1364,
+            318,
+            257,
+            986,
+            50487
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5373075803120931,
+          "compression_ratio": 0.8648648648648649,
+          "no_speech_prob": 0.19543491303920746,
+          "confidence": 0.649,
+          "words": [
+            {
+              "text": "Okay,",
+              "start": 0.0,
+              "end": 0.32,
+              "confidence": 0.479
+            },
+            {
+              "text": "then",
+              "start": 1.0,
+              "end": 1.32,
+              "confidence": 0.937
+            },
+            {
+              "text": "on",
+              "start": 1.32,
+              "end": 1.52,
+              "confidence": 0.957
+            },
+            {
+              "text": "their",
+              "start": 1.52,
+              "end": 1.68,
+              "confidence": 0.589
+            },
+            {
+              "text": "left",
+              "start": 1.68,
+              "end": 1.92,
+              "confidence": 0.998
+            },
+            {
+              "text": "is",
+              "start": 1.92,
+              "end": 2.1,
+              "confidence": 0.892
+            },
+            {
+              "text": "a...",
+              "start": 2.1,
+              "end": 2.52,
+              "confidence": 0.435
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "okay then on their left is a_.",
+      "confidence_scores": [
+        0.479,
+        0.937,
+        0.957,
+        0.589,
+        0.998,
+        0.892,
+        0.435
+      ],
+      "utterance_confidence": 0.649
+    }
+  },
+  "35": {
+    "start": 154.83,
+    "end": 155.319,
+    "transcript": "no one",
+    "whisper": {
+      "text": "no one",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.44,
+          "text": " No one.",
+          "tokens": [
+            50363,
+            1400,
+            530,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3034960428873698,
+          "compression_ratio": 0.4666666666666667,
+          "no_speech_prob": 0.12815888226032257,
+          "confidence": 0.838,
+          "words": [
+            {
+              "text": "No",
+              "start": 0.0,
+              "end": 0.2,
+              "confidence": 0.809
+            },
+            {
+              "text": "one.",
+              "start": 0.2,
+              "end": 0.44,
+              "confidence": 0.853
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "no one",
+      "confidence_scores": [
+        0.809,
+        0.853
+      ],
+      "utterance_confidence": 0.838
+    }
+  },
+  "36": {
+    "start": 158.20328,
+    "end": 158.48115,
+    "transcript": "yeah",
+    "whisper": {
+      "text": "yeah",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.22,
+          "text": " Yeah.",
+          "tokens": [
+            50363,
+            9425,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.446473503112793,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.2702304422855377,
+          "confidence": 0.679,
+          "words": [
+            {
+              "text": "Yeah.",
+              "start": 0.0,
+              "end": 0.22,
+              "confidence": 0.679
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "yeah",
+      "confidence_scores": [
+        0.679
+      ],
+      "utterance_confidence": 0.679
+    }
+  },
+  "37": {
+    "start": 161.89,
+    "end": 166.97784,
+    "transcript": "okay  to their left there_is a stall saying fresh fruit and veg",
+    "whisper": {
+      "text": "okay to their left there_is a stall saying fresh fruit and veg",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 3.18,
+          "text": " Okay, to their left there's a stall saying",
+          "tokens": [
+            50363,
+            16805,
+            11,
+            284,
+            511,
+            1364,
+            612,
+            338,
+            257,
+            22549,
+            2282,
+            50524
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.20881439390636625,
+          "compression_ratio": 0.9402985074626866,
+          "no_speech_prob": 0.0014901433605700731,
+          "confidence": 0.79,
+          "words": [
+            {
+              "text": "Okay,",
+              "start": 0.0,
+              "end": 0.46,
+              "confidence": 0.542
+            },
+            {
+              "text": "to",
+              "start": 1.22,
+              "end": 1.46,
+              "confidence": 0.867
+            },
+            {
+              "text": "their",
+              "start": 1.46,
+              "end": 1.62,
+              "confidence": 0.979
+            },
+            {
+              "text": "left",
+              "start": 1.62,
+              "end": 1.9,
+              "confidence": 0.999
+            },
+            {
+              "text": "there's",
+              "start": 1.9,
+              "end": 2.32,
+              "confidence": 0.791
+            },
+            {
+              "text": "a",
+              "start": 2.32,
+              "end": 2.46,
+              "confidence": 0.943
+            },
+            {
+              "text": "stall",
+              "start": 2.46,
+              "end": 2.86,
+              "confidence": 0.675
+            },
+            {
+              "text": "saying",
+              "start": 2.86,
+              "end": 3.18,
+              "confidence": 0.953
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 3.18,
+          "end": 4.44,
+          "text": " fresh fruit and veg.",
+          "tokens": [
+            50524,
+            4713,
+            8234,
+            290,
+            1569,
+            70,
+            13,
+            50599
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.20881439390636625,
+          "compression_ratio": 0.9402985074626866,
+          "no_speech_prob": 0.0014901433605700731,
+          "confidence": 0.922,
+          "words": [
+            {
+              "text": "fresh",
+              "start": 3.18,
+              "end": 3.54,
+              "confidence": 0.864
+            },
+            {
+              "text": "fruit",
+              "start": 3.54,
+              "end": 3.86,
+              "confidence": 0.942
+            },
+            {
+              "text": "and",
+              "start": 3.86,
+              "end": 4.0,
+              "confidence": 0.98
+            },
+            {
+              "text": "veg.",
+              "start": 4.0,
+              "end": 4.44,
+              "confidence": 0.917
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "okay to their left there_is a stall saying fresh fruit and veg",
+      "confidence_scores": [
+        0.542,
+        0.867,
+        0.979,
+        0.999,
+        0.791,
+        0.943,
+        0.675,
+        0.953,
+        0.864,
+        0.942,
+        0.98,
+        0.917
+      ],
+      "utterance_confidence": 0.8560000000000001
+    }
+  },
+  "38": {
+    "start": 167.57361,
+    "end": 168.76247,
+    "transcript": " s got strawberries",
+    "whisper": {
+      "text": " staw",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.8,
+          "text": " uh, staw-",
+          "tokens": [
+            50363,
+            21480,
+            11,
+            336,
+            707,
+            12,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.9207643270492554,
+          "compression_ratio": 0.5294117647058824,
+          "no_speech_prob": 0.7651153802871704,
+          "confidence": 0.205,
+          "words": [
+            {
+              "text": "uh,",
+              "start": 0.0,
+              "end": 0.34,
+              "confidence": 0.272
+            },
+            {
+              "text": "staw-",
+              "start": 0.46,
+              "end": 0.8,
+              "confidence": 0.17
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "staw",
+      "confidence_scores": [
+        0.17
+      ],
+      "utterance_confidence": 0.205
+    }
+  },
+  "39": {
+    "start": 169.27,
+    "end": 170.03992,
+    "transcript": "the left",
+    "whisper": {
+      "text": "left",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.36,
+          "text": " left",
+          "tokens": [
+            50363,
+            1364,
+            50477
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.7147595882415771,
+          "compression_ratio": 0.3333333333333333,
+          "no_speech_prob": 0.3395203649997711,
+          "confidence": 0.524,
+          "words": [
+            {
+              "text": "left",
+              "start": 0.0,
+              "end": 0.36,
+              "confidence": 0.524
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "left",
+      "confidence_scores": [
+        0.524
+      ],
+      "utterance_confidence": 0.524
+    }
+  },
+  "40": {
+    "start": 170.53,
+    "end": 171.659,
+    "transcript": "carrots on the right",
+    "whisper": {
+      "text": "carrots on the right",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.98,
+          "text": " Carrots on the right.",
+          "tokens": [
+            50363,
+            1879,
+            24744,
+            319,
+            262,
+            826,
+            13,
+            50415
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5114505026075575,
+          "compression_ratio": 0.7241379310344828,
+          "no_speech_prob": 0.025009043514728546,
+          "confidence": 0.746,
+          "words": [
+            {
+              "text": "Carrots",
+              "start": 0.0,
+              "end": 0.42,
+              "confidence": 0.469
+            },
+            {
+              "text": "on",
+              "start": 0.42,
+              "end": 0.56,
+              "confidence": 0.991
+            },
+            {
+              "text": "the",
+              "start": 0.56,
+              "end": 0.7,
+              "confidence": 0.998
+            },
+            {
+              "text": "right.",
+              "start": 0.7,
+              "end": 0.98,
+              "confidence": 0.89
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "carrots on the right",
+      "confidence_scores": [
+        0.469,
+        0.991,
+        0.998,
+        0.89
+      ],
+      "utterance_confidence": 0.746
+    }
+  },
+  "41": {
+    "start": 172.81447,
+    "end": 176.4526,
+    "transcript": " to their left is a boy holding an ice cream cone",
+    "whisper": {
+      "text": "to their left is a boy holding an ice cream cone",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.04,
+          "end": 3.22,
+          "text": " To their left is a boy holding an ice cream cone.",
+          "tokens": [
+            50363,
+            1675,
+            511,
+            1364,
+            318,
+            257,
+            2933,
+            4769,
+            281,
+            4771,
+            8566,
+            27763,
+            13,
+            50617
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2239160696665446,
+          "compression_ratio": 0.8596491228070176,
+          "no_speech_prob": 0.006840349640697241,
+          "confidence": 0.886,
+          "words": [
+            {
+              "text": "To",
+              "start": 0.04,
+              "end": 0.92,
+              "confidence": 0.37
+            },
+            {
+              "text": "their",
+              "start": 0.92,
+              "end": 1.06,
+              "confidence": 0.989
+            },
+            {
+              "text": "left",
+              "start": 1.06,
+              "end": 1.32,
+              "confidence": 0.999
+            },
+            {
+              "text": "is",
+              "start": 1.32,
+              "end": 1.48,
+              "confidence": 0.945
+            },
+            {
+              "text": "a",
+              "start": 1.48,
+              "end": 1.66,
+              "confidence": 0.995
+            },
+            {
+              "text": "boy",
+              "start": 1.66,
+              "end": 2.0,
+              "confidence": 0.995
+            },
+            {
+              "text": "holding",
+              "start": 2.0,
+              "end": 2.3,
+              "confidence": 0.997
+            },
+            {
+              "text": "an",
+              "start": 2.3,
+              "end": 2.44,
+              "confidence": 0.964
+            },
+            {
+              "text": "ice",
+              "start": 2.44,
+              "end": 2.6,
+              "confidence": 0.991
+            },
+            {
+              "text": "cream",
+              "start": 2.6,
+              "end": 2.86,
+              "confidence": 0.941
+            },
+            {
+              "text": "cone.",
+              "start": 2.86,
+              "end": 3.22,
+              "confidence": 0.872
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "to their left is a boy holding an ice cream cone",
+      "confidence_scores": [
+        0.37,
+        0.989,
+        0.999,
+        0.945,
+        0.995,
+        0.995,
+        0.997,
+        0.964,
+        0.991,
+        0.941,
+        0.872
+      ],
+      "utterance_confidence": 0.886
+    }
+  },
+  "42": {
+    "start": 177.14,
+    "end": 177.979,
+    "transcript": "with a bee on it",
+    "whisper": {
+      "text": "with a bee on it",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.72,
+          "text": " with a bee on it.",
+          "tokens": [
+            50363,
+            351,
+            257,
+            20697,
+            319,
+            340,
+            13,
+            50405
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.29053489367167157,
+          "compression_ratio": 0.68,
+          "no_speech_prob": 0.010695723816752434,
+          "confidence": 0.837,
+          "words": [
+            {
+              "text": "with",
+              "start": 0.0,
+              "end": 0.12,
+              "confidence": 0.75
+            },
+            {
+              "text": "a",
+              "start": 0.12,
+              "end": 0.26,
+              "confidence": 0.981
+            },
+            {
+              "text": "bee",
+              "start": 0.26,
+              "end": 0.42,
+              "confidence": 0.762
+            },
+            {
+              "text": "on",
+              "start": 0.42,
+              "end": 0.56,
+              "confidence": 0.838
+            },
+            {
+              "text": "it.",
+              "start": 0.56,
+              "end": 0.72,
+              "confidence": 0.854
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "with a bee on it",
+      "confidence_scores": [
+        0.75,
+        0.981,
+        0.762,
+        0.838,
+        0.854
+      ],
+      "utterance_confidence": 0.837
+    }
+  },
+  "43": {
+    "start": 179.55,
+    "end": 181.62,
+    "transcript": "a a bee a wasp on it",
+    "whisper": {
+      "text": "a bee a wasp on it",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.0,
+          "text": " a bee, a wasp on it.",
+          "tokens": [
+            50363,
+            257,
+            20697,
+            11,
+            257,
+            373,
+            79,
+            319,
+            340,
+            13,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.36082231998443604,
+          "compression_ratio": 0.7142857142857143,
+          "no_speech_prob": 0.03394594416022301,
+          "confidence": 0.795,
+          "words": [
+            {
+              "text": "a",
+              "start": 0.0,
+              "end": 0.54,
+              "confidence": 0.524
+            },
+            {
+              "text": "bee,",
+              "start": 0.54,
+              "end": 0.76,
+              "confidence": 0.722
+            },
+            {
+              "text": "a",
+              "start": 0.94,
+              "end": 0.96,
+              "confidence": 0.983
+            },
+            {
+              "text": "wasp",
+              "start": 0.96,
+              "end": 1.46,
+              "confidence": 0.997
+            },
+            {
+              "text": "on",
+              "start": 1.46,
+              "end": 1.78,
+              "confidence": 0.751
+            },
+            {
+              "text": "it.",
+              "start": 1.78,
+              "end": 2.0,
+              "confidence": 0.794
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "a bee a wasp on it",
+      "confidence_scores": [
+        0.524,
+        0.722,
+        0.983,
+        0.997,
+        0.751,
+        0.794
+      ],
+      "utterance_confidence": 0.795
+    }
+  },
+  "44": {
+    "start": 182.58,
+    "end": 182.879,
+    "transcript": "yeah",
+    "whisper": {
+      "text": "yeah",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.24,
+          "text": " Yeah.",
+          "tokens": [
+            50363,
+            9425,
+            13,
+            50405
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.526611614227295,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.1108006089925766,
+          "confidence": 0.814,
+          "words": [
+            {
+              "text": "Yeah.",
+              "start": 0.0,
+              "end": 0.24,
+              "confidence": 0.814
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "yeah",
+      "confidence_scores": [
+        0.814
+      ],
+      "utterance_confidence": 0.814
+    }
+  },
+  "45": {
+    "start": 183.64,
+    "end": 184.31733,
+    "transcript": "it",
+    "whisper": {
+      "text": "it",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.18,
+          "text": " it.",
+          "tokens": [
+            50363,
+            340,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.835577392578125,
+          "compression_ratio": 0.2727272727272727,
+          "no_speech_prob": 0.6191238760948181,
+          "confidence": 0.557,
+          "words": [
+            {
+              "text": "it.",
+              "start": 0.0,
+              "end": 0.18,
+              "confidence": 0.557
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "it",
+      "confidence_scores": [
+        0.557
+      ],
+      "utterance_confidence": 0.557
+    }
+  },
+  "46": {
+    "start": 187.01,
+    "end": 189.319,
+    "transcript": "okay  he_is got blue shorts",
+    "whisper": {
+      "text": "okay he_is got blue shorts",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.2,
+          "text": " Okay, he's got blue shorts.",
+          "tokens": [
+            50363,
+            16805,
+            11,
+            339,
+            338,
+            1392,
+            4171,
+            22078,
+            13,
+            50475
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3619383465160023,
+          "compression_ratio": 0.7714285714285715,
+          "no_speech_prob": 0.005344540346413851,
+          "confidence": 0.828,
+          "words": [
+            {
+              "text": "Okay,",
+              "start": 0.0,
+              "end": 0.42,
+              "confidence": 0.506
+            },
+            {
+              "text": "he's",
+              "start": 0.96,
+              "end": 1.26,
+              "confidence": 0.976
+            },
+            {
+              "text": "got",
+              "start": 1.26,
+              "end": 1.46,
+              "confidence": 0.999
+            },
+            {
+              "text": "blue",
+              "start": 1.46,
+              "end": 1.72,
+              "confidence": 0.989
+            },
+            {
+              "text": "shorts.",
+              "start": 1.72,
+              "end": 2.2,
+              "confidence": 0.955
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "okay he_is got blue shorts",
+      "confidence_scores": [
+        0.506,
+        0.976,
+        0.999,
+        0.989,
+        0.955
+      ],
+      "utterance_confidence": 0.828
+    }
+  },
+  "47": {
+    "start": 189.99,
+    "end": 190.939,
+    "transcript": " pink",
+    "whisper": {
+      "text": "a pink",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.84,
+          "text": " a pink",
+          "tokens": [
+            50363,
+            257,
+            11398,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.7004752635955811,
+          "compression_ratio": 0.42857142857142855,
+          "no_speech_prob": 0.24405214190483093,
+          "confidence": 0.25,
+          "words": [
+            {
+              "text": "a",
+              "start": 0.0,
+              "end": 0.4,
+              "confidence": 0.085
+            },
+            {
+              "text": "pink",
+              "start": 0.4,
+              "end": 0.84,
+              "confidence": 0.731
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "a pink",
+      "confidence_scores": [
+        0.085,
+        0.731
+      ],
+      "utterance_confidence": 0.25
+    }
+  },
+  "48": {
+    "start": 191.42,
+    "end": 193.689,
+    "transcript": "pinky gray top yellow shoes",
+    "whisper": {
+      "text": "pinky gray top yellow shoes",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.1,
+          "text": " pinky grey top, yellow shoes.",
+          "tokens": [
+            50363,
+            11398,
+            88,
+            13791,
+            1353,
+            11,
+            7872,
+            10012,
+            13,
+            50475
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3339467698877508,
+          "compression_ratio": 0.7837837837837838,
+          "no_speech_prob": 0.00890270620584488,
+          "confidence": 0.828,
+          "words": [
+            {
+              "text": "pinky",
+              "start": 0.0,
+              "end": 0.38,
+              "confidence": 0.822
+            },
+            {
+              "text": "grey",
+              "start": 0.38,
+              "end": 0.54,
+              "confidence": 0.571
+            },
+            {
+              "text": "top,",
+              "start": 0.54,
+              "end": 0.94,
+              "confidence": 0.813
+            },
+            {
+              "text": "yellow",
+              "start": 1.38,
+              "end": 1.58,
+              "confidence": 0.972
+            },
+            {
+              "text": "shoes.",
+              "start": 1.58,
+              "end": 2.1,
+              "confidence": 0.942
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "pinky gray top yellow shoes",
+      "confidence_scores": [
+        0.822,
+        0.571,
+        0.813,
+        0.972,
+        0.942
+      ],
+      "utterance_confidence": 0.828
+    }
+  },
+  "49": {
+    "start": 194.24,
+    "end": 195.379,
+    "transcript": "he_is looking to the left",
+    "whisper": {
+      "text": "he_is looking to the left",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.0,
+          "text": " He's looking to the left.",
+          "tokens": [
+            50363,
+            679,
+            338,
+            2045,
+            284,
+            262,
+            1364,
+            13,
+            50419
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.39696249961853025,
+          "compression_ratio": 0.7575757575757576,
+          "no_speech_prob": 0.00813154224306345,
+          "confidence": 0.895,
+          "words": [
+            {
+              "text": "He's",
+              "start": 0.0,
+              "end": 0.2,
+              "confidence": 0.715
+            },
+            {
+              "text": "looking",
+              "start": 0.2,
+              "end": 0.42,
+              "confidence": 0.999
+            },
+            {
+              "text": "to",
+              "start": 0.42,
+              "end": 0.56,
+              "confidence": 0.999
+            },
+            {
+              "text": "the",
+              "start": 0.56,
+              "end": 0.7,
+              "confidence": 0.998
+            },
+            {
+              "text": "left.",
+              "start": 0.7,
+              "end": 1.0,
+              "confidence": 0.952
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "he_is looking to the left",
+      "confidence_scores": [
+        0.715,
+        0.999,
+        0.999,
+        0.998,
+        0.952
+      ],
+      "utterance_confidence": 0.895
+    }
+  },
+  "50": {
+    "start": 197.62,
+    "end": 198.309,
+    "transcript": "his right",
+    "whisper": {
+      "text": "he_is right",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.04,
+          "end": 0.56,
+          "text": " He's right.",
+          "tokens": [
+            50363,
+            679,
+            338,
+            826,
+            13,
+            50395
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.335395302091326,
+          "compression_ratio": 0.5789473684210527,
+          "no_speech_prob": 0.0069882613606750965,
+          "confidence": 0.936,
+          "words": [
+            {
+              "text": "He's",
+              "start": 0.04,
+              "end": 0.3,
+              "confidence": 0.914
+            },
+            {
+              "text": "right.",
+              "start": 0.3,
+              "end": 0.56,
+              "confidence": 0.96
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "he_is right",
+      "confidence_scores": [
+        0.914,
+        0.96
+      ],
+      "utterance_confidence": 0.936
+    }
+  },
+  "51": {
+    "start": 199.64788,
+    "end": 205.30025,
+    "transcript": " at a below them a rabbit white rabbit facing right in a cage",
+    "whisper": {
+      "text": "at a below them a rabbit white rabbit facing right in a cage",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.94,
+          "text": " at a, below them a rabbit, white rabbit",
+          "tokens": [
+            50363,
+            379,
+            257,
+            11,
+            2174,
+            606,
+            257,
+            22746,
+            11,
+            2330,
+            22746,
+            50522
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.41371908641996835,
+          "compression_ratio": 1.0,
+          "no_speech_prob": 0.0045282961800694466,
+          "confidence": 0.596,
+          "words": [
+            {
+              "text": "at",
+              "start": 0.0,
+              "end": 0.54,
+              "confidence": 0.115
+            },
+            {
+              "text": "a,",
+              "start": 0.54,
+              "end": 0.76,
+              "confidence": 0.453
+            },
+            {
+              "text": "below",
+              "start": 0.98,
+              "end": 1.22,
+              "confidence": 0.98
+            },
+            {
+              "text": "them",
+              "start": 1.22,
+              "end": 1.5,
+              "confidence": 0.994
+            },
+            {
+              "text": "a",
+              "start": 1.5,
+              "end": 1.74,
+              "confidence": 0.439
+            },
+            {
+              "text": "rabbit,",
+              "start": 1.74,
+              "end": 2.16,
+              "confidence": 0.849
+            },
+            {
+              "text": "white",
+              "start": 2.42,
+              "end": 2.58,
+              "confidence": 0.808
+            },
+            {
+              "text": "rabbit",
+              "start": 2.58,
+              "end": 2.94,
+              "confidence": 0.963
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 3.6,
+          "end": 5.02,
+          "text": " facing right in a cage.",
+          "tokens": [
+            50522,
+            6476,
+            826,
+            287,
+            257,
+            17186,
+            13,
+            50610
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.41371908641996835,
+          "compression_ratio": 1.0,
+          "no_speech_prob": 0.0045282961800694466,
+          "confidence": 0.855,
+          "words": [
+            {
+              "text": "facing",
+              "start": 3.6,
+              "end": 4.08,
+              "confidence": 0.599
+            },
+            {
+              "text": "right",
+              "start": 4.08,
+              "end": 4.32,
+              "confidence": 0.971
+            },
+            {
+              "text": "in",
+              "start": 4.32,
+              "end": 4.52,
+              "confidence": 0.993
+            },
+            {
+              "text": "a",
+              "start": 4.52,
+              "end": 4.66,
+              "confidence": 0.977
+            },
+            {
+              "text": "cage.",
+              "start": 4.66,
+              "end": 5.02,
+              "confidence": 0.832
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "at a below them a rabbit white rabbit facing right in a cage",
+      "confidence_scores": [
+        0.115,
+        0.453,
+        0.98,
+        0.994,
+        0.439,
+        0.849,
+        0.808,
+        0.963,
+        0.599,
+        0.971,
+        0.993,
+        0.977,
+        0.832
+      ],
+      "utterance_confidence": 0.7255
+    }
+  },
+  "52": {
+    "start": 205.95,
+    "end": 208.1163,
+    "transcript": "green cage yellow ground",
+    "whisper": {
+      "text": "greencage yellow ground",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.5,
+          "text": " greencage yellow ground.",
+          "tokens": [
+            50363,
+            4077,
+            66,
+            496,
+            7872,
+            2323,
+            13,
+            50447
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5219090249803331,
+          "compression_ratio": 0.75,
+          "no_speech_prob": 0.010968844406306744,
+          "confidence": 0.699,
+          "words": [
+            {
+              "text": "greencage",
+              "start": 0.0,
+              "end": 0.68,
+              "confidence": 0.56
+            },
+            {
+              "text": "yellow",
+              "start": 0.68,
+              "end": 1.06,
+              "confidence": 0.932
+            },
+            {
+              "text": "ground.",
+              "start": 1.06,
+              "end": 1.5,
+              "confidence": 0.846
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "greencage yellow ground",
+      "confidence_scores": [
+        0.56,
+        0.932,
+        0.846
+      ],
+      "utterance_confidence": 0.699
+    }
+  },
+  "53": {
+    "start": 210.27,
+    "end": 210.679,
+    "transcript": "no",
+    "whisper": {
+      "text": "no",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.32,
+          "text": " No.",
+          "tokens": [
+            50363,
+            1400,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4662421226501465,
+          "compression_ratio": 0.2727272727272727,
+          "no_speech_prob": 0.10914541035890579,
+          "confidence": 0.646,
+          "words": [
+            {
+              "text": "No.",
+              "start": 0.0,
+              "end": 0.32,
+              "confidence": 0.646
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "no",
+      "confidence_scores": [
+        0.646
+      ],
+      "utterance_confidence": 0.646
+    }
+  },
+  "54": {
+    "start": 213.17468,
+    "end": 218.389,
+    "transcript": "k above them it says on the shop it says decorative hat pins for sale",
+    "whisper": {
+      "text": "okay above them it says on the shop it says decorative hat pins for sale",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 5.14,
+          "text": " Okay, above them it says on the shop, it says decorative hat pins for sale.",
+          "tokens": [
+            50363,
+            16805,
+            11,
+            2029,
+            606,
+            340,
+            1139,
+            319,
+            262,
+            6128,
+            11,
+            340,
+            1139,
+            39798,
+            6877,
+            20567,
+            329,
+            5466,
+            13,
+            50623
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3154228074210031,
+          "compression_ratio": 1.056338028169014,
+          "no_speech_prob": 0.003251774003729224,
+          "confidence": 0.755,
+          "words": [
+            {
+              "text": "Okay,",
+              "start": 0.0,
+              "end": 0.24,
+              "confidence": 0.473
+            },
+            {
+              "text": "above",
+              "start": 0.48,
+              "end": 0.74,
+              "confidence": 0.997
+            },
+            {
+              "text": "them",
+              "start": 0.74,
+              "end": 1.06,
+              "confidence": 0.992
+            },
+            {
+              "text": "it",
+              "start": 1.06,
+              "end": 1.36,
+              "confidence": 0.733
+            },
+            {
+              "text": "says",
+              "start": 1.36,
+              "end": 1.64,
+              "confidence": 0.995
+            },
+            {
+              "text": "on",
+              "start": 1.64,
+              "end": 1.86,
+              "confidence": 0.814
+            },
+            {
+              "text": "the",
+              "start": 1.86,
+              "end": 1.98,
+              "confidence": 0.992
+            },
+            {
+              "text": "shop,",
+              "start": 1.98,
+              "end": 2.4,
+              "confidence": 0.675
+            },
+            {
+              "text": "it",
+              "start": 2.76,
+              "end": 2.82,
+              "confidence": 0.63
+            },
+            {
+              "text": "says",
+              "start": 2.82,
+              "end": 3.16,
+              "confidence": 0.987
+            },
+            {
+              "text": "decorative",
+              "start": 3.16,
+              "end": 3.78,
+              "confidence": 0.369
+            },
+            {
+              "text": "hat",
+              "start": 3.78,
+              "end": 4.1,
+              "confidence": 0.913
+            },
+            {
+              "text": "pins",
+              "start": 4.1,
+              "end": 4.42,
+              "confidence": 0.671
+            },
+            {
+              "text": "for",
+              "start": 4.42,
+              "end": 4.7,
+              "confidence": 0.994
+            },
+            {
+              "text": "sale.",
+              "start": 4.7,
+              "end": 5.14,
+              "confidence": 0.878
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "okay above them it says on the shop it says decorative hat pins for sale",
+      "confidence_scores": [
+        0.473,
+        0.997,
+        0.992,
+        0.733,
+        0.995,
+        0.814,
+        0.992,
+        0.675,
+        0.63,
+        0.987,
+        0.369,
+        0.913,
+        0.671,
+        0.994,
+        0.878
+      ],
+      "utterance_confidence": 0.755
+    }
+  },
+  "55": {
+    "start": 221.119,
+    "end": 223.3247,
+    "transcript": "okay and on the door it says open",
+    "whisper": {
+      "text": "and on the door it says open",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.6,
+          "text": " and on the door it says open.",
+          "tokens": [
+            50363,
+            290,
+            319,
+            262,
+            3420,
+            340,
+            1139,
+            1280,
+            13,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3949840719049627,
+          "compression_ratio": 0.7837837837837838,
+          "no_speech_prob": 0.054539524018764496,
+          "confidence": 0.744,
+          "words": [
+            {
+              "text": "and",
+              "start": 0.0,
+              "end": 0.44,
+              "confidence": 0.407
+            },
+            {
+              "text": "on",
+              "start": 0.44,
+              "end": 0.58,
+              "confidence": 0.978
+            },
+            {
+              "text": "the",
+              "start": 0.58,
+              "end": 0.72,
+              "confidence": 0.997
+            },
+            {
+              "text": "door",
+              "start": 0.72,
+              "end": 0.92,
+              "confidence": 0.998
+            },
+            {
+              "text": "it",
+              "start": 0.92,
+              "end": 1.06,
+              "confidence": 0.945
+            },
+            {
+              "text": "says",
+              "start": 1.06,
+              "end": 1.22,
+              "confidence": 0.995
+            },
+            {
+              "text": "open.",
+              "start": 1.22,
+              "end": 1.6,
+              "confidence": 0.501
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "and on the door it says open",
+      "confidence_scores": [
+        0.407,
+        0.978,
+        0.997,
+        0.998,
+        0.945,
+        0.995,
+        0.501
+      ],
+      "utterance_confidence": 0.744
+    }
+  },
+  "56": {
+    "start": 224.15125,
+    "end": 227.969,
+    "transcript": " and below to the left are 5 flowers",
+    "whisper": {
+      "text": "and below to the left are 5 flowers",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 3.62,
+          "text": " And below to the left are five flowers",
+          "tokens": [
+            50363,
+            843,
+            2174,
+            284,
+            262,
+            1364,
+            389,
+            1936,
+            12734,
+            50535
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2246319597417658,
+          "compression_ratio": 0.8837209302325582,
+          "no_speech_prob": 0.0031410022638738155,
+          "confidence": 0.86,
+          "words": [
+            {
+              "text": "And",
+              "start": 0.0,
+              "end": 0.76,
+              "confidence": 0.384
+            },
+            {
+              "text": "below",
+              "start": 0.76,
+              "end": 1.24,
+              "confidence": 0.988
+            },
+            {
+              "text": "to",
+              "start": 1.24,
+              "end": 1.56,
+              "confidence": 0.907
+            },
+            {
+              "text": "the",
+              "start": 1.56,
+              "end": 1.68,
+              "confidence": 0.974
+            },
+            {
+              "text": "left",
+              "start": 1.68,
+              "end": 1.94,
+              "confidence": 0.995
+            },
+            {
+              "text": "are",
+              "start": 1.94,
+              "end": 2.46,
+              "confidence": 0.982
+            },
+            {
+              "text": "five",
+              "start": 2.46,
+              "end": 3.16,
+              "confidence": 0.922
+            },
+            {
+              "text": "flowers",
+              "start": 3.16,
+              "end": 3.62,
+              "confidence": 0.991
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "and below to the left are 5 flowers",
+      "confidence_scores": [
+        0.384,
+        0.988,
+        0.907,
+        0.974,
+        0.995,
+        0.982,
+        0.922,
+        0.991
+      ],
+      "utterance_confidence": 0.86
+    }
+  },
+  "57": {
+    "start": 230.28,
+    "end": 230.759,
+    "transcript": "yes",
+    "whisper": {
+      "text": "yes",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.3,
+          "text": " Yes.",
+          "tokens": [
+            50363,
+            3363,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4476832389831543,
+          "compression_ratio": 0.3333333333333333,
+          "no_speech_prob": 0.03437260910868645,
+          "confidence": 0.662,
+          "words": [
+            {
+              "text": "Yes.",
+              "start": 0.0,
+              "end": 0.3,
+              "confidence": 0.662
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "yes",
+      "confidence_scores": [
+        0.662
+      ],
+      "utterance_confidence": 0.662
+    }
+  },
+  "58": {
+    "start": 232.38,
+    "end": 235.04185,
+    "transcript": "and  there_is a window to the left of the shop",
+    "whisper": {
+      "text": "and there_is a window to the left of the shop",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.4,
+          "text": " and there's a window to the left of the shop.",
+          "tokens": [
+            50363,
+            290,
+            612,
+            338,
+            257,
+            4324,
+            284,
+            262,
+            1364,
+            286,
+            262,
+            6128,
+            13,
+            50491
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.23700418472290039,
+          "compression_ratio": 0.9574468085106383,
+          "no_speech_prob": 0.0003199989441782236,
+          "confidence": 0.94,
+          "words": [
+            {
+              "text": "and",
+              "start": 0.0,
+              "end": 0.46,
+              "confidence": 0.701
+            },
+            {
+              "text": "there's",
+              "start": 0.46,
+              "end": 1.14,
+              "confidence": 0.932
+            },
+            {
+              "text": "a",
+              "start": 1.14,
+              "end": 1.24,
+              "confidence": 0.997
+            },
+            {
+              "text": "window",
+              "start": 1.24,
+              "end": 1.5,
+              "confidence": 0.998
+            },
+            {
+              "text": "to",
+              "start": 1.5,
+              "end": 1.66,
+              "confidence": 0.984
+            },
+            {
+              "text": "the",
+              "start": 1.66,
+              "end": 1.76,
+              "confidence": 0.993
+            },
+            {
+              "text": "left",
+              "start": 1.76,
+              "end": 1.88,
+              "confidence": 0.996
+            },
+            {
+              "text": "of",
+              "start": 1.88,
+              "end": 2.02,
+              "confidence": 0.968
+            },
+            {
+              "text": "the",
+              "start": 2.02,
+              "end": 2.14,
+              "confidence": 0.992
+            },
+            {
+              "text": "shop.",
+              "start": 2.14,
+              "end": 2.4,
+              "confidence": 0.916
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "and there_is a window to the left of the shop",
+      "confidence_scores": [
+        0.701,
+        0.932,
+        0.997,
+        0.998,
+        0.984,
+        0.993,
+        0.996,
+        0.968,
+        0.992,
+        0.916
+      ],
+      "utterance_confidence": 0.94
+    }
+  },
+  "59": {
+    "start": 235.95082,
+    "end": 237.009,
+    "transcript": " and",
+    "whisper": {
+      "text": "and",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.9,
+          "text": " and",
+          "tokens": [
+            50363,
+            290,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.44906190037727356,
+          "compression_ratio": 0.2727272727272727,
+          "no_speech_prob": 0.4248502850532532,
+          "confidence": 0.296,
+          "words": [
+            {
+              "text": "and",
+              "start": 0.0,
+              "end": 0.9,
+              "confidence": 0.296
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "and",
+      "confidence_scores": [
+        0.296
+      ],
+      "utterance_confidence": 0.296
+    }
+  },
+  "60": {
+    "start": 238.04,
+    "end": 238.77507,
+    "transcript": "yes",
+    "whisper": {
+      "text": "yes",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.34,
+          "text": " Yes.",
+          "tokens": [
+            50363,
+            3363,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5131554126739502,
+          "compression_ratio": 0.3333333333333333,
+          "no_speech_prob": 0.027590081095695496,
+          "confidence": 0.645,
+          "words": [
+            {
+              "text": "Yes.",
+              "start": 0.0,
+              "end": 0.34,
+              "confidence": 0.645
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "yes",
+      "confidence_scores": [
+        0.645
+      ],
+      "utterance_confidence": 0.645
+    }
+  },
+  "61": {
+    "start": 239.21,
+    "end": 241.50781,
+    "transcript": "above there are 2 bales",
+    "whisper": {
+      "text": "above there are 2 bales",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.88,
+          "text": " Above there are two bales.",
+          "tokens": [
+            50363,
+            23302,
+            612,
+            389,
+            734,
+            275,
+            2040,
+            13,
+            50467
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3388495922088623,
+          "compression_ratio": 0.8125,
+          "no_speech_prob": 0.0016726077301427722,
+          "confidence": 0.845,
+          "words": [
+            {
+              "text": "Above",
+              "start": 0.0,
+              "end": 0.42,
+              "confidence": 0.853
+            },
+            {
+              "text": "there",
+              "start": 0.42,
+              "end": 0.82,
+              "confidence": 0.602
+            },
+            {
+              "text": "are",
+              "start": 0.82,
+              "end": 1.06,
+              "confidence": 0.994
+            },
+            {
+              "text": "two",
+              "start": 1.06,
+              "end": 1.26,
+              "confidence": 0.956
+            },
+            {
+              "text": "bales.",
+              "start": 1.26,
+              "end": 1.88,
+              "confidence": 0.857
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "above there are 2 bales",
+      "confidence_scores": [
+        0.853,
+        0.602,
+        0.994,
+        0.956,
+        0.857
+      ],
+      "utterance_confidence": 0.845
+    }
+  },
+  "62": {
+    "start": 242.37,
+    "end": 244.84384,
+    "transcript": "one bale is partially obscured by the shop",
+    "whisper": {
+      "text": "one bale is partially obscured by the shop",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.08,
+          "text": " One bale is partially obscured by the shop.",
+          "tokens": [
+            50363,
+            1881,
+            275,
+            1000,
+            318,
+            12387,
+            40157,
+            416,
+            262,
+            6128,
+            13,
+            50467
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3095065997197078,
+          "compression_ratio": 0.8431372549019608,
+          "no_speech_prob": 0.00016189407324418426,
+          "confidence": 0.923,
+          "words": [
+            {
+              "text": "One",
+              "start": 0.0,
+              "end": 0.22,
+              "confidence": 0.722
+            },
+            {
+              "text": "bale",
+              "start": 0.22,
+              "end": 0.48,
+              "confidence": 0.939
+            },
+            {
+              "text": "is",
+              "start": 0.48,
+              "end": 0.64,
+              "confidence": 0.994
+            },
+            {
+              "text": "partially",
+              "start": 0.64,
+              "end": 1.0,
+              "confidence": 0.993
+            },
+            {
+              "text": "obscured",
+              "start": 1.0,
+              "end": 1.44,
+              "confidence": 0.997
+            },
+            {
+              "text": "by",
+              "start": 1.44,
+              "end": 1.64,
+              "confidence": 0.993
+            },
+            {
+              "text": "the",
+              "start": 1.64,
+              "end": 1.78,
+              "confidence": 0.997
+            },
+            {
+              "text": "shop.",
+              "start": 1.78,
+              "end": 2.08,
+              "confidence": 0.85
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "one bale is partially obscured by the shop",
+      "confidence_scores": [
+        0.722,
+        0.939,
+        0.994,
+        0.993,
+        0.997,
+        0.993,
+        0.997,
+        0.85
+      ],
+      "utterance_confidence": 0.923
+    }
+  },
+  "63": {
+    "start": 245.66498,
+    "end": 247.349,
+    "transcript": " and",
+    "whisper": {
+      "text": "and",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.18,
+          "text": " and",
+          "tokens": [
+            50363,
+            290,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.29721301794052124,
+          "compression_ratio": 0.2727272727272727,
+          "no_speech_prob": 0.46306470036506653,
+          "confidence": 0.295,
+          "words": [
+            {
+              "text": "and",
+              "start": 0.0,
+              "end": 1.18,
+              "confidence": 0.295
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "and",
+      "confidence_scores": [
+        0.295
+      ],
+      "utterance_confidence": 0.295
+    }
+  },
+  "64": {
+    "start": 249.31141,
+    "end": 250.15734,
+    "transcript": "",
+    "whisper": {
+      "text": "",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.54,
+          "text": " um",
+          "tokens": [
+            50363,
+            23781,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5560072064399719,
+          "compression_ratio": 0.2,
+          "no_speech_prob": 0.5721687078475952,
+          "confidence": 0.486,
+          "words": [
+            {
+              "text": "um",
+              "start": 0.0,
+              "end": 0.54,
+              "confidence": 0.486
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "",
+      "confidence_scores": [],
+      "utterance_confidence": 0.486
+    }
+  },
+  "65": {
+    "start": 251.19347,
+    "end": 251.61264,
+    "transcript": "",
+    "whisper": {
+      "text": "",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.36,
+          "text": " Mmm.",
+          "tokens": [
+            50363,
+            337,
+            3020,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.556776762008667,
+          "compression_ratio": 0.3333333333333333,
+          "no_speech_prob": 0.43032798171043396,
+          "confidence": 0.261,
+          "words": [
+            {
+              "text": "Mmm.",
+              "start": 0.0,
+              "end": 0.36,
+              "confidence": 0.261
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "",
+      "confidence_scores": [],
+      "utterance_confidence": 0.261
+    }
+  },
+  "66": {
+    "start": 252.3111,
+    "end": 252.87627,
+    "transcript": "",
+    "whisper": {
+      "text": ".",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.54,
+          "text": " Uh...",
+          "tokens": [
+            50363,
+            28574,
+            986,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3946317911148071,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.48574087023735046,
+          "confidence": 0.368,
+          "words": [
+            {
+              "text": "Uh...",
+              "start": 0.0,
+              "end": 0.54,
+              "confidence": 0.368
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": ".",
+      "confidence_scores": [
+        0.368
+      ],
+      "utterance_confidence": 0.368
+    }
+  },
+  "67": {
+    "start": 258.88743,
+    "end": 259.53501,
+    "transcript": "no",
+    "whisper": {
+      "text": "note",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.32,
+          "text": " Note.",
+          "tokens": [
+            50363,
+            5740,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5351484775543213,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.06818318367004395,
+          "confidence": 0.553,
+          "words": [
+            {
+              "text": "Note.",
+              "start": 0.0,
+              "end": 0.32,
+              "confidence": 0.553
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "note",
+      "confidence_scores": [
+        0.553
+      ],
+      "utterance_confidence": 0.553
+    }
+  },
+  "68": {
+    "start": 262.19,
+    "end": 262.699,
+    "transcript": "okay",
+    "whisper": {
+      "text": "okay",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.38,
+          "text": " Okay.",
+          "tokens": [
+            50363,
+            16805,
+            13,
+            50405
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4669675350189209,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.13592477142810822,
+          "confidence": 0.42,
+          "words": [
+            {
+              "text": "Okay.",
+              "start": 0.0,
+              "end": 0.38,
+              "confidence": 0.42
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "okay",
+      "confidence_scores": [
+        0.42
+      ],
+      "utterance_confidence": 0.42
+    }
+  },
+  "69": {
+    "start": 263.53907,
+    "end": 264.14214,
+    "transcript": "",
+    "whisper": {
+      "text": "",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.44,
+          "text": " um",
+          "tokens": [
+            50363,
+            23781,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.57185298204422,
+          "compression_ratio": 0.2,
+          "no_speech_prob": 0.7389988303184509,
+          "confidence": 0.285,
+          "words": [
+            {
+              "text": "um",
+              "start": 0.0,
+              "end": 0.44,
+              "confidence": 0.285
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "",
+      "confidence_scores": [],
+      "utterance_confidence": 0.285
+    }
+  },
+  "70": {
+    "start": 264.86,
+    "end": 265.699,
+    "transcript": "and",
+    "whisper": {
+      "text": "and",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.04,
+          "end": 0.58,
+          "text": " and",
+          "tokens": [
+            50363,
+            290,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5765877366065979,
+          "compression_ratio": 0.2727272727272727,
+          "no_speech_prob": 0.07128428667783737,
+          "confidence": 0.597,
+          "words": [
+            {
+              "text": "and",
+              "start": 0.04,
+              "end": 0.58,
+              "confidence": 0.597
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "and",
+      "confidence_scores": [
+        0.597
+      ],
+      "utterance_confidence": 0.597
+    }
+  },
+  "71": {
+    "start": 267.08799,
+    "end": 267.99695,
+    "transcript": "",
+    "whisper": {
+      "text": "",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.66,
+          "text": " Mmm.",
+          "tokens": [
+            50363,
+            337,
+            3020,
+            13,
+            50405
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.6300373077392578,
+          "compression_ratio": 0.3333333333333333,
+          "no_speech_prob": 0.8011939525604248,
+          "confidence": 0.307,
+          "words": [
+            {
+              "text": "Mmm.",
+              "start": 0.0,
+              "end": 0.66,
+              "confidence": 0.307
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "",
+      "confidence_scores": [],
+      "utterance_confidence": 0.307
+    }
+  },
+  "72": {
+    "start": 269.79,
+    "end": 270.269,
+    "transcript": "the",
+    "whisper": {
+      "text": "the_.",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.44,
+          "text": " The...",
+          "tokens": [
+            50363,
+            383,
+            986,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.6517904758453369,
+          "compression_ratio": 0.42857142857142855,
+          "no_speech_prob": 0.4871026575565338,
+          "confidence": 0.243,
+          "words": [
+            {
+              "text": "The...",
+              "start": 0.0,
+              "end": 0.44,
+              "confidence": 0.243
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "the_.",
+      "confidence_scores": [
+        0.243
+      ],
+      "utterance_confidence": 0.243
+    }
+  },
+  "73": {
+    "start": 273.71202,
+    "end": 274.48206,
+    "transcript": "",
+    "whisper": {
+      "text": ".",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.74,
+          "text": " Uh...",
+          "tokens": [
+            50363,
+            28574,
+            986,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.7150337219238281,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.12961123883724213,
+          "confidence": 0.452,
+          "words": [
+            {
+              "text": "Uh...",
+              "start": 0.0,
+              "end": 0.74,
+              "confidence": 0.452
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": ".",
+      "confidence_scores": [
+        0.452
+      ],
+      "utterance_confidence": 0.452
+    }
+  },
+  "74": {
+    "start": 285.94,
+    "end": 288.499,
+    "transcript": "no there are 2 goats in the pen then there_is",
+    "whisper": {
+      "text": "no there are 2 goats in the pen then there_is_.",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.68,
+          "text": " No, there are two goats in the pen.",
+          "tokens": [
+            50363,
+            1400,
+            11,
+            612,
+            389,
+            734,
+            35199,
+            287,
+            262,
+            3112,
+            13,
+            50470
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.32670174146953385,
+          "compression_ratio": 1.0,
+          "no_speech_prob": 0.04417154937982559,
+          "confidence": 0.833,
+          "words": [
+            {
+              "text": "No,",
+              "start": 0.0,
+              "end": 0.24,
+              "confidence": 0.7
+            },
+            {
+              "text": "there",
+              "start": 0.38,
+              "end": 0.46,
+              "confidence": 0.808
+            },
+            {
+              "text": "are",
+              "start": 0.46,
+              "end": 0.56,
+              "confidence": 0.822
+            },
+            {
+              "text": "two",
+              "start": 0.56,
+              "end": 0.7,
+              "confidence": 0.977
+            },
+            {
+              "text": "goats",
+              "start": 0.7,
+              "end": 1.02,
+              "confidence": 0.996
+            },
+            {
+              "text": "in",
+              "start": 1.02,
+              "end": 1.2,
+              "confidence": 0.988
+            },
+            {
+              "text": "the",
+              "start": 1.2,
+              "end": 1.32,
+              "confidence": 0.989
+            },
+            {
+              "text": "pen.",
+              "start": 1.32,
+              "end": 1.68,
+              "confidence": 0.722
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "seek": 0,
+          "start": 2.12,
+          "end": 2.52,
+          "text": " Then there's...",
+          "tokens": [
+            50470,
+            3244,
+            612,
+            338,
+            986,
+            50512
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.32670174146953385,
+          "compression_ratio": 1.0,
+          "no_speech_prob": 0.04417154937982559,
+          "confidence": 0.431,
+          "words": [
+            {
+              "text": "Then",
+              "start": 2.12,
+              "end": 2.3,
+              "confidence": 0.178
+            },
+            {
+              "text": "there's...",
+              "start": 2.3,
+              "end": 2.52,
+              "confidence": 0.578
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "no there are 2 goats in the pen then there_is_.",
+      "confidence_scores": [
+        0.7,
+        0.808,
+        0.822,
+        0.977,
+        0.996,
+        0.988,
+        0.989,
+        0.722,
+        0.178,
+        0.578
+      ],
+      "utterance_confidence": 0.632
+    }
+  },
+  "75": {
+    "start": 290.14992,
+    "end": 291.259,
+    "transcript": "no there_is one sheep",
+    "whisper": {
+      "text": "no there_is one sheep",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.04,
+          "text": " No, there's one sheep.",
+          "tokens": [
+            50363,
+            1400,
+            11,
+            612,
+            338,
+            530,
+            15900,
+            13,
+            50415
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3931520223617554,
+          "compression_ratio": 0.7333333333333333,
+          "no_speech_prob": 0.0037972137797623873,
+          "confidence": 0.802,
+          "words": [
+            {
+              "text": "No,",
+              "start": 0.0,
+              "end": 0.24,
+              "confidence": 0.81
+            },
+            {
+              "text": "there's",
+              "start": 0.36,
+              "end": 0.52,
+              "confidence": 0.616
+            },
+            {
+              "text": "one",
+              "start": 0.52,
+              "end": 0.68,
+              "confidence": 0.985
+            },
+            {
+              "text": "sheep.",
+              "start": 0.68,
+              "end": 1.04,
+              "confidence": 0.933
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "no there_is one sheep",
+      "confidence_scores": [
+        0.81,
+        0.616,
+        0.985,
+        0.933
+      ],
+      "utterance_confidence": 0.802
+    }
+  },
+  "76": {
+    "start": 296.2,
+    "end": 297.249,
+    "transcript": "yes yes",
+    "whisper": {
+      "text": "yes yes",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.88,
+          "text": " Yes, yes.",
+          "tokens": [
+            50363,
+            3363,
+            11,
+            3763,
+            13,
+            50411
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.47019454411097933,
+          "compression_ratio": 0.5294117647058824,
+          "no_speech_prob": 0.008478498086333275,
+          "confidence": 0.742,
+          "words": [
+            {
+              "text": "Yes,",
+              "start": 0.0,
+              "end": 0.36,
+              "confidence": 0.588
+            },
+            {
+              "text": "yes.",
+              "start": 0.7,
+              "end": 0.88,
+              "confidence": 0.937
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "yes yes",
+      "confidence_scores": [
+        0.588,
+        0.937
+      ],
+      "utterance_confidence": 0.742
+    }
+  },
+  "77": {
+    "start": 297.93,
+    "end": 299.349,
+    "transcript": "so it_is one sheep one lamb",
+    "whisper": {
+      "text": "so it_is one sheep one lamb",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.34,
+          "text": " So it's one sheep, one lamb.",
+          "tokens": [
+            50363,
+            1406,
+            340,
+            338,
+            530,
+            15900,
+            11,
+            530,
+            19343,
+            13,
+            50435
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.28498830397923786,
+          "compression_ratio": 0.875,
+          "no_speech_prob": 0.0008205906488001347,
+          "confidence": 0.937,
+          "words": [
+            {
+              "text": "So",
+              "start": 0.0,
+              "end": 0.14,
+              "confidence": 0.764
+            },
+            {
+              "text": "it's",
+              "start": 0.14,
+              "end": 0.32,
+              "confidence": 0.949
+            },
+            {
+              "text": "one",
+              "start": 0.32,
+              "end": 0.46,
+              "confidence": 0.968
+            },
+            {
+              "text": "sheep,",
+              "start": 0.46,
+              "end": 0.76,
+              "confidence": 0.938
+            },
+            {
+              "text": "one",
+              "start": 0.92,
+              "end": 1.02,
+              "confidence": 0.997
+            },
+            {
+              "text": "lamb.",
+              "start": 1.02,
+              "end": 1.34,
+              "confidence": 0.976
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "so it_is one sheep one lamb",
+      "confidence_scores": [
+        0.764,
+        0.949,
+        0.968,
+        0.938,
+        0.997,
+        0.976
+      ],
+      "utterance_confidence": 0.937
+    }
+  },
+  "78": {
+    "start": 304.14646,
+    "end": 304.35133,
+    "transcript": "yeah",
+    "whisper": {
+      "text": "yeah",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.18,
+          "text": " Yeah.",
+          "tokens": [
+            50363,
+            9425,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.494127082824707,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.21020802855491638,
+          "confidence": 0.488,
+          "words": [
+            {
+              "text": "Yeah.",
+              "start": 0.0,
+              "end": 0.18,
+              "confidence": 0.488
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "yeah",
+      "confidence_scores": [
+        0.488
+      ],
+      "utterance_confidence": 0.488
+    }
+  },
+  "79": {
+    "start": 306.45,
+    "end": 307.13121,
+    "transcript": "yes",
+    "whisper": {
+      "text": "yes",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.26,
+          "text": " Yes.",
+          "tokens": [
+            50363,
+            3363,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4223189830780029,
+          "compression_ratio": 0.3333333333333333,
+          "no_speech_prob": 0.022925641387701035,
+          "confidence": 0.631,
+          "words": [
+            {
+              "text": "Yes.",
+              "start": 0.0,
+              "end": 0.26,
+              "confidence": 0.631
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "yes",
+      "confidence_scores": [
+        0.631
+      ],
+      "utterance_confidence": 0.631
+    }
+  },
+  "80": {
+    "start": 308.23911,
+    "end": 309.539,
+    "transcript": "yup with a stripey ball",
+    "whisper": {
+      "text": "yeah with a stripy ball",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.2,
+          "text": " Yeah, with a stripy ball.",
+          "tokens": [
+            50363,
+            9425,
+            11,
+            351,
+            257,
+            2338,
+            9078,
+            2613,
+            13,
+            50427
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.394460374658758,
+          "compression_ratio": 0.7575757575757576,
+          "no_speech_prob": 0.005130670499056578,
+          "confidence": 0.771,
+          "words": [
+            {
+              "text": "Yeah,",
+              "start": 0.0,
+              "end": 0.24,
+              "confidence": 0.473
+            },
+            {
+              "text": "with",
+              "start": 0.34,
+              "end": 0.42,
+              "confidence": 0.991
+            },
+            {
+              "text": "a",
+              "start": 0.42,
+              "end": 0.54,
+              "confidence": 0.961
+            },
+            {
+              "text": "stripy",
+              "start": 0.54,
+              "end": 0.88,
+              "confidence": 0.886
+            },
+            {
+              "text": "ball.",
+              "start": 0.88,
+              "end": 1.2,
+              "confidence": 0.866
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "yeah with a stripy ball",
+      "confidence_scores": [
+        0.473,
+        0.991,
+        0.961,
+        0.886,
+        0.866
+      ],
+      "utterance_confidence": 0.771
+    }
+  },
+  "81": {
+    "start": 311.98,
+    "end": 313.149,
+    "transcript": "yeah yes",
+    "whisper": {
+      "text": "yeah yes",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.96,
+          "text": " Yeah, yes.",
+          "tokens": [
+            50363,
+            9425,
+            11,
+            3763,
+            13,
+            50415
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5065877096993583,
+          "compression_ratio": 0.5555555555555556,
+          "no_speech_prob": 0.007513764780014753,
+          "confidence": 0.677,
+          "words": [
+            {
+              "text": "Yeah,",
+              "start": 0.0,
+              "end": 0.32,
+              "confidence": 0.495
+            },
+            {
+              "text": "yes.",
+              "start": 0.76,
+              "end": 0.96,
+              "confidence": 0.926
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "yeah yes",
+      "confidence_scores": [
+        0.495,
+        0.926
+      ],
+      "utterance_confidence": 0.677
+    }
+  },
+  "82": {
+    "start": 314.26,
+    "end": 316.82115,
+    "transcript": "she_is got her arm up to pat the ball",
+    "whisper": {
+      "text": "she_is got her arm up to pat the ball",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.14,
+          "text": " she's got her arm up to pat the ball.",
+          "tokens": [
+            50363,
+            673,
+            338,
+            1392,
+            607,
+            3211,
+            510,
+            284,
+            1458,
+            262,
+            2613,
+            13,
+            50563
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.27296294484819683,
+          "compression_ratio": 0.8222222222222222,
+          "no_speech_prob": 0.0012549766106531024,
+          "confidence": 0.901,
+          "words": [
+            {
+              "text": "she's",
+              "start": 0.0,
+              "end": 0.22,
+              "confidence": 0.653
+            },
+            {
+              "text": "got",
+              "start": 0.22,
+              "end": 0.32,
+              "confidence": 0.999
+            },
+            {
+              "text": "her",
+              "start": 0.32,
+              "end": 0.46,
+              "confidence": 0.997
+            },
+            {
+              "text": "arm",
+              "start": 0.46,
+              "end": 0.88,
+              "confidence": 0.998
+            },
+            {
+              "text": "up",
+              "start": 0.88,
+              "end": 1.28,
+              "confidence": 0.996
+            },
+            {
+              "text": "to",
+              "start": 1.28,
+              "end": 1.5,
+              "confidence": 0.988
+            },
+            {
+              "text": "pat",
+              "start": 1.5,
+              "end": 1.7,
+              "confidence": 0.945
+            },
+            {
+              "text": "the",
+              "start": 1.7,
+              "end": 1.86,
+              "confidence": 0.995
+            },
+            {
+              "text": "ball.",
+              "start": 1.86,
+              "end": 2.14,
+              "confidence": 0.899
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "she_is got her arm up to pat the ball",
+      "confidence_scores": [
+        0.653,
+        0.999,
+        0.997,
+        0.998,
+        0.996,
+        0.988,
+        0.945,
+        0.995,
+        0.899
+      ],
+      "utterance_confidence": 0.901
+    }
+  },
+  "83": {
+    "start": 317.8408,
+    "end": 318.08805,
+    "transcript": "yeah",
+    "whisper": {
+      "text": "yeah",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.22,
+          "text": " Yeah.",
+          "tokens": [
+            50363,
+            9425,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5401546001434326,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.18017520010471344,
+          "confidence": 0.666,
+          "words": [
+            {
+              "text": "Yeah.",
+              "start": 0.0,
+              "end": 0.22,
+              "confidence": 0.666
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "yeah",
+      "confidence_scores": [
+        0.666
+      ],
+      "utterance_confidence": 0.666
+    }
+  },
+  "84": {
+    "start": 320.56,
+    "end": 321.07,
+    "transcript": "yes",
+    "whisper": {
+      "text": "yes",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.3,
+          "text": " Yes.",
+          "tokens": [
+            50363,
+            3363,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3183407783508301,
+          "compression_ratio": 0.3333333333333333,
+          "no_speech_prob": 0.0315869003534317,
+          "confidence": 0.79,
+          "words": [
+            {
+              "text": "Yes.",
+              "start": 0.0,
+              "end": 0.3,
+              "confidence": 0.79
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "yes",
+      "confidence_scores": [
+        0.79
+      ],
+      "utterance_confidence": 0.79
+    }
+  },
+  "85": {
+    "start": 322.479,
+    "end": 323.28402,
+    "transcript": "",
+    "whisper": {
+      "text": ".",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.02,
+          "end": 0.78,
+          "text": " Um...",
+          "tokens": [
+            50363,
+            21039,
+            986,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.743462610244751,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.16644373536109924,
+          "confidence": 0.3,
+          "words": [
+            {
+              "text": "Um...",
+              "start": 0.02,
+              "end": 0.78,
+              "confidence": 0.3
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": ".",
+      "confidence_scores": [
+        0.3
+      ],
+      "utterance_confidence": 0.3
+    }
+  },
+  "86": {
+    "start": 324.04,
+    "end": 325.16083,
+    "transcript": "and",
+    "whisper": {
+      "text": "and",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.06,
+          "end": 0.6,
+          "text": " and",
+          "tokens": [
+            50363,
+            290,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.24391433596611023,
+          "compression_ratio": 0.2727272727272727,
+          "no_speech_prob": 0.01770196482539177,
+          "confidence": 0.78,
+          "words": [
+            {
+              "text": "and",
+              "start": 0.06,
+              "end": 0.6,
+              "confidence": 0.78
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "and",
+      "confidence_scores": [
+        0.78
+      ],
+      "utterance_confidence": 0.78
+    }
+  },
+  "87": {
+    "start": 325.6,
+    "end": 328.269,
+    "transcript": "there_is a little path leading to the shop on the bottom left",
+    "whisper": {
+      "text": "there_is a little path leading to the shop on the bottom left",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.52,
+          "text": " There's a little path leading to the shop on the bottom left.",
+          "tokens": [
+            50363,
+            1318,
+            338,
+            257,
+            1310,
+            3108,
+            3756,
+            284,
+            262,
+            6128,
+            319,
+            262,
+            4220,
+            1364,
+            13,
+            50493
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2456547512727625,
+          "compression_ratio": 0.953125,
+          "no_speech_prob": 0.00024666558601893485,
+          "confidence": 0.95,
+          "words": [
+            {
+              "text": "There's",
+              "start": 0.0,
+              "end": 0.16,
+              "confidence": 0.845
+            },
+            {
+              "text": "a",
+              "start": 0.16,
+              "end": 0.26,
+              "confidence": 0.996
+            },
+            {
+              "text": "little",
+              "start": 0.26,
+              "end": 0.44,
+              "confidence": 0.997
+            },
+            {
+              "text": "path",
+              "start": 0.44,
+              "end": 0.86,
+              "confidence": 0.995
+            },
+            {
+              "text": "leading",
+              "start": 0.86,
+              "end": 1.16,
+              "confidence": 0.994
+            },
+            {
+              "text": "to",
+              "start": 1.16,
+              "end": 1.36,
+              "confidence": 0.984
+            },
+            {
+              "text": "the",
+              "start": 1.36,
+              "end": 1.46,
+              "confidence": 0.987
+            },
+            {
+              "text": "shop",
+              "start": 1.46,
+              "end": 1.74,
+              "confidence": 0.984
+            },
+            {
+              "text": "on",
+              "start": 1.74,
+              "end": 1.9,
+              "confidence": 0.843
+            },
+            {
+              "text": "the",
+              "start": 1.9,
+              "end": 2.0,
+              "confidence": 0.994
+            },
+            {
+              "text": "bottom",
+              "start": 2.0,
+              "end": 2.22,
+              "confidence": 0.994
+            },
+            {
+              "text": "left.",
+              "start": 2.22,
+              "end": 2.52,
+              "confidence": 0.936
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "there_is a little path leading to the shop on the bottom left",
+      "confidence_scores": [
+        0.845,
+        0.996,
+        0.997,
+        0.995,
+        0.994,
+        0.984,
+        0.987,
+        0.984,
+        0.843,
+        0.994,
+        0.994,
+        0.936
+      ],
+      "utterance_confidence": 0.95
+    }
+  },
+  "88": {
+    "start": 328.98,
+    "end": 329.949,
+    "transcript": "very faint path",
+    "whisper": {
+      "text": "by fate path",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.8,
+          "text": " by fate path.",
+          "tokens": [
+            50363,
+            416,
+            10030,
+            3108,
+            13,
+            50405
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.7123211451939174,
+          "compression_ratio": 0.6190476190476191,
+          "no_speech_prob": 0.015284528955817223,
+          "confidence": 0.387,
+          "words": [
+            {
+              "text": "by",
+              "start": 0.0,
+              "end": 0.14,
+              "confidence": 0.162
+            },
+            {
+              "text": "fate",
+              "start": 0.14,
+              "end": 0.44,
+              "confidence": 0.29
+            },
+            {
+              "text": "path.",
+              "start": 0.44,
+              "end": 0.8,
+              "confidence": 0.69
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "by fate path",
+      "confidence_scores": [
+        0.162,
+        0.29,
+        0.69
+      ],
+      "utterance_confidence": 0.387
+    }
+  },
+  "89": {
+    "start": 330.85,
+    "end": 331.9,
+    "transcript": "just a few lines",
+    "whisper": {
+      "text": "just a few lines",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.88,
+          "text": " Just a few lines.",
+          "tokens": [
+            50363,
+            2329,
+            257,
+            1178,
+            3951,
+            13,
+            50413
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.39816972613334656,
+          "compression_ratio": 0.68,
+          "no_speech_prob": 0.007337177637964487,
+          "confidence": 0.871,
+          "words": [
+            {
+              "text": "Just",
+              "start": 0.0,
+              "end": 0.14,
+              "confidence": 0.646
+            },
+            {
+              "text": "a",
+              "start": 0.14,
+              "end": 0.28,
+              "confidence": 0.996
+            },
+            {
+              "text": "few",
+              "start": 0.28,
+              "end": 0.4,
+              "confidence": 1.0
+            },
+            {
+              "text": "lines.",
+              "start": 0.4,
+              "end": 0.88,
+              "confidence": 0.882
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "just a few lines",
+      "confidence_scores": [
+        0.646,
+        0.996,
+        1.0,
+        0.882
+      ],
+      "utterance_confidence": 0.871
+    }
+  },
+  "90": {
+    "start": 332.51244,
+    "end": 333.019,
+    "transcript": "",
+    "whisper": {
+      "text": ".",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.48,
+          "text": " Uh...",
+          "tokens": [
+            50363,
+            28574,
+            986,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4065889358520508,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.1873934417963028,
+          "confidence": 0.322,
+          "words": [
+            {
+              "text": "Uh...",
+              "start": 0.0,
+              "end": 0.48,
+              "confidence": 0.322
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": ".",
+      "confidence_scores": [
+        0.322
+      ],
+      "utterance_confidence": 0.322
+    }
+  },
+  "91": {
+    "start": 336.58594,
+    "end": 336.80023,
+    "transcript": "no",
+    "whisper": {
+      "text": "out",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.04,
+          "end": 0.16,
+          "text": " out.",
+          "tokens": [
+            50363,
+            503,
+            13,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.7119100570678711,
+          "compression_ratio": 0.3333333333333333,
+          "no_speech_prob": 0.6355429291725159,
+          "confidence": 0.24,
+          "words": [
+            {
+              "text": "out.",
+              "start": 0.04,
+              "end": 0.16,
+              "confidence": 0.24
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "out",
+      "confidence_scores": [
+        0.24
+      ],
+      "utterance_confidence": 0.24
+    }
+  },
+  "92": {
+    "start": 339.46,
+    "end": 340.75542,
+    "transcript": "okay ",
+    "whisper": {
+      "text": "okay .",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.26,
+          "text": " Okay, uh...",
+          "tokens": [
+            50363,
+            16805,
+            11,
+            21480,
+            986,
+            50427
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.7968322208949498,
+          "compression_ratio": 0.5789473684210527,
+          "no_speech_prob": 0.011680095456540585,
+          "confidence": 0.386,
+          "words": [
+            {
+              "text": "Okay,",
+              "start": 0.0,
+              "end": 0.4,
+              "confidence": 0.294
+            },
+            {
+              "text": "uh...",
+              "start": 0.92,
+              "end": 1.26,
+              "confidence": 0.506
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "okay .",
+      "confidence_scores": [
+        0.294,
+        0.506
+      ],
+      "utterance_confidence": 0.386
+    }
+  },
+  "93": {
+    "start": 341.65,
+    "end": 342.459,
+    "transcript": "and",
+    "whisper": {
+      "text": "and",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.1,
+          "end": 0.62,
+          "text": " and",
+          "tokens": [
+            50363,
+            290,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5801008343696594,
+          "compression_ratio": 0.2727272727272727,
+          "no_speech_prob": 0.024106577038764954,
+          "confidence": 0.76,
+          "words": [
+            {
+              "text": "and",
+              "start": 0.1,
+              "end": 0.62,
+              "confidence": 0.76
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "and",
+      "confidence_scores": [
+        0.76
+      ],
+      "utterance_confidence": 0.76
+    }
+  },
+  "94": {
+    "start": 343.142,
+    "end": 349.989,
+    "transcript": " there the man whose sawing he_is got a red handle to the saw  and then one 2 3 and then",
+    "whisper": {
+      "text": "the man who_is sawing he_is got a red handle to the saw and the one 2 3 and then",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 6.78,
+          "text": " The man who's sawing he's got a red handle to the saw and the one two three and then",
+          "tokens": [
+            50363,
+            383,
+            582,
+            508,
+            338,
+            2497,
+            278,
+            339,
+            338,
+            1392,
+            257,
+            2266,
+            5412,
+            284,
+            262,
+            2497,
+            290,
+            262,
+            530,
+            734,
+            1115,
+            290,
+            788,
+            50699
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.31180692672729493,
+          "compression_ratio": 1.1830985915492958,
+          "no_speech_prob": 0.01402180828154087,
+          "confidence": 0.742,
+          "words": [
+            {
+              "text": "The",
+              "start": 0.0,
+              "end": 0.76,
+              "confidence": 0.322
+            },
+            {
+              "text": "man",
+              "start": 0.76,
+              "end": 1.76,
+              "confidence": 0.89
+            },
+            {
+              "text": "who's",
+              "start": 1.76,
+              "end": 2.06,
+              "confidence": 0.823
+            },
+            {
+              "text": "sawing",
+              "start": 2.06,
+              "end": 2.42,
+              "confidence": 0.919
+            },
+            {
+              "text": "he's",
+              "start": 2.42,
+              "end": 2.6,
+              "confidence": 0.409
+            },
+            {
+              "text": "got",
+              "start": 2.6,
+              "end": 2.68,
+              "confidence": 0.994
+            },
+            {
+              "text": "a",
+              "start": 2.68,
+              "end": 2.82,
+              "confidence": 0.982
+            },
+            {
+              "text": "red",
+              "start": 2.82,
+              "end": 2.98,
+              "confidence": 0.984
+            },
+            {
+              "text": "handle",
+              "start": 2.98,
+              "end": 3.3,
+              "confidence": 0.953
+            },
+            {
+              "text": "to",
+              "start": 3.3,
+              "end": 3.5,
+              "confidence": 0.957
+            },
+            {
+              "text": "the",
+              "start": 3.5,
+              "end": 3.66,
+              "confidence": 0.855
+            },
+            {
+              "text": "saw",
+              "start": 3.66,
+              "end": 3.98,
+              "confidence": 0.994
+            },
+            {
+              "text": "and",
+              "start": 3.98,
+              "end": 5.26,
+              "confidence": 0.406
+            },
+            {
+              "text": "the",
+              "start": 5.26,
+              "end": 5.4,
+              "confidence": 0.713
+            },
+            {
+              "text": "one",
+              "start": 5.4,
+              "end": 5.56,
+              "confidence": 0.59
+            },
+            {
+              "text": "two",
+              "start": 5.56,
+              "end": 5.78,
+              "confidence": 0.691
+            },
+            {
+              "text": "three",
+              "start": 5.78,
+              "end": 6.04,
+              "confidence": 0.929
+            },
+            {
+              "text": "and",
+              "start": 6.04,
+              "end": 6.62,
+              "confidence": 0.681
+            },
+            {
+              "text": "then",
+              "start": 6.62,
+              "end": 6.78,
+              "confidence": 0.932
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "the man who_is sawing he_is got a red handle to the saw and the one 2 3 and then",
+      "confidence_scores": [
+        0.322,
+        0.89,
+        0.823,
+        0.919,
+        0.409,
+        0.994,
+        0.982,
+        0.984,
+        0.953,
+        0.957,
+        0.855,
+        0.994,
+        0.406,
+        0.713,
+        0.59,
+        0.691,
+        0.929,
+        0.681,
+        0.932
+      ],
+      "utterance_confidence": 0.742
+    }
+  },
+  "95": {
+    "start": 350.29,
+    "end": 351.669,
+    "transcript": "one 2 3 4",
+    "whisper": {
+      "text": "one 2 3 4",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.3,
+          "text": " 1, 2, 3, 4.",
+          "tokens": [
+            50363,
+            352,
+            11,
+            362,
+            11,
+            513,
+            11,
+            604,
+            13,
+            50433
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4937389547174627,
+          "compression_ratio": 0.5789473684210527,
+          "no_speech_prob": 0.29872921109199524,
+          "confidence": 0.66,
+          "words": [
+            {
+              "text": "1,",
+              "start": 0.0,
+              "end": 0.26,
+              "confidence": 0.426
+            },
+            {
+              "text": "2,",
+              "start": 0.44,
+              "end": 0.56,
+              "confidence": 0.936
+            },
+            {
+              "text": "3,",
+              "start": 0.76,
+              "end": 0.88,
+              "confidence": 0.99
+            },
+            {
+              "text": "4.",
+              "start": 0.92,
+              "end": 1.3,
+              "confidence": 0.482
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "one 2 3 4",
+      "confidence_scores": [
+        0.426,
+        0.936,
+        0.99,
+        0.482
+      ],
+      "utterance_confidence": 0.66
+    }
+  },
+  "96": {
+    "start": 352.15,
+    "end": 355.809,
+    "transcript": "5 6 7 8 props underneath",
+    "whisper": {
+      "text": "5 6 7 8 props underneath",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 3.4,
+          "text": " five, six, seven, eight props underneath.",
+          "tokens": [
+            50363,
+            1936,
+            11,
+            2237,
+            11,
+            3598,
+            11,
+            3624,
+            25744,
+            14638,
+            13,
+            50555
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2654847548558162,
+          "compression_ratio": 0.8723404255319149,
+          "no_speech_prob": 0.009218798018991947,
+          "confidence": 0.915,
+          "words": [
+            {
+              "text": "five,",
+              "start": 0.0,
+              "end": 0.56,
+              "confidence": 0.828
+            },
+            {
+              "text": "six,",
+              "start": 0.92,
+              "end": 1.44,
+              "confidence": 0.981
+            },
+            {
+              "text": "seven,",
+              "start": 1.76,
+              "end": 1.94,
+              "confidence": 0.985
+            },
+            {
+              "text": "eight",
+              "start": 2.08,
+              "end": 2.44,
+              "confidence": 0.983
+            },
+            {
+              "text": "props",
+              "start": 2.44,
+              "end": 2.96,
+              "confidence": 0.698
+            },
+            {
+              "text": "underneath.",
+              "start": 2.96,
+              "end": 3.4,
+              "confidence": 0.965
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "5 6 7 8 props underneath",
+      "confidence_scores": [
+        0.828,
+        0.981,
+        0.985,
+        0.983,
+        0.698,
+        0.965
+      ],
+      "utterance_confidence": 0.915
+    }
+  },
+  "97": {
+    "start": 357.26197,
+    "end": 360.219,
+    "transcript": "all together and he_is leaning forwards",
+    "whisper": {
+      "text": "altogether and he_is leaning forwards",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.74,
+          "text": " altogether and he's leaning forwards.",
+          "tokens": [
+            50363,
+            13318,
+            290,
+            339,
+            338,
+            21804,
+            22052,
+            13,
+            50599
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.36699600219726564,
+          "compression_ratio": 0.8222222222222222,
+          "no_speech_prob": 0.0057649873197078705,
+          "confidence": 0.718,
+          "words": [
+            {
+              "text": "altogether",
+              "start": 0.0,
+              "end": 0.58,
+              "confidence": 0.436
+            },
+            {
+              "text": "and",
+              "start": 0.58,
+              "end": 1.58,
+              "confidence": 0.748
+            },
+            {
+              "text": "he's",
+              "start": 1.58,
+              "end": 1.86,
+              "confidence": 0.879
+            },
+            {
+              "text": "leaning",
+              "start": 1.86,
+              "end": 2.26,
+              "confidence": 0.994
+            },
+            {
+              "text": "forwards.",
+              "start": 2.26,
+              "end": 2.74,
+              "confidence": 0.627
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "altogether and he_is leaning forwards",
+      "confidence_scores": [
+        0.436,
+        0.748,
+        0.879,
+        0.994,
+        0.627
+      ],
+      "utterance_confidence": 0.718
+    }
+  },
+  "98": {
+    "start": 362.71,
+    "end": 363.829,
+    "transcript": "kind of lunging at it",
+    "whisper": {
+      "text": "kind of lunging at it",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.08,
+          "text": " kind of lunging at it.",
+          "tokens": [
+            50363,
+            1611,
+            286,
+            12317,
+            278,
+            379,
+            340,
+            13,
+            50513
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.2837002515792847,
+          "compression_ratio": 0.7333333333333333,
+          "no_speech_prob": 0.020215554162859917,
+          "confidence": 0.91,
+          "words": [
+            {
+              "text": "kind",
+              "start": 0.0,
+              "end": 0.2,
+              "confidence": 0.756
+            },
+            {
+              "text": "of",
+              "start": 0.2,
+              "end": 0.32,
+              "confidence": 0.998
+            },
+            {
+              "text": "lunging",
+              "start": 0.32,
+              "end": 0.78,
+              "confidence": 0.991
+            },
+            {
+              "text": "at",
+              "start": 0.78,
+              "end": 0.94,
+              "confidence": 0.992
+            },
+            {
+              "text": "it.",
+              "start": 0.94,
+              "end": 1.08,
+              "confidence": 0.839
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "kind of lunging at it",
+      "confidence_scores": [
+        0.756,
+        0.998,
+        0.991,
+        0.992,
+        0.839
+      ],
+      "utterance_confidence": 0.91
+    }
+  },
+  "99": {
+    "start": 366.74,
+    "end": 367.109,
+    "transcript": "yeah",
+    "whisper": {
+      "text": "yeah",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.28,
+          "text": " Yeah.",
+          "tokens": [
+            50363,
+            9425,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5351174354553223,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.09344976395368576,
+          "confidence": 0.788,
+          "words": [
+            {
+              "text": "Yeah.",
+              "start": 0.0,
+              "end": 0.28,
+              "confidence": 0.788
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "yeah",
+      "confidence_scores": [
+        0.788
+      ],
+      "utterance_confidence": 0.788
+    }
+  },
+  "100": {
+    "start": 367.52736,
+    "end": 369.279,
+    "transcript": "and",
+    "whisper": {
+      "text": " and_.",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.72,
+          "text": " Um, and...",
+          "tokens": [
+            50363,
+            21039,
+            11,
+            290,
+            986,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.6199229104178292,
+          "compression_ratio": 0.5555555555555556,
+          "no_speech_prob": 0.02895333245396614,
+          "confidence": 0.509,
+          "words": [
+            {
+              "text": "Um,",
+              "start": 0.0,
+              "end": 0.52,
+              "confidence": 0.373
+            },
+            {
+              "text": "and...",
+              "start": 1.0,
+              "end": 1.72,
+              "confidence": 0.695
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "and_.",
+      "confidence_scores": [
+        0.695
+      ],
+      "utterance_confidence": 0.509
+    }
+  },
+  "101": {
+    "start": 369.98,
+    "end": 374.629,
+    "transcript": "the basketball is red the the post is got si red bit where the net is",
+    "whisper": {
+      "text": "basketball is red that the posters got a red bit where the net is",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 4.54,
+          "text": " basketball is red that the posters got a red bit where the net is.",
+          "tokens": [
+            50363,
+            9669,
+            318,
+            2266,
+            326,
+            262,
+            19379,
+            1392,
+            257,
+            2266,
+            1643,
+            810,
+            262,
+            2010,
+            318,
+            13,
+            50685
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.29810484250386554,
+          "compression_ratio": 1.03125,
+          "no_speech_prob": 0.0023130294866859913,
+          "confidence": 0.7,
+          "words": [
+            {
+              "text": "basketball",
+              "start": 0.0,
+              "end": 0.62,
+              "confidence": 0.176
+            },
+            {
+              "text": "is",
+              "start": 0.62,
+              "end": 1.0,
+              "confidence": 0.904
+            },
+            {
+              "text": "red",
+              "start": 1.0,
+              "end": 1.32,
+              "confidence": 0.947
+            },
+            {
+              "text": "that",
+              "start": 1.32,
+              "end": 1.58,
+              "confidence": 0.185
+            },
+            {
+              "text": "the",
+              "start": 1.58,
+              "end": 1.92,
+              "confidence": 0.952
+            },
+            {
+              "text": "posters",
+              "start": 1.92,
+              "end": 2.52,
+              "confidence": 0.708
+            },
+            {
+              "text": "got",
+              "start": 2.52,
+              "end": 3.08,
+              "confidence": 0.94
+            },
+            {
+              "text": "a",
+              "start": 3.08,
+              "end": 3.24,
+              "confidence": 0.624
+            },
+            {
+              "text": "red",
+              "start": 3.24,
+              "end": 3.44,
+              "confidence": 0.881
+            },
+            {
+              "text": "bit",
+              "start": 3.44,
+              "end": 3.66,
+              "confidence": 0.981
+            },
+            {
+              "text": "where",
+              "start": 3.66,
+              "end": 3.9,
+              "confidence": 0.957
+            },
+            {
+              "text": "the",
+              "start": 3.9,
+              "end": 4.06,
+              "confidence": 0.912
+            },
+            {
+              "text": "net",
+              "start": 4.06,
+              "end": 4.3,
+              "confidence": 0.985
+            },
+            {
+              "text": "is.",
+              "start": 4.3,
+              "end": 4.54,
+              "confidence": 0.765
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "basketball is red that the posters got a red bit where the net is",
+      "confidence_scores": [
+        0.176,
+        0.904,
+        0.947,
+        0.185,
+        0.952,
+        0.708,
+        0.94,
+        0.624,
+        0.881,
+        0.981,
+        0.957,
+        0.912,
+        0.985,
+        0.765
+      ],
+      "utterance_confidence": 0.7
+    }
+  },
+  "102": {
+    "start": 377.05,
+    "end": 377.529,
+    "transcript": "yes",
+    "whisper": {
+      "text": "yes",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.3,
+          "text": " Yes.",
+          "tokens": [
+            50363,
+            3363,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.34694561958312986,
+          "compression_ratio": 0.3333333333333333,
+          "no_speech_prob": 0.025841405615210533,
+          "confidence": 0.704,
+          "words": [
+            {
+              "text": "Yes.",
+              "start": 0.0,
+              "end": 0.3,
+              "confidence": 0.704
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "yes",
+      "confidence_scores": [
+        0.704
+      ],
+      "utterance_confidence": 0.704
+    }
+  },
+  "103": {
+    "start": 378.38,
+    "end": 378.95664,
+    "transcript": "and a red",
+    "whisper": {
+      "text": "and a red_.",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.54,
+          "text": " and a red...",
+          "tokens": [
+            50363,
+            290,
+            257,
+            2266,
+            986,
+            50463
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.5267928327832904,
+          "compression_ratio": 0.6,
+          "no_speech_prob": 0.24881982803344727,
+          "confidence": 0.564,
+          "words": [
+            {
+              "text": "and",
+              "start": 0.0,
+              "end": 0.22,
+              "confidence": 0.639
+            },
+            {
+              "text": "a",
+              "start": 0.22,
+              "end": 0.38,
+              "confidence": 0.735
+            },
+            {
+              "text": "red...",
+              "start": 0.38,
+              "end": 0.54,
+              "confidence": 0.465
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "and a red_.",
+      "confidence_scores": [
+        0.639,
+        0.735,
+        0.465
+      ],
+      "utterance_confidence": 0.564
+    }
+  },
+  "104": {
+    "start": 379.47938,
+    "end": 380.459,
+    "transcript": " stand",
+    "whisper": {
+      "text": "a stand",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.74,
+          "text": " a stand.",
+          "tokens": [
+            50363,
+            257,
+            1302,
+            13,
+            50413
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.6494318246841431,
+          "compression_ratio": 0.5,
+          "no_speech_prob": 0.043060146272182465,
+          "confidence": 0.644,
+          "words": [
+            {
+              "text": "a",
+              "start": 0.0,
+              "end": 0.22,
+              "confidence": 0.377
+            },
+            {
+              "text": "stand.",
+              "start": 0.22,
+              "end": 0.74,
+              "confidence": 0.841
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "a stand",
+      "confidence_scores": [
+        0.377,
+        0.841
+      ],
+      "utterance_confidence": 0.644
+    }
+  },
+  "105": {
+    "start": 381.84566,
+    "end": 384.329,
+    "transcript": "there_is a yellow bird in the bush",
+    "whisper": {
+      "text": " there_is a yellow bird in the bush",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 2.36,
+          "text": " Um, there's a yellow bird in the bush.",
+          "tokens": [
+            50363,
+            21039,
+            11,
+            612,
+            338,
+            257,
+            7872,
+            6512,
+            287,
+            262,
+            24484,
+            13,
+            50479
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3803933688572475,
+          "compression_ratio": 0.8636363636363636,
+          "no_speech_prob": 0.005247578024864197,
+          "confidence": 0.748,
+          "words": [
+            {
+              "text": "Um,",
+              "start": 0.0,
+              "end": 0.58,
+              "confidence": 0.258
+            },
+            {
+              "text": "there's",
+              "start": 1.1,
+              "end": 1.22,
+              "confidence": 0.978
+            },
+            {
+              "text": "a",
+              "start": 1.22,
+              "end": 1.32,
+              "confidence": 0.994
+            },
+            {
+              "text": "yellow",
+              "start": 1.32,
+              "end": 1.54,
+              "confidence": 0.989
+            },
+            {
+              "text": "bird",
+              "start": 1.54,
+              "end": 1.82,
+              "confidence": 0.977
+            },
+            {
+              "text": "in",
+              "start": 1.82,
+              "end": 2.0,
+              "confidence": 0.992
+            },
+            {
+              "text": "the",
+              "start": 2.0,
+              "end": 2.12,
+              "confidence": 0.994
+            },
+            {
+              "text": "bush.",
+              "start": 2.12,
+              "end": 2.36,
+              "confidence": 0.829
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "there_is a yellow bird in the bush",
+      "confidence_scores": [
+        0.978,
+        0.994,
+        0.989,
+        0.977,
+        0.992,
+        0.994,
+        0.829
+      ],
+      "utterance_confidence": 0.748
+    }
+  },
+  "106": {
+    "start": 385.02,
+    "end": 386.03447,
+    "transcript": "top left",
+    "whisper": {
+      "text": "top left",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.52,
+          "text": " top left.",
+          "tokens": [
+            50363,
+            1353,
+            1364,
+            13,
+            50483
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.6729897658030192,
+          "compression_ratio": 0.5294117647058824,
+          "no_speech_prob": 0.06637553870677948,
+          "confidence": 0.775,
+          "words": [
+            {
+              "text": "top",
+              "start": 0.0,
+              "end": 0.18,
+              "confidence": 0.661
+            },
+            {
+              "text": "left.",
+              "start": 0.18,
+              "end": 0.52,
+              "confidence": 0.838
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "top left",
+      "confidence_scores": [
+        0.661,
+        0.838
+      ],
+      "utterance_confidence": 0.775
+    }
+  },
+  "107": {
+    "start": 387.8,
+    "end": 388.789,
+    "transcript": "0 i think we already got that",
+    "whisper": {
+      "text": "think we_have really got that",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.94,
+          "text": " think we've really got that.",
+          "tokens": [
+            50363,
+            892,
+            356,
+            1053,
+            1107,
+            1392,
+            326,
+            13,
+            50507
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.44540653228759763,
+          "compression_ratio": 0.7777777777777778,
+          "no_speech_prob": 0.020761772990226746,
+          "confidence": 0.654,
+          "words": [
+            {
+              "text": "think",
+              "start": 0.0,
+              "end": 0.26,
+              "confidence": 0.264
+            },
+            {
+              "text": "we've",
+              "start": 0.26,
+              "end": 0.44,
+              "confidence": 0.857
+            },
+            {
+              "text": "really",
+              "start": 0.44,
+              "end": 0.54,
+              "confidence": 0.588
+            },
+            {
+              "text": "got",
+              "start": 0.54,
+              "end": 0.72,
+              "confidence": 0.996
+            },
+            {
+              "text": "that.",
+              "start": 0.72,
+              "end": 0.94,
+              "confidence": 0.669
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "think we_have really got that",
+      "confidence_scores": [
+        0.264,
+        0.857,
+        0.588,
+        0.996,
+        0.669
+      ],
+      "utterance_confidence": 0.654
+    }
+  },
+  "108": {
+    "start": 390.02,
+    "end": 390.359,
+    "transcript": "yeah",
+    "whisper": {
+      "text": "yeah",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.3,
+          "text": " Yeah.",
+          "tokens": [
+            50363,
+            9425,
+            13,
+            50388
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.4283425331115723,
+          "compression_ratio": 0.38461538461538464,
+          "no_speech_prob": 0.08615940809249878,
+          "confidence": 0.686,
+          "words": [
+            {
+              "text": "Yeah.",
+              "start": 0.0,
+              "end": 0.3,
+              "confidence": 0.686
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "yeah",
+      "confidence_scores": [
+        0.686
+      ],
+      "utterance_confidence": 0.686
+    }
+  },
+  "109": {
+    "start": 397.81,
+    "end": 399.22132,
+    "transcript": "0 well right we_are finished then",
+    "whisper": {
+      "text": "0 well right we_are finished then",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 1.38,
+          "text": " Oh, well right, we're finished then.",
+          "tokens": [
+            50363,
+            3966,
+            11,
+            880,
+            826,
+            11,
+            356,
+            821,
+            5201,
+            788,
+            13,
+            50435
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.3436560264000526,
+          "compression_ratio": 0.8780487804878049,
+          "no_speech_prob": 0.0010732441442087293,
+          "confidence": 0.796,
+          "words": [
+            {
+              "text": "Oh,",
+              "start": 0.0,
+              "end": 0.28,
+              "confidence": 0.714
+            },
+            {
+              "text": "well",
+              "start": 0.5,
+              "end": 0.64,
+              "confidence": 0.627
+            },
+            {
+              "text": "right,",
+              "start": 0.64,
+              "end": 0.8,
+              "confidence": 0.617
+            },
+            {
+              "text": "we're",
+              "start": 0.9,
+              "end": 1.0,
+              "confidence": 0.968
+            },
+            {
+              "text": "finished",
+              "start": 1.0,
+              "end": 1.2,
+              "confidence": 0.997
+            },
+            {
+              "text": "then.",
+              "start": 1.2,
+              "end": 1.38,
+              "confidence": 0.95
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "0 well right we_are finished then",
+      "confidence_scores": [
+        0.714,
+        0.627,
+        0.617,
+        0.968,
+        0.997,
+        0.95
+      ],
+      "utterance_confidence": 0.796
+    }
+  },
+  "110": {
+    "start": 399.95,
+    "end": 400.489,
+    "transcript": "i cant count",
+    "whisper": {
+      "text": "i can_not count",
+      "segments": [
+        {
+          "id": 0,
+          "seek": 0,
+          "start": 0.0,
+          "end": 0.5,
+          "text": " I can't count.",
+          "tokens": [
+            50363,
+            314,
+            460,
+            470,
+            954,
+            13,
+            50405
+          ],
+          "temperature": 0.0,
+          "avg_logprob": -0.37577831745147705,
+          "compression_ratio": 0.6363636363636364,
+          "no_speech_prob": 0.03242064267396927,
+          "confidence": 0.921,
+          "words": [
+            {
+              "text": "I",
+              "start": 0.0,
+              "end": 0.12,
+              "confidence": 0.87
+            },
+            {
+              "text": "can't",
+              "start": 0.12,
+              "end": 0.32,
+              "confidence": 0.992
+            },
+            {
+              "text": "count.",
+              "start": 0.32,
+              "end": 0.5,
+              "confidence": 0.88
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "confidence_scoring": {
+      "words": "i can_not count",
+      "confidence_scores": [
+        0.87,
+        0.992,
+        0.88
+      ],
+      "utterance_confidence": 0.921
+    }
+  }
+}
