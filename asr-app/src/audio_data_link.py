@@ -1,4 +1,5 @@
 import json
+import sys
 import textwrap
 from pathlib import Path
 
@@ -6,6 +7,7 @@ import sounddevice as sd
 import soundfile as sf
 
 WRAP_WIDTH = 40
+BLOCK = '\u2588'  # Block character
 
 
 class AudioDataLinker:
@@ -28,6 +30,12 @@ class AudioDataLinker:
             self.data = json.load(f)
         self.audio_dir = audio_dir
         self.confidence_mode = confidence_mode
+        if text_blanking or text_highlight:
+            if text_blanking and text_highlight:
+                print('Error! Can\'t blank and highlight at the same time :<')
+                sys.exit(1)
+            self.text_blanking = text_blanking
+            self.text_highlight = text_highlight
         self.row_data = self.init_row_data()
 
     def play_audio(self, idx: int) -> bool:
@@ -52,14 +60,15 @@ class AudioDataLinker:
         for idx, utterance in self.data.items():
             kwgs = dict()
             kwgs['idx'] = idx
-            kwgs['hyp'] = wrap(utterance['whisper']['text'])
-            kwgs['ref'] = wrap(utterance['transcript'])
+            kwgs['hyp'] = wrap_and_format(utterance['whisper']['text'])
+            kwgs['ref'] = wrap_and_format(utterance['transcript'])
             kwgs['wer'] = utterance['wer']
             if self.confidence_mode:
                 kwgs['conf_scoring'] = utterance['confidence_scoring']
             else:
                 kwgs['avg_logprob'] = utterance['avg_logprob']
-            row = TableRow(self.confidence_mode, **kwgs)
+            row = TableRow(self.confidence_mode,
+                           self.text_blanking, self.text_highlight, **kwgs)
             row_data.append(row)
         return row_data
 
@@ -80,7 +89,9 @@ class TableRow:
     Using OOP allows text manipulation.
     """
 
-    def __init__(self, confidence_mode: bool, **kwargs):
+    def __init__(self, confidence_mode: bool, text_blanking: bool = False,
+                 text_highlight: bool = False, blanking_threshold: float = 0.6,
+                 **kwargs):
         """
         Create a new TableRow.
 
@@ -108,13 +119,19 @@ class TableRow:
         else:
             self.avg_logprob = kwargs['avg_logprob']
 
+        if text_blanking:
+            self.hyp_to_print = self.text_blanking(blanking_threshold)
+        else:
+            self.hyp_to_print = self.hyp
+
     def for_table(self):
         """Get row data in correct format for insertion into table"""
         if self.confidence_mode:
-            return (int(self.idx), self.hyp, self.ref, float(self.utt_conf),
-                    float(self.max_conf), float(self.min_conf), float(self.wer))
+            return (int(self.idx), wrap_and_format(self.hyp_to_print), self.ref,
+                    float(self.utt_conf), float(self.max_conf),
+                    float(self.min_conf), float(self.wer))
         else:
-            (int(self.idx), self.hyp, self.ref, float(
+            (int(self.idx), wrap_and_format(self.hyp), self.ref, float(
                 self.avg_logprob), float(self.wer))
 
     def get_header(self):
@@ -130,13 +147,22 @@ class TableRow:
         """Highlight text based on confidence measure"""
         pass
 
-    def text_blanking(self, threshold: float):
+    def text_blanking(self, threshold: float) -> str:
         """Blank out text based on confidence threshold"""
-        pass
+        text_list = []
+        for word, conf in self.token_conf_pair:
+            if conf < threshold:
+                # Removes underscores when printing blocks
+                for subword in word.split('_'):
+                    text_list.append(len(subword) * BLOCK)
+            else:
+                text_list.append(word)
+        return ' '.join(text_list)
 
 
-def wrap(string: str) -> str:
+def wrap_and_format(string: str) -> str:
     """
-    Apply text wrapping to a string.
+    Apply text wrapping to a string and remove underscores.
     """
-    return '\n'.join(textwrap.wrap(string, width=WRAP_WIDTH))
+    string_no_uscore = string.replace('_', ' ')
+    return '\n'.join(textwrap.wrap(string_no_uscore, width=WRAP_WIDTH))
