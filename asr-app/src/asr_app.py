@@ -20,6 +20,9 @@ class TranscriptionApp(App):
         ('p', 'play_sound', 'Play Audio'),
         ('s', 'sort_id', 'Sort ID'),
         ('w', 'sort_wer', 'Sort WER'),
+        ('w', 'sort_utt_conf', 'Sort Utterance Conf'),
+        ('w', 'sort_max_conf', 'Sort Max Conf.'),
+        ('w', 'sort_min_conf', 'Sort Min Conf.'),
         ('a', 'sort_prob', 'Sort Av. Log Prob.'),
     ]
 
@@ -64,7 +67,20 @@ class TranscriptionApp(App):
         self.sort_fn('WER')
 
     def action_sort_prob(self):
-        self.sort_fn('Average Log Probability')
+        if not self.data_linker.confidence_mode:
+            self.sort_fn('Average Log Probability')
+
+    def action_sort_utt_conf(self):
+        if self.data_linker.confidence_mode:
+            self.sort_fn('Utterance Confidence')
+
+    def action_sort_max_conf(self):
+        if self.data_linker.confidence_mode:
+            self.sort_fn('Max Conf.')
+
+    def action_sort_min_conf(self):
+        if self.data_linker.confidence_mode:
+            self.sort_fn('Min Conf.')
 
     def on_data_table_cell_highlighted(self, message: DataTable.CellHighlighted):
         row_num = message.coordinate.row
