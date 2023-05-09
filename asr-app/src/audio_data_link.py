@@ -16,7 +16,8 @@ class AudioDataLinker:
     """
 
     def __init__(self, audio_dir: Path, data_file: Path, confidence_mode: bool,
-                 text_blanking: bool = False, text_highlight: bool = False) -> None:
+                 text_blanking: bool = False, blanking_threshold: float = 0.5,
+                 text_highlight: bool = False) -> None:
         """
         Create a new AudioDataLinker.
 
@@ -35,6 +36,7 @@ class AudioDataLinker:
                 print('Error! Can\'t blank and highlight at the same time :<')
                 sys.exit(1)
             self.text_blanking = text_blanking
+            self.blanking_threshold = blanking_threshold
             self.text_highlight = text_highlight
         self.row_data = self.init_row_data()
 
@@ -68,7 +70,8 @@ class AudioDataLinker:
             else:
                 kwgs['avg_logprob'] = utterance['avg_logprob']
             row = TableRow(self.confidence_mode,
-                           self.text_blanking, self.text_highlight, **kwgs)
+                           self.text_blanking, self.text_highlight,
+                           self.blanking_threshold, **kwgs)
             row_data.append(row)
         return row_data
 
@@ -90,7 +93,7 @@ class TableRow:
     """
 
     def __init__(self, confidence_mode: bool, text_blanking: bool = False,
-                 text_highlight: bool = False, blanking_threshold: float = 0.6,
+                 text_highlight: bool = False, blanking_threshold: float = 0.5,
                  **kwargs):
         """
         Create a new TableRow.

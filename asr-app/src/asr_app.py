@@ -105,6 +105,7 @@ def launcher() -> (Path, Path, bool, bool, bool):
     use_confidence = False
     text_highlight = False
     text_blanking = False
+    blanking_threshold = 0.0
     if use_confidence_inp.lower() == 'y':
         use_confidence = True
         print('\nWould you like to use text blanking, highlighting, or neither?'
@@ -112,6 +113,7 @@ def launcher() -> (Path, Path, bool, bool, bool):
         conf_opt = input('-> ').lower()
         if conf_opt == 'b':
             text_blanking = True
+            blanking_threshold = float(input('Threshold : '))
         elif conf_opt == 'h':
             text_highlight = True
 
@@ -137,14 +139,16 @@ def launcher() -> (Path, Path, bool, bool, bool):
             chosen_data = f
     if chosen_data:
         return (chosen_data, chosen_audio, use_confidence,
-                text_blanking, text_highlight)
+                text_blanking, blanking_threshold, text_highlight)
     raise IndexError('Can\'t find data for selected conversation')
 
 
 if __name__ == "__main__":
-    data_file, audio_dir, confidence_mode, text_blanking, text_highlight = launcher()
+    (data_file, audio_dir, confidence_mode, text_blanking,
+     blanking_threshold, text_highlight) = launcher()
     data_linker = AudioDataLinker(
-        audio_dir, data_file, confidence_mode, text_blanking, text_highlight)
+        audio_dir, data_file, confidence_mode, text_blanking, blanking_threshold,
+        text_highlight)
     app = TranscriptionApp()
     app.populate_data(data_linker)
     app.run()
