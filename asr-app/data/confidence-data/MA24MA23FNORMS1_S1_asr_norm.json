@@ -2,9 +2,9 @@
   "0": {
     "start": 34.52,
     "end": 38.289,
-    "transcript": "okay so i have got a street scene and let us start with the top",
+    "transcript": " okay so i_have got a street scene and  let_us start with the top",
     "whisper": {
-      "text": "okay so i have got a street scene and let us start with the top",
+      "text": "okay so i_have got a street scene and let_us start with the top",
       "segments": [
         {
           "id": 0,
@@ -122,7 +122,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay so i have got a street scene and let us start with the top",
+      "words": "okay so i_have got a street scene and let_us start with the top",
       "confidence_scores": [
         0.505,
         0.982,
@@ -204,9 +204,9 @@
   "2": {
     "start": 40.69,
     "end": 44.019,
-    "transcript": "i have got 2 clouds in the sky got 2 clouds",
+    "transcript": " i_have got 2 clouds in the sky got 2 clouds",
     "whisper": {
-      "text": "i have got 2 clouds in the sky got 2 clouds",
+      "text": "i_have got 2 clouds in the sky got 2 clouds",
       "segments": [
         {
           "id": 0,
@@ -321,7 +321,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i have got 2 clouds in the sky got 2 clouds",
+      "words": "i_have got 2 clouds in the sky got 2 clouds",
       "confidence_scores": [
         0.852,
         0.997,
@@ -340,9 +340,9 @@
   "3": {
     "start": 44.53,
     "end": 46.56882,
-    "transcript": "and there is a a a cityscape",
+    "transcript": "and there_is a a a cityscape",
     "whisper": {
-      "text": "and there is the cityscape",
+      "text": "and there_is the cityscape",
       "segments": [
         {
           "id": 0,
@@ -397,7 +397,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and there is the cityscape",
+      "words": "and there_is the cityscape",
       "confidence_scores": [
         0.568,
         0.913,
@@ -753,9 +753,9 @@
   "8": {
     "start": 59.99,
     "end": 62.269,
-    "transcript": "they are wearing like big red bows",
+    "transcript": "they_are wearing like big red bows",
     "whisper": {
-      "text": "they are wearing like big red bows",
+      "text": "they_are wearing like big red bows",
       "segments": [
         {
           "id": 0,
@@ -825,7 +825,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "they are wearing like big red bows",
+      "words": "they_are wearing like big red bows",
       "confidence_scores": [
         0.886,
         0.582,
@@ -946,9 +946,9 @@
   "11": {
     "start": 72.97764,
     "end": 76.779,
-    "transcript": "and then so it is a blue sign",
+    "transcript": "and then so it_is a blue sign",
     "whisper": {
-      "text": "and then so it is a blue sign",
+      "text": "and then so it_is a blue sign",
       "segments": [
         {
           "id": 0,
@@ -1022,7 +1022,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then so it is a blue sign",
+      "words": "and then so it_is a blue sign",
       "confidence_scores": [
         0.199,
         0.953,
@@ -1038,7 +1038,7 @@
   "12": {
     "start": 78.15,
     "end": 80.36966,
-    "transcript": "and a kind of a brown door",
+    "transcript": " and a kind of a brown door",
     "whisper": {
       "text": "and a kind of a brown door",
       "segments": [
@@ -1222,9 +1222,9 @@
   "14": {
     "start": 83.71521,
     "end": 85.999,
-    "transcript": "it is a gray sign with red writing",
+    "transcript": " it_is a gray sign with red writing",
     "whisper": {
-      "text": "it is a gray sign with red writing",
+      "text": "it_is a gray sign with red writing",
       "segments": [
         {
           "id": 0,
@@ -1299,7 +1299,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is a gray sign with red writing",
+      "words": "it_is a gray sign with red writing",
       "confidence_scores": [
         0.779,
         0.964,
@@ -1529,9 +1529,9 @@
   "16": {
     "start": 91.25,
     "end": 95.41,
-    "transcript": "and then on the left hand side of the door there is a sign that says pillboxes on sale",
+    "transcript": "and then on the left hand side of the door there_is a sign that says pillboxes on sale",
     "whisper": {
-      "text": "and then on the left hand side of the door there is a sign that says pillboxes on sale",
+      "text": "and then on the left_hand side of the door there_is a sign that says pillboxes on sale",
       "segments": [
         {
           "id": 0,
@@ -1698,7 +1698,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then on the left hand side of the door there is a sign that says pillboxes on sale",
+      "words": "and then on the left_hand side of the door there_is a sign that says pillboxes on sale",
       "confidence_scores": [
         0.532,
         0.989,
@@ -1777,7 +1777,7 @@
   "18": {
     "start": 103.47,
     "end": 108.97653,
-    "transcript": "the usual yeah okay and then the doors are like blue",
+    "transcript": "the usual yeah  okay and then the doors are like  blue",
     "whisper": {
       "text": "the usual yeah okay and then the doors are like blue",
       "segments": [
@@ -1902,7 +1902,7 @@
     "end": 113.61,
     "transcript": "sort of blue frame to the door anyways 3 windows in each door",
     "whisper": {
-      "text": "sort of a blue frame to the door anyway it is 3 windows in each door",
+      "text": "sort of a blue frame to the door anyway it_is 3 windows in each door",
       "segments": [
         {
           "id": 0,
@@ -2052,7 +2052,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "sort of a blue frame to the door anyway it is 3 windows in each door",
+      "words": "sort of a blue frame to the door anyway it_is 3 windows in each door",
       "confidence_scores": [
         0.55,
         0.993,
@@ -2344,9 +2344,9 @@
   "23": {
     "start": 121.89,
     "end": 125.609,
-    "transcript": "i have got a sign that says extra shine with pearl toothpaste",
+    "transcript": "i_have got a sign that says extra shine with pearl toothpaste",
     "whisper": {
-      "text": "and i have got a sign that says extra shine with pearl toothpaste",
+      "text": "and i_have got a sign that says extra shine with pearl toothpaste",
       "segments": [
         {
           "id": 0,
@@ -2457,7 +2457,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and i have got a sign that says extra shine with pearl toothpaste",
+      "words": "and i_have got a sign that says extra shine with pearl toothpaste",
       "confidence_scores": [
         0.407,
         0.949,
@@ -2591,9 +2591,9 @@
   "26": {
     "start": 132.12,
     "end": 136.499,
-    "transcript": "and then there is a bit of a little gap or an alleyway between that and the next shop",
+    "transcript": "and then there_is a bit of a little gap or an alleyway between that and the next shop",
     "whisper": {
-      "text": "and then there is a bit of a little gap or an alleyway between that and the next shop",
+      "text": "and then there_is a bit of a little gap or an alleyway between that and the next shop",
       "segments": [
         {
           "id": 0,
@@ -2746,7 +2746,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then there is a bit of a little gap or an alleyway between that and the next shop",
+      "words": "and then there_is a bit of a little gap or an alleyway between that and the next shop",
       "confidence_scores": [
         0.655,
         0.973,
@@ -2773,9 +2773,9 @@
   "27": {
     "start": 137.37,
     "end": 141.539,
-    "transcript": "in the alleyway i have got 3 birds pecking at the ground 3 white birds",
+    "transcript": "in the alleyway i_have got 3 birds pecking at the ground 3 white birds",
     "whisper": {
-      "text": "in the alleyway i have got 3 birds pecking at the ground 3 white birds",
+      "text": "in the alleyway i_have got 3 birds pecking at the ground 3 white birds",
       "segments": [
         {
           "id": 0,
@@ -2921,7 +2921,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "in the alleyway i have got 3 birds pecking at the ground 3 white birds",
+      "words": "in the alleyway i_have got 3 birds pecking at the ground 3 white birds",
       "confidence_scores": [
         0.63,
         0.998,
@@ -3226,9 +3226,9 @@
   "29": {
     "start": 150.43,
     "end": 152.619,
-    "transcript": "and above that in the sky there is an airplane",
+    "transcript": "and above that in the sky there_is an airplane",
     "whisper": {
-      "text": "and above that in the sky there is an airplane",
+      "text": "and above that in the sky there_is an airplane",
       "segments": [
         {
           "id": 0,
@@ -3319,7 +3319,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and above that in the sky there is an airplane",
+      "words": "and above that in the sky there_is an airplane",
       "confidence_scores": [
         0.378,
         0.988,
@@ -3337,9 +3337,9 @@
   "30": {
     "start": 153.31,
     "end": 155.019,
-    "transcript": "with red red wings it is going",
+    "transcript": "with red red wings it_is going",
     "whisper": {
-      "text": "with red wings it is going",
+      "text": "with red wings it_is going",
       "segments": [
         {
           "id": 0,
@@ -3401,7 +3401,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "with red wings it is going",
+      "words": "with red wings it_is going",
       "confidence_scores": [
         0.783,
         0.908,
@@ -3580,9 +3580,9 @@
   "34": {
     "start": 162.96,
     "end": 165.299,
-    "transcript": "and then next to that there is a shop does not have a sign",
+    "transcript": "and then next to that there_is a shop does_not have a sign",
     "whisper": {
-      "text": "and then next to that there is a shop that does not have a sign",
+      "text": "and then next to that there_is a shop that does_not have a sign",
       "segments": [
         {
           "id": 0,
@@ -3700,7 +3700,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then next to that there is a shop that does not have a sign",
+      "words": "and then next to that there_is a shop that does_not have a sign",
       "confidence_scores": [
         0.643,
         0.963,
@@ -3722,9 +3722,9 @@
   "35": {
     "start": 167.78031,
     "end": 169.12,
-    "transcript": "aha so i do not have anything",
+    "transcript": "aha so i do_not have anything",
     "whisper": {
-      "text": "aha so i do not have anything",
+      "text": "aha so i do_not have anything",
       "segments": [
         {
           "id": 0,
@@ -3794,7 +3794,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "aha so i do not have anything",
+      "words": "aha so i do_not have anything",
       "confidence_scores": [
         0.517,
         0.923,
@@ -3809,9 +3809,9 @@
   "36": {
     "start": 169.39,
     "end": 171.279,
-    "transcript": "it has got a green kind of top",
+    "transcript": "it_is got a green kind of top",
     "whisper": {
-      "text": "it has got a green kind of top",
+      "text": "it_is got a green kind of top",
       "segments": [
         {
           "id": 0,
@@ -3886,7 +3886,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is got a green kind of top",
+      "words": "it_is got a green kind of top",
       "confidence_scores": [
         0.677,
         0.997,
@@ -3954,9 +3954,9 @@
   "38": {
     "start": 173.74984,
     "end": 175.329,
-    "transcript": "and they are like glass",
+    "transcript": "and they_are like glass",
     "whisper": {
-      "text": "and they are like glass",
+      "text": "and they_are like glass",
       "segments": [
         {
           "id": 0,
@@ -4009,7 +4009,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and they are like glass",
+      "words": "and they_are like glass",
       "confidence_scores": [
         0.225,
         0.968,
@@ -4422,9 +4422,9 @@
   "45": {
     "start": 189.44,
     "end": 192.799,
-    "transcript": "in mine in the middle it has got a guy in a black suit",
+    "transcript": "in mine in the middle it_is got a guy in a black suit",
     "whisper": {
-      "text": "in the middle it has got a guy in a black suit",
+      "text": "in the middle it_is got a guy in a black suit",
       "segments": [
         {
           "id": 0,
@@ -4527,7 +4527,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "in the middle it is got a guy in a black suit",
+      "words": "in the middle it_is got a guy in a black suit",
       "confidence_scores": [
         0.527,
         0.873,
@@ -4696,9 +4696,9 @@
   "49": {
     "start": 196.88,
     "end": 200.299,
-    "transcript": "and he is holding playing cards and giving a kind of a crafty smile",
+    "transcript": "and he_is holding playing cards and giving a kind of a crafty smile",
     "whisper": {
-      "text": "and he is holding playing cards and giving a kind of a crafty smile",
+      "text": "and he_is holding playing cards and giving a kind of a crafty smile",
       "segments": [
         {
           "id": 0,
@@ -4834,7 +4834,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and he is holding playing cards and giving a kind of a crafty smile",
+      "words": "and he_is holding playing cards and giving a kind of a crafty smile",
       "confidence_scores": [
         0.607,
         0.985,
@@ -4856,9 +4856,9 @@
   "50": {
     "start": 205.27,
     "end": 208.39,
-    "transcript": "0 may may no maybe it is money yeah you no you are absolutely right looks like sorry",
+    "transcript": "0 may may no maybe it_is money yeah you no you_are absolutely right looks like  sorry",
     "whisper": {
-      "text": "0 no maybe it is money yeah no you are absolutely right sorry",
+      "text": "0 no maybe it is money yeah no you_are absolutely right sorry",
       "segments": [
         {
           "id": 0,
@@ -5010,7 +5010,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "0 no maybe it is money yeah no you are absolutely right sorry",
+      "words": "0 no maybe it is money yeah no you_are absolutely right sorry",
       "confidence_scores": [
         0.419,
         0.428,
@@ -5031,9 +5031,9 @@
   "51": {
     "start": 209.00803,
     "end": 213.399,
-    "transcript": "and then i have got next to that a sign that says place your bets in the next window",
+    "transcript": " and then i_have got next to that a sign that says place your bets in the next window",
     "whisper": {
-      "text": "and then i have got next to that a sign that says place your bets in the next window",
+      "text": "and then i_have got next to that a sign that says place your bets in the next window",
       "segments": [
         {
           "id": 0,
@@ -5185,7 +5185,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then i have got next to that a sign that says place your bets in the next window",
+      "words": "and then i_have got next to that a sign that says place your bets in the next window",
       "confidence_scores": [
         0.587,
         0.986,
@@ -5257,9 +5257,9 @@
   "53": {
     "start": 216.23,
     "end": 217.49,
-    "transcript": "yeah no you are probably right it is money",
+    "transcript": "yeah no you_are probably right it is money",
     "whisper": {
-      "text": "yeah no you are probably right it is money",
+      "text": "yeah no you_are probably right it_is money",
       "segments": [
         {
           "id": 0,
@@ -5338,7 +5338,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "yeah no you are probably right it is money",
+      "words": "yeah no you_are probably right it_is money",
       "confidence_scores": [
         0.663,
         0.701,
@@ -5674,7 +5674,7 @@
   "59": {
     "start": 232.17,
     "end": 234.959,
-    "transcript": "and then in front of that there is kind of like a a wooden kiosk",
+    "transcript": "and then in front of that there_is kind of like a a wooden kiosk",
     "whisper": {
       "text": "and then in front of that is kind of like a wooden kiosk",
       "segments": [
@@ -5992,9 +5992,9 @@
   "62": {
     "start": 246.51,
     "end": 249.959,
-    "transcript": "and then in the shop in this little kiosk there is kind of an assortment of",
+    "transcript": "and then in the shop in this little kiosk there_is kind of an assortment of",
     "whisper": {
-      "text": "and then in the shop in this little kiosk there is kind of an assortment of",
+      "text": "and then in the shop in this little kiosk there_is kind of an assortment of",
       "segments": [
         {
           "id": 0,
@@ -6146,7 +6146,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then in the shop in this little kiosk there is kind of an assortment of",
+      "words": "and then in the shop in this little kiosk there_is kind of an assortment of",
       "confidence_scores": [
         0.613,
         0.982,
@@ -6241,9 +6241,9 @@
   "64": {
     "start": 253.02,
     "end": 254.429,
-    "transcript": "little boxes i have got",
+    "transcript": "little boxes i_have got",
     "whisper": {
-      "text": "little boxes i have got",
+      "text": "little boxes i_have got",
       "segments": [
         {
           "id": 0,
@@ -6297,7 +6297,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "little boxes i have got",
+      "words": "little boxes i_have got",
       "confidence_scores": [
         0.881,
         0.989,
@@ -6310,7 +6310,7 @@
   "65": {
     "start": 254.85,
     "end": 257.039,
-    "transcript": "top row thing",
+    "transcript": "top row  thing",
     "whisper": {
       "text": "top row a blue thing",
       "segments": [
@@ -6386,9 +6386,9 @@
   "66": {
     "start": 257.61,
     "end": 263.309,
-    "transcript": "and 2 black things and then i have got a starting from the towards the center a pink",
+    "transcript": "and 2 black things and then i_have got a starting from the towards the center a pink",
     "whisper": {
-      "text": "and 2 black things and then i have got starting from the towards the center a pink",
+      "text": "and 2 black things and then i_have got starting from the towards the center a pink",
       "segments": [
         {
           "id": 0,
@@ -6529,7 +6529,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and 2 black things and then i have got starting from the towards the center a pink",
+      "words": "and 2 black things and then i_have got starting from the towards the center a pink",
       "confidence_scores": [
         0.628,
         0.929,
@@ -6598,7 +6598,7 @@
   "68": {
     "start": 264.89,
     "end": 266.939,
-    "transcript": "kind of a a green cube",
+    "transcript": " kind of a a green cube",
     "whisper": {
       "text": "kind of a green cube",
       "segments": [
@@ -6673,9 +6673,9 @@
   "69": {
     "start": 267.48,
     "end": 271.64,
-    "transcript": "and a blue thing and then i have got 3 kind of red things and a green thing",
+    "transcript": "and a blue thing and then i_have got 3 kind of red things and a green thing",
     "whisper": {
-      "text": "and the blue thing and then i have got 3 kind of red things and a green thing",
+      "text": "and the blue thing and then i_have got 3 kind of red things and a green thing",
       "segments": [
         {
           "id": 0,
@@ -6820,7 +6820,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and the blue thing and then i have got 3 kind of red things and a green thing",
+      "words": "and the blue thing and then i_have got 3 kind of red things and a green thing",
       "confidence_scores": [
         0.704,
         0.564,
@@ -7091,9 +7091,9 @@
   "73": {
     "start": 283.10362,
     "end": 285.50063,
-    "transcript": "and then there is a bench",
+    "transcript": " and then there_is a bench",
     "whisper": {
-      "text": "and then there is a bench",
+      "text": "and then there_is a bench",
       "segments": [
         {
           "id": 0,
@@ -7154,7 +7154,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then there is a bench",
+      "words": "and then there_is a bench",
       "confidence_scores": [
         0.377,
         0.964,
@@ -7168,9 +7168,9 @@
   "74": {
     "start": 286.05402,
     "end": 287.2126,
-    "transcript": "empty",
+    "transcript": " empty",
     "whisper": {
-      "text": "empty",
+      "text": " empty",
       "segments": [
         {
           "id": 0,
@@ -7220,9 +7220,9 @@
   "75": {
     "start": 287.81,
     "end": 288.85607,
-    "transcript": "it is kind of green",
+    "transcript": "it_is kind of green",
     "whisper": {
-      "text": "it is kind of green",
+      "text": "it_is kind of green",
       "segments": [
         {
           "id": 0,
@@ -7276,7 +7276,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is kind of green",
+      "words": "it_is kind of green",
       "confidence_scores": [
         0.799,
         0.965,
@@ -7510,9 +7510,9 @@
   "79": {
     "start": 300.43,
     "end": 303.7871,
-    "transcript": "and then i have got a woman crossing the road",
+    "transcript": "and then i_have got a woman crossing the road",
     "whisper": {
-      "text": "and then i have got a woman crossing the road",
+      "text": "and then i_have got a woman crossing the road",
       "segments": [
         {
           "id": 0,
@@ -7601,7 +7601,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then i have got a woman crossing the road",
+      "words": "and then i_have got a woman crossing the road",
       "confidence_scores": [
         0.598,
         0.996,
@@ -7619,9 +7619,9 @@
   "80": {
     "start": 304.24,
     "end": 306.88,
-    "transcript": "she is kind of in the middle of the road she has got bright pink shoes",
+    "transcript": "she_is kind of in the middle of the road she_is got bright pink shoes",
     "whisper": {
-      "text": "she is kind of in the middle of the road she has got bright pink shoes",
+      "text": "she_is kind of in the middle of the road she_is got bright pink shoes",
       "segments": [
         {
           "id": 0,
@@ -7765,7 +7765,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "she is kind of in the middle of the road she is got bright pink shoes",
+      "words": "she_is kind of in the middle of the road she_is got bright pink shoes",
       "confidence_scores": [
         0.735,
         0.908,
@@ -7788,9 +7788,9 @@
   "81": {
     "start": 308.32,
     "end": 310.269,
-    "transcript": "no she is wearing her shoes",
+    "transcript": "no she_is wearing her shoes",
     "whisper": {
-      "text": "no she is wearing her shoes",
+      "text": "no she_is wearing her shoes",
       "segments": [
         {
           "id": 0,
@@ -7852,7 +7852,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "no she is wearing her shoes",
+      "words": "no she_is wearing her shoes",
       "confidence_scores": [
         0.701,
         0.989,
@@ -7866,7 +7866,7 @@
   "82": {
     "start": 317.43434,
     "end": 318.159,
-    "transcript": "0",
+    "transcript": " 0",
     "whisper": {
       "text": "0",
       "segments": [
@@ -7911,9 +7911,9 @@
   "83": {
     "start": 319.09,
     "end": 321.879,
-    "transcript": "and she has got a gray skirt and a blue top",
+    "transcript": " and she_is got a gray skirt and a blue top",
     "whisper": {
-      "text": "and she has got a gray skirt and a blue top",
+      "text": "and she_is got a gray skirt and a blue top",
       "segments": [
         {
           "id": 0,
@@ -8009,7 +8009,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and she is got a gray skirt and a blue top",
+      "words": "and she_is got a gray skirt and a blue top",
       "confidence_scores": [
         0.432,
         0.978,
@@ -8080,9 +8080,9 @@
   "85": {
     "start": 324.0,
     "end": 325.65,
-    "transcript": "and above her there is a bird",
+    "transcript": "and above her there_is a bird",
     "whisper": {
-      "text": "and above her there is a bird",
+      "text": "and above her there_is a bird",
       "segments": [
         {
           "id": 0,
@@ -8151,7 +8151,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and above her there is a bird",
+      "words": "and above her there_is a bird",
       "confidence_scores": [
         0.371,
         0.994,
@@ -8236,7 +8236,7 @@
     "end": 331.939,
     "transcript": "okay",
     "whisper": {
-      "text": "okay",
+      "text": " okay",
       "segments": [
         {
           "id": 0,
@@ -8286,9 +8286,9 @@
   "88": {
     "start": 332.54579,
     "end": 335.98,
-    "transcript": "moving on to the other side there is another lamppost on the other side of the road",
+    "transcript": " moving on to the other side there_is another lamppost on the other side of the road",
     "whisper": {
-      "text": "moving on to the other side there is another lamppost on the other side of the road",
+      "text": "moving on to the other side there_is another lamppost on the other side of the road",
       "segments": [
         {
           "id": 0,
@@ -8429,7 +8429,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "moving on to the other side there is another lamppost on the other side of the road",
+      "words": "moving on to the other side there_is another lamppost on the other side of the road",
       "confidence_scores": [
         0.791,
         0.698,
@@ -8564,7 +8564,7 @@
     "end": 340.479,
     "transcript": "kinda arrow sign",
     "whisper": {
-      "text": "i am just going to arrow sign",
+      "text": "i_am just going to arrow sign",
       "segments": [
         {
           "id": 0,
@@ -8632,7 +8632,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i am just going to arrow sign",
+      "words": "i_am just going to arrow sign",
       "confidence_scores": [
         0.196,
         0.545,
@@ -8760,9 +8760,9 @@
   "93": {
     "start": 347.99,
     "end": 350.709,
-    "transcript": "the shop on the left hand side we have got pete is pet shop",
+    "transcript": "the shop on the left hand side we_have got pete_is pet shop",
     "whisper": {
-      "text": "the shop on the left hand side we have got pete is pet shop",
+      "text": "the shop on the left hand side we_have got pete_is pet shop",
       "segments": [
         {
           "id": 0,
@@ -8874,7 +8874,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "the shop on the left hand side we have got pete is pet shop",
+      "words": "the shop on the left hand side we_have got pete_is pet shop",
       "confidence_scores": [
         0.32,
         0.992,
@@ -9231,9 +9231,9 @@
   "99": {
     "start": 367.69,
     "end": 371.129,
-    "transcript": "and there is there is a a child pointing at it",
+    "transcript": "and  there_is  there_is a a child pointing at it",
     "whisper": {
-      "text": "and there is a child pointing at it",
+      "text": "and there_is a child pointing at it",
       "segments": [
         {
           "id": 0,
@@ -9308,7 +9308,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and there is a child pointing at it",
+      "words": "and there_is a child pointing at it",
       "confidence_scores": [
         0.698,
         0.964,
@@ -9437,9 +9437,9 @@
   "102": {
     "start": 378.93,
     "end": 382.559,
-    "transcript": "looks like a bag or something it is kind of a a yeah a red red thing",
+    "transcript": "looks like a bag or something it_is kind of a a yeah a red red thing",
     "whisper": {
-      "text": "it looks like a bag or something it is kind of a red thing",
+      "text": "it looks like a bag or something it_is kind of a red thing",
       "segments": [
         {
           "id": 0,
@@ -9557,7 +9557,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it looks like a bag or something it is kind of a red thing",
+      "words": "it looks like a bag or something it_is kind of a red thing",
       "confidence_scores": [
         0.182,
         0.947,
@@ -9579,9 +9579,9 @@
   "103": {
     "start": 384.27,
     "end": 387.689,
-    "transcript": "and then in the window the window inside the shop you can see it is all red",
+    "transcript": "and then in the window the window inside the shop you can see it_is all red",
     "whisper": {
-      "text": "and then in the window the window inside the shop you can see it is all red",
+      "text": "and then in the window the window inside the shop you can see it_is all red",
       "segments": [
         {
           "id": 0,
@@ -9739,7 +9739,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then in the window the window inside the shop you can see it is all red",
+      "words": "and then in the window the window inside the shop you can see it_is all red",
       "confidence_scores": [
         0.619,
         0.992,
@@ -9764,9 +9764,9 @@
   "104": {
     "start": 388.35,
     "end": 392.369,
-    "transcript": "and then in the bottom left hand pane there is like a bird cage",
+    "transcript": "and then in the bottom left hand pane there_is like a bird cage",
     "whisper": {
-      "text": "and then in the bottom left hand pane there is like a bird cage",
+      "text": "and then in the bottom left_hand pane there_is like a bird cage",
       "segments": [
         {
           "id": 0,
@@ -9897,7 +9897,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then in the bottom left hand pane there is like a bird cage",
+      "words": "and then in the bottom left_hand pane there_is like a bird cage",
       "confidence_scores": [
         0.508,
         0.988,
@@ -10051,9 +10051,9 @@
   "107": {
     "start": 397.29,
     "end": 398.819,
-    "transcript": "i think the girl is pointing at the bird",
+    "transcript": "i think the girl_is pointing at the bird",
     "whisper": {
-      "text": "i think the girl is pointing at the bird",
+      "text": "i think the girl_is pointing at the bird",
       "segments": [
         {
           "id": 0,
@@ -10135,7 +10135,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i think the girl is pointing at the bird",
+      "words": "i think the girl_is pointing at the bird",
       "confidence_scores": [
         0.894,
         0.997,
@@ -10152,9 +10152,9 @@
   "108": {
     "start": 401.61,
     "end": 404.079,
-    "transcript": "so just it is between bird cage and",
+    "transcript": "so just it_is between bird cage and",
     "whisper": {
-      "text": "so just it is between the birdcage and",
+      "text": "so just it_is between the birdcage and",
       "segments": [
         {
           "id": 0,
@@ -10233,7 +10233,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "so just it is between the birdcage and",
+      "words": "so just it_is between the birdcage and",
       "confidence_scores": [
         0.621,
         0.543,
@@ -10447,9 +10447,9 @@
   "111": {
     "start": 409.5,
     "end": 414.509,
-    "transcript": "and above that in the top left hand pane thee is like a blue thing on the wall or something like that",
+    "transcript": "and above that in the top left hand pane thee_is like a blue thing on the wall or something like that",
     "whisper": {
-      "text": "and above that in the top left hand pane there is like a blue thing on the wall or something like that",
+      "text": "and above that in the top left_hand pane there_is like a blue thing on the wall or something like that",
       "segments": [
         {
           "id": 0,
@@ -10655,7 +10655,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and above that in the top left hand pane there is like a blue thing on the wall or something like that",
+      "words": "and above that in the top left_hand pane there_is like a blue thing on the wall or something like that",
       "confidence_scores": [
         0.394,
         0.994,
@@ -10853,9 +10853,9 @@
   "114": {
     "start": 420.70621,
     "end": 424.679,
-    "transcript": "there is a just the words in pink cafe on the sign and a pie",
+    "transcript": "there_is a just the words in pink cafe on the sign and a pie",
     "whisper": {
-      "text": "there is just words in pink cafe on the sign and a pie",
+      "text": "there_is just words in pink cafe on the sign and a pie",
       "segments": [
         {
           "id": 0,
@@ -10967,7 +10967,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "there is just words in pink cafe on the sign and a pie",
+      "words": "there_is just words in pink cafe on the sign and a pie",
       "confidence_scores": [
         0.707,
         0.791,
@@ -11032,7 +11032,7 @@
   "116": {
     "start": 427.87,
     "end": 430.249,
-    "transcript": "you got the cafe have you it is does it say cafe okay",
+    "transcript": "you got the cafe have you it_is does it say cafe okay",
     "whisper": {
       "text": "have you got the cafe does it say cafe okay",
       "segments": [
@@ -11192,9 +11192,9 @@
   "118": {
     "start": 432.10769,
     "end": 436.519,
-    "transcript": "yes and then there is a yellow sorry a white and orange awning",
+    "transcript": " yes and then there_is a yellow  sorry a white and orange awning",
     "whisper": {
-      "text": "yes and then there is a yellow sorry a white and orange awning",
+      "text": "yes and then there_is a yellow sorry a white and orange awning",
       "segments": [
         {
           "id": 0,
@@ -11317,7 +11317,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "yes and then there is a yellow sorry a white and orange awning",
+      "words": "yes and then there_is a yellow sorry a white and orange awning",
       "confidence_scores": [
         0.805,
         0.727,
@@ -11338,9 +11338,9 @@
   "119": {
     "start": 437.429,
     "end": 443.45,
-    "transcript": "and outside the cafe there is a table and 2 chairs they are sort of yeah blueish green",
+    "transcript": "and outside the cafe there_is a table and 2 chairs they are sort of yeah blueish green",
     "whisper": {
-      "text": "and outside the cafe there is a table and 2 chairs they are sort of yeah bluish green",
+      "text": "and outside the cafe there_is a table and 2 chairs they are sort of yeah bluish green",
       "segments": [
         {
           "id": 0,
@@ -11508,7 +11508,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and outside the cafe there is a table and 2 chairs they are sort of yeah bluish green",
+      "words": "and outside the cafe there_is a table and 2 chairs they are sort of yeah bluish green",
       "confidence_scores": [
         0.334,
         0.948,
@@ -11787,7 +11787,7 @@
     "end": 453.889,
     "transcript": "got a",
     "whisper": {
-      "text": "got to be",
+      "text": "got_to be",
       "segments": [
         {
           "id": 0,
@@ -11825,7 +11825,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "got to be",
+      "words": "got_to be",
       "confidence_scores": [
         0.008,
         0.085
@@ -11880,9 +11880,9 @@
   "125": {
     "start": 456.02,
     "end": 462.43906,
-    "transcript": "facade with white squares okay how many have we got 246810",
+    "transcript": "facade with white squares okay how many have we got 2 4 6 8 10",
     "whisper": {
-      "text": "facades with white squares okay how many have you got 246810",
+      "text": "facades with white squares okay how many have you got 2 4 6 8 10",
       "segments": [
         {
           "id": 0,
@@ -12298,7 +12298,7 @@
   "130": {
     "start": 479.96,
     "end": 482.389,
-    "transcript": "yes they are green and sort of khaki or something like that",
+    "transcript": "yes they_are green and sort of khaki or something like that",
     "whisper": {
       "text": "yes a green instead of khaki or something like that",
       "segments": [
@@ -12544,9 +12544,9 @@
   "133": {
     "start": 491.94,
     "end": 495.639,
-    "transcript": "0 okay i have got 246810 got 10",
+    "transcript": "0 okay i_have got 2 4 6 8 10 got 10",
     "whisper": {
-      "text": "0 okay i have got 2 4 6 8 10 i have got 10",
+      "text": "0 okay i_have got 2 4 6 8 10 i_have got 10",
       "segments": [
         {
           "id": 0,
@@ -12663,7 +12663,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "0 okay i have got 2 4 6 8 10 i have got 10",
+      "words": "0 okay i_have got 2 4 6 8 10 i_have got 10",
       "confidence_scores": [
         0.346,
         0.339,
@@ -12684,9 +12684,9 @@
   "134": {
     "start": 501.76,
     "end": 505.929,
-    "transcript": "sorry did you circle the green the girl is dress i think we probably have the same she is probably got the same dress",
+    "transcript": "sorry did you circle the green the girl_is dress i think we probably have the same she_is probably got the same dress",
     "whisper": {
-      "text": "sorry did you circle the girl is dress i think we probably have the same she is probably got the same dress",
+      "text": "sorry did you circle the girl_is dress i think we probably have the same she_is probably got the same dress",
       "segments": [
         {
           "id": 0,
@@ -12892,7 +12892,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "sorry did you circle the girl is dress i think we probably have the same she is probably got the same dress",
+      "words": "sorry did you circle the girl_is dress i think we probably have the same she_is probably got the same dress",
       "confidence_scores": [
         0.716,
         0.99,
@@ -13620,9 +13620,9 @@
   "149": {
     "start": 548.02,
     "end": 549.93,
-    "transcript": "maybe it does i am going to circle them both",
+    "transcript": "maybe it does i_am going_to circle them both",
     "whisper": {
-      "text": "maybe it does i am going to circle them both",
+      "text": "maybe it does i_am going to circle them both",
       "segments": [
         {
           "id": 0,
@@ -13712,7 +13712,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "maybe it does i am going to circle them both",
+      "words": "maybe it does i_am going to circle them both",
       "confidence_scores": [
         0.712,
         0.997,
@@ -13730,9 +13730,9 @@
   "150": {
     "start": 552.68,
     "end": 557.61274,
-    "transcript": "and that seems to be it i can not honestly think of anything else",
+    "transcript": "  and that seems to be it i can_not honestly think of anything else",
     "whisper": {
-      "text": "errr and that seems to be it i can not honestly think of anything else",
+      "text": "errr and that seems to be it i can_not honestly think of anything else",
       "segments": [
         {
           "id": 0,
@@ -13859,7 +13859,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "errr and that seems to be it i can not honestly think of anything else",
+      "words": "errr and that seems to be it i can_not honestly think of anything else",
       "confidence_scores": [
         0.297,
         0.339,
@@ -13990,9 +13990,9 @@
   "153": {
     "start": 565.23,
     "end": 567.339,
-    "transcript": "yeah they are like green yeah",
+    "transcript": "yeah they_are like green yeah",
     "whisper": {
-      "text": "yeah they are like green yeah",
+      "text": "yeah they_are like green yeah",
       "segments": [
         {
           "id": 0,
@@ -14055,7 +14055,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "yeah they are like green yeah",
+      "words": "yeah they_are like green yeah",
       "confidence_scores": [
         0.503,
         0.868,
@@ -14411,9 +14411,9 @@
   "160": {
     "start": 586.49,
     "end": 588.169,
-    "transcript": "and they are they are kind of like v shaped",
+    "transcript": "and they_are they_are kind of like v shaped",
     "whisper": {
-      "text": "and they are both kind of like v shaped",
+      "text": "and they_are both kind of like v_shaped",
       "segments": [
         {
           "id": 0,
@@ -14490,7 +14490,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and they are both kind of like v shaped",
+      "words": "and they_are both kind of like v_shaped",
       "confidence_scores": [
         0.621,
         0.896,
@@ -14687,9 +14687,9 @@
   "165": {
     "start": 602.529,
     "end": 606.79491,
-    "transcript": "no other things no other street furniture either no other",
+    "transcript": " no other things no other street furniture either no other",
     "whisper": {
-      "text": "no other things no other street furniture either no other .",
+      "text": "no other things no other street furniture either no other_.",
       "segments": [
         {
           "id": 0,
@@ -14794,7 +14794,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "no other things no other street furniture either no other .",
+      "words": "no other things no other street furniture either no other_.",
       "confidence_scores": [
         0.986,
         0.998,
@@ -14857,9 +14857,9 @@
   "167": {
     "start": 611.21,
     "end": 612.109,
-    "transcript": "no i do not",
+    "transcript": "no i do_not",
     "whisper": {
-      "text": "no i do not",
+      "text": "no i do_not",
       "segments": [
         {
           "id": 0,
@@ -14907,7 +14907,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "no i do not",
+      "words": "no i do_not",
       "confidence_scores": [
         0.583,
         0.99,
@@ -14962,9 +14962,9 @@
   "169": {
     "start": 613.71,
     "end": 616.729,
-    "transcript": "no there is nothing on mine it is kind of a gray it is kind of a",
+    "transcript": "no there_is nothing on mine it_is kind of a gray it_is kind of a",
     "whisper": {
-      "text": "no there is nothing on mine it is kind of a great it is kind of a",
+      "text": "no there_is nothing on mine it_is kind of a great it_is kind of a",
       "segments": [
         {
           "id": 0,
@@ -15111,7 +15111,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "no there is nothing on mine it is kind of a great it is kind of a",
+      "words": "no there_is nothing on mine it_is kind of a great it_is kind of a",
       "confidence_scores": [
         0.595,
         0.982,
@@ -15247,9 +15247,9 @@
   "172": {
     "start": 620.63,
     "end": 624.889,
-    "transcript": "i think that is it i honestly cannot think of anything else toy shop is a blue sign",
+    "transcript": "i think that_is it i honestly cannot think of anything else toy shop is a blue sign",
     "whisper": {
-      "text": "i think that is it i honestly cannot think of anything else the toy shop is a blue sign",
+      "text": "i think that_is it i honestly cannot think of anything else the toy shop is a blue sign",
       "segments": [
         {
           "id": 0,
@@ -15403,7 +15403,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i think that is it i honestly cannot think of anything else the toy shop is a blue sign",
+      "words": "i think that_is it i honestly cannot think of anything else the toy shop is a blue sign",
       "confidence_scores": [
         0.84,
         0.981,

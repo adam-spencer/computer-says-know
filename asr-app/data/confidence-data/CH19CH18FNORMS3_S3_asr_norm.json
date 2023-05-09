@@ -4,7 +4,7 @@
     "end": 29.969,
     "transcript": "i can see",
     "whisper": {
-      "text": "i can see .",
+      "text": "i can see_.",
       "segments": [
         {
           "id": 0,
@@ -50,7 +50,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i can see .",
+      "words": "i can see_.",
       "confidence_scores": [
         0.756,
         0.997,
@@ -140,7 +140,7 @@
     "end": 40.429,
     "transcript": "there is a",
     "whisper": {
-      "text": "if there is a .",
+      "text": "if there is a_.",
       "segments": [
         {
           "id": 0,
@@ -193,7 +193,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "if there is a .",
+      "words": "if there is a_.",
       "confidence_scores": [
         0.032,
         0.982,
@@ -484,7 +484,7 @@
     "end": 66.789,
     "transcript": "and it has a",
     "whisper": {
-      "text": "and it has a .",
+      "text": "and it has a_.",
       "segments": [
         {
           "id": 0,
@@ -537,7 +537,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and it has a .",
+      "words": "and it has a_.",
       "confidence_scores": [
         0.71,
         0.988,
@@ -974,9 +974,9 @@
   "17": {
     "start": 98.52063,
     "end": 100.299,
-    "transcript": "there is a little window",
+    "transcript": "there_is a little window",
     "whisper": {
-      "text": "there is a little window",
+      "text": "there_is a little window",
       "segments": [
         {
           "id": 0,
@@ -1030,7 +1030,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "there is a little window",
+      "words": "there_is a little window",
       "confidence_scores": [
         0.861,
         0.997,
@@ -1086,7 +1086,7 @@
   "19": {
     "start": 104.39,
     "end": 104.749,
-    "transcript": "there is",
+    "transcript": "there_is",
     "whisper": {
       "text": "this",
       "segments": [
@@ -1560,9 +1560,9 @@
   "28": {
     "start": 127.93,
     "end": 128.489,
-    "transcript": "there is",
+    "transcript": "there_is",
     "whisper": {
-      "text": "there is .",
+      "text": "there_is_.",
       "segments": [
         {
           "id": 0,
@@ -1595,7 +1595,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "there is .",
+      "words": "there_is_.",
       "confidence_scores": [
         0.261
       ],
@@ -1709,9 +1709,9 @@
   "31": {
     "start": 146.26,
     "end": 147.799,
-    "transcript": "let us click it then",
+    "transcript": "let_us click it then",
     "whisper": {
-      "text": "let us click it then",
+      "text": "let_us click it then",
       "segments": [
         {
           "id": 0,
@@ -1765,7 +1765,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "let us click it then",
+      "words": "let_us click it then",
       "confidence_scores": [
         0.829,
         0.971,
@@ -1884,7 +1884,7 @@
     "end": 160.769,
     "transcript": "a black some black tiles",
     "whisper": {
-      "text": "i have got some black tiles",
+      "text": "i_have got some black tiles",
       "segments": [
         {
           "id": 0,
@@ -1945,7 +1945,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i have got some black tiles",
+      "words": "i_have got some black tiles",
       "confidence_scores": [
         0.219,
         0.539,
@@ -2282,9 +2282,9 @@
   "40": {
     "start": 190.03,
     "end": 192.119,
-    "transcript": "and there is a man outside",
+    "transcript": "and there_is a man outside",
     "whisper": {
-      "text": "and there is a man outside",
+      "text": "and there_is a man outside",
       "segments": [
         {
           "id": 0,
@@ -2345,7 +2345,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and there is a man outside",
+      "words": "and there_is a man outside",
       "confidence_scores": [
         0.559,
         0.987,
@@ -2497,7 +2497,7 @@
     "end": 203.909,
     "transcript": "with a green tshirt a green bow tie",
     "whisper": {
-      "text": "with a green t shirt a green bow tie",
+      "text": "with a green t_shirt a green bow tie",
       "segments": [
         {
           "id": 0,
@@ -2581,7 +2581,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "with a green t shirt a green bow tie",
+      "words": "with a green t_shirt a green bow tie",
       "confidence_scores": [
         0.803,
         0.991,
@@ -2598,9 +2598,9 @@
   "44": {
     "start": 206.55,
     "end": 208.979,
-    "transcript": "and he has got blood on his",
+    "transcript": "and he_is got blood on his",
     "whisper": {
-      "text": "and he has got blood on his",
+      "text": "and he_is got blood on his",
       "segments": [
         {
           "id": 0,
@@ -2668,7 +2668,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and he is got blood on his",
+      "words": "and he_is got blood on his",
       "confidence_scores": [
         0.815,
         0.992,
@@ -2822,9 +2822,9 @@
   "47": {
     "start": 219.12,
     "end": 220.559,
-    "transcript": "and there is a blue door",
+    "transcript": "and there_is a blue door",
     "whisper": {
-      "text": "and there is a blue door",
+      "text": "and there_is a blue door",
       "segments": [
         {
           "id": 0,
@@ -2885,7 +2885,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and there is a blue door",
+      "words": "and there_is a blue door",
       "confidence_scores": [
         0.541,
         0.991,
@@ -2945,7 +2945,7 @@
     "end": 227.519,
     "transcript": "with blue door",
     "whisper": {
-      "text": "with play doh",
+      "text": "with play_doh",
       "segments": [
         {
           "id": 0,
@@ -2987,7 +2987,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "with play doh",
+      "words": "with play_doh",
       "confidence_scores": [
         0.402,
         0.696
@@ -3198,7 +3198,7 @@
   "54": {
     "start": 244.35,
     "end": 247.769,
-    "transcript": "next to the butcher is shop is a magic toy shop",
+    "transcript": "next to the butcher_is shop is a magic toy shop",
     "whisper": {
       "text": "next to the butcher shop is a magic toy shop",
       "segments": [
@@ -3490,9 +3490,9 @@
   "59": {
     "start": 265.68,
     "end": 266.479,
-    "transcript": "it is only",
+    "transcript": "it_is only",
     "whisper": {
-      "text": "it is so new",
+      "text": "it_is so new",
       "segments": [
         {
           "id": 0,
@@ -3539,7 +3539,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is so new",
+      "words": "it_is so new",
       "confidence_scores": [
         0.84,
         0.984,
@@ -3551,9 +3551,9 @@
   "60": {
     "start": 280.14,
     "end": 281.489,
-    "transcript": "i have got 8 of them",
+    "transcript": "i_have got 8 of them",
     "whisper": {
-      "text": "i have got 8 of them",
+      "text": "i_have got 8 of them",
       "segments": [
         {
           "id": 0,
@@ -3614,7 +3614,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i have got 8 of them",
+      "words": "i_have got 8 of them",
       "confidence_scores": [
         0.938,
         0.995,
@@ -4069,7 +4069,7 @@
     "end": 327.349,
     "transcript": "green spots and a",
     "whisper": {
-      "text": "green spots and .",
+      "text": "green spots and_.",
       "segments": [
         {
           "id": 0,
@@ -4115,7 +4115,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "green spots and .",
+      "words": "green spots and_.",
       "confidence_scores": [
         0.639,
         0.941,
@@ -4310,9 +4310,9 @@
   "73": {
     "start": 336.61,
     "end": 340.029,
-    "transcript": "and it has got 2 a little green spots and one",
+    "transcript": "and it_is got 2 a little green spots and one",
     "whisper": {
-      "text": "and it has got 2 little green spots on one",
+      "text": "and it_is got 2 little green spots on one",
       "segments": [
         {
           "id": 0,
@@ -4401,7 +4401,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and it is got 2 little green spots on one",
+      "words": "and it_is got 2 little green spots on one",
       "confidence_scores": [
         0.679,
         0.98,
@@ -4482,7 +4482,7 @@
     "end": 346.269,
     "transcript": "and in the window there is",
     "whisper": {
-      "text": "and in the window there is .",
+      "text": "and in the window there is_.",
       "segments": [
         {
           "id": 0,
@@ -4549,7 +4549,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and in the window there is .",
+      "words": "and in the window there is_.",
       "confidence_scores": [
         0.569,
         0.975,
@@ -4663,9 +4663,9 @@
   "77": {
     "start": 353.59,
     "end": 354.399,
-    "transcript": "i have got 2",
+    "transcript": "i_have got 2",
     "whisper": {
-      "text": "i have got 2",
+      "text": "i_have got 2",
       "segments": [
         {
           "id": 0,
@@ -4712,7 +4712,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i have got 2",
+      "words": "i_have got 2",
       "confidence_scores": [
         0.918,
         0.995,
@@ -5582,7 +5582,7 @@
     "end": 434.239,
     "transcript": "and it",
     "whisper": {
-      "text": "and it .",
+      "text": "and it_.",
       "segments": [
         {
           "id": 0,
@@ -5621,7 +5621,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and it .",
+      "words": "and it_.",
       "confidence_scores": [
         0.245,
         0.246
@@ -5817,7 +5817,7 @@
     "end": 442.909,
     "transcript": "and in the pages it",
     "whisper": {
-      "text": "and in the pages .",
+      "text": "and in the pages_.",
       "segments": [
         {
           "id": 0,
@@ -5870,7 +5870,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and in the pages .",
+      "words": "and in the pages_.",
       "confidence_scores": [
         0.667,
         0.916,
@@ -5959,9 +5959,9 @@
   "98": {
     "start": 448.7,
     "end": 451.639,
-    "transcript": "and there is some signs learning how to",
+    "transcript": "and there_is some signs learning how to",
     "whisper": {
-      "text": "and there is some signs learning how to .",
+      "text": "and there_is some signs learning how to_.",
       "segments": [
         {
           "id": 0,
@@ -6036,7 +6036,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and there is some signs learning how to .",
+      "words": "and there_is some signs learning how to_.",
       "confidence_scores": [
         0.556,
         0.969,
@@ -6096,9 +6096,9 @@
   "100": {
     "start": 455.59,
     "end": 456.399,
-    "transcript": "and then they are",
+    "transcript": "and then they_are",
     "whisper": {
-      "text": "i am nae nae",
+      "text": "i_am nae nae",
       "segments": [
         {
           "id": 0,
@@ -6147,7 +6147,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i am nae nae",
+      "words": "i_am nae nae",
       "confidence_scores": [
         0.322,
         0.286,
@@ -6486,9 +6486,9 @@
   "107": {
     "start": 487.35,
     "end": 495.809,
-    "transcript": "it has brown doors with 1234567 windows",
+    "transcript": "it has brown doors with one 2 3 4 5 6 7 windows",
     "whisper": {
-      "text": "it has brown doors with 1234567 windows",
+      "text": "it has brown doors with one 2 3 4 5 6 7 windows",
       "segments": [
         {
           "id": 0,
@@ -6700,9 +6700,9 @@
   "109": {
     "start": 506.31,
     "end": 509.609,
-    "transcript": "2468",
+    "transcript": "2 4 6 8",
     "whisper": {
-      "text": "2468",
+      "text": "2 4 6 8",
       "segments": [
         {
           "id": 0,
@@ -6823,9 +6823,9 @@
   "111": {
     "start": 514.96,
     "end": 517.149,
-    "transcript": "and there is a very long window",
+    "transcript": "and there_is a very long window",
     "whisper": {
-      "text": "and there is a very long window",
+      "text": "and there_is a very long window",
       "segments": [
         {
           "id": 0,
@@ -6893,7 +6893,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and there is a very long window",
+      "words": "and there_is a very long window",
       "confidence_scores": [
         0.753,
         0.965,
@@ -6952,9 +6952,9 @@
   "113": {
     "start": 526.27,
     "end": 527.929,
-    "transcript": "there is a pink sign",
+    "transcript": "there_is a pink sign",
     "whisper": {
-      "text": "there is a pink sign",
+      "text": "there_is a pink sign",
       "segments": [
         {
           "id": 0,
@@ -7008,7 +7008,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "there is a pink sign",
+      "words": "there_is a pink sign",
       "confidence_scores": [
         0.893,
         0.997,
@@ -7021,9 +7021,9 @@
   "114": {
     "start": 528.76,
     "end": 530.079,
-    "transcript": "saying 3%",
+    "transcript": "saying 3 percent",
     "whisper": {
-      "text": "saying 3%",
+      "text": "saying 3 percent",
       "segments": [
         {
           "id": 0,
@@ -7125,9 +7125,9 @@
   "116": {
     "start": 541.69,
     "end": 542.619,
-    "transcript": "it is pink",
+    "transcript": "it_is pink",
     "whisper": {
-      "text": "it is pink",
+      "text": "it_is pink",
       "segments": [
         {
           "id": 0,
@@ -7167,7 +7167,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is pink",
+      "words": "it_is pink",
       "confidence_scores": [
         0.846,
         0.871
@@ -7178,9 +7178,9 @@
   "117": {
     "start": 548.61,
     "end": 549.619,
-    "transcript": "do you want to click",
+    "transcript": "do you want_to click",
     "whisper": {
-      "text": "do you want to click",
+      "text": "do you want_to click",
       "segments": [
         {
           "id": 0,
@@ -7233,7 +7233,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "do you want to click",
+      "words": "do you want_to click",
       "confidence_scores": [
         0.581,
         0.992,
@@ -7246,9 +7246,9 @@
   "118": {
     "start": 559.05,
     "end": 560.249,
-    "transcript": "i have got a pink one",
+    "transcript": "i_have got a pink one",
     "whisper": {
-      "text": "i have got a pink one",
+      "text": "i_have got a pink one",
       "segments": [
         {
           "id": 0,
@@ -7309,7 +7309,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i have got a pink one",
+      "words": "i_have got a pink one",
       "confidence_scores": [
         0.865,
         0.996,
@@ -7634,7 +7634,7 @@
     "end": 585.599,
     "transcript": "pointing",
     "whisper": {
-      "text": ".10",
+      "text": "point 10",
       "segments": [
         {
           "id": 0,
@@ -7857,9 +7857,9 @@
   "126": {
     "start": 610.0,
     "end": 612.789,
-    "transcript": "and there is a man saying hi billy",
+    "transcript": "and there_is a man saying hi billy",
     "whisper": {
-      "text": "and there is a man saying hi billy",
+      "text": "and there_is a man saying hi billy",
       "segments": [
         {
           "id": 0,
@@ -7935,7 +7935,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and there is a man saying hi billy",
+      "words": "and there_is a man saying hi billy",
       "confidence_scores": [
         0.505,
         0.979,
@@ -7951,9 +7951,9 @@
   "127": {
     "start": 627.16,
     "end": 629.139,
-    "transcript": "and there is a little girl wearing",
+    "transcript": "and there_is a little girl wearing",
     "whisper": {
-      "text": "and there is a little girl wearing .",
+      "text": "and there_is a little girl wearing_.",
       "segments": [
         {
           "id": 0,
@@ -8021,7 +8021,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and there is a little girl wearing .",
+      "words": "and there_is a little girl wearing_.",
       "confidence_scores": [
         0.34,
         0.982,

@@ -2,9 +2,9 @@
   "0": {
     "start": 7.17,
     "end": 9.809,
-    "transcript": "there is like a farm scene",
+    "transcript": " there_is like a farm scene",
     "whisper": {
-      "text": "there is like a farm scene",
+      "text": " there_is like a farm scene",
       "segments": [
         {
           "id": 0,
@@ -73,7 +73,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "there is like a farm scene",
+      "words": "there_is like a farm scene",
       "confidence_scores": [
         0.976,
         0.946,
@@ -87,9 +87,9 @@
   "1": {
     "start": 10.56,
     "end": 17.069,
-    "transcript": "in the top left corner there is a bush and it has got one",
+    "transcript": "in the top left corner there_is a bush and it_is got one",
     "whisper": {
-      "text": "in the top left corner there is a bush and it has got one .",
+      "text": "in the top left corner there_is a bush and it_is got one_.",
       "segments": [
         {
           "id": 0,
@@ -201,7 +201,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "in the top left corner there is a bush and it is got one .",
+      "words": "in the top left corner there_is a bush and it_is got one_.",
       "confidence_scores": [
         0.496,
         0.994,
@@ -222,9 +222,9 @@
   "2": {
     "start": 17.58,
     "end": 19.839,
-    "transcript": "like chick in it and it is yellow",
+    "transcript": "like chick in it and it_is yellow",
     "whisper": {
-      "text": "like chick in it when it is yellow",
+      "text": "like chick in it when it_is yellow",
       "segments": [
         {
           "id": 0,
@@ -299,7 +299,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "like chick in it when it is yellow",
+      "words": "like chick in it when it_is yellow",
       "confidence_scores": [
         0.731,
         0.379,
@@ -359,9 +359,9 @@
   "4": {
     "start": 25.46,
     "end": 27.049,
-    "transcript": "it is like at the top",
+    "transcript": "it_is like at the top",
     "whisper": {
-      "text": "it is like at the top",
+      "text": "it_is like at the top",
       "segments": [
         {
           "id": 0,
@@ -422,7 +422,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is like at the top",
+      "words": "it_is like at the top",
       "confidence_scores": [
         0.693,
         0.853,
@@ -482,7 +482,7 @@
     "end": 32.659,
     "transcript": "then",
     "whisper": {
-      "text": "then .",
+      "text": "then_.",
       "segments": [
         {
           "id": 0,
@@ -514,7 +514,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "then .",
+      "words": "then_.",
       "confidence_scores": [
         0.387
       ],
@@ -601,9 +601,9 @@
   "8": {
     "start": 36.68,
     "end": 42.109,
-    "transcript": "kind of slightly down to the right there is a pen and it has got 2 goats in it and they are both white",
+    "transcript": "kind of slightly down to the right there_is a pen and it_is got 2 goats in it and they_are both white",
     "whisper": {
-      "text": "kind of slightly down to the right there is a pen and it has got 2 goats in it and they are both white",
+      "text": "kind of slightly down to the right there_is a pen and it_is got 2 goats in it and they_are both white",
       "segments": [
         {
           "id": 0,
@@ -778,7 +778,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "kind of slightly down to the right there is a pen and it is got 2 goats in it and they are both white",
+      "words": "kind of slightly down to the right there_is a pen and it_is got 2 goats in it and they_are both white",
       "confidence_scores": [
         0.696,
         0.999,
@@ -808,9 +808,9 @@
   "9": {
     "start": 43.54,
     "end": 47.509,
-    "transcript": "slightly more to the left to the right there is",
+    "transcript": " slightly more to the left  to the right there_is",
     "whisper": {
-      "text": "slightly more to the left or to the right there is",
+      "text": "slightly more to the left or to the right there_is",
       "segments": [
         {
           "id": 0,
@@ -905,7 +905,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "slightly more to the left or to the right there is",
+      "words": "slightly more to the left or to the right there_is",
       "confidence_scores": [
         0.27,
         0.994,
@@ -1036,9 +1036,9 @@
   "12": {
     "start": 52.51,
     "end": 56.039,
-    "transcript": "one of them saying shoot the boy saying shoot",
+    "transcript": " one of them saying shoot the boy saying shoot",
     "whisper": {
-      "text": "one of them saying shoot the boy saying shoot",
+      "text": " one of them saying shoot the boy saying shoot",
       "segments": [
         {
           "id": 0,
@@ -1199,7 +1199,7 @@
   "14": {
     "start": 59.44,
     "end": 62.63,
-    "transcript": "the ball is red and white",
+    "transcript": " the ball is red and white",
     "whisper": {
       "text": "the ball is red and white",
       "segments": [
@@ -1329,7 +1329,7 @@
   "16": {
     "start": 64.69,
     "end": 65.529,
-    "transcript": "the boy is wearing",
+    "transcript": "the boy_is wearing",
     "whisper": {
       "text": "the boys wearing",
       "segments": [
@@ -1391,7 +1391,7 @@
     "end": 67.21451,
     "transcript": "green and",
     "whisper": {
-      "text": "green and .",
+      "text": "green and_.",
       "segments": [
         {
           "id": 0,
@@ -1430,7 +1430,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "green and .",
+      "words": "green and_.",
       "confidence_scores": [
         0.754,
         0.504
@@ -1543,9 +1543,9 @@
   "19": {
     "start": 71.59,
     "end": 74.529,
-    "transcript": "and the girl is wearing stripy white and pink dress",
+    "transcript": "and the girl_is wearing stripy white and pink dress",
     "whisper": {
-      "text": "and the girl is wearing stripey white and pink dress",
+      "text": "and the girl_is wearing stripey white and pink dress",
       "segments": [
         {
           "id": 0,
@@ -1635,7 +1635,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and the girl is wearing stripey white and pink dress",
+      "words": "and the girl_is wearing stripey white and pink dress",
       "confidence_scores": [
         0.714,
         0.995,
@@ -1694,9 +1694,9 @@
   "21": {
     "start": 76.42,
     "end": 80.229,
-    "transcript": "above that there is a guy in a tractor and he is kind of like screaming",
+    "transcript": "above that there_is a guy in a tractor and he_is kind of like screaming",
     "whisper": {
-      "text": "above that there is a guy in a tractor and he is kind of like screaming",
+      "text": "above that there_is a guy in a tractor and he_is kind of like screaming",
       "segments": [
         {
           "id": 0,
@@ -1840,7 +1840,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "above that there is a guy in a tractor and he is kind of like screaming",
+      "words": "above that there_is a guy in a tractor and he_is kind of like screaming",
       "confidence_scores": [
         0.591,
         0.698,
@@ -1863,9 +1863,9 @@
   "22": {
     "start": 81.22,
     "end": 85.23,
-    "transcript": "the tractor is green and it has got like yeah",
+    "transcript": " the tractor_is green and it_is got like yeah",
     "whisper": {
-      "text": "the tract is green and it has got like yeah",
+      "text": "the tract is green and it_is got like yeah",
       "segments": [
         {
           "id": 0,
@@ -1953,7 +1953,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "the tract is green and it is got like yeah",
+      "words": "the tract is green and it_is got like yeah",
       "confidence_scores": [
         0.403,
         0.42,
@@ -1971,7 +1971,7 @@
   "23": {
     "start": 85.78,
     "end": 87.049,
-    "transcript": "and the guy is wearing a blue shirt",
+    "transcript": "and the guy_is wearing a blue shirt",
     "whisper": {
       "text": "and the guys were in a blue shirt",
       "segments": [
@@ -2228,9 +2228,9 @@
   "27": {
     "start": 94.96,
     "end": 104.769,
-    "transcript": "in the right corner right top hand corner there is a massive barn it is white and it has got brown doors and like a brown kind of roof",
+    "transcript": "in the right corner right top hand corner there_is a massive barn it_is white and it_is got brown doors and like a brown kind of roof",
     "whisper": {
-      "text": "in the right corner right top hand corner there is a massive barn it is white and it has got brown doors and like a brown kind of roof",
+      "text": "in the right corner right top hand corner there_is a massive barn it_is white and it_is got brown doors and like a brown kind of roof",
       "segments": [
         {
           "id": 0,
@@ -2497,7 +2497,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "in the right corner right top hand corner there is a massive barn it is white and it is got brown doors and like a brown kind of roof",
+      "words": "in the right corner right top hand corner there_is a massive barn it_is white and it_is got brown doors and like a brown kind of roof",
       "confidence_scores": [
         0.359,
         0.995,
@@ -2576,9 +2576,9 @@
   "29": {
     "start": 107.23,
     "end": 108.819,
-    "transcript": "in front of that there is a guy",
+    "transcript": "in front of that there_is a guy",
     "whisper": {
-      "text": "in front of that there is a guy",
+      "text": "in front of that there_is a guy",
       "segments": [
         {
           "id": 0,
@@ -2654,7 +2654,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "in front of that there is a guy",
+      "words": "in front of that there_is a guy",
       "confidence_scores": [
         0.454,
         0.999,
@@ -2670,9 +2670,9 @@
   "30": {
     "start": 109.39,
     "end": 111.98,
-    "transcript": "who is like sawing a piece of wood",
+    "transcript": "who_is like sawing a piece of wood",
     "whisper": {
-      "text": "who is like sawing a piece of wood",
+      "text": "who_is like sawing a piece of wood",
       "segments": [
         {
           "id": 0,
@@ -2748,7 +2748,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "who is like sawing a piece of wood",
+      "words": "who_is like sawing a piece of wood",
       "confidence_scores": [
         0.903,
         0.813,
@@ -2808,9 +2808,9 @@
   "32": {
     "start": 117.94,
     "end": 120.909,
-    "transcript": "0 no he is like is like sawing it cause the saw is in the wood",
+    "transcript": "0 no he_is like is like sawing it cause the saw is in the wood",
     "whisper": {
-      "text": "0 no he is like it is like soaring it cause the sword is like in the wood",
+      "text": "0 no he_is like it_is like soaring it cause the sword_is like in the wood",
       "segments": [
         {
           "id": 0,
@@ -2964,7 +2964,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "0 no he is like it is like soaring it cause the sword is like in the wood",
+      "words": "0 no he_is like it_is like soaring it cause the sword_is like in the wood",
       "confidence_scores": [
         0.611,
         0.786,
@@ -3029,9 +3029,9 @@
   "34": {
     "start": 124.15,
     "end": 128.429,
-    "transcript": "he is wearing blue shirt he has got a hat on it kinda looks like a canada hat",
+    "transcript": "he_is wearing blue shirt he_is got a hat on it kinda looks like a canada hat",
     "whisper": {
-      "text": "he is wearing blue shirt he has got a hat on it kind of looks like a canada hat",
+      "text": "he_is wearing blue shirt he_is got a hat on it kind of looks like a canada hat",
       "segments": [
         {
           "id": 0,
@@ -3215,7 +3215,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "he is wearing blue shirt he is got a hat on it kind of looks like a canada hat",
+      "words": "he_is wearing blue shirt he_is got a hat on it kind of looks like a canada hat",
       "confidence_scores": [
         0.641,
         0.99,
@@ -3326,9 +3326,9 @@
   "36": {
     "start": 132.97,
     "end": 133.569,
-    "transcript": "there is",
+    "transcript": "there_is",
     "whisper": {
-      "text": "there is .",
+      "text": "there_is_.",
       "segments": [
         {
           "id": 0,
@@ -3361,7 +3361,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "there is .",
+      "words": "there_is_.",
       "confidence_scores": [
         0.55
       ],
@@ -3495,9 +3495,9 @@
   "38": {
     "start": 142.24,
     "end": 143.88,
-    "transcript": "0 which one is not in",
+    "transcript": "0 which one is_not in",
     "whisper": {
-      "text": "0 which one is not in",
+      "text": "0 which one is_not in",
       "segments": [
         {
           "id": 0,
@@ -3560,7 +3560,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "0 which one is not in",
+      "words": "0 which one is_not in",
       "confidence_scores": [
         0.762,
         0.997,
@@ -3729,9 +3729,9 @@
   "42": {
     "start": 155.87,
     "end": 161.509,
-    "transcript": "right corner there is like a table there is a woman cutting a pear",
+    "transcript": "right corner there_is like a table there_is a woman cutting a pear",
     "whisper": {
-      "text": "right corner there is like a table there is a woman cutting a pear",
+      "text": "right corner there_is like a table there_is a woman cutting a pear",
       "segments": [
         {
           "id": 0,
@@ -3844,7 +3844,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "right corner there is like a table there is a woman cutting a pear",
+      "words": "right corner there_is like a table there_is a woman cutting a pear",
       "confidence_scores": [
         0.744,
         0.684,
@@ -3865,9 +3865,9 @@
   "43": {
     "start": 162.38,
     "end": 165.11,
-    "transcript": "and a little boy and he is like not really doing anything",
+    "transcript": "and a little boy and he_is like not really doing anything",
     "whisper": {
-      "text": "and a little boy and he is like not really doing anything",
+      "text": "and a little boy and he_is like not really doing anything",
       "segments": [
         {
           "id": 0,
@@ -3970,7 +3970,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and a little boy and he is like not really doing anything",
+      "words": "and a little boy and he_is like not really doing anything",
       "confidence_scores": [
         0.896,
         0.892,
@@ -3990,9 +3990,9 @@
   "44": {
     "start": 165.74,
     "end": 167.419,
-    "transcript": "and there is like a bowl of peas",
+    "transcript": "and there_is like a bowl of peas",
     "whisper": {
-      "text": "and there is like a bowl of peas",
+      "text": "and there_is like a bowl of peas",
       "segments": [
         {
           "id": 0,
@@ -4067,7 +4067,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and there is like a bowl of peas",
+      "words": "and there_is like a bowl of peas",
       "confidence_scores": [
         0.67,
         0.794,
@@ -4170,9 +4170,9 @@
   "47": {
     "start": 173.22,
     "end": 175.079,
-    "transcript": "in front of the table there is like",
+    "transcript": "in front of the table there_is like ",
     "whisper": {
-      "text": "in front of the table there is like .",
+      "text": "in front of the table there_is like_.",
       "segments": [
         {
           "id": 0,
@@ -4248,7 +4248,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "in front of the table there is like .",
+      "words": "in front of the table there_is like_.",
       "confidence_scores": [
         0.572,
         0.998,
@@ -4332,9 +4332,9 @@
   "49": {
     "start": 178.8,
     "end": 182.689,
-    "transcript": "and it is like potatoes is like in a red sign and then the bag is brown",
+    "transcript": "and it_is like potatoes is like in a red sign and then the bag is brown",
     "whisper": {
-      "text": "and it is like potatoes is like in a red sign and then the bag is brown",
+      "text": "and it_is like potatoes is like in a red sign and then the bag is brown",
       "segments": [
         {
           "id": 0,
@@ -4490,7 +4490,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and it is like potatoes is like in a red sign and then the bag is brown",
+      "words": "and it_is like potatoes is like in a red sign and then the bag is brown",
       "confidence_scores": [
         0.554,
         0.899,
@@ -4515,9 +4515,9 @@
   "50": {
     "start": 186.33,
     "end": 189.899,
-    "transcript": "0 okay mine is just like one bag so where is your empty bag",
+    "transcript": "0 okay mine_is just like one bag so where_is your empty bag",
     "whisper": {
-      "text": "0 okay mine is just like one bag so where is your empty bag",
+      "text": "0 okay mine_is just like one bag so where_is your empty bag",
       "segments": [
         {
           "id": 0,
@@ -4649,7 +4649,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "0 okay mine is just like one bag so where is your empty bag",
+      "words": "0 okay mine_is just like one bag so where_is your empty bag",
       "confidence_scores": [
         0.678,
         0.684,
@@ -4755,9 +4755,9 @@
   "53": {
     "start": 199.48,
     "end": 201.01829,
-    "transcript": "yeah then there is like a stall",
+    "transcript": "yeah then there_is like a stall",
     "whisper": {
-      "text": "yeah then there is like a stool",
+      "text": "yeah then there_is like a stool",
       "segments": [
         {
           "id": 0,
@@ -4826,7 +4826,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "yeah then there is like a stool",
+      "words": "yeah then there_is like a stool",
       "confidence_scores": [
         0.503,
         0.953,
@@ -4841,9 +4841,9 @@
   "54": {
     "start": 201.97,
     "end": 203.979,
-    "transcript": "it is blue and it says fresh fruit and veg",
+    "transcript": "it_is blue and it says fresh fruit and veg",
     "whisper": {
-      "text": "it is blue and it says fresh fruit and veg",
+      "text": "it_is blue and it says fresh fruit and veg",
       "segments": [
         {
           "id": 0,
@@ -4933,7 +4933,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is blue and it says fresh fruit and veg",
+      "words": "it_is blue and it says fresh fruit and veg",
       "confidence_scores": [
         0.529,
         0.992,
@@ -5132,7 +5132,7 @@
   "58": {
     "start": 210.82,
     "end": 211.959,
-    "transcript": "and then",
+    "transcript": "and then ",
     "whisper": {
       "text": "and then",
       "segments": [
@@ -5184,9 +5184,9 @@
   "59": {
     "start": 212.56,
     "end": 214.89308,
-    "transcript": "there is like strawberries and there is carrots",
+    "transcript": "there_is like strawberries and there_is carrots",
     "whisper": {
-      "text": "there is like strawberries and there is carrots",
+      "text": "there_is like strawberries and there_is carrots",
       "segments": [
         {
           "id": 0,
@@ -5255,7 +5255,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "there is like strawberries and there is carrots",
+      "words": "there_is like strawberries and there_is carrots",
       "confidence_scores": [
         0.761,
         0.814,
@@ -5314,9 +5314,9 @@
   "61": {
     "start": 218.01,
     "end": 220.449,
-    "transcript": "if you go slightly to the left of that there is a",
+    "transcript": "if you go slightly to the left of that there_is a",
     "whisper": {
-      "text": "you go slightly to the left of that there is a",
+      "text": "you go slightly to the left of that there_is a",
       "segments": [
         {
           "id": 0,
@@ -5411,7 +5411,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "you go slightly to the left of that there is a",
+      "words": "you go slightly to the left of that there_is a",
       "confidence_scores": [
         0.272,
         0.994,
@@ -5430,9 +5430,9 @@
   "62": {
     "start": 220.89142,
     "end": 224.059,
-    "transcript": "a guy with an ice cream there is like a bee on his ice cream",
+    "transcript": "a guy with an ice cream there_is like a bee on his ice cream",
     "whisper": {
-      "text": "a guy with an ice cream there is like a bee on his ice cream",
+      "text": "a guy with an ice cream there_is like a bee on his ice cream",
       "segments": [
         {
           "id": 0,
@@ -5557,7 +5557,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "a guy with an ice cream there is like a bee on his ice cream",
+      "words": "a guy with an ice cream there_is like a bee on his ice cream",
       "confidence_scores": [
         0.616,
         0.992,
@@ -5634,9 +5634,9 @@
   "64": {
     "start": 230.1,
     "end": 235.26,
-    "transcript": "he is wearing like a brown kind of shirt and blue shorts",
+    "transcript": " he_is wearing like a brown kind of shirt and blue shorts",
     "whisper": {
-      "text": "he is wearing like a brown kind of shirt and blue shorts",
+      "text": "he_is wearing like a brown kind of shirt and blue shorts",
       "segments": [
         {
           "id": 0,
@@ -5739,7 +5739,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "he is wearing like a brown kind of shirt and blue shorts",
+      "words": "he_is wearing like a brown kind of shirt and blue shorts",
       "confidence_scores": [
         0.72,
         0.997,
@@ -5800,9 +5800,9 @@
   "66": {
     "start": 237.48,
     "end": 242.04,
-    "transcript": "then slightly more to the right to the left there is a rabbit in like a cage",
+    "transcript": "then slightly more to the right to the left there_is a rabbit in like a cage",
     "whisper": {
-      "text": "then slightly more to the right to the left there is a rabbit in like a cage",
+      "text": "then slightly more to the right to the left there_is a rabbit in like a cage",
       "segments": [
         {
           "id": 0,
@@ -5940,7 +5940,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "then slightly more to the right to the left there is a rabbit in like a cage",
+      "words": "then slightly more to the right to the left there_is a rabbit in like a cage",
       "confidence_scores": [
         0.545,
         0.919,
@@ -5965,9 +5965,9 @@
   "67": {
     "start": 242.67,
     "end": 244.649,
-    "transcript": "the rabbits white and then the cage is",
+    "transcript": "the rabbits white and then the cage_is",
     "whisper": {
-      "text": "the rabbit is white and then the cage is .",
+      "text": "the rabbit_is white and then the cage is_.",
       "segments": [
         {
           "id": 0,
@@ -6049,7 +6049,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "the rabbit is white and then the cage is .",
+      "words": "the rabbit_is white and then the cage is_.",
       "confidence_scores": [
         0.266,
         0.743,
@@ -6218,9 +6218,9 @@
   "70": {
     "start": 251.61,
     "end": 252.839,
-    "transcript": "then above that there is",
+    "transcript": "then above that there_is",
     "whisper": {
-      "text": "then above that there is",
+      "text": "then above that there_is",
       "segments": [
         {
           "id": 0,
@@ -6275,7 +6275,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "then above that there is",
+      "words": "then above that there_is",
       "confidence_scores": [
         0.197,
         0.906,
@@ -6288,9 +6288,9 @@
   "71": {
     "start": 255.04,
     "end": 256.09,
-    "transcript": "0 no it does not",
+    "transcript": "0 no it does_not",
     "whisper": {
-      "text": "0 no it does not",
+      "text": "0 no it does_not",
       "segments": [
         {
           "id": 0,
@@ -6345,7 +6345,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "0 no it does not",
+      "words": "0 no it does_not",
       "confidence_scores": [
         0.827,
         0.717,
@@ -6402,9 +6402,9 @@
   "73": {
     "start": 259.87805,
     "end": 261.659,
-    "transcript": "above that there is a shop",
+    "transcript": "above that there_is a shop",
     "whisper": {
-      "text": "above that there is a shop",
+      "text": " above that there_is a shop",
       "segments": [
         {
           "id": 0,
@@ -6471,7 +6471,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "above that there is a shop",
+      "words": "above that there_is a shop",
       "confidence_scores": [
         0.819,
         0.999,
@@ -6851,7 +6851,7 @@
     "end": 276.589,
     "transcript": "the shop is",
     "whisper": {
-      "text": "the shop is .",
+      "text": "the shop is_.",
       "segments": [
         {
           "id": 0,
@@ -6897,7 +6897,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "the shop is .",
+      "words": "the shop is_.",
       "confidence_scores": [
         0.637,
         0.87,
@@ -7069,9 +7069,9 @@
   "82": {
     "start": 281.57,
     "end": 286.909,
-    "transcript": "and there is flowers outside the shop that are like pink with a yellow center",
+    "transcript": "and there_is flowers outside the shop that are like pink with a yellow center",
     "whisper": {
-      "text": "and there is flowers outside the shop that are like pink with a yellow center",
+      "text": "and there_is flowers outside the shop that are like pink with a yellow center",
       "segments": [
         {
           "id": 0,
@@ -7213,7 +7213,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and there is flowers outside the shop that are like pink with a yellow center",
+      "words": "and there_is flowers outside the shop that are like pink with a yellow center",
       "confidence_scores": [
         0.553,
         0.99,
@@ -7280,7 +7280,7 @@
   "84": {
     "start": 290.73,
     "end": 291.989,
-    "transcript": "the door is open",
+    "transcript": "the door_is open",
     "whisper": {
       "text": "the doors open",
       "segments": [
@@ -7340,9 +7340,9 @@
   "85": {
     "start": 293.34,
     "end": 297.349,
-    "transcript": "and there is a window like on the left side",
+    "transcript": "and there_is a window like on the left side",
     "whisper": {
-      "text": "and there is a window like on the left side",
+      "text": "and there_is a window like on the left side",
       "segments": [
         {
           "id": 0,
@@ -7431,7 +7431,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and there is a window like on the left side",
+      "words": "and there_is a window like on the left side",
       "confidence_scores": [
         0.682,
         0.992,
@@ -7451,7 +7451,7 @@
     "end": 301.87,
     "transcript": "the roof is",
     "whisper": {
-      "text": "the roof is .",
+      "text": "the roof is_.",
       "segments": [
         {
           "id": 0,
@@ -7497,7 +7497,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "the roof is .",
+      "words": "the roof is_.",
       "confidence_scores": [
         0.601,
         0.973,
@@ -7605,9 +7605,9 @@
   "89": {
     "start": 304.34,
     "end": 305.509,
-    "transcript": "above that there is",
+    "transcript": "above that there_is",
     "whisper": {
-      "text": "above that there is .",
+      "text": "above that there_is_.",
       "segments": [
         {
           "id": 0,
@@ -7654,7 +7654,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "above that there is .",
+      "words": "above that there_is_.",
       "confidence_scores": [
         0.744,
         0.996,
@@ -7964,9 +7964,9 @@
   "94": {
     "start": 319.71,
     "end": 320.879,
-    "transcript": "right there is",
+    "transcript": "right there_is",
     "whisper": {
-      "text": "right there is .",
+      "text": "right there_is_.",
       "segments": [
         {
           "id": 0,
@@ -8007,7 +8007,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "right there is .",
+      "words": "right there_is_.",
       "confidence_scores": [
         0.35,
         0.629
@@ -8126,9 +8126,9 @@
   "96": {
     "start": 327.17,
     "end": 329.239,
-    "transcript": "0 okay where is your 2nd sheep",
+    "transcript": "0 okay where_is your 2nd sheep",
     "whisper": {
-      "text": "okay where is your 2nd sheet",
+      "text": "okay where_is your 2nd sheet",
       "segments": [
         {
           "id": 0,
@@ -8190,7 +8190,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay where is your 2nd sheet",
+      "words": "okay where_is your 2nd sheet",
       "confidence_scores": [
         0.228,
         0.974,
@@ -8264,9 +8264,9 @@
   "98": {
     "start": 336.75,
     "end": 337.409,
-    "transcript": "so there is",
+    "transcript": "so there_is",
     "whisper": {
-      "text": "so there is",
+      "text": "so there_is",
       "segments": [
         {
           "id": 0,
@@ -8306,7 +8306,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "so there is",
+      "words": "so there_is",
       "confidence_scores": [
         0.844,
         0.631
@@ -8524,7 +8524,7 @@
   "101": {
     "start": 345.3,
     "end": 346.17,
-    "transcript": "and they are",
+    "transcript": "and they_are",
     "whisper": {
       "text": "and there",
       "segments": [
@@ -8576,9 +8576,9 @@
   "102": {
     "start": 346.5,
     "end": 347.189,
-    "transcript": "they are like",
+    "transcript": "they_are like",
     "whisper": {
-      "text": "they are like .",
+      "text": "they_are like_.",
       "segments": [
         {
           "id": 0,
@@ -8618,7 +8618,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "they are like .",
+      "words": "they_are like_.",
       "confidence_scores": [
         0.644,
         0.569
@@ -8673,7 +8673,7 @@
   "104": {
     "start": 356.17,
     "end": 357.489,
-    "transcript": "no it is at the bottom corner",
+    "transcript": "no it_is at the bottom corner",
     "whisper": {
       "text": "notice at the bottom corner",
       "segments": [
@@ -8998,9 +8998,9 @@
   "109": {
     "start": 376.55,
     "end": 377.91,
-    "transcript": "okay 90 we have got 10",
+    "transcript": "okay 9 0 we_have got 10",
     "whisper": {
-      "text": "okay 90 we have got 10",
+      "text": "okay 9 0 we_have got 10",
       "segments": [
         {
           "id": 0,
@@ -9071,7 +9071,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay 9 0 we have got 10",
+      "words": "okay 9 0 we_have got 10",
       "confidence_scores": [
         0.633,
         0.453,
@@ -9251,9 +9251,9 @@
   "113": {
     "start": 393.95,
     "end": 395.04945,
-    "transcript": "0 no i do not have that",
+    "transcript": "0 no i do_not have that",
     "whisper": {
-      "text": "0 no i did not have that",
+      "text": "0 no i did_not have that",
       "segments": [
         {
           "id": 0,
@@ -9322,7 +9322,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "0 no i did not have that",
+      "words": "0 no i did_not have that",
       "confidence_scores": [
         0.589,
         0.623,
@@ -9337,9 +9337,9 @@
   "114": {
     "start": 396.08,
     "end": 397.759,
-    "transcript": "where is the sign is it",
+    "transcript": "where_is the sign is it",
     "whisper": {
-      "text": "where is the sign is it .",
+      "text": "where_is the sign is it_.",
       "segments": [
         {
           "id": 0,
@@ -9419,7 +9419,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "where is the sign is it .",
+      "words": "where_is the sign is it_.",
       "confidence_scores": [
         0.891,
         0.995,
@@ -9697,9 +9697,9 @@
   "121": {
     "start": 436.47,
     "end": 439.35,
-    "transcript": "in the shop there is like noone in it",
+    "transcript": "in the shop there_is like noone in it",
     "whisper": {
-      "text": "in the shop there is like no one in it",
+      "text": "in the shop there_is like no one in it",
       "segments": [
         {
           "id": 0,
@@ -9789,7 +9789,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "in the shop there is like no one in it",
+      "words": "in the shop there_is like no one in it",
       "confidence_scores": [
         0.568,
         0.991,
@@ -9807,9 +9807,9 @@
   "122": {
     "start": 440.58,
     "end": 442.649,
-    "transcript": "there is like kind of a weird little path",
+    "transcript": "there_is like kind of a weird little path",
     "whisper": {
-      "text": "there is like kind of a weird little path",
+      "text": "there_is like kind of a weird little path",
       "segments": [
         {
           "id": 0,
@@ -9891,7 +9891,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "there is like kind of a weird little path",
+      "words": "there_is like kind of a weird little path",
       "confidence_scores": [
         0.751,
         0.597,
@@ -10069,9 +10069,9 @@
   "126": {
     "start": 451.37,
     "end": 455.11,
-    "transcript": "there is like a red square above it and then the hoop itself is gray",
+    "transcript": "there_is like a red square above it and then the hoop itself is gray",
     "whisper": {
-      "text": "there is like a red square above it and then the hoop itself is gray",
+      "text": "there_is like a red square above it and then the hoop itself is gray",
       "segments": [
         {
           "id": 0,
@@ -10195,7 +10195,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "there is like a red square above it and then the hoop itself is gray",
+      "words": "there_is like a red square above it and then the hoop itself is gray",
       "confidence_scores": [
         0.628,
         0.875,
@@ -10259,9 +10259,9 @@
   "128": {
     "start": 461.22,
     "end": 463.259,
-    "transcript": "the lady who is cutting the pear",
+    "transcript": "the lady who_is cutting the pear",
     "whisper": {
-      "text": "the lady who is cutting the pear",
+      "text": "the lady who_is cutting the pear",
       "segments": [
         {
           "id": 0,
@@ -10329,7 +10329,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "the lady who is cutting the pear",
+      "words": "the lady who_is cutting the pear",
       "confidence_scores": [
         0.906,
         0.989,
@@ -10440,9 +10440,9 @@
   "131": {
     "start": 466.17,
     "end": 469.409,
-    "transcript": "pink dress and she has got like a blue shirt on underneath it",
+    "transcript": "pink dress and she_is got like a blue shirt on underneath it",
     "whisper": {
-      "text": "pink dress and she has got like a blue shirt on underneath it",
+      "text": "pink dress and she_is got like a blue shirt on underneath it",
       "segments": [
         {
           "id": 0,
@@ -10552,7 +10552,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "pink dress and she is got like a blue shirt on underneath it",
+      "words": "pink dress and she_is got like a blue shirt on underneath it",
       "confidence_scores": [
         0.9,
         0.997,
@@ -10692,7 +10692,7 @@
     "end": 477.659,
     "transcript": "is wearing a white shirt long sleeved",
     "whisper": {
-      "text": "wearing a white shirt long sleeved",
+      "text": "wearing a white shirt long_sleeved",
       "segments": [
         {
           "id": 0,
@@ -10756,7 +10756,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "wearing a white shirt long sleeved",
+      "words": "wearing a white shirt long_sleeved",
       "confidence_scores": [
         0.428,
         0.998,
@@ -10770,9 +10770,9 @@
   "135": {
     "start": 479.46,
     "end": 481.589,
-    "transcript": "he has got dark hair like",
+    "transcript": " he_is got dark hair like",
     "whisper": {
-      "text": "he has got dark hair like",
+      "text": "he_is got dark hair like",
       "segments": [
         {
           "id": 0,
@@ -10832,7 +10832,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "he is got dark hair like",
+      "words": "he_is got dark hair like",
       "confidence_scores": [
         0.65,
         0.999,
@@ -10898,9 +10898,9 @@
   "137": {
     "start": 483.84,
     "end": 485.009,
-    "transcript": "and she has got kind of",
+    "transcript": "and she_is got kind of",
     "whisper": {
-      "text": "and she has got kind of",
+      "text": "and she_is got kind of",
       "segments": [
         {
           "id": 0,
@@ -10961,7 +10961,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and she is got kind of",
+      "words": "and she_is got kind of",
       "confidence_scores": [
         0.572,
         0.982,
@@ -11852,9 +11852,9 @@
   "151": {
     "start": 540.58,
     "end": 548.349,
-    "transcript": "the 0 the goats in my pen have they have both got horns and one of them has a little like beard and the other one does not",
+    "transcript": "the 0 the goats in my pen have they_have both got horns and one of them has a little like beard and the other one does_not",
     "whisper": {
-      "text": "the 0 the goats in my pen have they have both got horns and one of them has a little like beard and the other one does not",
+      "text": "the 0 the goats in my pen have they_have both got horns and one of them has a little like beard and the other one does_not",
       "segments": [
         {
           "id": 0,
@@ -12080,7 +12080,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "the 0 the goats in my pen have they have both got horns and one of them has a little like beard and the other one does not",
+      "words": "the 0 the goats in my pen have they_have both got horns and one of them has a little like beard and the other one does_not",
       "confidence_scores": [
         0.297,
         0.332,
@@ -12159,9 +12159,9 @@
   "153": {
     "start": 554.12,
     "end": 555.759,
-    "transcript": "and they have got brown legs",
+    "transcript": "and they_have got brown legs",
     "whisper": {
-      "text": "and they have got brown legs",
+      "text": "and they_have got brown legs",
       "segments": [
         {
           "id": 0,
@@ -12222,7 +12222,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and they have got brown legs",
+      "words": "and they_have got brown legs",
       "confidence_scores": [
         0.677,
         0.981,
@@ -12305,7 +12305,7 @@
   "155": {
     "start": 561.03,
     "end": 564.54,
-    "transcript": "the girl who you know the people who are playing basketball",
+    "transcript": " the girl who you know the people who are playing basketball",
     "whisper": {
       "text": "the girl who you know the people who are playing basketball",
       "segments": [
@@ -12514,9 +12514,9 @@
   "157": {
     "start": 568.02,
     "end": 569.189,
-    "transcript": "and she is like bouncing it",
+    "transcript": "and she_is like bouncing it",
     "whisper": {
-      "text": "and she is like bouncing it",
+      "text": "and she_is like bouncing it",
       "segments": [
         {
           "id": 0,
@@ -12577,7 +12577,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and she is like bouncing it",
+      "words": "and she_is like bouncing it",
       "confidence_scores": [
         0.745,
         0.988,

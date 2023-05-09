@@ -2,7 +2,7 @@
   "0": {
     "start": 7.99271,
     "end": 9.939,
-    "transcript": "10 differences",
+    "transcript": " 10 differences",
     "whisper": {
       "text": "10 differences and",
       "segments": [
@@ -61,9 +61,9 @@
   "1": {
     "start": 12.64,
     "end": 14.889,
-    "transcript": "a bird on the floor that is pooped yes",
+    "transcript": "a bird on the floor that_is pooped yes",
     "whisper": {
-      "text": "a bird on the floor that is pooped yes",
+      "text": "a bird on the floor that_is pooped yes",
       "segments": [
         {
           "id": 0,
@@ -147,7 +147,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "a bird on the floor that is pooped yes",
+      "words": "a bird on the floor that_is pooped yes",
       "confidence_scores": [
         0.754,
         0.992,
@@ -412,7 +412,7 @@
     "end": 52.709,
     "transcript": "no place your bets with a b a big fat b",
     "whisper": {
-      "text": "no place you will bet with a bee a big fat bee",
+      "text": "no place you_will bet with a bee a big fat bee",
       "segments": [
         {
           "id": 0,
@@ -516,7 +516,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "no place you will bet with a bee a big fat bee",
+      "words": "no place you_will bet with a bee a big fat bee",
       "confidence_scores": [
         0.77,
         0.746,
@@ -536,7 +536,7 @@
   "6": {
     "start": 55.00476,
     "end": 57.509,
-    "transcript": "next to the pharmacy",
+    "transcript": " next to the pharmacy",
     "whisper": {
       "text": "next to the pharmacy",
       "segments": [
@@ -842,9 +842,9 @@
   "10": {
     "start": 94.26995,
     "end": 96.249,
-    "transcript": "it does not say that",
+    "transcript": " it does_not say that",
     "whisper": {
-      "text": "it does not say that",
+      "text": " it does_not say that",
       "segments": [
         {
           "id": 0,
@@ -906,7 +906,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it does not say that",
+      "words": "it does_not say that",
       "confidence_scores": [
         0.979,
         0.997,
@@ -987,9 +987,9 @@
   "12": {
     "start": 102.38571,
     "end": 105.159,
-    "transcript": "pets pet shop it says",
+    "transcript": " pets pet shop it says",
     "whisper": {
-      "text": "a pet is pet shop it says",
+      "text": "a pet_is pet shop it says",
       "segments": [
         {
           "id": 0,
@@ -1058,7 +1058,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "a pet is pet shop it says",
+      "words": "a pet_is pet shop it says",
       "confidence_scores": [
         0.301,
         0.85,
@@ -1348,7 +1348,7 @@
   "18": {
     "start": 125.63,
     "end": 125.809,
-    "transcript": "it is",
+    "transcript": "it_is",
     "whisper": {
       "text": "is",
       "segments": [
@@ -1740,7 +1740,7 @@
     "end": 161.429,
     "transcript": "is",
     "whisper": {
-      "text": "it is .",
+      "text": " it_is_.",
       "segments": [
         {
           "id": 0,
@@ -1781,7 +1781,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is .",
+      "words": "it_is_.",
       "confidence_scores": [
         0.619
       ],
@@ -1793,7 +1793,7 @@
     "end": 166.18,
     "transcript": "is there sell your secondhand goods",
     "whisper": {
-      "text": "it is there sell your 2nd hand goods",
+      "text": "it_is there sell your 2nd_hand goods",
       "segments": [
         {
           "id": 0,
@@ -1864,7 +1864,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is there sell your 2nd hand goods",
+      "words": "it_is there sell your 2nd_hand goods",
       "confidence_scores": [
         0.472,
         0.609,
@@ -1881,7 +1881,7 @@
     "end": 170.22,
     "transcript": "there sign saying sell your secondhand goods",
     "whisper": {
-      "text": "there a sign saying sell your 2nd hand goods",
+      "text": "there a sign saying sell your 2nd_hand goods",
       "segments": [
         {
           "id": 0,
@@ -1965,7 +1965,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "there a sign saying sell your 2nd hand goods",
+      "words": "there a sign saying sell your 2nd_hand goods",
       "confidence_scores": [
         0.462,
         0.866,
@@ -1984,7 +1984,7 @@
     "end": 172.209,
     "transcript": "on the",
     "whisper": {
-      "text": "i am on the",
+      "text": "i_am on the",
       "segments": [
         {
           "id": 0,
@@ -2030,7 +2030,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i am on the",
+      "words": "i_am on the",
       "confidence_scores": [
         0.379,
         0.82,
@@ -2110,9 +2110,9 @@
   "30": {
     "start": 176.8881,
     "end": 184.059,
-    "transcript": "on the you mean i on the brown on the brown shop on the brown shop with lots of items on",
+    "transcript": " on the you mean i on the brown on the brown shop on the brown shop with lots of items on",
     "whisper": {
-      "text": "on the you mean on the brown on the brown shop on the brown shop with lots of items up",
+      "text": " on the you mean on the brown on the brown shop on the brown shop with lots of items up",
       "segments": [
         {
           "id": 0,
@@ -2396,7 +2396,7 @@
   "32": {
     "start": 189.46581,
     "end": 192.219,
-    "transcript": "sell your secondhand goods",
+    "transcript": " sell your secondhand goods",
     "whisper": {
       "text": "sell your 2nd hand goods",
       "segments": [
@@ -2480,7 +2480,7 @@
   "33": {
     "start": 199.60593,
     "end": 200.449,
-    "transcript": "blue",
+    "transcript": " blue",
     "whisper": {
       "text": "a blue",
       "segments": [
@@ -2884,7 +2884,7 @@
     "end": 231.13,
     "transcript": "is there a",
     "whisper": {
-      "text": "is there a .",
+      "text": "is there a_.",
       "segments": [
         {
           "id": 0,
@@ -2930,7 +2930,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "is there a .",
+      "words": "is there a_.",
       "confidence_scores": [
         0.647,
         0.887,
@@ -3004,7 +3004,7 @@
     "end": 239.559,
     "transcript": "is there a orange cat outside the the sign the blue sign",
     "whisper": {
-      "text": "is there an orange cut out so it is the sign the blue sign",
+      "text": "is there an orange cut out so it_is the sign the blue sign",
       "segments": [
         {
           "id": 0,
@@ -3122,7 +3122,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "is there an orange cut out so it is the sign the blue sign",
+      "words": "is there an orange cut out so it_is the sign the blue sign",
       "confidence_scores": [
         0.678,
         0.997,
@@ -3190,7 +3190,7 @@
     "end": 246.19088,
     "transcript": "is there",
     "whisper": {
-      "text": "it is the",
+      "text": "it_is the",
       "segments": [
         {
           "id": 0,
@@ -3230,7 +3230,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is the",
+      "words": "it_is the",
       "confidence_scores": [
         0.621,
         0.431
@@ -3243,7 +3243,7 @@
     "end": 252.63,
     "transcript": "is there this brown door which is",
     "whisper": {
-      "text": "is there this brown door which is .",
+      "text": "is there this brown door which is_.",
       "segments": [
         {
           "id": 0,
@@ -3327,7 +3327,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "is there this brown door which is .",
+      "words": "is there this brown door which is_.",
       "confidence_scores": [
         0.764,
         0.584,
@@ -3615,9 +3615,9 @@
   "49": {
     "start": 271.41,
     "end": 273.269,
-    "transcript": "you have got your mice too close",
+    "transcript": "you_have got your mice too close",
     "whisper": {
-      "text": "you have got your mic too close",
+      "text": "you_have got your mic too close",
       "segments": [
         {
           "id": 0,
@@ -3685,7 +3685,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "you have got your mic too close",
+      "words": "you_have got your mic too close",
       "confidence_scores": [
         0.839,
         0.996,
@@ -3700,9 +3700,9 @@
   "50": {
     "start": 274.94,
     "end": 275.899,
-    "transcript": "now you do not",
+    "transcript": "now you do_not",
     "whisper": {
-      "text": "now you do not",
+      "text": "now you do_not",
       "segments": [
         {
           "id": 0,
@@ -3749,7 +3749,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "now you do not",
+      "words": "now you do_not",
       "confidence_scores": [
         0.418,
         0.983,
@@ -3867,7 +3867,7 @@
     "end": 289.23,
     "transcript": "there 2 birds",
     "whisper": {
-      "text": "they are 2 birds",
+      "text": "they_are 2 birds",
       "segments": [
         {
           "id": 0,
@@ -3914,7 +3914,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "they are 2 birds",
+      "words": "they_are 2 birds",
       "confidence_scores": [
         0.56,
         0.892,
@@ -4014,7 +4014,7 @@
     "end": 293.45,
     "transcript": "the sign saying place your",
     "whisper": {
-      "text": "the same same place you are",
+      "text": "the same same place you_are",
       "segments": [
         {
           "id": 0,
@@ -4074,7 +4074,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "the same same place you are",
+      "words": "the same same place you_are",
       "confidence_scores": [
         0.43,
         0.561,
@@ -4269,7 +4269,7 @@
   "60": {
     "start": 308.22712,
     "end": 312.839,
-    "transcript": "on top of the the green building with the green roof",
+    "transcript": " on top of the the green building with the green roof",
     "whisper": {
       "text": "the on top of the the green building with the green roof",
       "segments": [
@@ -4562,9 +4562,9 @@
   "63": {
     "start": 325.93893,
     "end": 331.329,
-    "transcript": "how many differences do we have to find 10123456",
+    "transcript": " how many differences do we have to find 10 one 2 3 4 5 6",
     "whisper": {
-      "text": "how many differences do we have to find 10123456",
+      "text": " how many differences do we have to find 10 one 2 3 4 5 6",
       "segments": [
         {
           "id": 0,
@@ -4735,7 +4735,7 @@
     "end": 342.3,
     "transcript": "no she said we have to find 10",
     "whisper": {
-      "text": "no she said we have to find 10",
+      "text": "no  she said we have to find 10",
       "segments": [
         {
           "id": 0,
@@ -4940,7 +4940,7 @@
     "end": 348.89995,
     "transcript": "is",
     "whisper": {
-      "text": "it is",
+      "text": "it_is",
       "segments": [
         {
           "id": 0,
@@ -4972,7 +4972,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is",
+      "words": "it_is",
       "confidence_scores": [
         0.204
       ],
@@ -4984,7 +4984,7 @@
     "end": 351.399,
     "transcript": "is there this",
     "whisper": {
-      "text": "is there this .",
+      "text": "is there  this_.",
       "segments": [
         {
           "id": 0,
@@ -5039,7 +5039,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "is there this .",
+      "words": "is there this_.",
       "confidence_scores": [
         0.614,
         0.356,
@@ -5486,7 +5486,7 @@
     "end": 381.08535,
     "transcript": "is there",
     "whisper": {
-      "text": "is there a .",
+      "text": "is there a_.",
       "segments": [
         {
           "id": 0,
@@ -5532,7 +5532,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "is there a .",
+      "words": "is there a_.",
       "confidence_scores": [
         0.867,
         0.995,
@@ -5546,7 +5546,7 @@
     "end": 381.639,
     "transcript": "is",
     "whisper": {
-      "text": "it is th",
+      "text": "it_is th",
       "segments": [
         {
           "id": 0,
@@ -5586,7 +5586,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is th",
+      "words": "it_is th",
       "confidence_scores": [
         0.122,
         0.014
@@ -5745,9 +5745,9 @@
   "82": {
     "start": 393.04,
     "end": 396.109,
-    "transcript": "i have got 4 difference",
+    "transcript": " i_have got 4 difference",
     "whisper": {
-      "text": "i have got 4 different",
+      "text": " i_have got 4 different",
       "segments": [
         {
           "id": 0,
@@ -5809,7 +5809,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i have got 4 different",
+      "words": "i_have got 4 different",
       "confidence_scores": [
         0.986,
         0.997,
@@ -5822,7 +5822,7 @@
   "83": {
     "start": 397.41195,
     "end": 401.80101,
-    "transcript": "is there a brown bench with green paint where you sit",
+    "transcript": " is there a brown bench with green paint where you sit",
     "whisper": {
       "text": "is there a brown bench with green paint where you sit",
       "segments": [
@@ -5990,9 +5990,9 @@
   "85": {
     "start": 408.9,
     "end": 410.519,
-    "transcript": "no i have got 4",
+    "transcript": "no i_have got 4",
     "whisper": {
-      "text": "no i have got 4",
+      "text": "no i_have got 4",
       "segments": [
         {
           "id": 0,
@@ -6047,7 +6047,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "no i have got 4",
+      "words": "no i_have got 4",
       "confidence_scores": [
         0.622,
         0.962,
@@ -6060,9 +6060,9 @@
   "86": {
     "start": 410.73,
     "end": 411.089,
-    "transcript": "i have got",
+    "transcript": "i_have got",
     "whisper": {
-      "text": "i have got",
+      "text": "i_have got",
       "segments": [
         {
           "id": 0,
@@ -6102,7 +6102,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i have got",
+      "words": "i_have got",
       "confidence_scores": [
         0.582,
         0.331
@@ -6173,9 +6173,9 @@
   "88": {
     "start": 419.39,
     "end": 421.489,
-    "transcript": "11 for me",
+    "transcript": " one one for me",
     "whisper": {
-      "text": "11 for me",
+      "text": "one one for me",
       "segments": [
         {
           "id": 0,
@@ -6250,7 +6250,7 @@
   "89": {
     "start": 426.85721,
     "end": 428.799,
-    "transcript": "cafe there are none",
+    "transcript": " cafe there are none",
     "whisper": {
       "text": "a cafe there are none",
       "segments": [
@@ -6542,7 +6542,7 @@
     "end": 453.129,
     "transcript": "is there extra shine with",
     "whisper": {
-      "text": "is there extra steam with .",
+      "text": "is there extra steam with_.",
       "segments": [
         {
           "id": 0,
@@ -6602,7 +6602,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "is there extra steam with .",
+      "words": "is there extra steam with_.",
       "confidence_scores": [
         0.379,
         0.884,
@@ -6868,9 +6868,9 @@
   "97": {
     "start": 469.14,
     "end": 471.479,
-    "transcript": "how many have we got 1234",
+    "transcript": "how many have we got one 2 3 4",
     "whisper": {
-      "text": "hamlet if we got 1234",
+      "text": "hamlet if we got one 2 3 4",
       "segments": [
         {
           "id": 0,
@@ -6973,9 +6973,9 @@
   "98": {
     "start": 471.99,
     "end": 476.819,
-    "transcript": "56782 more 2 more in 2 minutes",
+    "transcript": "5 6 7 8 2 more 2 more in 2 minutes",
     "whisper": {
-      "text": "56782 more 2 more in 2 minutes",
+      "text": "5 6 7 8 2 more 2 more in 2 minutes",
       "segments": [
         {
           "id": 0,
@@ -7182,9 +7182,9 @@
   "100": {
     "start": 483.25285,
     "end": 485.149,
-    "transcript": "so we have",
+    "transcript": "so we_have",
     "whisper": {
-      "text": "and so we have .",
+      "text": "and so we_have_.",
       "segments": [
         {
           "id": 0,
@@ -7231,7 +7231,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and so we have .",
+      "words": "and so we_have_.",
       "confidence_scores": [
         0.476,
         0.933,
@@ -7511,9 +7511,9 @@
   "106": {
     "start": 515.40105,
     "end": 515.989,
-    "transcript": "wait",
+    "transcript": " wait",
     "whisper": {
-      "text": "wait",
+      "text": " wait",
       "segments": [
         {
           "id": 0,
@@ -7565,7 +7565,7 @@
     "end": 517.679,
     "transcript": "",
     "whisper": {
-      "text": "and .",
+      "text": "and_.",
       "segments": [
         {
           "id": 0,
@@ -7597,7 +7597,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and .",
+      "words": "and_.",
       "confidence_scores": [
         0.236
       ],
@@ -7609,7 +7609,7 @@
     "end": 519.459,
     "transcript": "is there",
     "whisper": {
-      "text": "is there",
+      "text": " is there",
       "segments": [
         {
           "id": 0,
@@ -8101,9 +8101,9 @@
   "115": {
     "start": 564.56,
     "end": 566.599,
-    "transcript": "it is just the time it is the time",
+    "transcript": "it_is just the time it_is the time",
     "whisper": {
-      "text": "it is just the time it is the time",
+      "text": "it_is just the time it_is the time",
       "segments": [
         {
           "id": 0,
@@ -8180,7 +8180,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is just the time it is the time",
+      "words": "it_is just the time it_is the time",
       "confidence_scores": [
         0.862,
         0.993,
@@ -8264,9 +8264,9 @@
   "117": {
     "start": 569.329,
     "end": 570.529,
-    "transcript": "let us press finish",
+    "transcript": "let_us press finish",
     "whisper": {
-      "text": "let us fresh finish",
+      "text": "let_us fresh finish",
       "segments": [
         {
           "id": 0,
@@ -8313,7 +8313,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "let us fresh finish",
+      "words": "let_us fresh finish",
       "confidence_scores": [
         0.901,
         0.552,
@@ -8325,9 +8325,9 @@
   "118": {
     "start": 573.3,
     "end": 576.239,
-    "transcript": "we have got 1234567",
+    "transcript": "we_have got one 2 3 4 5 6 7",
     "whisper": {
-      "text": "we have got 1234567",
+      "text": "we_have got one 2 3 4 5 6 7",
       "segments": [
         {
           "id": 0,
@@ -8422,7 +8422,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "we have got one 2 3 4 5 6 7",
+      "words": "we_have got one 2 3 4 5 6 7",
       "confidence_scores": [
         0.868,
         0.994,

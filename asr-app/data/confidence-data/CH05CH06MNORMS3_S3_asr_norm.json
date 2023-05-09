@@ -48,7 +48,7 @@
     "end": 12.45532,
     "transcript": "so",
     "whisper": {
-      "text": "so .",
+      "text": "so_.",
       "segments": [
         {
           "id": 0,
@@ -80,7 +80,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "so .",
+      "words": "so_.",
       "confidence_scores": [
         0.531
       ],
@@ -90,9 +90,9 @@
   "2": {
     "start": 13.10861,
     "end": 16.059,
-    "transcript": "my 1st shop to the right",
+    "transcript": " my 1st shop to the right",
     "whisper": {
-      "text": "my 1st shop to the right",
+      "text": " my 1st shop to the right",
       "segments": [
         {
           "id": 0,
@@ -184,7 +184,7 @@
     "end": 19.769,
     "transcript": "no wait on the top right hand corner i have",
     "whisper": {
-      "text": "no wait in the top right hand corner i have .",
+      "text": "no wait in the top right hand corner i have_.",
       "segments": [
         {
           "id": 0,
@@ -280,7 +280,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "no wait in the top right hand corner i have .",
+      "words": "no wait in the top right hand corner i have_.",
       "confidence_scores": [
         0.647,
         0.686,
@@ -605,7 +605,7 @@
     "end": 41.309,
     "transcript": "top left now my 1st",
     "whisper": {
-      "text": "top left now my 1st .",
+      "text": "top left now my 1st_.",
       "segments": [
         {
           "id": 0,
@@ -666,7 +666,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "top left now my 1st .",
+      "words": "top left now my 1st_.",
       "confidence_scores": [
         0.568,
         0.774,
@@ -750,7 +750,7 @@
     "end": 47.999,
     "transcript": "it says city pharmacy",
     "whisper": {
-      "text": "it says city pharmacy",
+      "text": " it says city pharmacy",
       "segments": [
         {
           "id": 0,
@@ -994,7 +994,7 @@
     "end": 58.64876,
     "transcript": "the windows are pink",
     "whisper": {
-      "text": "the windows are pink",
+      "text": " the windows are pink",
       "segments": [
         {
           "id": 0,
@@ -1160,9 +1160,9 @@
   "15": {
     "start": 66.18,
     "end": 71.119,
-    "transcript": "and there is a sign which says shine lip gloss and a picture of a lips",
+    "transcript": "and there_is a sign which says shine lip gloss and a picture of a lips",
     "whisper": {
-      "text": "and there is a sign which says shine lip gloss and a picture of the lips",
+      "text": "and there_is a sign which says shine lip gloss and a picture of the lips",
       "segments": [
         {
           "id": 0,
@@ -1311,7 +1311,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and there is a sign which says shine lip gloss and a picture of the lips",
+      "words": "and there_is a sign which says shine lip gloss and a picture of the lips",
       "confidence_scores": [
         0.42,
         0.964,
@@ -1433,7 +1433,7 @@
     "end": 80.889,
     "transcript": "so my next shop says butches",
     "whisper": {
-      "text": "so my next shop says butchers",
+      "text": "so  my next shop says butchers",
       "segments": [
         {
           "id": 0,
@@ -1525,9 +1525,9 @@
   "19": {
     "start": 83.37984,
     "end": 87.459,
-    "transcript": "and in the window there is pies and 7 pies",
+    "transcript": "and in the window there_is pies and 7 pies",
     "whisper": {
-      "text": "and in the window there is pies and 7 pies",
+      "text": "and in the window there_is pies and 7 pies",
       "segments": [
         {
           "id": 0,
@@ -1616,7 +1616,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and in the window there is pies and 7 pies",
+      "words": "and in the window there_is pies and 7 pies",
       "confidence_scores": [
         0.411,
         0.98,
@@ -1687,9 +1687,9 @@
   "21": {
     "start": 94.69211,
     "end": 96.089,
-    "transcript": "no i do not have any big pie",
+    "transcript": "no i do_not have any big pie",
     "whisper": {
-      "text": "no i do not have any big pie",
+      "text": "no i do_not have any big pie",
       "segments": [
         {
           "id": 0,
@@ -1765,7 +1765,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "no i do not have any big pie",
+      "words": "no i do_not have any big pie",
       "confidence_scores": [
         0.736,
         0.994,
@@ -1781,9 +1781,9 @@
   "22": {
     "start": 103.23,
     "end": 109.169,
-    "transcript": "okay so in front of the butchers there is the butcher standing there with a red",
+    "transcript": "okay so in front of the butchers there_is the butcher standing there with a red",
     "whisper": {
-      "text": "okay so in front of the butchers there is a butcher standing there with a red",
+      "text": "okay so in front of the butchers there_is a butcher standing there with a red",
       "segments": [
         {
           "id": 0,
@@ -1935,7 +1935,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay so in front of the butchers there is a butcher standing there with a red",
+      "words": "okay so in front of the butchers there_is a butcher standing there with a red",
       "confidence_scores": [
         0.524,
         0.975,
@@ -2107,7 +2107,7 @@
     "end": 116.569,
     "transcript": "apron",
     "whisper": {
-      "text": "apron",
+      "text": " apron",
       "segments": [
         {
           "id": 0,
@@ -2623,9 +2623,9 @@
   "32": {
     "start": 140.8,
     "end": 145.429,
-    "transcript": "now on the door there is 2 small green spots and one big spot",
+    "transcript": "now on the door there_is 2 small green spots and one big spot",
     "whisper": {
-      "text": "now on the door there is 2 small green spots and one big spot",
+      "text": "now on the door there_is 2 small green spots and one big spot",
       "segments": [
         {
           "id": 0,
@@ -2760,7 +2760,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "now on the door there is 2 small green spots and one big spot",
+      "words": "now on the door there_is 2 small green spots and one big spot",
       "confidence_scores": [
         0.905,
         0.67,
@@ -2784,7 +2784,7 @@
     "end": 149.62,
     "transcript": "on the door of the toy shop",
     "whisper": {
-      "text": "on the door of the toy shop",
+      "text": " on the door of the toy shop",
       "segments": [
         {
           "id": 0,
@@ -2882,9 +2882,9 @@
   "34": {
     "start": 150.04,
     "end": 152.619,
-    "transcript": "there is 2 small spots and one big spot",
+    "transcript": "there_is 2 small spots and one big spot",
     "whisper": {
-      "text": "there is 2 small spots and one big spot",
+      "text": "there_is 2 small spots and one big spot",
       "segments": [
         {
           "id": 0,
@@ -2966,7 +2966,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "there is 2 small spots and one big spot",
+      "words": "there_is 2 small spots and one big spot",
       "confidence_scores": [
         0.914,
         0.964,
@@ -2983,9 +2983,9 @@
   "35": {
     "start": 154.34179,
     "end": 157.919,
-    "transcript": "and in the window there is one big teddy bear and one small teddy bear",
+    "transcript": "and in the window there_is one big teddy bear and one small teddy bear",
     "whisper": {
-      "text": "and in the window there is one big teddy bear and one small teddy bear",
+      "text": "and in the window there_is one big teddy bear and one small teddy bear",
       "segments": [
         {
           "id": 0,
@@ -3129,7 +3129,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and in the window there is one big teddy bear and one small teddy bear",
+      "words": "and in the window there_is one big teddy bear and one small teddy bear",
       "confidence_scores": [
         0.552,
         0.982,
@@ -3204,9 +3204,9 @@
   "37": {
     "start": 161.62,
     "end": 162.44894,
-    "transcript": "to the",
+    "transcript": "to the ",
     "whisper": {
-      "text": "to the .",
+      "text": "to the_.",
       "segments": [
         {
           "id": 0,
@@ -3245,7 +3245,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "to the .",
+      "words": "to the_.",
       "confidence_scores": [
         0.609,
         0.265
@@ -4014,9 +4014,9 @@
   "49": {
     "start": 189.66,
     "end": 195.449,
-    "transcript": "now next to the magical toy shop there is the books a sign which is a book which says books in it",
+    "transcript": "now next to the magical toy shop there_is the books a sign which is a book which says books in it",
     "whisper": {
-      "text": "now next to the magical toy shop there is the books a sign which is a book which says books in it",
+      "text": "now next to the magical toy shop there_is the books a sign which is a book which says books in it",
       "segments": [
         {
           "id": 0,
@@ -4208,7 +4208,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "now next to the magical toy shop there is the books a sign which is a book which says books in it",
+      "words": "now next to the magical toy shop there_is the books a sign which is a book which says books in it",
       "confidence_scores": [
         0.798,
         0.856,
@@ -4282,9 +4282,9 @@
   "51": {
     "start": 198.11,
     "end": 202.309,
-    "transcript": "and in the window in the right window there is a sign which says",
+    "transcript": "and in the window in the right window there_is a sign which says",
     "whisper": {
-      "text": "and in the window in the right window there is a sign which says .",
+      "text": "and in the window in the right window there_is a sign which says_.",
       "segments": [
         {
           "id": 0,
@@ -4403,7 +4403,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and in the window in the right window there is a sign which says .",
+      "words": "and in the window in the right window there_is a sign which says_.",
       "confidence_scores": [
         0.495,
         0.974,
@@ -4700,7 +4700,7 @@
   "56": {
     "start": 219.19,
     "end": 222.97,
-    "transcript": "the red sign is on the left or right window",
+    "transcript": "the red sign is on the  left or right window",
     "whisper": {
       "text": "the red sign is on the left or right window",
       "segments": [
@@ -4818,7 +4818,7 @@
     "end": 228.479,
     "transcript": "do you have a red car",
     "whisper": {
-      "text": "do you have a red car",
+      "text": " do you have a red car",
       "segments": [
         {
           "id": 0,
@@ -4910,7 +4910,7 @@
     "end": 235.439,
     "transcript": "d do you have a park to the bottom left hand corner which says",
     "whisper": {
-      "text": "do you have a park to the bottom left hand corner which says .",
+      "text": "do you have a park to the bottom left hand corner which says_.",
       "segments": [
         {
           "id": 0,
@@ -5026,7 +5026,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "do you have a park to the bottom left hand corner which says .",
+      "words": "do you have a park to the bottom left hand corner which says_.",
       "confidence_scores": [
         0.563,
         0.914,
@@ -5157,9 +5157,9 @@
   "60": {
     "start": 240.82,
     "end": 243.819,
-    "transcript": "okay then s it is in the bottom left hand corner",
+    "transcript": "okay then s it_is in the bottom left hand corner",
     "whisper": {
-      "text": "okay then it is in the bottom left hand corner",
+      "text": "okay then it_is in the bottom left hand corner",
       "segments": [
         {
           "id": 0,
@@ -5249,7 +5249,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay then it is in the bottom left hand corner",
+      "words": "okay then it_is in the bottom left hand corner",
       "confidence_scores": [
         0.464,
         0.691,
@@ -5379,7 +5379,7 @@
   "63": {
     "start": 248.54,
     "end": 251.119,
-    "transcript": "right underneath the pavement",
+    "transcript": "right underneath the  pavement",
     "whisper": {
       "text": "right underneath the pavement",
       "segments": [
@@ -5713,7 +5713,7 @@
     "end": 271.559,
     "transcript": "and above the dog do you have a woman in black with pink high heeled shoes and a brown bag",
     "whisper": {
-      "text": "and above the dog do you have a woman in black with pink high heeled shoes and a brown bag",
+      "text": "and above the dog do you have a woman in black with pink high_heeled shoes and a brown bag",
       "segments": [
         {
           "id": 0,
@@ -5892,7 +5892,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and above the dog do you have a woman in black with pink high heeled shoes and a brown bag",
+      "words": "and above the dog do you have a woman in black with pink high_heeled shoes and a brown bag",
       "confidence_scores": [
         0.565,
         0.992,
@@ -6516,9 +6516,9 @@
   "77": {
     "start": 299.189,
     "end": 302.02,
-    "transcript": "and she is holding the bike not riding it",
+    "transcript": "and she_is holding the bike not riding it",
     "whisper": {
-      "text": "and she is holding the bike not riding it",
+      "text": "and she_is holding the bike not riding it",
       "segments": [
         {
           "id": 0,
@@ -6600,7 +6600,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and she is holding the bike not riding it",
+      "words": "and she_is holding the bike not riding it",
       "confidence_scores": [
         0.351,
         0.943,
@@ -6686,9 +6686,9 @@
   "79": {
     "start": 305.83,
     "end": 307.689,
-    "transcript": "there is a a man who is waving",
+    "transcript": "there_is a a man who_is waving",
     "whisper": {
-      "text": "there is a man who is waving",
+      "text": "there_is a man who_is waving",
       "segments": [
         {
           "id": 0,
@@ -6750,7 +6750,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "there is a man who is waving",
+      "words": "there_is a man who_is waving",
       "confidence_scores": [
         0.889,
         0.997,
@@ -7283,7 +7283,7 @@
   "88": {
     "start": 337.56551,
     "end": 340.52,
-    "transcript": "is the color of your butcher is blue",
+    "transcript": "is the color of your butcher_is blue",
     "whisper": {
       "text": "is the color of your butchers blue",
       "segments": [
@@ -7386,7 +7386,7 @@
     "end": 352.599,
     "transcript": "okay in the sign which says learn how to bet in mine underneath is there",
     "whisper": {
-      "text": "okay in the sign which says learn how to bet in mind underneath is their .",
+      "text": "okay in the sign which says learn how to bet in mind underneath is their_.",
       "segments": [
         {
           "id": 0,
@@ -7573,7 +7573,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay in the sign which says learn how to bet in mind underneath is their .",
+      "words": "okay in the sign which says learn how to bet in mind underneath is their_.",
       "confidence_scores": [
         0.293,
         0.18,
@@ -7837,7 +7837,7 @@
   "94": {
     "start": 361.9,
     "end": 365.559,
-    "transcript": "is there a a pink sign which says 13% off",
+    "transcript": "is there a a pink sign which says 13 percent off",
     "whisper": {
       "text": "is there a pink sign which says 13% off",
       "segments": [
@@ -7948,7 +7948,7 @@
     "end": 371.189,
     "transcript": "okay and in between them",
     "whisper": {
-      "text": "okay and in between them .",
+      "text": "okay and in between them_.",
       "segments": [
         {
           "id": 0,
@@ -8009,7 +8009,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay and in between them .",
+      "words": "okay and in between them_.",
       "confidence_scores": [
         0.528,
         0.957,
@@ -8025,7 +8025,7 @@
     "end": 372.459,
     "transcript": "is there a",
     "whisper": {
-      "text": "is there a .",
+      "text": "is there a_.",
       "segments": [
         {
           "id": 0,
@@ -8071,7 +8071,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "is there a .",
+      "words": "is there a_.",
       "confidence_scores": [
         0.741,
         0.957,
@@ -8610,7 +8610,7 @@
     "end": 405.24347,
     "transcript": "okay your butcher",
     "whisper": {
-      "text": "okay you are butcher",
+      "text": "okay you_are butcher",
       "segments": [
         {
           "id": 0,
@@ -8658,7 +8658,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay you are butcher",
+      "words": "okay you_are butcher",
       "confidence_scores": [
         0.558,
         0.666,
@@ -8988,7 +8988,7 @@
   "108": {
     "start": 423.70286,
     "end": 426.049,
-    "transcript": "how many differences do we have",
+    "transcript": " how many differences do we have",
     "whisper": {
       "text": "how many differences do we have",
       "segments": [
@@ -9442,7 +9442,7 @@
     "end": 453.259,
     "transcript": "so your woman",
     "whisper": {
-      "text": "so your woman .",
+      "text": "so your woman_.",
       "segments": [
         {
           "id": 0,
@@ -9488,7 +9488,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "so your woman .",
+      "words": "so your woman_.",
       "confidence_scores": [
         0.748,
         0.701,
@@ -9546,7 +9546,7 @@
     "end": 459.009,
     "transcript": "is she wearing pink high heeled shoes",
     "whisper": {
-      "text": "is he wearing pink high heeled shoes",
+      "text": "is he wearing pink high_heeled shoes",
       "segments": [
         {
           "id": 0,
@@ -9616,7 +9616,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "is he wearing pink high heeled shoes",
+      "words": "is he wearing pink high_heeled shoes",
       "confidence_scores": [
         0.585,
         0.655,
@@ -9855,7 +9855,7 @@
     "end": 472.859,
     "transcript": "is in yours is he blond",
     "whisper": {
-      "text": "is not yours is he blonde",
+      "text": "is_not yours is he blonde",
       "segments": [
         {
           "id": 0,
@@ -9917,7 +9917,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "is not yours is he blonde",
+      "words": "is_not yours is he blonde",
       "confidence_scores": [
         0.741,
         0.544,
@@ -10452,9 +10452,9 @@
   "130": {
     "start": 495.9,
     "end": 499.559,
-    "transcript": "my big teddy bear is yellow and my small teddy bear is orange",
+    "transcript": "my big teddy bear_is yellow and my small teddy bear_is orange",
     "whisper": {
-      "text": "my big teddy bear is yellow and my small teddy bear is orange",
+      "text": "my big teddy bear_is yellow and my small teddy bear_is orange",
       "segments": [
         {
           "id": 0,
@@ -10560,7 +10560,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "my big teddy bear is yellow and my small teddy bear is orange",
+      "words": "my big teddy bear_is yellow and my small teddy bear_is orange",
       "confidence_scores": [
         0.577,
         0.983,
@@ -10840,7 +10840,7 @@
   "135": {
     "start": 519.79512,
     "end": 523.96374,
-    "transcript": "do you have anything else",
+    "transcript": " do you have anything else",
     "whisper": {
       "text": "do you have anything else",
       "segments": [
@@ -11044,9 +11044,9 @@
   "138": {
     "start": 533.04,
     "end": 534.46,
-    "transcript": "i do not have that circle",
+    "transcript": "i do_not have that circle",
     "whisper": {
-      "text": "i do not have that circle",
+      "text": "i do_not have that circle",
       "segments": [
         {
           "id": 0,
@@ -11107,7 +11107,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i do not have that circle",
+      "words": "i do_not have that circle",
       "confidence_scores": [
         0.81,
         0.991,
@@ -11121,9 +11121,9 @@
   "139": {
     "start": 538.25999,
     "end": 540.219,
-    "transcript": "anything else which i have not mentioned",
+    "transcript": "anything else which i have_not mentioned",
     "whisper": {
-      "text": "anything else which i have not mentioned",
+      "text": " anything else which i have_not mentioned",
       "segments": [
         {
           "id": 0,
@@ -11199,7 +11199,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "anything else which i have not mentioned",
+      "words": "anything else which i have_not mentioned",
       "confidence_scores": [
         0.931,
         0.998,
@@ -11214,9 +11214,9 @@
   "140": {
     "start": 545.41047,
     "end": 547.1361,
-    "transcript": "anything about the",
+    "transcript": " anything about the",
     "whisper": {
-      "text": "anything about the",
+      "text": " anything about the",
       "segments": [
         {
           "id": 0,
@@ -11282,7 +11282,7 @@
     "end": 549.479,
     "transcript": "what color is the pet center",
     "whisper": {
-      "text": "what color is the pet is center",
+      "text": "what color is the pet_is center",
       "segments": [
         {
           "id": 0,
@@ -11350,7 +11350,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "what color is the pet is center",
+      "words": "what color is the pet_is center",
       "confidence_scores": [
         0.876,
         0.479,
@@ -11512,9 +11512,9 @@
   "145": {
     "start": 560.78,
     "end": 562.70786,
-    "transcript": "that is park pet center",
+    "transcript": "that_is park pet center",
     "whisper": {
-      "text": "that is park pet center",
+      "text": "that_is park pet center",
       "segments": [
         {
           "id": 0,
@@ -11567,7 +11567,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "that is park pet center",
+      "words": "that_is park pet center",
       "confidence_scores": [
         0.492,
         0.716,
@@ -11768,7 +11768,7 @@
   "149": {
     "start": 572.07,
     "end": 574.339,
-    "transcript": "your butcher is shop is it colored blue",
+    "transcript": "your butcher_is shop is it colored blue",
     "whisper": {
       "text": "your butcher shop is it colored blue",
       "segments": [
@@ -12244,7 +12244,7 @@
     "end": 591.909,
     "transcript": "where is your sun",
     "whisper": {
-      "text": "where is your son",
+      "text": "where_is your son",
       "segments": [
         {
           "id": 0,
@@ -12291,7 +12291,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "where is your son",
+      "words": "where_is your son",
       "confidence_scores": [
         0.699,
         0.992,
@@ -12493,7 +12493,7 @@
     "end": 610.349,
     "transcript": "now what color is your plus",
     "whisper": {
-      "text": "now what color is your plus",
+      "text": " now what color is your plus",
       "segments": [
         {
           "id": 0,

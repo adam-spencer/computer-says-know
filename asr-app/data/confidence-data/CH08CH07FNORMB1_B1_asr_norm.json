@@ -177,9 +177,9 @@
   "4": {
     "start": 27.22,
     "end": 29.459,
-    "transcript": "no it is paul and kim is cafe",
+    "transcript": "no it_is paul and kim_is cafe",
     "whisper": {
-      "text": "no it is paul and kin is cafe",
+      "text": "no it_is paul and kin_is cafe",
       "segments": [
         {
           "id": 0,
@@ -249,7 +249,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "no it is paul and kin is cafe",
+      "words": "no it_is paul and kin_is cafe",
       "confidence_scores": [
         0.726,
         0.984,
@@ -940,7 +940,7 @@
     "end": 81.6955,
     "transcript": "no",
     "whisper": {
-      "text": "no",
+      "text": " no",
       "segments": [
         {
           "id": 0,
@@ -1044,7 +1044,7 @@
     "end": 88.319,
     "transcript": "a no there is actually",
     "whisper": {
-      "text": "no there is actually",
+      "text": " no there is actually",
       "segments": [
         {
           "id": 0,
@@ -2282,9 +2282,9 @@
   "40": {
     "start": 145.98749,
     "end": 149.159,
-    "transcript": "is it called paul and kim is cafe",
+    "transcript": " is it called paul and kim_is cafe",
     "whisper": {
-      "text": "is it called paul and kim is cafe",
+      "text": " is it called paul and kim_is cafe",
       "segments": [
         {
           "id": 0,
@@ -2367,7 +2367,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "is it called paul and kim is cafe",
+      "words": "is it called paul and kim_is cafe",
       "confidence_scores": [
         0.982,
         0.997,
@@ -2435,9 +2435,9 @@
   "42": {
     "start": 152.91,
     "end": 154.779,
-    "transcript": "i did not press it did i there",
+    "transcript": "i did_not press it did i there",
     "whisper": {
-      "text": "i did not press it did i there",
+      "text": "i did_not press it did i there",
       "segments": [
         {
           "id": 0,
@@ -2513,7 +2513,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i did not press it did i there",
+      "words": "i did_not press it did i there",
       "confidence_scores": [
         0.867,
         0.993,
@@ -2573,9 +2573,9 @@
   "44": {
     "start": 156.35,
     "end": 157.75687,
-    "transcript": "no i do not think so",
+    "transcript": "no i do_not think so",
     "whisper": {
-      "text": "no i do not think so",
+      "text": "no i do_not think so",
       "segments": [
         {
           "id": 0,
@@ -2637,7 +2637,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "no i do not think so",
+      "words": "no i do_not think so",
       "confidence_scores": [
         0.706,
         0.989,
@@ -2703,9 +2703,9 @@
   "46": {
     "start": 162.27356,
     "end": 163.24,
-    "transcript": "does it",
+    "transcript": " does it",
     "whisper": {
-      "text": "does it .",
+      "text": " does it_.",
       "segments": [
         {
           "id": 0,
@@ -2752,7 +2752,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "does it .",
+      "words": "does it_.",
       "confidence_scores": [
         0.926,
         0.393
@@ -3034,9 +3034,9 @@
   "51": {
     "start": 172.06,
     "end": 173.319,
-    "transcript": "it is not open",
+    "transcript": "it_is not open",
     "whisper": {
-      "text": "that is not open",
+      "text": "that_is not open",
       "segments": [
         {
           "id": 0,
@@ -3083,7 +3083,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "that is not open",
+      "words": "that_is not open",
       "confidence_scores": [
         0.68,
         0.963,
@@ -3673,7 +3673,7 @@
     "end": 218.70366,
     "transcript": "is there a crab",
     "whisper": {
-      "text": "it is their club",
+      "text": "it_is their club",
       "segments": [
         {
           "id": 0,
@@ -3720,7 +3720,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is their club",
+      "words": "it_is their club",
       "confidence_scores": [
         0.871,
         0.14,
@@ -3734,7 +3734,7 @@
     "end": 221.919,
     "transcript": "is there a crab",
     "whisper": {
-      "text": "is there a crab",
+      "text": " is there a crab",
       "segments": [
         {
           "id": 0,
@@ -3989,7 +3989,7 @@
   "69": {
     "start": 238.24347,
     "end": 246.239,
-    "transcript": "is there a and is there a man with a gree a a person with a green cap and orange bottoms",
+    "transcript": "is there a and is there a man with a gree a a person with a green cap and  orange bottoms",
     "whisper": {
       "text": "is there a man with a person with a green cap and orange bottoms",
       "segments": [
@@ -4489,9 +4489,9 @@
   "75": {
     "start": 267.27,
     "end": 271.48,
-    "transcript": "i can not believe there are that many times is there a boy surfing in the sea",
+    "transcript": "i can_not believe there are that many times is there a boy surfing in the sea",
     "whisper": {
-      "text": "i can not believe that many times is there a boy surfing in the sea",
+      "text": "i can_not believe that many times is there a boy surfing in the sea",
       "segments": [
         {
           "id": 0,
@@ -4634,7 +4634,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i can not believe that many times is there a boy surfing in the sea",
+      "words": "i can_not believe that many times is there a boy surfing in the sea",
       "confidence_scores": [
         0.739,
         0.979,
@@ -4911,7 +4911,7 @@
     "end": 288.62008,
     "transcript": "i",
     "whisper": {
-      "text": "i have .",
+      "text": "i_have_.",
       "segments": [
         {
           "id": 0,
@@ -4944,7 +4944,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i have .",
+      "words": "i_have_.",
       "confidence_scores": [
         0.296
       ],
@@ -5104,7 +5104,7 @@
     "end": 307.77932,
     "transcript": "saying p it says push once",
     "whisper": {
-      "text": "it is saying it says push once",
+      "text": "it_is saying it says push once",
       "segments": [
         {
           "id": 0,
@@ -5173,7 +5173,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is saying it says push once",
+      "words": "it_is saying it says push once",
       "confidence_scores": [
         0.414,
         0.534,
@@ -6262,9 +6262,9 @@
   "105": {
     "start": 368.98,
     "end": 376.179,
-    "transcript": "right how many do we have 123456789 we have 9",
+    "transcript": "right how many do we have one 2 3 4 5 6 7 8 9 we_have 9",
     "whisper": {
-      "text": "how many do we have 123456789 we have 9",
+      "text": "how many do we have one 2 3 4 5 6 7 8 9 we have 9",
       "segments": [
         {
           "id": 0,
@@ -6649,9 +6649,9 @@
   "107": {
     "start": 385.25,
     "end": 387.89375,
-    "transcript": "3.5 okay what else",
+    "transcript": "3 and a half okay what else",
     "whisper": {
-      "text": "3.5 okay what else",
+      "text": "3 and a half okay what else",
       "segments": [
         {
           "id": 0,
@@ -6763,7 +6763,7 @@
     "end": 391.199,
     "transcript": "is there seashells near the crab",
     "whisper": {
-      "text": "it is the seashells near the crab",
+      "text": "it_is the seashells near the crab",
       "segments": [
         {
           "id": 0,
@@ -6833,7 +6833,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is the seashells near the crab",
+      "words": "it_is the seashells near the crab",
       "confidence_scores": [
         0.857,
         0.851,
@@ -6900,9 +6900,9 @@
   "110": {
     "start": 403.29,
     "end": 407.05354,
-    "transcript": "okay and is there a shovel and spade that is red",
+    "transcript": "okay and is there a shovel and spade that_is red",
     "whisper": {
-      "text": "okay i missed out a shuffle and spade that is red",
+      "text": "okay i missed out a shuffle and spade that_is red",
       "segments": [
         {
           "id": 0,
@@ -7000,7 +7000,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay i missed out a shuffle and spade that is red",
+      "words": "okay i missed out a shuffle and spade that_is red",
       "confidence_scores": [
         0.461,
         0.809,
@@ -7079,9 +7079,9 @@
   "112": {
     "start": 410.89809,
     "end": 413.6242,
-    "transcript": "is there a volleyball net",
+    "transcript": " is there a volleyball net",
     "whisper": {
-      "text": "is there a volleyball net",
+      "text": " is there a volleyball net",
       "segments": [
         {
           "id": 0,
@@ -7239,7 +7239,7 @@
   "114": {
     "start": 418.08,
     "end": 419.53078,
-    "transcript": "okay",
+    "transcript": "okay ",
     "whisper": {
       "text": "okay",
       "segments": [
@@ -7329,7 +7329,7 @@
     "end": 430.219,
     "transcript": "no",
     "whisper": {
-      "text": "no",
+      "text": " no",
       "segments": [
         {
           "id": 0,
@@ -7503,7 +7503,7 @@
     "end": 440.559,
     "transcript": "okay what else",
     "whisper": {
-      "text": "okay what else",
+      "text": "okay  what else",
       "segments": [
         {
           "id": 0,
@@ -7848,9 +7848,9 @@
   "125": {
     "start": 457.58,
     "end": 459.889,
-    "transcript": "is the is the person who is knitting",
+    "transcript": "is the is the person who_is knitting",
     "whisper": {
-      "text": "this is the person who is knitting",
+      "text": "this is the person who_is knitting",
       "segments": [
         {
           "id": 0,
@@ -7918,7 +7918,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "this is the person who is knitting",
+      "words": "this is the person who_is knitting",
       "confidence_scores": [
         0.164,
         0.892,
@@ -8053,9 +8053,9 @@
   "128": {
     "start": 466.21,
     "end": 467.429,
-    "transcript": "is what",
+    "transcript": "is  what",
     "whisper": {
-      "text": "is and what .",
+      "text": "is and what_.",
       "segments": [
         {
           "id": 0,
@@ -8101,7 +8101,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "is and what .",
+      "words": "is and what_.",
       "confidence_scores": [
         0.456,
         0.474,
@@ -8300,7 +8300,7 @@
     "end": 480.639,
     "transcript": "yes",
     "whisper": {
-      "text": "yes",
+      "text": " yes",
       "segments": [
         {
           "id": 0,
@@ -8636,7 +8636,7 @@
     "end": 498.729,
     "transcript": "it is what else",
     "whisper": {
-      "text": "it is what else",
+      "text": "it is  what else",
       "segments": [
         {
           "id": 0,
@@ -9097,7 +9097,7 @@
     "end": 526.99,
     "transcript": "eh yeah",
     "whisper": {
-      "text": "yeah",
+      "text": " yeah",
       "segments": [
         {
           "id": 0,
@@ -9709,9 +9709,9 @@
   "158": {
     "start": 567.22446,
     "end": 569.199,
-    "transcript": "i have got none i still got none",
+    "transcript": "i_have got none i still got none",
     "whisper": {
-      "text": "i have got none i have still got none",
+      "text": "i_have got none i_have still got none",
       "segments": [
         {
           "id": 0,
@@ -9788,7 +9788,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i have got none i have still got none",
+      "words": "i_have got none i_have still got none",
       "confidence_scores": [
         0.847,
         0.984,
@@ -9804,9 +9804,9 @@
   "159": {
     "start": 569.68,
     "end": 570.999,
-    "transcript": "i have hardly had any",
+    "transcript": "i_have hardly had any",
     "whisper": {
-      "text": "i have hardly had any",
+      "text": "i_have hardly had any",
       "segments": [
         {
           "id": 0,
@@ -9860,7 +9860,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i have hardly had any",
+      "words": "i_have hardly had any",
       "confidence_scores": [
         0.924,
         0.997,
@@ -9873,9 +9873,9 @@
   "160": {
     "start": 575.07,
     "end": 581.629,
-    "transcript": "i keep having the the the horn but i am not meant to press was always happening",
+    "transcript": "i keep having the the the horn but i_am not meant to press was always happening",
     "whisper": {
-      "text": "i keep having the bet the horn i am not meant to press that is the way it happened",
+      "text": "i keep having the bet the horn i_am not meant to press that_is the way it happened",
       "segments": [
         {
           "id": 0,
@@ -10060,7 +10060,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i keep having the bet the horn i am not meant to press that is the way it happened",
+      "words": "i keep having the bet the horn i_am not meant to press that_is the way it happened",
       "confidence_scores": [
         0.607,
         0.902,
@@ -10086,9 +10086,9 @@
   "161": {
     "start": 582.84,
     "end": 586.10521,
-    "transcript": "is the person is is the",
+    "transcript": " is the person_is is the",
     "whisper": {
-      "text": "it is the parsons it is the .",
+      "text": " it_is the parsons  it_is the_.",
       "segments": [
         {
           "id": 0,
@@ -10167,7 +10167,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is the parsons it is the .",
+      "words": "it_is the parsons it_is the_.",
       "confidence_scores": [
         0.641,
         0.99,
@@ -10183,7 +10183,7 @@
     "end": 586.99,
     "transcript": "th",
     "whisper": {
-      "text": "the .",
+      "text": "the_.",
       "segments": [
         {
           "id": 0,
@@ -10215,7 +10215,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "the .",
+      "words": "the_.",
       "confidence_scores": [
         0.068
       ],
@@ -10277,9 +10277,9 @@
   "164": {
     "start": 603.789,
     "end": 606.8577,
-    "transcript": "we will not do it 0 what else what else",
+    "transcript": "we will_not do it 0 what else what else",
     "whisper": {
-      "text": "we will not do it 0 what else what else",
+      "text": "we will_not do it 0 what else what else ",
       "segments": [
         {
           "id": 0,
@@ -10433,7 +10433,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "we will not do it 0 what else what else",
+      "words": "we will_not do it 0 what else what else",
       "confidence_scores": [
         0.552,
         0.969,
@@ -10497,7 +10497,7 @@
     "end": 614.959,
     "transcript": "no no time",
     "whisper": {
-      "text": "no no time",
+      "text": " no no time",
       "segments": [
         {
           "id": 0,
@@ -10564,7 +10564,7 @@
   "167": {
     "start": 615.8,
     "end": 616.609,
-    "transcript": "time is up",
+    "transcript": "time_is up",
     "whisper": {
       "text": "thumbs up",
       "segments": [

@@ -2,9 +2,9 @@
   "0": {
     "start": 3.67,
     "end": 5.72,
-    "transcript": "okay top corner i have got like is these",
+    "transcript": "okay top corner i_have got like is these",
     "whisper": {
-      "text": "okay top corner i have got like these .",
+      "text": "okay top corner i_have got like these_.",
       "segments": [
         {
           "id": 0,
@@ -81,7 +81,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay top corner i have got like these .",
+      "words": "okay top corner i_have got like these_.",
       "confidence_scores": [
         0.451,
         0.91,
@@ -97,9 +97,9 @@
   "1": {
     "start": 6.19,
     "end": 10.37642,
-    "transcript": "there is like this brown dog on the pavement and there is one crossing the road",
+    "transcript": "there_is like this brown dog on the pavement and there_is one crossing the road",
     "whisper": {
-      "text": "there is like this brown dog on a pavement and there is one crossing the road",
+      "text": "there_is like this brown dog on a pavement and there_is one crossing the road",
       "segments": [
         {
           "id": 0,
@@ -242,7 +242,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "there is like this brown dog on a pavement and there is one crossing the road",
+      "words": "there_is like this brown dog on a pavement and there_is one crossing the road",
       "confidence_scores": [
         0.719,
         0.846,
@@ -309,9 +309,9 @@
   "3": {
     "start": 12.33,
     "end": 15.029,
-    "transcript": "okay and there is like there is one has boot shine",
+    "transcript": "okay and there_is like there_is one has boot shine",
     "whisper": {
-      "text": "okay and there is like this one has boot shine",
+      "text": "okay and there_is like this one has boot shine",
       "segments": [
         {
           "id": 0,
@@ -401,7 +401,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay and there is like this one has boot shine",
+      "words": "okay and there_is like this one has boot shine",
       "confidence_scores": [
         0.644,
         0.861,
@@ -495,9 +495,9 @@
   "5": {
     "start": 20.669,
     "end": 22.12,
-    "transcript": "okay that is a that is a difference",
+    "transcript": "okay that_is a that_is a difference",
     "whisper": {
-      "text": "okay that is the difference",
+      "text": "okay that_is the difference",
       "segments": [
         {
           "id": 0,
@@ -552,7 +552,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay that is the difference",
+      "words": "okay that_is the difference",
       "confidence_scores": [
         0.557,
         0.993,
@@ -700,9 +700,9 @@
   "7": {
     "start": 33.38934,
     "end": 35.38,
-    "transcript": "00 it is a difference i think",
+    "transcript": "0 0 it is a difference i think",
     "whisper": {
-      "text": "00 it is a difference i think",
+      "text": "0 0 it is a difference i think",
       "segments": [
         {
           "id": 0,
@@ -803,9 +803,9 @@
   "8": {
     "start": 36.1,
     "end": 38.41,
-    "transcript": "i think so okay pharmacy i have got a pharmacy",
+    "transcript": "i think so okay pharmacy i_have got a pharmacy",
     "whisper": {
-      "text": "i think so okay pharmacy i have got a pharmacy",
+      "text": "i think so okay pharmacy i_have got a pharmacy",
       "segments": [
         {
           "id": 0,
@@ -915,7 +915,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i think so okay pharmacy i have got a pharmacy",
+      "words": "i think so okay pharmacy i_have got a pharmacy",
       "confidence_scores": [
         0.611,
         0.954,
@@ -1011,9 +1011,9 @@
   "10": {
     "start": 41.86,
     "end": 44.769,
-    "transcript": "and there is like this boy there is like this boy wearing a blue",
+    "transcript": "and there_is like this boy there_is like this boy wearing a blue",
     "whisper": {
-      "text": "and there is like this boy there is like this boy wearing a blue",
+      "text": "and there_is like this boy there_is like this boy wearing a blue",
       "segments": [
         {
           "id": 0,
@@ -1143,7 +1143,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and there is like this boy there is like this boy wearing a blue",
+      "words": "and there_is like this boy there_is like this boy wearing a blue",
       "confidence_scores": [
         0.459,
         0.762,
@@ -1166,7 +1166,7 @@
     "end": 46.809,
     "transcript": "a blue tshirt and red shorts",
     "whisper": {
-      "text": "a blue t shirt and red shorts",
+      "text": "a blue t_shirt and red shorts",
       "segments": [
         {
           "id": 0,
@@ -1235,7 +1235,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "a blue t shirt and red shorts",
+      "words": "a blue t_shirt and red shorts",
       "confidence_scores": [
         0.365,
         0.985,
@@ -1402,9 +1402,9 @@
   "14": {
     "start": 58.92,
     "end": 61.059,
-    "transcript": "00 that is a difference okay",
+    "transcript": "0 0 that_is a difference okay",
     "whisper": {
-      "text": "0 that is the difference okay",
+      "text": "0 that_is the difference okay",
       "segments": [
         {
           "id": 0,
@@ -1467,7 +1467,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "0 that is the difference okay",
+      "words": "0 that_is the difference okay",
       "confidence_scores": [
         0.838,
         0.685,
@@ -1483,7 +1483,7 @@
     "end": 63.91,
     "transcript": "okay okay dreams",
     "whisper": {
-      "text": "okay okay dreams",
+      "text": "okay  okay dreams",
       "segments": [
         {
           "id": 0,
@@ -1657,9 +1657,9 @@
   "17": {
     "start": 69.25,
     "end": 69.919,
-    "transcript": "what is it say",
+    "transcript": "what_is it say",
     "whisper": {
-      "text": "what is it say",
+      "text": "what_is it say",
       "segments": [
         {
           "id": 0,
@@ -1706,7 +1706,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "what is it say",
+      "words": "what_is it say",
       "confidence_scores": [
         0.588,
         0.993,
@@ -1773,9 +1773,9 @@
   "19": {
     "start": 78.55,
     "end": 80.39,
-    "transcript": "inside there is like shoes",
+    "transcript": "inside there_is like shoes",
     "whisper": {
-      "text": "inside there is like shoes",
+      "text": "inside there_is like shoes",
       "segments": [
         {
           "id": 0,
@@ -1829,7 +1829,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "inside there is like shoes",
+      "words": "inside there_is like shoes",
       "confidence_scores": [
         0.684,
         0.899,
@@ -1902,9 +1902,9 @@
   "21": {
     "start": 83.2,
     "end": 87.099,
-    "transcript": "like in front of that shop there is like this lady wearing a orange top and a blue scarf",
+    "transcript": "like in front of that shop there_is like this lady wearing a orange top and a blue scarf",
     "whisper": {
-      "text": "in front of that shop there is like this lady went orange top and a blue scarf",
+      "text": "in front of that shop there_is like this lady went orange top and a blue scarf",
       "segments": [
         {
           "id": 0,
@@ -2042,7 +2042,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "in front of that shop there is like this lady went orange top and a blue scarf",
+      "words": "in front of that shop there_is like this lady went orange top and a blue scarf",
       "confidence_scores": [
         0.298,
         0.996,
@@ -2067,7 +2067,7 @@
   "22": {
     "start": 87.59,
     "end": 93.78762,
-    "transcript": "and some black tracksuit and next to her is like a this little girl like in a green long sleeve and like some gray gray",
+    "transcript": "and some black tracksuit and next to her_is like a this little girl like in a green long sleeve and like some gray  gray",
     "whisper": {
       "text": "and some black chart shoot and next was like this little girl with like a green long sleeve and like some great a great",
       "segments": [
@@ -2590,9 +2590,9 @@
   "26": {
     "start": 108.38,
     "end": 113.389,
-    "transcript": "yeah that is difference okay on on the road there is like this dog sniffing at some like rubbish",
+    "transcript": "yeah that_is difference okay on on the road there_is like this dog sniffing at some like  rubbish",
     "whisper": {
-      "text": "yeah that is different okay on the road there is like this dog sniffing out some like rubbish",
+      "text": "yeah that_is different okay on the road there_is like this dog sniffing out some like rubbish",
       "segments": [
         {
           "id": 0,
@@ -2772,7 +2772,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "yeah that is different okay on the road there is like this dog sniffing out some like rubbish",
+      "words": "yeah that_is different okay on the road there_is like this dog sniffing out some like rubbish",
       "confidence_scores": [
         0.533,
         0.988,
@@ -2797,9 +2797,9 @@
   "27": {
     "start": 117.92395,
     "end": 118.859,
-    "transcript": "nah",
+    "transcript": " nah",
     "whisper": {
-      "text": "no",
+      "text": " no",
       "segments": [
         {
           "id": 0,
@@ -3085,9 +3085,9 @@
   "33": {
     "start": 137.81508,
     "end": 141.48,
-    "transcript": "on a nah 0 yeah my yeah there is nothing there there is nothing there that is a that is difference",
+    "transcript": "on a nah 0 yeah my yeah there_is nothing there there_is nothing there that_is a that_is difference",
     "whisper": {
-      "text": "0 no no 0 yeah yeah there is nothing there there is nothing there so that is different",
+      "text": "0 no no 0 yeah yeah there_is nothing there there_is nothing there so that_is different",
       "segments": [
         {
           "id": 0,
@@ -3244,7 +3244,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "0 no no 0 yeah yeah there is nothing there there is nothing there so that is different",
+      "words": "0 no no 0 yeah yeah there_is nothing there there_is nothing there so that_is different",
       "confidence_scores": [
         0.21,
         0.511,
@@ -3338,9 +3338,9 @@
   "35": {
     "start": 143.68982,
     "end": 146.699,
-    "transcript": "across the road there is like this baby with a yellow teddy",
+    "transcript": "across the road there_is like this baby  with a yellow teddy",
     "whisper": {
-      "text": "across the road there is like this baby with a yellow teddy",
+      "text": "across the road there_is like this baby with a yellow teddy",
       "segments": [
         {
           "id": 0,
@@ -3444,7 +3444,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "across the road there is like this baby with a yellow teddy",
+      "words": "across the road there_is like this baby with a yellow teddy",
       "confidence_scores": [
         0.542,
         0.995,
@@ -3464,9 +3464,9 @@
   "36": {
     "start": 149.23,
     "end": 153.349,
-    "transcript": "and there is like this shop bet on your lucky star like with a horse",
+    "transcript": "and there_is like this shop bet on your lucky star like with a horse",
     "whisper": {
-      "text": "and there is like this short bit on your lucky star like with a horse",
+      "text": "and there_is like this short bit on your lucky star like with a horse",
       "segments": [
         {
           "id": 0,
@@ -3609,7 +3609,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and there is like this short bit on your lucky star like with a horse",
+      "words": "and there_is like this short bit on your lucky star like with a horse",
       "confidence_scores": [
         0.551,
         0.873,
@@ -3720,7 +3720,7 @@
     "end": 162.709,
     "transcript": "like in the window",
     "whisper": {
-      "text": "in the window",
+      "text": " in the window",
       "segments": [
         {
           "id": 0,
@@ -4169,7 +4169,7 @@
   "44": {
     "start": 181.71,
     "end": 182.07,
-    "transcript": "yeah",
+    "transcript": " yeah",
     "whisper": {
       "text": "0 yeah",
       "segments": [
@@ -4335,9 +4335,9 @@
   "47": {
     "start": 186.34,
     "end": 188.999,
-    "transcript": "0 it is on the bet on lucky star okay next to that",
+    "transcript": "0 it_is on the bet on lucky star okay next to that",
     "whisper": {
-      "text": "0 it is on the bit on the other side okay next to that",
+      "text": "0 it_is on the bit on the other side okay next to that",
       "segments": [
         {
           "id": 0,
@@ -4453,7 +4453,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "0 it is on the bit on the other side okay next to that",
+      "words": "0 it_is on the bit on the other side okay next to that",
       "confidence_scores": [
         0.288,
         0.888,
@@ -4535,9 +4535,9 @@
   "49": {
     "start": 191.07,
     "end": 195.569,
-    "transcript": "there is like a real estate agent like sell your house with us in the window",
+    "transcript": "there_is like a real estate agent like sell your house with us in the window",
     "whisper": {
-      "text": "there is like a real estate agent so like sell your house with us in the window",
+      "text": "there_is like a real estate agent so like sell your house with us in the window",
       "segments": [
         {
           "id": 0,
@@ -4694,7 +4694,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "there is like a real estate agent so like sell your house with us in the window",
+      "words": "there_is like a real estate agent so like sell your house with us in the window",
       "confidence_scores": [
         0.669,
         0.752,
@@ -4856,9 +4856,9 @@
   "52": {
     "start": 204.36909,
     "end": 207.059,
-    "transcript": "alright and there is like a green car across the road",
+    "transcript": "alright and there_is like a green car across the road",
     "whisper": {
-      "text": "and there is like a green car across the road",
+      "text": "and there_is like a green car across the road",
       "segments": [
         {
           "id": 0,
@@ -4947,7 +4947,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and there is like a green car across the road",
+      "words": "and there_is like a green car across the road",
       "confidence_scores": [
         0.18,
         0.862,
@@ -5207,7 +5207,7 @@
     "end": 238.77,
     "transcript": "bank does yours have a clock",
     "whisper": {
-      "text": "what bank does yours have 0 clock",
+      "text": "what bank does yours have 0_clock",
       "segments": [
         {
           "id": 0,
@@ -5276,7 +5276,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "what bank does yours have 0 clock",
+      "words": "what bank does yours have 0_clock",
       "confidence_scores": [
         0.266,
         0.921,
@@ -5651,7 +5651,7 @@
   "65": {
     "start": 256.99,
     "end": 257.709,
-    "transcript": "12",
+    "transcript": "one 2",
     "whisper": {
       "text": "one 2",
       "segments": [
@@ -5703,9 +5703,9 @@
   "66": {
     "start": 261.68063,
     "end": 262.349,
-    "transcript": "yeah",
+    "transcript": " yeah",
     "whisper": {
-      "text": "yeah",
+      "text": " yeah",
       "segments": [
         {
           "id": 0,
@@ -5843,7 +5843,7 @@
   "69": {
     "start": 272.75,
     "end": 274.9,
-    "transcript": "what about the real estate agents",
+    "transcript": "what about the  real estate agents",
     "whisper": {
       "text": "what about the real estate agents",
       "segments": [
@@ -5927,9 +5927,9 @@
   "70": {
     "start": 275.21,
     "end": 276.569,
-    "transcript": "what is the color of the roof",
+    "transcript": "what_is the color of the roof",
     "whisper": {
-      "text": "what is the color of the roof",
+      "text": "what_is the color of the roof",
       "segments": [
         {
           "id": 0,
@@ -5997,7 +5997,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "what is the color of the roof",
+      "words": "what_is the color of the roof",
       "confidence_scores": [
         0.828,
         0.996,
@@ -6184,9 +6184,9 @@
   "74": {
     "start": 287.189,
     "end": 288.519,
-    "transcript": "ah it is like green on it",
+    "transcript": "ah it_is like green on it",
     "whisper": {
-      "text": "it is like green on it",
+      "text": "it_is like green on it",
       "segments": [
         {
           "id": 0,
@@ -6246,7 +6246,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is like green on it",
+      "words": "it_is like green on it",
       "confidence_scores": [
         0.214,
         0.949,
@@ -6260,9 +6260,9 @@
   "75": {
     "start": 290.21818,
     "end": 291.459,
-    "transcript": "what color is the buggy",
+    "transcript": "what color_is the buggy",
     "whisper": {
-      "text": "what color is the buggy",
+      "text": "what color_is the buggy",
       "segments": [
         {
           "id": 0,
@@ -6316,7 +6316,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "what color is the buggy",
+      "words": "what color_is the buggy",
       "confidence_scores": [
         0.779,
         0.471,
@@ -6329,7 +6329,7 @@
   "76": {
     "start": 294.62,
     "end": 295.759,
-    "transcript": "what color is the teddy",
+    "transcript": "what color_is the teddy",
     "whisper": {
       "text": "what call is the teddy",
       "segments": [
@@ -6406,9 +6406,9 @@
   "77": {
     "start": 297.54407,
     "end": 298.829,
-    "transcript": "what color is the guy is hair",
+    "transcript": "what color_is the guy_is hair",
     "whisper": {
-      "text": "what color is the guy is hair",
+      "text": "what color_is the guy_is hair",
       "segments": [
         {
           "id": 0,
@@ -6470,7 +6470,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "what color is the guy is hair",
+      "words": "what color_is the guy_is hair",
       "confidence_scores": [
         0.793,
         0.658,
@@ -6530,7 +6530,7 @@
     "end": 305.029,
     "transcript": "no one sec",
     "whisper": {
-      "text": "now what is that",
+      "text": "now what_is that",
       "segments": [
         {
           "id": 0,
@@ -6577,7 +6577,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "now what is that",
+      "words": "now what_is that",
       "confidence_scores": [
         0.344,
         0.436,
@@ -6589,9 +6589,9 @@
   "80": {
     "start": 305.799,
     "end": 307.599,
-    "transcript": "it is it is sniffing food",
+    "transcript": "it_is it_is sniffing food",
     "whisper": {
-      "text": "it is it is nothing food",
+      "text": "it_is_. it_is_. nothing food",
       "segments": [
         {
           "id": 0,
@@ -6648,7 +6648,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is . it is . nothing food",
+      "words": "it_is_. it_is_. nothing food",
       "confidence_scores": [
         0.549,
         0.616,
@@ -6749,9 +6749,9 @@
   "83": {
     "start": 316.81,
     "end": 317.37,
-    "transcript": "what what is the",
+    "transcript": "what what_is the",
     "whisper": {
-      "text": "wha what is the",
+      "text": "wha_what_is the",
       "segments": [
         {
           "id": 0,
@@ -6794,7 +6794,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "wha what is the",
+      "words": "wha_what_is the",
       "confidence_scores": [
         0.571,
         0.571
@@ -6805,9 +6805,9 @@
   "84": {
     "start": 317.61,
     "end": 320.36,
-    "transcript": "what is the child wearing like green trousers",
+    "transcript": "what_is the child wearing like green trousers",
     "whisper": {
-      "text": "what is the child wearing it is like green trousers",
+      "text": "what_is the child wearing it_is like green trousers",
       "segments": [
         {
           "id": 0,
@@ -6909,7 +6909,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "what is the child wearing it is like green trousers",
+      "words": "what_is the child wearing it_is like green trousers",
       "confidence_scores": [
         0.602,
         0.976,
@@ -6970,9 +6970,9 @@
   "86": {
     "start": 325.34,
     "end": 326.939,
-    "transcript": "he has got a red color shoes",
+    "transcript": " he_is got a red color shoes",
     "whisper": {
-      "text": "he has got a red color of shoes",
+      "text": "he_is got a red color of shoes",
       "segments": [
         {
           "id": 0,
@@ -7047,7 +7047,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "he is got a red color of shoes",
+      "words": "he_is got a red color of shoes",
       "confidence_scores": [
         0.674,
         0.997,
@@ -7063,9 +7063,9 @@
   "87": {
     "start": 333.46309,
     "end": 334.189,
-    "transcript": "2",
+    "transcript": " 2",
     "whisper": {
-      "text": "2",
+      "text": " 2",
       "segments": [
         {
           "id": 0,
@@ -7343,7 +7343,7 @@
     "end": 345.509,
     "transcript": "okay what about",
     "whisper": {
-      "text": "okay what about .",
+      "text": "okay what about_.",
       "segments": [
         {
           "id": 0,
@@ -7390,7 +7390,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay what about .",
+      "words": "okay what about_.",
       "confidence_scores": [
         0.291,
         0.896,
@@ -7586,9 +7586,9 @@
   "96": {
     "start": 374.73,
     "end": 376.64,
-    "transcript": "what color is the door what color is the door",
+    "transcript": "what color_is the door what color_is the door",
     "whisper": {
-      "text": "what color is the door what color is the door",
+      "text": "what color_is the door what color_is the door",
       "segments": [
         {
           "id": 0,
@@ -7672,7 +7672,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "what color is the door what color is the door",
+      "words": "what color_is the door what color_is the door",
       "confidence_scores": [
         0.833,
         0.652,
@@ -7978,9 +7978,9 @@
   "103": {
     "start": 401.619,
     "end": 403.469,
-    "transcript": "there is one on the road",
+    "transcript": "there_is one on the road",
     "whisper": {
-      "text": "and there is one on the road",
+      "text": "and there_is one on the road",
       "segments": [
         {
           "id": 0,
@@ -8048,7 +8048,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and there is one on the road",
+      "words": "and there_is one on the road",
       "confidence_scores": [
         0.598,
         0.983,
@@ -8108,7 +8108,7 @@
   "105": {
     "start": 408.12,
     "end": 408.919,
-    "transcript": "blue",
+    "transcript": " blue",
     "whisper": {
       "text": "blue",
       "segments": [
@@ -8151,9 +8151,9 @@
   "106": {
     "start": 410.25,
     "end": 412.909,
-    "transcript": "what color is the tires the tires on the car",
+    "transcript": "what color_is the tires the tires on the car",
     "whisper": {
-      "text": "what color is the tires the tires on the car",
+      "text": "what color_is the tires the tires on the car",
       "segments": [
         {
           "id": 0,
@@ -8243,7 +8243,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "what color is the tires the tires on the car",
+      "words": "what color_is the tires the tires on the car",
       "confidence_scores": [
         0.676,
         0.57,
@@ -8605,9 +8605,9 @@
   "114": {
     "start": 440.9266,
     "end": 441.89,
-    "transcript": "there is a dog",
+    "transcript": " there_is a dog",
     "whisper": {
-      "text": "there is a dog",
+      "text": " there_is a dog",
       "segments": [
         {
           "id": 0,
@@ -8662,7 +8662,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "there is a dog",
+      "words": "there_is a dog",
       "confidence_scores": [
         0.961,
         0.993,
@@ -8674,9 +8674,9 @@
   "115": {
     "start": 442.34,
     "end": 444.349,
-    "transcript": "sniffing stuff there is 2 people",
+    "transcript": "sniffing stuff there_is 2 people",
     "whisper": {
-      "text": "and stuff there is 2 people",
+      "text": "and stuff there_is 2 people",
       "segments": [
         {
           "id": 0,
@@ -8738,7 +8738,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and stuff there is 2 people",
+      "words": "and stuff there_is 2 people",
       "confidence_scores": [
         0.047,
         0.656,
@@ -8752,9 +8752,9 @@
   "116": {
     "start": 445.34,
     "end": 447.839,
-    "transcript": "there is a a dog and that is it",
+    "transcript": "there_is a a dog and  that_is it",
     "whisper": {
-      "text": "there is a dog and that is it",
+      "text": "there_is a dog and that_is it",
       "segments": [
         {
           "id": 0,
@@ -8823,7 +8823,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "there is a dog and that is it",
+      "words": "there_is a dog and that_is it",
       "confidence_scores": [
         0.71,
         0.97,
@@ -8840,7 +8840,7 @@
     "end": 451.999,
     "transcript": "yeah and the car and the car",
     "whisper": {
-      "text": "yeah i am nicole i am nicole",
+      "text": "yeah i_am nicole i_am nicole",
       "segments": [
         {
           "id": 0,
@@ -8904,7 +8904,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "yeah i am nicole i am nicole",
+      "words": "yeah i_am nicole i_am nicole",
       "confidence_scores": [
         0.598,
         0.437,
@@ -9027,9 +9027,9 @@
   "120": {
     "start": 459.45,
     "end": 463.429,
-    "transcript": "how the right bank yeah how it is red what color is yours",
+    "transcript": "how the right bank yeah how it_is red what color_is yours",
     "whisper": {
-      "text": "have you held the writing bank yeah how it is red what color is yours",
+      "text": "have you held the writing bank yeah how it_is red what color_is yours",
       "segments": [
         {
           "id": 0,
@@ -9168,7 +9168,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "have you held the writing bank yeah how it is red what color is yours",
+      "words": "have you held the writing bank yeah how it_is red what color_is yours",
       "confidence_scores": [
         0.087,
         0.932,
@@ -9242,9 +9242,9 @@
   "122": {
     "start": 467.36,
     "end": 469.08642,
-    "transcript": "orange",
+    "transcript": "  orange",
     "whisper": {
-      "text": "orange",
+      "text": "  orange",
       "segments": [
         {
           "id": 0,
@@ -9302,7 +9302,7 @@
   "123": {
     "start": 469.99,
     "end": 470.679,
-    "transcript": "what color is",
+    "transcript": "what color_is",
     "whisper": {
       "text": "what color is your",
       "segments": [
@@ -9370,7 +9370,7 @@
   "124": {
     "start": 471.87751,
     "end": 473.84,
-    "transcript": "red like pinkish red",
+    "transcript": " red like pinkish red",
     "whisper": {
       "text": "red like pink is red",
       "segments": [
@@ -9445,9 +9445,9 @@
   "125": {
     "start": 474.8,
     "end": 476.599,
-    "transcript": "what color is your clock on the bank",
+    "transcript": "what color_is your clock on the bank",
     "whisper": {
-      "text": "what color is your clock on the bank",
+      "text": "what color_is your clock on the bank",
       "segments": [
         {
           "id": 0,
@@ -9522,7 +9522,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "what color is your clock on the bank",
+      "words": "what color_is your clock on the bank",
       "confidence_scores": [
         0.78,
         0.684,
@@ -9583,7 +9583,7 @@
     "end": 480.199,
     "transcript": "dark blue",
     "whisper": {
-      "text": "it is dark blue",
+      "text": "it_is dark blue",
       "segments": [
         {
           "id": 0,
@@ -9630,7 +9630,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is dark blue",
+      "words": "it_is dark blue",
       "confidence_scores": [
         0.217,
         0.835,
@@ -9644,7 +9644,7 @@
     "end": 481.979,
     "transcript": "like really dark",
     "whisper": {
-      "text": "i am really dark alright",
+      "text": "i_am really dark alright",
       "segments": [
         {
           "id": 0,
@@ -9699,7 +9699,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i am really dark alright",
+      "words": "i_am really dark alright",
       "confidence_scores": [
         0.727,
         0.939,
@@ -9712,7 +9712,7 @@
   "129": {
     "start": 486.57,
     "end": 490.16,
-    "transcript": "white white and has like a pink like thing going down the back",
+    "transcript": " white white and has like a pink like thing going down the back",
     "whisper": {
       "text": "a white and has a pink thing going down the back",
       "segments": [
@@ -9838,7 +9838,7 @@
     "end": 494.14,
     "transcript": "got one minute fiftyfive come on",
     "whisper": {
-      "text": "we have got one minute 55 come on",
+      "text": "we_have got one minute 55 come on",
       "segments": [
         {
           "id": 0,
@@ -9914,7 +9914,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "we have got one minute 55 come on",
+      "words": "we_have got one minute 55 come on",
       "confidence_scores": [
         0.316,
         0.976,
@@ -9932,7 +9932,7 @@
     "end": 496.289,
     "transcript": "we got 10",
     "whisper": {
-      "text": "we have got 10",
+      "text": "we_have got 10",
       "segments": [
         {
           "id": 0,
@@ -9979,7 +9979,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "we have got 10",
+      "words": "we_have got 10",
       "confidence_scores": [
         0.627,
         0.997,
@@ -9991,7 +9991,7 @@
   "132": {
     "start": 497.82,
     "end": 498.18,
-    "transcript": "",
+    "transcript": "name deleted",
     "whisper": {
       "text": "you",
       "segments": [
@@ -10110,7 +10110,7 @@
   "134": {
     "start": 502.25,
     "end": 504.229,
-    "transcript": "0 it was like it was next to the",
+    "transcript": "0 it was like it was next to the ",
     "whisper": {
       "text": "0 it was like it was next to the .",
       "segments": [
@@ -10230,7 +10230,7 @@
     "end": 505.969,
     "transcript": "dreams wedding shop like",
     "whisper": {
-      "text": "at dream is wedding shop like",
+      "text": "at dream_is wedding shop like",
       "segments": [
         {
           "id": 0,
@@ -10292,7 +10292,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "at dream is wedding shop like",
+      "words": "at dream_is wedding shop like",
       "confidence_scores": [
         0.05,
         0.811,
@@ -10350,7 +10350,7 @@
   "137": {
     "start": 512.61,
     "end": 513.63,
-    "transcript": "",
+    "transcript": "name deleted name deleted",
     "whisper": {
       "text": "you",
       "segments": [
@@ -10434,9 +10434,9 @@
   "139": {
     "start": 515.39,
     "end": 519.209,
-    "transcript": "how there is like there is 2 people there is like a blue 2 people",
+    "transcript": "how there_is like there_is 2 people there_is like a blue 2 people",
     "whisper": {
-      "text": "do you know how there is like there is 2 people there is like a blue 2 people",
+      "text": "do you know how there_is like there_is 2 people there_is like a blue 2 people",
       "segments": [
         {
           "id": 0,
@@ -10571,7 +10571,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "do you know how there is like there is 2 people there is like a blue 2 people",
+      "words": "do you know how there_is like there_is 2 people there_is like a blue 2 people",
       "confidence_scores": [
         0.119,
         0.997,
@@ -10597,7 +10597,7 @@
     "end": 520.08,
     "transcript": "on their",
     "whisper": {
-      "text": "on the .",
+      "text": "on the_.",
       "segments": [
         {
           "id": 0,
@@ -10636,7 +10636,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "on the .",
+      "words": "on the_.",
       "confidence_scores": [
         0.741,
         0.282
@@ -10649,7 +10649,7 @@
     "end": 520.77,
     "transcript": "dress",
     "whisper": {
-      "text": "i just want to say thank you so much for watching and i will see you guys in the next video",
+      "text": "i just want to say thank you so much for watching and i_will see you guys in the next video",
       "segments": [
         {
           "id": 0,
@@ -10816,7 +10816,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i just want to say thank you so much for watching and i will see you guys in the next video",
+      "words": "i just want to say thank you so much for watching and i_will see you guys in the next video",
       "confidence_scores": [
         0.037,
         0.142,
@@ -10845,9 +10845,9 @@
   "142": {
     "start": 521.11,
     "end": 523.319,
-    "transcript": "shop yeah what is the thing they are on",
+    "transcript": "shop yeah what_is the thing they_are on",
     "whisper": {
-      "text": "yeah what is the thing they are on",
+      "text": "yeah what_is the thing they_are on",
       "segments": [
         {
           "id": 0,
@@ -10917,7 +10917,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "yeah what is the thing they are on",
+      "words": "yeah what_is the thing they_are on",
       "confidence_scores": [
         0.41,
         0.959,
@@ -10934,7 +10934,7 @@
     "end": 526.48,
     "transcript": "so",
     "whisper": {
-      "text": "so .",
+      "text": "so_.",
       "segments": [
         {
           "id": 0,
@@ -10966,7 +10966,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "so .",
+      "words": "so_.",
       "confidence_scores": [
         0.308
       ],
@@ -11184,9 +11184,9 @@
   "148": {
     "start": 537.51,
     "end": 539.499,
-    "transcript": "yeah like what he is wearin is black",
+    "transcript": "yeah like what he_is wearin is black",
     "whisper": {
-      "text": "yeah like what he is wearing is black",
+      "text": "yeah like what he_is wearing is black",
       "segments": [
         {
           "id": 0,
@@ -11263,7 +11263,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "yeah like what he is wearing is black",
+      "words": "yeah like what he_is wearing is black",
       "confidence_scores": [
         0.612,
         0.737,
@@ -11279,9 +11279,9 @@
   "149": {
     "start": 541.17,
     "end": 542.279,
-    "transcript": "0 that is a difference",
+    "transcript": "0 that_is a difference",
     "whisper": {
-      "text": "0 that is the difference",
+      "text": "0 that_is the difference",
       "segments": [
         {
           "id": 0,
@@ -11336,7 +11336,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "0 that is the difference",
+      "words": "0 that_is the difference",
       "confidence_scores": [
         0.694,
         0.983,
@@ -11349,9 +11349,9 @@
   "150": {
     "start": 543.57,
     "end": 546.869,
-    "transcript": "okay we have got 12345",
+    "transcript": "okay we_have got one 2 3 4 5",
     "whisper": {
-      "text": "okay we have got 12345",
+      "text": "okay we_have got one 2 3 4 5",
       "segments": [
         {
           "id": 0,
@@ -11438,7 +11438,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay we have got one 2 3 4 5",
+      "words": "okay we_have got one 2 3 4 5",
       "confidence_scores": [
         0.628,
         0.873,
@@ -11455,9 +11455,9 @@
   "151": {
     "start": 547.53,
     "end": 550.019,
-    "transcript": "678910",
+    "transcript": "6 7 8 9 10",
     "whisper": {
-      "text": "6789 10",
+      "text": "6 7 8 9 10",
       "segments": [
         {
           "id": 0,
@@ -11745,7 +11745,7 @@
   "156": {
     "start": 559.59301,
     "end": 560.439,
-    "transcript": "blue",
+    "transcript": " blue",
     "whisper": {
       "text": "0 blue",
       "segments": [
@@ -11934,9 +11934,9 @@
   "159": {
     "start": 571.99834,
     "end": 575.009,
-    "transcript": "ah what color what color is the baby is hair",
+    "transcript": "ah what color what color_is the baby_is hair",
     "whisper": {
-      "text": "what color is that baby is hair",
+      "text": "what color is that baby_is hair",
       "segments": [
         {
           "id": 0,
@@ -12004,7 +12004,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "what color is that baby is hair",
+      "words": "what color is that baby_is hair",
       "confidence_scores": [
         0.315,
         0.725,
@@ -12019,9 +12019,9 @@
   "160": {
     "start": 577.63,
     "end": 578.809,
-    "transcript": "it is like blonde",
+    "transcript": "it_is like blonde",
     "whisper": {
-      "text": "it is like blonde",
+      "text": "it_is like blonde",
       "segments": [
         {
           "id": 0,
@@ -12068,7 +12068,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is like blonde",
+      "words": "it_is like blonde",
       "confidence_scores": [
         0.859,
         0.991,
@@ -12080,7 +12080,7 @@
   "161": {
     "start": 581.149,
     "end": 581.979,
-    "transcript": "one",
+    "transcript": " one",
     "whisper": {
       "text": "a one",
       "segments": [
@@ -12132,9 +12132,9 @@
   "162": {
     "start": 588.85677,
     "end": 590.47,
-    "transcript": "scarf on the woman is head",
+    "transcript": "scarf on the woman_is head",
     "whisper": {
-      "text": "on the woman is head",
+      "text": "on the woman_is head",
       "segments": [
         {
           "id": 0,
@@ -12188,7 +12188,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "on the woman is head",
+      "words": "on the woman_is head",
       "confidence_scores": [
         0.113,
         0.969,
@@ -12203,7 +12203,7 @@
     "end": 597.869,
     "transcript": "like",
     "whisper": {
-      "text": "let us",
+      "text": "let_us",
       "segments": [
         {
           "id": 0,
@@ -12236,7 +12236,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "let us",
+      "words": "let_us",
       "confidence_scores": [
         0.41
       ],
@@ -12246,9 +12246,9 @@
   "164": {
     "start": 599.92,
     "end": 601.419,
-    "transcript": "no there is none nah",
+    "transcript": "no there_is none nah",
     "whisper": {
-      "text": "no it is no no",
+      "text": "no it_is no no",
       "segments": [
         {
           "id": 0,
@@ -12304,7 +12304,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "no it is no no",
+      "words": "no it_is no no",
       "confidence_scores": [
         0.574,
         0.766,
@@ -12461,9 +12461,9 @@
   "167": {
     "start": 609.799,
     "end": 611.639,
-    "transcript": "ah 0 time is up",
+    "transcript": "ah 0 time_is up",
     "whisper": {
-      "text": "ah ah time is up",
+      "text": "ah ah time_is up",
       "segments": [
         {
           "id": 0,
@@ -12519,7 +12519,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "ah ah time is up",
+      "words": "ah ah time_is up",
       "confidence_scores": [
         0.313,
         0.464,

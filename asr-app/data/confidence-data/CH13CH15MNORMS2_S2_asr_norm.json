@@ -2,9 +2,9 @@
   "0": {
     "start": 22.2424,
     "end": 22.739,
-    "transcript": "there is a",
+    "transcript": "there_is a",
     "whisper": {
-      "text": "what is up",
+      "text": "what_is up",
       "segments": [
         {
           "id": 0,
@@ -44,7 +44,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "what is up",
+      "words": "what_is up",
       "confidence_scores": [
         0.495,
         0.868
@@ -343,9 +343,9 @@
   "7": {
     "start": 45.97,
     "end": 47.889,
-    "transcript": "okay no it is a difference",
+    "transcript": "okay no it_is a difference",
     "whisper": {
-      "text": "okay no it is the difference",
+      "text": "okay no it_is the difference",
       "segments": [
         {
           "id": 0,
@@ -408,7 +408,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay no it is the difference",
+      "words": "okay no it_is the difference",
       "confidence_scores": [
         0.658,
         0.807,
@@ -491,9 +491,9 @@
   "9": {
     "start": 63.02,
     "end": 64.79,
-    "transcript": "no he is holding it and angry",
+    "transcript": "no he_is holding it and angry",
     "whisper": {
-      "text": "no he is holding it and angry",
+      "text": "no he_is holding it and angry",
       "segments": [
         {
           "id": 0,
@@ -562,7 +562,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "no he is holding it and angry",
+      "words": "no he_is holding it and angry",
       "confidence_scores": [
         0.796,
         0.9,
@@ -577,9 +577,9 @@
   "10": {
     "start": 65.73,
     "end": 66.859,
-    "transcript": "so that is a difference",
+    "transcript": "so that_is a difference",
     "whisper": {
-      "text": "so that is the difference",
+      "text": "so that_is the difference",
       "segments": [
         {
           "id": 0,
@@ -633,7 +633,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "so that is the difference",
+      "words": "so that_is the difference",
       "confidence_scores": [
         0.661,
         0.955,
@@ -646,7 +646,7 @@
   "11": {
     "start": 72.37,
     "end": 73.159,
-    "transcript": "there is a",
+    "transcript": "there_is a",
     "whisper": {
       "text": "dazza",
       "segments": [
@@ -692,9 +692,9 @@
   "12": {
     "start": 74.29,
     "end": 75.789,
-    "transcript": "is there there is a bank",
+    "transcript": "is there there_is a bank",
     "whisper": {
-      "text": "is there there is a bank",
+      "text": "is there there_is a bank",
       "segments": [
         {
           "id": 0,
@@ -756,7 +756,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "is there there is a bank",
+      "words": "is there there_is a bank",
       "confidence_scores": [
         0.566,
         0.413,
@@ -830,9 +830,9 @@
   "14": {
     "start": 78.7,
     "end": 79.419,
-    "transcript": "there is a bank",
+    "transcript": "there_is a bank",
     "whisper": {
-      "text": "there is a bank",
+      "text": "there_is a bank",
       "segments": [
         {
           "id": 0,
@@ -879,7 +879,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "there is a bank",
+      "words": "there_is a bank",
       "confidence_scores": [
         0.827,
         0.993,
@@ -891,7 +891,7 @@
   "15": {
     "start": 80.14,
     "end": 82.029,
-    "transcript": "at the a green bank there is",
+    "transcript": "at the a green bank there_is",
     "whisper": {
       "text": "at a green bank",
       "segments": [
@@ -1165,9 +1165,9 @@
   "19": {
     "start": 91.59,
     "end": 93.099,
-    "transcript": "okay that is difference",
+    "transcript": "okay that_is difference",
     "whisper": {
-      "text": "okay that is the difference",
+      "text": "okay that_is the difference",
       "segments": [
         {
           "id": 0,
@@ -1222,7 +1222,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay that is the difference",
+      "words": "okay that_is the difference",
       "confidence_scores": [
         0.442,
         0.961,
@@ -1235,9 +1235,9 @@
   "20": {
     "start": 98.37,
     "end": 100.029,
-    "transcript": "with 123",
+    "transcript": "with one 2 3",
     "whisper": {
-      "text": "we have 123",
+      "text": "we have one 2 3",
       "segments": [
         {
           "id": 0,
@@ -1375,7 +1375,7 @@
     "end": 108.839,
     "transcript": "yeah there is 6",
     "whisper": {
-      "text": "i will be at 86",
+      "text": "i_will be at 86",
       "segments": [
         {
           "id": 0,
@@ -1429,7 +1429,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i will be at 86",
+      "words": "i_will be at 86",
       "confidence_scores": [
         0.475,
         0.991,
@@ -1486,9 +1486,9 @@
   "24": {
     "start": 112.27,
     "end": 116.67,
-    "transcript": "next is there a bench next to the baby there is there is a bench next to the baby",
+    "transcript": "next is there a bench next to the baby there_is there_is a bench next to the baby",
     "whisper": {
-      "text": "next is there a bench next to the baby there is a bench next to the baby",
+      "text": "next is there a bench next to the baby there_is a bench next to the baby",
       "segments": [
         {
           "id": 0,
@@ -1646,7 +1646,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "next is there a bench next to the baby there is a bench next to the baby",
+      "words": "next is there a bench next to the baby there_is a bench next to the baby",
       "confidence_scores": [
         0.499,
         0.979,
@@ -1739,9 +1739,9 @@
   "26": {
     "start": 123.80694,
     "end": 125.819,
-    "transcript": "at there is this green building",
+    "transcript": "at there_is this green building",
     "whisper": {
-      "text": "there is a screen building",
+      "text": " there_is a screen building",
       "segments": [
         {
           "id": 0,
@@ -1803,7 +1803,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "there is a screen building",
+      "words": "there_is a screen building",
       "confidence_scores": [
         0.959,
         0.907,
@@ -1816,9 +1816,9 @@
   "27": {
     "start": 126.66,
     "end": 128.82828,
-    "transcript": "and is there like",
+    "transcript": "and is there like ",
     "whisper": {
-      "text": "and is there like a .",
+      "text": "and is there like a_.",
       "segments": [
         {
           "id": 0,
@@ -1878,7 +1878,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and is there like a .",
+      "words": "and is there like a_.",
       "confidence_scores": [
         0.509,
         0.752,
@@ -2144,7 +2144,7 @@
   "33": {
     "start": 142.98,
     "end": 144.659,
-    "transcript": "what is it say on the green building",
+    "transcript": "what_is it say on the green building",
     "whisper": {
       "text": "what does it say on the green building",
       "segments": [
@@ -2246,7 +2246,7 @@
     "end": 146.859,
     "transcript": "no the",
     "whisper": {
-      "text": "no they are 0",
+      "text": "no they_are 0",
       "segments": [
         {
           "id": 0,
@@ -2294,7 +2294,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "no they are 0",
+      "words": "no they_are 0",
       "confidence_scores": [
         0.248,
         0.462,
@@ -2308,7 +2308,7 @@
     "end": 149.419,
     "transcript": "no the other one on opposite it",
     "whisper": {
-      "text": "the other 11 opposite it",
+      "text": "the other one one opposite it",
       "segments": [
         {
           "id": 0,
@@ -2391,9 +2391,9 @@
   "36": {
     "start": 154.56353,
     "end": 155.599,
-    "transcript": "that is difference",
+    "transcript": "that_is difference",
     "whisper": {
-      "text": "that is the difference",
+      "text": "that_is the difference",
       "segments": [
         {
           "id": 0,
@@ -2440,7 +2440,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "that is the difference",
+      "words": "that_is the difference",
       "confidence_scores": [
         0.804,
         0.841,
@@ -2729,9 +2729,9 @@
   "40": {
     "start": 169.67,
     "end": 171.969,
-    "transcript": "and squashed can and",
+    "transcript": "and  squashed can and",
     "whisper": {
-      "text": "and the scuffed can and .",
+      "text": "and the scuffed can and_.",
       "segments": [
         {
           "id": 0,
@@ -2792,7 +2792,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and the scuffed can and .",
+      "words": "and the scuffed can and_.",
       "confidence_scores": [
         0.714,
         0.689,
@@ -2913,7 +2913,7 @@
     "end": 177.169,
     "transcript": "is the dog brown",
     "whisper": {
-      "text": "it is the dog brown",
+      "text": "it_is the dog brown",
       "segments": [
         {
           "id": 0,
@@ -2968,7 +2968,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is the dog brown",
+      "words": "it_is the dog brown",
       "confidence_scores": [
         0.567,
         0.649,
@@ -3468,7 +3468,7 @@
   "51": {
     "start": 216.48,
     "end": 217.409,
-    "transcript": "that is a difference",
+    "transcript": "that_is a difference",
     "whisper": {
       "text": "the difference",
       "segments": [
@@ -3614,7 +3614,7 @@
     "end": 236.35,
     "transcript": "and is it",
     "whisper": {
-      "text": "and that is it",
+      "text": "and that_is it",
       "segments": [
         {
           "id": 0,
@@ -3661,7 +3661,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and that is it",
+      "words": "and that_is it",
       "confidence_scores": [
         0.375,
         0.567,
@@ -3802,9 +3802,9 @@
   "56": {
     "start": 243.79,
     "end": 244.869,
-    "transcript": "is it 30 clock",
+    "transcript": "is it 3 0_clock",
     "whisper": {
-      "text": "is it 30 clock",
+      "text": "is it 3 0_clock",
       "segments": [
         {
           "id": 0,
@@ -3859,7 +3859,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "is it 3 0 clock",
+      "words": "is it 3 0_clock",
       "confidence_scores": [
         0.311,
         0.988,
@@ -3915,9 +3915,9 @@
   "58": {
     "start": 255.14,
     "end": 256.939,
-    "transcript": "i am good at spot the difference",
+    "transcript": "i_am good at spot the difference",
     "whisper": {
-      "text": "i am good at spotting the difference",
+      "text": "i_am good at spotting the difference",
       "segments": [
         {
           "id": 0,
@@ -3985,7 +3985,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i am good at spotting the difference",
+      "words": "i_am good at spotting the difference",
       "confidence_scores": [
         0.945,
         0.34,
@@ -4998,7 +4998,7 @@
     "end": 307.32,
     "transcript": "the the sign is pink and then the",
     "whisper": {
-      "text": "the sign is pink and then the .",
+      "text": "the sign is pink and then the_.",
       "segments": [
         {
           "id": 0,
@@ -5072,7 +5072,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "the sign is pink and then the .",
+      "words": "the sign is pink and then the_.",
       "confidence_scores": [
         0.352,
         0.954,
@@ -5156,9 +5156,9 @@
   "71": {
     "start": 311.54,
     "end": 312.739,
-    "transcript": "okay that is difference",
+    "transcript": "okay that_is difference",
     "whisper": {
-      "text": "okay that is different",
+      "text": "okay that_is different",
       "segments": [
         {
           "id": 0,
@@ -5206,7 +5206,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay that is different",
+      "words": "okay that_is different",
       "confidence_scores": [
         0.585,
         0.982,
@@ -5218,9 +5218,9 @@
   "72": {
     "start": 320.42,
     "end": 327.49,
-    "transcript": "i am not sure 1234567",
+    "transcript": "i_am not sure one 2 3 4 5 6 7",
     "whisper": {
-      "text": "and that is 1234567",
+      "text": "and that_is one 2 3 4 5 6 7",
       "segments": [
         {
           "id": 0,
@@ -5315,7 +5315,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and that is one 2 3 4 5 6 7",
+      "words": "and that_is one 2 3 4 5 6 7",
       "confidence_scores": [
         0.203,
         0.862,
@@ -5589,7 +5589,7 @@
     "end": 344.419,
     "transcript": "wait over the",
     "whisper": {
-      "text": "over the .",
+      "text": "over the_.",
       "segments": [
         {
           "id": 0,
@@ -5628,7 +5628,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "over the .",
+      "words": "over the_.",
       "confidence_scores": [
         0.24,
         0.514
@@ -5639,9 +5639,9 @@
   "79": {
     "start": 345.01,
     "end": 350.2283,
-    "transcript": "over like the betting shop is there a window with pink with pink",
+    "transcript": "over like the betting shop is there a window with pink with pink ",
     "whisper": {
-      "text": "over like the petting shop is there a window with pink with pink",
+      "text": "over like the petting shop is there a window with pink with pink ",
       "segments": [
         {
           "id": 0,
@@ -5786,7 +5786,7 @@
   "80": {
     "start": 354.05762,
     "end": 355.719,
-    "transcript": "yes does it have a",
+    "transcript": " yes does it have a",
     "whisper": {
       "text": "yes does it have a",
       "segments": [
@@ -6062,9 +6062,9 @@
   "85": {
     "start": 377.64,
     "end": 383.469,
-    "transcript": "that is the same wait is the betting shop red and blue and brown and the roof is brown",
+    "transcript": "that_is the same wait is the betting shop red and blue and brown and the roof_is brown",
     "whisper": {
-      "text": "that is the time wait is the betting shop red and blue and brown and the roof is brown",
+      "text": "that_is the time wait is the betting shop red and blue and brown and the roof_is brown",
       "segments": [
         {
           "id": 0,
@@ -6209,7 +6209,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "that is the time wait is the betting shop red and blue and brown and the roof is brown",
+      "words": "that_is the time wait is the betting shop red and blue and brown and the roof_is brown",
       "confidence_scores": [
         0.314,
         0.983,
@@ -6237,7 +6237,7 @@
     "end": 395.999,
     "transcript": "no just says",
     "whisper": {
-      "text": "no it just says .",
+      "text": "no it just says_.",
       "segments": [
         {
           "id": 0,
@@ -6291,7 +6291,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "no it just says .",
+      "words": "no it just says_.",
       "confidence_scores": [
         0.388,
         0.948,
@@ -6304,9 +6304,9 @@
   "87": {
     "start": 396.74,
     "end": 399.049,
-    "transcript": "headache pills that is a difference",
+    "transcript": "headache pills that_is a difference",
     "whisper": {
-      "text": "headache pills that is the difference",
+      "text": "headache pills that_is the difference",
       "segments": [
         {
           "id": 0,
@@ -6369,7 +6369,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "headache pills that is the difference",
+      "words": "headache pills that_is the difference",
       "confidence_scores": [
         0.492,
         0.61,
@@ -6383,9 +6383,9 @@
   "88": {
     "start": 402.2,
     "end": 403.219,
-    "transcript": "no it does not say",
+    "transcript": "no it does_not say",
     "whisper": {
-      "text": "no it does not say",
+      "text": "no it does_not say",
       "segments": [
         {
           "id": 0,
@@ -6440,7 +6440,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "no it does not say",
+      "words": "no it does_not say",
       "confidence_scores": [
         0.72,
         0.93,
@@ -6453,9 +6453,9 @@
   "89": {
     "start": 407.77574,
     "end": 414.52,
-    "transcript": "wait is there is the pharmacy white and there is and like what is it",
+    "transcript": "wait is there  is the pharmacy white and there_is and  like what is it",
     "whisper": {
-      "text": "wait is there is the plan must be white and there is and wait what is it",
+      "text": "wait is there is the plan must be white and there_is and wait what is it",
       "segments": [
         {
           "id": 0,
@@ -6617,7 +6617,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "wait is there is the plan must be white and there is and wait what is it",
+      "words": "wait is there is the plan must be white and there_is and wait what is it",
       "confidence_scores": [
         0.436,
         0.978,
@@ -6803,7 +6803,7 @@
   "92": {
     "start": 433.31,
     "end": 434.459,
-    "transcript": "where is real estate",
+    "transcript": "where_is real estate",
     "whisper": {
       "text": "it was a real estate home",
       "segments": [
@@ -6931,9 +6931,9 @@
   "94": {
     "start": 437.21,
     "end": 438.81,
-    "transcript": "what is the color of the building",
+    "transcript": "what_is the color of the building",
     "whisper": {
-      "text": "what is the color of the building",
+      "text": "what_is the color of the building",
       "segments": [
         {
           "id": 0,
@@ -7001,7 +7001,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "what is the color of the building",
+      "words": "what_is the color of the building",
       "confidence_scores": [
         0.949,
         0.999,
@@ -7324,7 +7324,7 @@
   "99": {
     "start": 453.8,
     "end": 456.29916,
-    "transcript": "okay what color is the bench",
+    "transcript": "okay what color_is the bench",
     "whisper": {
       "text": "okay what color is the bench",
       "segments": [
@@ -7409,7 +7409,7 @@
   "100": {
     "start": 461.52814,
     "end": 463.029,
-    "transcript": "same",
+    "transcript": " same",
     "whisper": {
       "text": "0 yeah same",
       "segments": [
@@ -7608,7 +7608,7 @@
     "end": 475.049,
     "transcript": "next to the",
     "whisper": {
-      "text": "next to the .",
+      "text": "next to the_.",
       "segments": [
         {
           "id": 0,
@@ -7654,7 +7654,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "next to the .",
+      "words": "next to the_.",
       "confidence_scores": [
         0.784,
         0.88,
@@ -8007,9 +8007,9 @@
   "107": {
     "start": 502.17,
     "end": 505.32,
-    "transcript": "0 how many how many lines on the crossing 12",
+    "transcript": "0 how many how many lines on the crossing one 2",
     "whisper": {
-      "text": "0 how many how many lines are on the crossing 12",
+      "text": "0 how many how many lines are on the crossing one 2",
       "segments": [
         {
           "id": 0,
@@ -8229,7 +8229,7 @@
     "end": 512.759,
     "transcript": "okay how many lines on the",
     "whisper": {
-      "text": "okay how many lines on the .",
+      "text": "okay how many lines on the_.",
       "segments": [
         {
           "id": 0,
@@ -8297,7 +8297,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay how many lines on the .",
+      "words": "okay how many lines on the_.",
       "confidence_scores": [
         0.473,
         0.949,
@@ -8366,7 +8366,7 @@
     "end": 517.929,
     "transcript": "and is one of them half covered",
     "whisper": {
-      "text": "and there is one of them half covered",
+      "text": "and there_is one of them half covered",
       "segments": [
         {
           "id": 0,
@@ -8441,7 +8441,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and there is one of them half covered",
+      "words": "and there_is one of them half covered",
       "confidence_scores": [
         0.616,
         0.804,
@@ -8719,7 +8719,7 @@
     "end": 541.05,
     "transcript": "does it have gray handles",
     "whisper": {
-      "text": "did not have gray handles",
+      "text": "did_not have gray handles",
       "segments": [
         {
           "id": 0,
@@ -8773,7 +8773,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "did not have gray handles",
+      "words": "did_not have gray handles",
       "confidence_scores": [
         0.529,
         0.998,
@@ -8788,7 +8788,7 @@
     "end": 545.269,
     "transcript": "is there 2 shoes and then",
     "whisper": {
-      "text": "is that 2 shoes and then the .",
+      "text": "is that 2 shoes and then the_.",
       "segments": [
         {
           "id": 0,
@@ -8862,7 +8862,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "is that 2 shoes and then the .",
+      "words": "is that 2 shoes and then the_.",
       "confidence_scores": [
         0.841,
         0.528,
@@ -9016,7 +9016,7 @@
     "end": 559.549,
     "transcript": "like the clothes shop is there 2 shoes and one of them is not there on purple stands",
     "whisper": {
-      "text": "like the clothes shop is there 2 shoes and one of them is not there on purple stands",
+      "text": "like the clothes shop is there 2 shoes and one of them_is not there on purple stands",
       "segments": [
         {
           "id": 0,
@@ -9179,7 +9179,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "like the clothes shop is there 2 shoes and one of them is not there on purple stands",
+      "words": "like the clothes shop is there 2 shoes and one of them_is not there on purple stands",
       "confidence_scores": [
         0.597,
         0.86,
@@ -9587,7 +9587,7 @@
   "125": {
     "start": 585.42,
     "end": 586.289,
-    "transcript": "14",
+    "transcript": "one 4",
     "whisper": {
       "text": "i want 4",
       "segments": [
@@ -9647,9 +9647,9 @@
   "126": {
     "start": 591.67,
     "end": 597.399,
-    "transcript": "what let us count them 123456789",
+    "transcript": "what let_us count them one 2 3 4 5 6 7 8 9",
     "whisper": {
-      "text": "what i just counted them 123456789",
+      "text": "what i just counted them one 2 3 4 5 6 7 8 9",
       "segments": [
         {
           "id": 0,

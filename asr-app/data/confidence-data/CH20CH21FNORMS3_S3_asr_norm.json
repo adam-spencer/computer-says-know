@@ -192,7 +192,7 @@
     "end": 12.419,
     "transcript": "one cloud",
     "whisper": {
-      "text": "one cloud",
+      "text": " one cloud",
       "segments": [
         {
           "id": 0,
@@ -308,9 +308,9 @@
   "5": {
     "start": 14.52,
     "end": 16.74,
-    "transcript": "and then there is the city pharmacy",
+    "transcript": "and then there_is the city pharmacy",
     "whisper": {
-      "text": "and then there is the city pharmacy",
+      "text": "and then there_is the city pharmacy",
       "segments": [
         {
           "id": 0,
@@ -378,7 +378,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then there is the city pharmacy",
+      "words": "and then there_is the city pharmacy",
       "confidence_scores": [
         0.52,
         0.992,
@@ -487,7 +487,7 @@
     "end": 25.179,
     "transcript": "alright well then",
     "whisper": {
-      "text": "alright well then .",
+      "text": "alright well then_.",
       "segments": [
         {
           "id": 0,
@@ -534,7 +534,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "alright well then .",
+      "words": "alright well then_.",
       "confidence_scores": [
         0.39,
         0.971,
@@ -590,9 +590,9 @@
   "9": {
     "start": 26.4,
     "end": 30.519,
-    "transcript": "and then next to that there is a blue butchers",
+    "transcript": "and then next to that there_is a blue butchers",
     "whisper": {
-      "text": "and then next to that there is a blue butchers",
+      "text": "and then next to that there_is a blue butchers",
       "segments": [
         {
           "id": 0,
@@ -682,7 +682,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then next to that there is a blue butchers",
+      "words": "and then next to that there_is a blue butchers",
       "confidence_scores": [
         0.353,
         0.93,
@@ -700,9 +700,9 @@
   "10": {
     "start": 31.29,
     "end": 35.879,
-    "transcript": "and it has 1234567 pies in the window",
+    "transcript": "and it has one 2 3 4 5 6 7 pies in the window",
     "whisper": {
-      "text": "and it has 1234567 pies in the window",
+      "text": "and it has one 2 3 4 5 6 7 pies in the window",
       "segments": [
         {
           "id": 0,
@@ -1069,9 +1069,9 @@
   "13": {
     "start": 44.31,
     "end": 47.3,
-    "transcript": "it is called but like a knife big knife in his hands",
+    "transcript": "it_is called but like a knife big knife in his hands",
     "whisper": {
-      "text": "it is cool but like a knife big knife in his hands",
+      "text": "it_is cool but like a knife big knife in his hands",
       "segments": [
         {
           "id": 0,
@@ -1173,7 +1173,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is cool but like a knife big knife in his hands",
+      "words": "it_is cool but like a knife big knife in his hands",
       "confidence_scores": [
         0.596,
         0.238,
@@ -1193,9 +1193,9 @@
   "14": {
     "start": 48.66,
     "end": 52.95,
-    "transcript": "yeah he is wearing green outfit and a brown apron",
+    "transcript": "yeah he_is wearing green outfit and a brown apron",
     "whisper": {
-      "text": "yeah he is wearing a green outfit and a brown apron",
+      "text": "yeah he_is wearing a green outfit and a brown apron",
       "segments": [
         {
           "id": 0,
@@ -1293,7 +1293,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "yeah he is wearing a green outfit and a brown apron",
+      "words": "yeah he_is wearing a green outfit and a brown apron",
       "confidence_scores": [
         0.655,
         0.987,
@@ -1312,9 +1312,9 @@
   "15": {
     "start": 53.58,
     "end": 56.85,
-    "transcript": "and then next to that there is a magical toy shop",
+    "transcript": "and then next to that there_is a magical toy shop",
     "whisper": {
-      "text": "and then next to that there is a magical toy shop",
+      "text": "and then next to that there_is a magical toy shop",
       "segments": [
         {
           "id": 0,
@@ -1411,7 +1411,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then next to that there is a magical toy shop",
+      "words": "and then next to that there_is a magical toy shop",
       "confidence_scores": [
         0.739,
         0.979,
@@ -1680,9 +1680,9 @@
   "18": {
     "start": 67.86,
     "end": 69.05,
-    "transcript": "and then it is like yeah",
+    "transcript": "and then it_is like yeah",
     "whisper": {
-      "text": "and then it is like yeah",
+      "text": "and then it_is like yeah",
       "segments": [
         {
           "id": 0,
@@ -1744,7 +1744,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then it is like yeah",
+      "words": "and then it_is like yeah",
       "confidence_scores": [
         0.543,
         0.988,
@@ -1758,9 +1758,9 @@
   "19": {
     "start": 69.51,
     "end": 72.989,
-    "transcript": "and then there is a lamppost with a yellow bird on it",
+    "transcript": "and then there_is a lamppost with a yellow bird on it",
     "whisper": {
-      "text": "and then there is a lamppost with a yellow bird on it",
+      "text": "and then there_is a lamppost with a yellow bird on it",
       "segments": [
         {
           "id": 0,
@@ -1865,7 +1865,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then there is a lamppost with a yellow bird on it",
+      "words": "and then there_is a lamppost with a yellow bird on it",
       "confidence_scores": [
         0.482,
         0.988,
@@ -1954,9 +1954,9 @@
   "21": {
     "start": 76.47,
     "end": 78.789,
-    "transcript": "and then there is a book store",
+    "transcript": "and then there_is a book store",
     "whisper": {
-      "text": "and then there is a bookstore",
+      "text": "and then there_is a bookstore",
       "segments": [
         {
           "id": 0,
@@ -2017,7 +2017,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then there is a bookstore",
+      "words": "and then there_is a bookstore",
       "confidence_scores": [
         0.605,
         0.991,
@@ -2147,9 +2147,9 @@
   "23": {
     "start": 84.79,
     "end": 85.799,
-    "transcript": "alright then there is",
+    "transcript": "alright then there_is",
     "whisper": {
-      "text": "0 i did not listen",
+      "text": "0 i did_not listen",
       "segments": [
         {
           "id": 0,
@@ -2204,7 +2204,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "0 i did not listen",
+      "words": "0 i did_not listen",
       "confidence_scores": [
         0.388,
         0.811,
@@ -2217,9 +2217,9 @@
   "24": {
     "start": 86.93658,
     "end": 91.019,
-    "transcript": "it is on the so there is 2 windows it is on the 2nd window",
+    "transcript": "it_is on the so there_is 2 windows it_is on the 2nd window",
     "whisper": {
-      "text": "it is on the so there is 2 windows it is on the 2nd window",
+      "text": " it_is on the so there_is 2 windows it_is on the 2nd window",
       "segments": [
         {
           "id": 0,
@@ -2337,7 +2337,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is on the so there is 2 windows it is on the 2nd window",
+      "words": "it_is on the so there_is 2 windows it_is on the 2nd window",
       "confidence_scores": [
         0.648,
         0.994,
@@ -2399,9 +2399,9 @@
   "26": {
     "start": 94.04,
     "end": 97.859,
-    "transcript": "okay and then there is a pet center one mile sign",
+    "transcript": "okay and then there_is a pet center one mile sign",
     "whisper": {
-      "text": "okay and then there is a pet center one mile sign",
+      "text": "okay and then there_is a pet center one mile sign",
       "segments": [
         {
           "id": 0,
@@ -2499,7 +2499,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay and then there is a pet center one mile sign",
+      "words": "okay and then there_is a pet center one mile sign",
       "confidence_scores": [
         0.823,
         0.99,
@@ -2518,9 +2518,9 @@
   "27": {
     "start": 101.38,
     "end": 102.5,
-    "transcript": "0 yeah that is one",
+    "transcript": "0 yeah that_is one",
     "whisper": {
-      "text": "0 yeah that is one",
+      "text": "0 yeah that_is one",
       "segments": [
         {
           "id": 0,
@@ -2575,7 +2575,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "0 yeah that is one",
+      "words": "0 yeah that_is one",
       "confidence_scores": [
         0.584,
         0.62,
@@ -2588,9 +2588,9 @@
   "28": {
     "start": 103.51,
     "end": 110.14,
-    "transcript": "and then there is a man wearing a gray top at the bottom right corner there is a man wearing a gray top and green trousers",
+    "transcript": "and then there_is a man wearing a gray top at the bottom right corner there_is a man wearing a gray top and green trousers",
     "whisper": {
-      "text": "and then there is a man wearing a great at the bottom right corner there is a man wearing a great top and green trousers",
+      "text": "and then there_is a man wearing a great at the bottom right corner there_is a man wearing a great top and green trousers",
       "segments": [
         {
           "id": 0,
@@ -2816,7 +2816,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then there is a man wearing a great at the bottom right corner there is a man wearing a great top and green trousers",
+      "words": "and then there_is a man wearing a great at the bottom right corner there_is a man wearing a great top and green trousers",
       "confidence_scores": [
         0.422,
         0.992,
@@ -2848,9 +2848,9 @@
   "29": {
     "start": 110.58,
     "end": 111.79,
-    "transcript": "he is saying hey bill",
+    "transcript": "he_is saying hey bill",
     "whisper": {
-      "text": "he is saying hey boo",
+      "text": "he_is saying hey boo",
       "segments": [
         {
           "id": 0,
@@ -2905,7 +2905,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "he is saying hey boo",
+      "words": "he_is saying hey boo",
       "confidence_scores": [
         0.753,
         0.647,
@@ -2987,9 +2987,9 @@
   "31": {
     "start": 115.33,
     "end": 118.84,
-    "transcript": "and then there is just a red car with noone in it on the street",
+    "transcript": "and then there_is just a red car with noone in it on the street",
     "whisper": {
-      "text": "and then there is just a red car with no one in it on the street",
+      "text": "and then there_is just a red car with no one in it on the street",
       "segments": [
         {
           "id": 0,
@@ -3120,7 +3120,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then there is just a red car with no one in it on the street",
+      "words": "and then there_is just a red car with no one in it on the street",
       "confidence_scores": [
         0.6,
         0.969,
@@ -3144,9 +3144,9 @@
   "32": {
     "start": 119.47,
     "end": 125.559,
-    "transcript": "and then there is like a little girl wearing a white top and blue a blue skirt she is",
+    "transcript": "and then there_is like a little girl wearing a white top and blue a blue skirt she_is",
     "whisper": {
-      "text": "and then there is like a little girl wearing a white top and a blue skirt where she is .",
+      "text": "and then there_is like a little girl wearing a white top and a blue skirt where she_is_.",
       "segments": [
         {
           "id": 0,
@@ -3310,7 +3310,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then there is like a little girl wearing a white top and a blue skirt where she is .",
+      "words": "and then there_is like a little girl wearing a white top and a blue skirt where she_is_.",
       "confidence_scores": [
         0.427,
         0.921,
@@ -3336,9 +3336,9 @@
   "33": {
     "start": 126.31086,
     "end": 129.079,
-    "transcript": "not on the bicycle she is next to the bicycle",
+    "transcript": " not on the bicycle she_is next to the bicycle",
     "whisper": {
-      "text": "not on the bicycle she is next to the bicycle",
+      "text": "not on the bicycle she_is next to the bicycle",
       "segments": [
         {
           "id": 0,
@@ -3427,7 +3427,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "not on the bicycle she is next to the bicycle",
+      "words": "not on the bicycle she_is next to the bicycle",
       "confidence_scores": [
         0.449,
         0.989,
@@ -3541,7 +3541,7 @@
   "36": {
     "start": 132.81,
     "end": 133.74,
-    "transcript": "0 there is one",
+    "transcript": "0 there_is one",
     "whisper": {
       "text": "well this one",
       "segments": [
@@ -3602,9 +3602,9 @@
   "37": {
     "start": 135.1,
     "end": 138.279,
-    "transcript": "and then there is a sign saying science fair",
+    "transcript": "and then there_is a sign saying science fair",
     "whisper": {
-      "text": "and then there is a sign saying science fair",
+      "text": "and then there_is a sign saying science fair",
       "segments": [
         {
           "id": 0,
@@ -3686,7 +3686,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then there is a sign saying science fair",
+      "words": "and then there_is a sign saying science fair",
       "confidence_scores": [
         0.584,
         0.987,
@@ -3703,9 +3703,9 @@
   "38": {
     "start": 141.16008,
     "end": 142.489,
-    "transcript": "this is like",
+    "transcript": " this is like",
     "whisper": {
-      "text": "this is like",
+      "text": " this is like",
       "segments": [
         {
           "id": 0,
@@ -3770,9 +3770,9 @@
   "39": {
     "start": 142.94,
     "end": 145.729,
-    "transcript": "almost like a bit lighter than the butcher is shop",
+    "transcript": "almost like a bit lighter than the butcher_is shop",
     "whisper": {
-      "text": "almost like a bit lighter than the butcher is shop",
+      "text": "almost like a bit lighter than the butcher_is shop",
       "segments": [
         {
           "id": 0,
@@ -3861,7 +3861,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "almost like a bit lighter than the butcher is shop",
+      "words": "almost like a bit lighter than the butcher_is shop",
       "confidence_scores": [
         0.232,
         0.786,
@@ -3879,9 +3879,9 @@
   "40": {
     "start": 147.58,
     "end": 154.299,
-    "transcript": "yeah and then there is a brown dog just next to the sign and then there is another sign saying park",
+    "transcript": "yeah and then there_is a brown dog just next to the sign and then there_is another sign saying park",
     "whisper": {
-      "text": "yeah and then there is a brown dog just next to the sign and then there is another sign saying park",
+      "text": "yeah and then there_is a brown dog just next to the sign and then there_is another sign saying park",
       "segments": [
         {
           "id": 0,
@@ -4061,7 +4061,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "yeah and then there is a brown dog just next to the sign and then there is another sign saying park",
+      "words": "yeah and then there_is a brown dog just next to the sign and then there_is another sign saying park",
       "confidence_scores": [
         0.496,
         0.922,
@@ -4089,7 +4089,7 @@
   "41": {
     "start": 156.79,
     "end": 157.949,
-    "transcript": "0 then there is one",
+    "transcript": "0 then there_is one",
     "whisper": {
       "text": "0 and then this one",
       "segments": [
@@ -4166,9 +4166,9 @@
   "42": {
     "start": 158.75,
     "end": 162.679,
-    "transcript": "and then there is a woman wearing a black suit",
+    "transcript": "and then there_is a woman wearing a black  suit",
     "whisper": {
-      "text": "and then there is a woman wearing a black suit",
+      "text": "and then there_is a woman wearing a black suit",
       "segments": [
         {
           "id": 0,
@@ -4257,7 +4257,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then there is a woman wearing a black suit",
+      "words": "and then there_is a woman wearing a black suit",
       "confidence_scores": [
         0.576,
         0.986,
@@ -4275,9 +4275,9 @@
   "43": {
     "start": 164.909,
     "end": 166.1,
-    "transcript": "ah there we there is one",
+    "transcript": "ah there we there_is one",
     "whisper": {
-      "text": "0 there is one",
+      "text": "0 there_is one",
       "segments": [
         {
           "id": 0,
@@ -4325,7 +4325,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "0 there is one",
+      "words": "0 there_is one",
       "confidence_scores": [
         0.514,
         0.884,
@@ -4347,9 +4347,9 @@
   "45": {
     "start": 168.38,
     "end": 174.209,
-    "transcript": "okay so that is 1234567",
+    "transcript": "okay so that_is one 2 3 4 5 6 7",
     "whisper": {
-      "text": "okay so that is 1234567",
+      "text": "okay so that_is one 2 3 4 5 6 7",
       "segments": [
         {
           "id": 0,
@@ -4445,7 +4445,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay so that is one 2 3 4 5 6 7",
+      "words": "okay so that_is one 2 3 4 5 6 7",
       "confidence_scores": [
         0.896,
         0.996,
@@ -4679,9 +4679,9 @@
   "50": {
     "start": 188.92803,
     "end": 191.079,
-    "transcript": "okay let us go through it again",
+    "transcript": "okay let_us go through it again",
     "whisper": {
-      "text": "okay let us go for it again then",
+      "text": " okay let_us go for it again then",
       "segments": [
         {
           "id": 0,
@@ -4762,7 +4762,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay let us go for it again then",
+      "words": "okay let_us go for it again then",
       "confidence_scores": [
         0.783,
         0.976,
@@ -5194,9 +5194,9 @@
   "57": {
     "start": 206.69,
     "end": 208.45,
-    "transcript": "in the butchers it is all blue",
+    "transcript": "in the butchers it_is all blue",
     "whisper": {
-      "text": "in the butchers it is all blue",
+      "text": "in the butchers it_is all blue",
       "segments": [
         {
           "id": 0,
@@ -5266,7 +5266,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "in the butchers it is all blue",
+      "words": "in the butchers it_is all blue",
       "confidence_scores": [
         0.41,
         0.987,
@@ -5281,9 +5281,9 @@
   "58": {
     "start": 209.57,
     "end": 211.219,
-    "transcript": "there is only the pies in the window",
+    "transcript": "there_is only the pies in the window",
     "whisper": {
-      "text": "there is only the pies in the window",
+      "text": "there_is only the pies in the window",
       "segments": [
         {
           "id": 0,
@@ -5358,7 +5358,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "there is only the pies in the window",
+      "words": "there_is only the pies in the window",
       "confidence_scores": [
         0.821,
         0.999,
@@ -5374,9 +5374,9 @@
   "59": {
     "start": 216.74434,
     "end": 217.66,
-    "transcript": "0 no i have not got that",
+    "transcript": "0 no i have_not got that",
     "whisper": {
-      "text": "0 no i have not got that",
+      "text": "0 no i have_not got that",
       "segments": [
         {
           "id": 0,
@@ -5445,7 +5445,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "0 no i have not got that",
+      "words": "0 no i have_not got that",
       "confidence_scores": [
         0.744,
         0.597,
@@ -5713,9 +5713,9 @@
   "63": {
     "start": 228.24,
     "end": 228.929,
-    "transcript": "it is",
+    "transcript": "it_is",
     "whisper": {
-      "text": "it is",
+      "text": "it_is",
       "segments": [
         {
           "id": 0,
@@ -5748,7 +5748,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is",
+      "words": "it_is",
       "confidence_scores": [
         0.451
       ],
@@ -5882,9 +5882,9 @@
   "65": {
     "start": 237.47,
     "end": 239.079,
-    "transcript": "0 right there there is one",
+    "transcript": "0 right there there_is one",
     "whisper": {
-      "text": "0 right there there is one",
+      "text": "0 right there there_is one",
       "segments": [
         {
           "id": 0,
@@ -5947,7 +5947,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "0 right there there is one",
+      "words": "0 right there there_is one",
       "confidence_scores": [
         0.622,
         0.605,
@@ -6218,9 +6218,9 @@
   "71": {
     "start": 248.6,
     "end": 250.7,
-    "transcript": "so the bookshop i think it has got a",
+    "transcript": "so the bookshop i think it_is got a",
     "whisper": {
-      "text": "so the bookshop i think it has got a .",
+      "text": "so the bookshop i think it_is got a_.",
       "segments": [
         {
           "id": 0,
@@ -6304,7 +6304,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "so the bookshop i think it is got a .",
+      "words": "so the bookshop i think it_is got a_.",
       "confidence_scores": [
         0.76,
         0.874,
@@ -6398,7 +6398,7 @@
     "end": 256.249,
     "transcript": "and then a white sign underneath the",
     "whisper": {
-      "text": "and then a white sign underneath the .",
+      "text": "and then a white sign underneath the_.",
       "segments": [
         {
           "id": 0,
@@ -6472,7 +6472,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and then a white sign underneath the .",
+      "words": "and then a white sign underneath the_.",
       "confidence_scores": [
         0.722,
         0.992,
@@ -6564,9 +6564,9 @@
   "75": {
     "start": 259.49,
     "end": 261.409,
-    "transcript": "like it is a book a white book",
+    "transcript": "like it_is a book a white book",
     "whisper": {
-      "text": "like it is a book a white book",
+      "text": "like it_is a book a white book",
       "segments": [
         {
           "id": 0,
@@ -6642,7 +6642,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "like it is a book a white book",
+      "words": "like it_is a book a white book",
       "confidence_scores": [
         0.632,
         0.895,
@@ -6702,9 +6702,9 @@
   "77": {
     "start": 262.849,
     "end": 267.829,
-    "transcript": "how many is that that is 12345678",
+    "transcript": "how many is that that_is one 2 3 4 5 6 7 8",
     "whisper": {
-      "text": "how many is that that is 12345678",
+      "text": " how many is that that_is one 2 3 4 5 6 7 8",
       "segments": [
         {
           "id": 0,
@@ -6837,7 +6837,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "how many is that that is one 2 3 4 5 6 7 8",
+      "words": "how many is that that_is one 2 3 4 5 6 7 8",
       "confidence_scores": [
         0.983,
         0.996,
@@ -6859,9 +6859,9 @@
   "78": {
     "start": 268.52,
     "end": 269.509,
-    "transcript": "so there is",
+    "transcript": "so there_is",
     "whisper": {
-      "text": "so there is",
+      "text": "so there_is",
       "segments": [
         {
           "id": 0,
@@ -6901,7 +6901,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "so there is",
+      "words": "so there_is",
       "confidence_scores": [
         0.788,
         0.711
@@ -7017,9 +7017,9 @@
   "81": {
     "start": 278.64,
     "end": 280.26,
-    "transcript": "alright so i i think that is 9",
+    "transcript": "alright so i i think that_is 9",
     "whisper": {
-      "text": "all right so i think that is 9",
+      "text": "all right so i think that_is 9",
       "segments": [
         {
           "id": 0,
@@ -7095,7 +7095,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "all right so i think that is 9",
+      "words": "all right so i think that_is 9",
       "confidence_scores": [
         0.49,
         0.893,
@@ -7204,7 +7204,7 @@
   "83": {
     "start": 285.56,
     "end": 288.599,
-    "transcript": "is the woman wearing purple shoes the",
+    "transcript": " is the woman wearing purple shoes the",
     "whisper": {
       "text": "is the woman wearing purple shoes",
       "segments": [
@@ -7385,9 +7385,9 @@
   "86": {
     "start": 291.96347,
     "end": 294.049,
-    "transcript": "in the car is there anything",
+    "transcript": " in the car is there anything",
     "whisper": {
-      "text": "in the car is there anythi",
+      "text": " in the car is there anythi",
       "segments": [
         {
           "id": 0,
@@ -7480,9 +7480,9 @@
   "87": {
     "start": 294.99,
     "end": 295.43,
-    "transcript": "that is",
+    "transcript": "that_is",
     "whisper": {
-      "text": "that is",
+      "text": "that_is",
       "segments": [
         {
           "id": 0,
@@ -7514,7 +7514,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "that is",
+      "words": "that_is",
       "confidence_scores": [
         0.346
       ],
@@ -8126,7 +8126,7 @@
   "98": {
     "start": 326.22,
     "end": 327.269,
-    "transcript": "yeah",
+    "transcript": "yeah ",
     "whisper": {
       "text": "yeah .",
       "segments": [
@@ -8181,7 +8181,7 @@
     "end": 329.619,
     "transcript": "i dunno what else there is",
     "whisper": {
-      "text": "0 i do not know what else there is",
+      "text": "0 i do_not know what else there is",
       "segments": [
         {
           "id": 0,
@@ -8264,7 +8264,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "0 i do not know what else there is",
+      "words": "0 i do_not know what else there is",
       "confidence_scores": [
         0.479,
         0.97,
@@ -8281,7 +8281,7 @@
   "100": {
     "start": 331.53203,
     "end": 333.07163,
-    "transcript": "like a light blue",
+    "transcript": " like a light blue",
     "whisper": {
       "text": "like a light blue",
       "segments": [
@@ -8349,7 +8349,7 @@
   "101": {
     "start": 334.32,
     "end": 336.719,
-    "transcript": "what color is the pharmacy",
+    "transcript": "what color is the  pharmacy",
     "whisper": {
       "text": "what color is the pharmacy",
       "segments": [
@@ -8597,7 +8597,7 @@
   "103": {
     "start": 347.58,
     "end": 348.429,
-    "transcript": "alright",
+    "transcript": "alright ",
     "whisper": {
       "text": "all right",
       "segments": [
@@ -8739,7 +8739,7 @@
     "end": 358.129,
     "transcript": "else there is",
     "whisper": {
-      "text": "i am serious",
+      "text": "i_am serious",
       "segments": [
         {
           "id": 0,
@@ -8779,7 +8779,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i am serious",
+      "words": "i_am serious",
       "confidence_scores": [
         0.732,
         0.793
@@ -10078,9 +10078,9 @@
   "127": {
     "start": 427.1,
     "end": 428.109,
-    "transcript": "0 i do not have that",
+    "transcript": "0 i do_not have that",
     "whisper": {
-      "text": "0 i do not have that",
+      "text": "0 i do_not have that",
       "segments": [
         {
           "id": 0,
@@ -10142,7 +10142,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "0 i do not have that",
+      "words": "0 i do_not have that",
       "confidence_scores": [
         0.634,
         0.995,
@@ -10717,7 +10717,7 @@
   "136": {
     "start": 461.12,
     "end": 464.929,
-    "transcript": "12345678910",
+    "transcript": "one 2 3 4 5 6 7 8 9 10",
     "whisper": {
       "text": "one 2 3 4 5 6 7 8 9 10",
       "segments": [
@@ -11382,9 +11382,9 @@
   "147": {
     "start": 505.33,
     "end": 507.819,
-    "transcript": "he is is up and it is like to the side a bit yeah",
+    "transcript": "he_is is up and it_is like to the side a bit yeah",
     "whisper": {
-      "text": "it is up and it is like to the side a bit yeah",
+      "text": "it_is up and it_is like to the side a bit yeah",
       "segments": [
         {
           "id": 0,
@@ -11489,7 +11489,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is up and it is like to the side a bit yeah",
+      "words": "it_is up and it_is like to the side a bit yeah",
       "confidence_scores": [
         0.674,
         0.964,
@@ -11597,9 +11597,9 @@
   "150": {
     "start": 513.51,
     "end": 513.93,
-    "transcript": "i do not know what",
+    "transcript": "i do_not know what",
     "whisper": {
-      "text": "i do not know",
+      "text": "i do_not know",
       "segments": [
         {
           "id": 0,
@@ -11646,7 +11646,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i do not know",
+      "words": "i do_not know",
       "confidence_scores": [
         0.823,
         0.959,
@@ -12065,7 +12065,7 @@
     "end": 558.979,
     "transcript": "is the teddy bear the teddy bears in the toy shop are they wearing red",
     "whisper": {
-      "text": "is the teddy bear the teddy bear is in the toy shop are they wearing red",
+      "text": "is the teddy bear the teddy bear_is in the toy shop are they wearing red",
       "segments": [
         {
           "id": 0,
@@ -12218,7 +12218,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "is the teddy bear the teddy bear is in the toy shop are they wearing red",
+      "words": "is the teddy bear the teddy bear_is in the toy shop are they wearing red",
       "confidence_scores": [
         0.648,
         0.991,
@@ -13238,7 +13238,7 @@
     "end": 594.439,
     "transcript": "and then it has obviously 2 wheels",
     "whisper": {
-      "text": "and that is obviously 2 bills",
+      "text": "and that_is obviously 2 bills",
       "segments": [
         {
           "id": 0,
@@ -13299,7 +13299,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "and that is obviously 2 bills",
+      "words": "and that_is obviously 2 bills",
       "confidence_scores": [
         0.419,
         0.652,
@@ -13364,9 +13364,9 @@
   "174": {
     "start": 604.02,
     "end": 606.659,
-    "transcript": "123456",
+    "transcript": "one 2 3 4 5 6",
     "whisper": {
-      "text": "123456",
+      "text": "one 2 3 4 5 6",
       "segments": [
         {
           "id": 0,

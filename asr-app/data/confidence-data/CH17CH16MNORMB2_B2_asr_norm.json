@@ -149,7 +149,7 @@
     "end": 15.399,
     "transcript": "is there a shark fin sticking out of the",
     "whisper": {
-      "text": "is there a shark fin sticking out of the .",
+      "text": "is there a shark fin sticking out of the_.",
       "segments": [
         {
           "id": 0,
@@ -237,7 +237,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "is there a shark fin sticking out of the .",
+      "words": "is there a shark fin sticking out of the_.",
       "confidence_scores": [
         0.852,
         0.853,
@@ -421,7 +421,7 @@
     "end": 22.93,
     "transcript": "with a",
     "whisper": {
-      "text": "with a .",
+      "text": "with a_.",
       "segments": [
         {
           "id": 0,
@@ -460,7 +460,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "with a .",
+      "words": "with a_.",
       "confidence_scores": [
         0.678,
         0.434
@@ -900,7 +900,7 @@
   "12": {
     "start": 44.83,
     "end": 45.459,
-    "transcript": "what is it say",
+    "transcript": "what_is it say",
     "whisper": {
       "text": "what does it say",
       "segments": [
@@ -968,9 +968,9 @@
   "13": {
     "start": 48.93,
     "end": 50.28,
-    "transcript": "i do not have that so click it",
+    "transcript": "i do_not have that so click it",
     "whisper": {
-      "text": "i do not have that so kick it",
+      "text": "i do_not have that so kick it",
       "segments": [
         {
           "id": 0,
@@ -1046,7 +1046,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i do not have that so kick it",
+      "words": "i do_not have that so kick it",
       "confidence_scores": [
         0.769,
         0.994,
@@ -1062,9 +1062,9 @@
   "14": {
     "start": 51.85961,
     "end": 54.239,
-    "transcript": "what does the red sign say",
+    "transcript": " what does the red sign say",
     "whisper": {
-      "text": "what does the red sign say",
+      "text": " what does the red sign say",
       "segments": [
         {
           "id": 0,
@@ -1154,9 +1154,9 @@
   "15": {
     "start": 57.529,
     "end": 59.93,
-    "transcript": "paul and joe is driving school click it",
+    "transcript": "paul and joe_is driving school click it",
     "whisper": {
-      "text": "paul and jo is driving school click it",
+      "text": "paul and jo_is driving school click it",
       "segments": [
         {
           "id": 0,
@@ -1232,7 +1232,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "paul and jo is driving school click it",
+      "words": "paul and jo_is driving school click it",
       "confidence_scores": [
         0.649,
         0.821,
@@ -1292,9 +1292,9 @@
   "17": {
     "start": 61.75907,
     "end": 64.93857,
-    "transcript": "now let us try are there any seagulls",
+    "transcript": " now let_us try are there any seagulls",
     "whisper": {
-      "text": "now let us try other lec goals",
+      "text": "now let_us try other lec goals",
       "segments": [
         {
           "id": 0,
@@ -1363,7 +1363,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "now let us try other lec goals",
+      "words": "now let_us try other lec goals",
       "confidence_scores": [
         0.383,
         0.921,
@@ -1423,7 +1423,7 @@
   "19": {
     "start": 67.99651,
     "end": 69.079,
-    "transcript": "how many fish are there",
+    "transcript": " how many fish are there",
     "whisper": {
       "text": "how many fish are there",
       "segments": [
@@ -1587,9 +1587,9 @@
   "22": {
     "start": 73.95,
     "end": 78.06211,
-    "transcript": "let us go what does the bar say so there is a is there a bar",
+    "transcript": "let_us go what does the bar say so there_is a is there a bar",
     "whisper": {
-      "text": "let us go what does the bar say so is there a bar",
+      "text": "let_us go what does the bar say so is there a bar",
       "segments": [
         {
           "id": 0,
@@ -1719,7 +1719,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "let us go what does the bar say so is there a bar",
+      "words": "let_us go what does the bar say so is there a bar",
       "confidence_scores": [
         0.711,
         0.635,
@@ -1742,7 +1742,7 @@
     "end": 79.679,
     "transcript": "what does the",
     "whisper": {
-      "text": "what does the .",
+      "text": "what does the_.",
       "segments": [
         {
           "id": 0,
@@ -1788,7 +1788,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "what does the .",
+      "words": "what does the_.",
       "confidence_scores": [
         0.747,
         0.188,
@@ -2241,7 +2241,7 @@
   "30": {
     "start": 102.44,
     "end": 103.379,
-    "transcript": "what is it say",
+    "transcript": "what_is it say",
     "whisper": {
       "text": "what does it say",
       "segments": [
@@ -2902,9 +2902,9 @@
   "41": {
     "start": 125.4,
     "end": 125.91,
-    "transcript": "what is in",
+    "transcript": "what_is in",
     "whisper": {
-      "text": "what is in",
+      "text": "what_is in",
       "segments": [
         {
           "id": 0,
@@ -2945,7 +2945,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "what is in",
+      "words": "what_is in",
       "confidence_scores": [
         0.703,
         0.914
@@ -3202,7 +3202,7 @@
     "end": 140.219,
     "transcript": "click the which which are open",
     "whisper": {
-      "text": "click the which which you are open",
+      "text": " click the which which you are open",
       "segments": [
         {
           "id": 0,
@@ -3442,9 +3442,9 @@
   "48": {
     "start": 147.69,
     "end": 151.429,
-    "transcript": "okay now let us go down is there seesaw",
+    "transcript": "okay now let_us go down is there seesaw",
     "whisper": {
-      "text": "okay now let us go down is there a seesaw",
+      "text": "okay now let_us go down is there a seesaw",
       "segments": [
         {
           "id": 0,
@@ -3536,7 +3536,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay now let us go down is there a seesaw",
+      "words": "okay now let_us go down is there a seesaw",
       "confidence_scores": [
         0.457,
         0.979,
@@ -3721,7 +3721,7 @@
     "end": 163.5654,
     "transcript": "mine just got orange",
     "whisper": {
-      "text": "mine is just got orange",
+      "text": "mine_is just got orange",
       "segments": [
         {
           "id": 0,
@@ -3775,7 +3775,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "mine is just got orange",
+      "words": "mine_is just got orange",
       "confidence_scores": [
         0.846,
         0.997,
@@ -3989,7 +3989,7 @@
     "end": 178.499,
     "transcript": "uhuh",
     "whisper": {
-      "text": "huh",
+      "text": " huh",
       "segments": [
         {
           "id": 0,
@@ -4114,9 +4114,9 @@
   "58": {
     "start": 187.82,
     "end": 189.439,
-    "transcript": "mine is not sitting on it click it",
+    "transcript": "mine_is not sitting on it click it",
     "whisper": {
-      "text": "mine is not sitting on it click it",
+      "text": "mine_is not sitting on it click it",
       "segments": [
         {
           "id": 0,
@@ -4192,7 +4192,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "mine is not sitting on it click it",
+      "words": "mine_is not sitting on it click it",
       "confidence_scores": [
         0.758,
         0.986,
@@ -4208,9 +4208,9 @@
   "59": {
     "start": 191.18,
     "end": 193.639,
-    "transcript": "she is standing to the right of it just click the woman",
+    "transcript": "she_is standing to the right of it just click the woman",
     "whisper": {
-      "text": "she is standing to the right of it just click the woman",
+      "text": "she_is standing to the right of it just click the woman",
       "segments": [
         {
           "id": 0,
@@ -4332,7 +4332,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "she is standing to the right of it just click the woman",
+      "words": "she_is standing to the right of it just click the woman",
       "confidence_scores": [
         0.793,
         0.998,
@@ -4437,9 +4437,9 @@
   "61": {
     "start": 203.3,
     "end": 205.459,
-    "transcript": "i do not have that is it right beneath it",
+    "transcript": "i do_not have that is it right beneath it",
     "whisper": {
-      "text": "i do not have that is it right beneath it",
+      "text": "i do_not have that is it right beneath it",
       "segments": [
         {
           "id": 0,
@@ -4547,7 +4547,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i do not have that is it right beneath it",
+      "words": "i do_not have that is it right beneath it",
       "confidence_scores": [
         0.737,
         0.994,
@@ -5125,7 +5125,7 @@
   "69": {
     "start": 244.16,
     "end": 245.41,
-    "transcript": "yeah what color is",
+    "transcript": "yeah what color_is",
     "whisper": {
       "text": "yeah what color is",
       "segments": [
@@ -5492,9 +5492,9 @@
   "74": {
     "start": 255.82,
     "end": 256.57,
-    "transcript": "no he does not",
+    "transcript": "no he does_not",
     "whisper": {
-      "text": "no he does not",
+      "text": "no he does_not",
       "segments": [
         {
           "id": 0,
@@ -5542,7 +5542,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "no he does not",
+      "words": "no he does_not",
       "confidence_scores": [
         0.67,
         0.989,
@@ -5554,9 +5554,9 @@
   "75": {
     "start": 257.59,
     "end": 259.86,
-    "transcript": "click on the guy is feet he has red socks",
+    "transcript": "click on the guy_is feet he has red socks",
     "whisper": {
-      "text": "click on the guy is feet because he has red socks",
+      "text": "click on the guy_is feet because he has red socks",
       "segments": [
         {
           "id": 0,
@@ -5652,7 +5652,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "click on the guy is feet because he has red socks",
+      "words": "click on the guy_is feet because he has red socks",
       "confidence_scores": [
         0.835,
         0.98,
@@ -5777,9 +5777,9 @@
   "78": {
     "start": 271.139,
     "end": 272.439,
-    "transcript": "0 i do not have that click it",
+    "transcript": "0 i do_not have that click it",
     "whisper": {
-      "text": "0 i do not have that ticket",
+      "text": "0 i do_not have that ticket",
       "segments": [
         {
           "id": 0,
@@ -5848,7 +5848,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "0 i do not have that ticket",
+      "words": "0 i do_not have that ticket",
       "confidence_scores": [
         0.396,
         0.981,
@@ -5932,9 +5932,9 @@
   "80": {
     "start": 275.57,
     "end": 281.209,
-    "transcript": "okay what does the guys what does your say on the shack is say je is food shack",
+    "transcript": "okay what does the guys what does your say on the shack is say je_is food shack",
     "whisper": {
-      "text": "okay what does the guys what does yours say on the shots it is a jewish food shack",
+      "text": "okay what does the guys what does yours say on the shots it_is a jewish food shack",
       "segments": [
         {
           "id": 0,
@@ -6100,7 +6100,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "okay what does the guys what does yours say on the shots it is a jewish food shack",
+      "words": "okay what does the guys what does yours say on the shots it_is a jewish food shack",
       "confidence_scores": [
         0.581,
         0.97,
@@ -6126,7 +6126,7 @@
   "81": {
     "start": 283.76,
     "end": 286.159,
-    "transcript": "0 at the top does it say joe is",
+    "transcript": "0 at the top does it say joe_is",
     "whisper": {
       "text": "0 at the top does it say jews",
       "segments": [
@@ -6379,9 +6379,9 @@
   "84": {
     "start": 293.39,
     "end": 295.6,
-    "transcript": "joe is no click above",
+    "transcript": "joe_is no click above",
     "whisper": {
-      "text": "joe is no click above",
+      "text": "joe_is no click above",
       "segments": [
         {
           "id": 0,
@@ -6435,7 +6435,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "joe is no click above",
+      "words": "joe_is no click above",
       "confidence_scores": [
         0.489,
         0.293,
@@ -6507,9 +6507,9 @@
   "86": {
     "start": 298.14,
     "end": 301.249,
-    "transcript": "now how many have we got 12345",
+    "transcript": "now how many have we got one 2 3 4 5",
     "whisper": {
-      "text": "now how many have we got 12345",
+      "text": "now how many have we got one 2 3 4 5",
       "segments": [
         {
           "id": 0,
@@ -6654,9 +6654,9 @@
   "87": {
     "start": 301.7,
     "end": 305.20362,
-    "transcript": "67891011",
+    "transcript": "6 7 8 9 10 11",
     "whisper": {
-      "text": "6789 10 11",
+      "text": "6 7 8 9 10 11",
       "segments": [
         {
           "id": 0,
@@ -6743,9 +6743,9 @@
   "88": {
     "start": 305.48,
     "end": 306.409,
-    "transcript": "there is one more",
+    "transcript": "there_is one more",
     "whisper": {
-      "text": "there is one more",
+      "text": "there_is one more",
       "segments": [
         {
           "id": 0,
@@ -6792,7 +6792,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "there is one more",
+      "words": "there_is one more",
       "confidence_scores": [
         0.907,
         0.971,
@@ -6891,9 +6891,9 @@
   "91": {
     "start": 318.2,
     "end": 320.469,
-    "transcript": "11 tell me all the ones that you have done",
+    "transcript": "11 tell me all the ones that you_have done",
     "whisper": {
-      "text": "tell me all the ones that you have done",
+      "text": "tell me all the ones that you_have done",
       "segments": [
         {
           "id": 0,
@@ -6975,7 +6975,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "tell me all the ones that you have done",
+      "words": "tell me all the ones that you_have done",
       "confidence_scores": [
         0.566,
         0.997,
@@ -7319,9 +7319,9 @@
   "97": {
     "start": 356.3,
     "end": 359.989,
-    "transcript": "tell me i have 1112345",
+    "transcript": "tell me i have 11 one 2 3 4 5",
     "whisper": {
-      "text": "tell me i have a level 1245",
+      "text": "tell me i have a level one 2 4 5",
       "segments": [
         {
           "id": 0,
@@ -7869,9 +7869,9 @@
   "106": {
     "start": 391.5,
     "end": 396.889,
-    "transcript": "what about the 2 what about the 2 people in the middle of the scene what are they doing what is on the table",
+    "transcript": "what about the 2 what about the 2 people in the middle of the scene what are they doing what_is on the table",
     "whisper": {
-      "text": "what about the 2 people in the middle of the sea what are they doing what is on their table",
+      "text": "what about the 2 people in the middle of the sea what are they doing what_is on their table",
       "segments": [
         {
           "id": 0,
@@ -8068,7 +8068,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "what about the 2 people in the middle of the sea what are they doing what is on their table",
+      "words": "what about the 2 people in the middle of the sea what are they doing what_is on their table",
       "confidence_scores": [
         0.572,
         0.973,
@@ -8693,7 +8693,7 @@
     "end": 436.569,
     "transcript": "is that the bottom right",
     "whisper": {
-      "text": "it is at the bottom right",
+      "text": "it_is at the bottom right",
       "segments": [
         {
           "id": 0,
@@ -8754,7 +8754,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "it is at the bottom right",
+      "words": "it_is at the bottom right",
       "confidence_scores": [
         0.698,
         0.973,
@@ -9288,9 +9288,9 @@
   "126": {
     "start": 464.84017,
     "end": 465.999,
-    "transcript": "what color is the table",
+    "transcript": "what color_is the table",
     "whisper": {
-      "text": "what color is the table",
+      "text": "what color_is the table",
       "segments": [
         {
           "id": 0,
@@ -9344,7 +9344,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "what color is the table",
+      "words": "what color_is the table",
       "confidence_scores": [
         0.851,
         0.694,
@@ -9418,9 +9418,9 @@
   "128": {
     "start": 470.80116,
     "end": 472.399,
-    "transcript": "what color is the bar",
+    "transcript": "what color_is the bar",
     "whisper": {
-      "text": "what color is the bar",
+      "text": " what color_is the bar",
       "segments": [
         {
           "id": 0,
@@ -9482,7 +9482,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "what color is the bar",
+      "words": "what color_is the bar",
       "confidence_scores": [
         0.921,
         0.619,
@@ -9671,7 +9671,7 @@
   "131": {
     "start": 482.03,
     "end": 482.71,
-    "transcript": "what color is",
+    "transcript": "what color_is",
     "whisper": {
       "text": "more colors",
       "segments": [
@@ -9811,9 +9811,9 @@
   "134": {
     "start": 487.13,
     "end": 488.72,
-    "transcript": "joe is food shack what color is it",
+    "transcript": "joe_is food shack what color is it",
     "whisper": {
-      "text": "joy is food shack what color is it",
+      "text": "joy_is food shack what color is it",
       "segments": [
         {
           "id": 0,
@@ -9889,7 +9889,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "joy is food shack what color is it",
+      "words": "joy_is food shack what color is it",
       "confidence_scores": [
         0.149,
         0.885,
@@ -9981,9 +9981,9 @@
   "136": {
     "start": 495.83,
     "end": 498.349,
-    "transcript": "yep okay what is around it",
+    "transcript": "yep okay  what_is around it",
     "whisper": {
-      "text": "yep okay what is around it",
+      "text": "yep okay what_is around it",
       "segments": [
         {
           "id": 0,
@@ -10064,7 +10064,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "yep okay what is around it",
+      "words": "yep okay what_is around it",
       "confidence_scores": [
         0.376,
         0.418,
@@ -10240,7 +10240,7 @@
     "end": 505.439,
     "transcript": "so name",
     "whisper": {
-      "text": "so .",
+      "text": "so_.",
       "segments": [
         {
           "id": 0,
@@ -10272,7 +10272,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "so .",
+      "words": "so_.",
       "confidence_scores": [
         0.089
       ],
@@ -10351,9 +10351,9 @@
   "141": {
     "start": 510.24,
     "end": 512.79,
-    "transcript": "like just tell tell me everything that is happening",
+    "transcript": "like just tell tell me everything that_is happening",
     "whisper": {
-      "text": "like just tell me everything that is happening",
+      "text": "like just tell me everything that_is happening",
       "segments": [
         {
           "id": 0,
@@ -10429,7 +10429,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "like just tell me everything that is happening",
+      "words": "like just tell me everything that_is happening",
       "confidence_scores": [
         0.675,
         0.969,
@@ -10784,7 +10784,7 @@
   "149": {
     "start": 531.45,
     "end": 533.249,
-    "transcript": "what color is the fishing man wearing",
+    "transcript": "what color_is the fishing man wearing",
     "whisper": {
       "text": "what color is the fishing man wearing",
       "segments": [
@@ -11327,7 +11327,7 @@
   "157": {
     "start": 572.79,
     "end": 574.169,
-    "transcript": "what color is the radio box",
+    "transcript": "what color_is the radio box",
     "whisper": {
       "text": "what color is the radio box",
       "segments": [
@@ -11455,9 +11455,9 @@
   "159": {
     "start": 579.37,
     "end": 580.859,
-    "transcript": "can not find anything else",
+    "transcript": "can_not find anything else",
     "whisper": {
-      "text": "i can not find anything else",
+      "text": "i can_not find anything else",
       "segments": [
         {
           "id": 0,
@@ -11518,7 +11518,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "i can not find anything else",
+      "words": "i can_not find anything else",
       "confidence_scores": [
         0.521,
         0.949,
@@ -11595,7 +11595,7 @@
     "end": 591.819,
     "transcript": "0 got brown",
     "whisper": {
-      "text": "0 what is it called it is brown",
+      "text": "0  what_is it called it_is brown",
       "segments": [
         {
           "id": 0,
@@ -11674,7 +11674,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "0 what is it called it is brown",
+      "words": "0 what_is it called it_is brown",
       "confidence_scores": [
         0.476,
         0.931,
@@ -11776,9 +11776,9 @@
   "164": {
     "start": 599.28,
     "end": 600.359,
-    "transcript": "what is inside the bin",
+    "transcript": "what_is inside the bin",
     "whisper": {
-      "text": "what is inside the bin",
+      "text": "what_is inside the bin",
       "segments": [
         {
           "id": 0,
@@ -11832,7 +11832,7 @@
       "language": "en"
     },
     "confidence_scoring": {
-      "words": "what is inside the bin",
+      "words": "what_is inside the bin",
       "confidence_scores": [
         0.842,
         0.971,
