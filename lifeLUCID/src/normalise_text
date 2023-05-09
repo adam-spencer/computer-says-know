@@ -23,12 +23,19 @@ HESITATION_TOKENS = {
 
 def normalise_string(inp: str) -> str:
     """Remove hesitations and normalise a string"""
-    inp_norm = normaliser(inp)
-    to_return = ''
-    for word in inp_norm.split():
-        if word not in HESITATION_TOKENS:
-            to_return += word + ' '
-    return to_return.strip()
+    inp_norm = map(normaliser, inp.split())
+    to_return = []
+    for token in inp_norm:
+        if token in HESITATION_TOKENS:
+            continue
+        # This next step joins together tokens which have been normalised into
+        # multiple words with an underscore, in order to facilitate mapping
+        # confidence scores onto those words correctly
+        elif len(post_norm_words := token.split()) > 1:
+            to_return.append('_'.join(post_norm_words))
+        else:
+            to_return.append(token)
+    return ' '.join(to_return)
 
 
 def handle_confidence(segments: dict) -> dict:
