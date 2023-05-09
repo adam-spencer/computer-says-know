@@ -125,7 +125,7 @@ def main():
             write_out(wer_dict, out_path=write_path)
 
     else:
-        wer_dict = get_file_wer(in_file_path)
+        wer_dict = get_file_wer(in_file_path, calculate_avgs)
         if save_output:
             out_path = out_path / \
                 in_file_path.name.replace('.json', '_wer.json')
