@@ -88,7 +88,7 @@ class TableRow:
     """
     Object to represent table row.
 
-    Using OOP allows text manipulation.
+    Using OOP simplifies text manipulation in table.
     """
 
     def __init__(self, confidence_mode: bool, text_blanking: bool = False,
