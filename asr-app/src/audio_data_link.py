@@ -161,8 +161,6 @@ class TableRow:
 
 
 def wrap_and_format(string: str) -> str:
-    """
-    Apply text wrapping to a string and remove underscores.
-    """
+    """Apply text wrapping to a string and remove underscores."""
     string_no_uscore = string.replace('_', ' ')
     return '\n'.join(textwrap.wrap(string_no_uscore, width=WRAP_WIDTH))
