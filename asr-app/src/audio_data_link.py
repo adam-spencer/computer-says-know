@@ -51,6 +51,7 @@ class AudioDataLinker:
         row_data = []
         for idx, utterance in self.data.items():
             kwgs = dict()
+            kwgs['idx'] = idx
             kwgs['hyp'] = wrap(utterance['whisper']['text'])
             kwgs['ref'] = wrap(utterance['transcript'])
             kwgs['wer'] = utterance['wer']
@@ -98,9 +99,13 @@ class TableRow:
             scores = conf_scoring['confidence_scores']
             self.token_conf_pair = list(zip(
                 conf_scoring['words'].split(), scores))
-            self.max_conf = max(scores)
-            self.min_conf = min(scores)
-            self.utt_conf = conf_scoring['utterance']
+            if len(scores) > 0:
+                self.max_conf = max(scores)
+                self.min_conf = min(scores)
+            else:
+                self.max_conf = 0.0
+                self.min_conf = 0.0
+            self.utt_conf = conf_scoring['utterance_confidence']
         else:
             self.avg_logprob = kwargs['avg_logprob']
 
@@ -116,11 +121,11 @@ class TableRow:
     def get_header(self):
         """Get header row for table"""
         if self.confidence_mode:
-            return [('ID', 'Hypothesis', 'Reference',
-                           'Utterance Confidence', 'Max Conf.', 'Min Conf.', 'WER')]
+            return ['ID', 'Hypothesis', 'Reference',
+                    'Utterance Confidence', 'Max Conf.', 'Min Conf.', 'WER']
         else:
-            return [('ID', 'Hypothesis', 'Reference',
-                           'Average Log Probability', 'WER')]
+            return ['ID', 'Hypothesis', 'Reference',
+                    'Average Log Probability', 'WER']
 
     def text_highlighting(self):
         """Highlight text based on confidence measure"""
