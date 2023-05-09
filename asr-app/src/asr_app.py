@@ -20,9 +20,9 @@ class TranscriptionApp(App):
         ('p', 'play_sound', 'Play Audio'),
         ('s', 'sort_id', 'Sort ID'),
         ('w', 'sort_wer', 'Sort WER'),
-        ('w', 'sort_utt_conf', 'Sort Utterance Conf'),
-        ('w', 'sort_max_conf', 'Sort Max Conf.'),
-        ('w', 'sort_min_conf', 'Sort Min Conf.'),
+        ('u', 'sort_utt_conf', 'Sort Utterance Conf'),
+        ('>', 'sort_max_conf', 'Sort Max Conf.'),
+        ('<', 'sort_min_conf', 'Sort Min Conf.'),
         ('a', 'sort_prob', 'Sort Av. Log Prob.'),
     ]
 
