@@ -98,6 +98,9 @@ class TableRow:
         Create a new TableRow.
 
         :param confidence_mode: True if using confidence mode.
+        :param text_blanking: True to enable text blanking.
+        :param text_highlight: True to enable text highlighting.
+        :param blanking_threshold: Set the confidence threshold to blank text.
         :param kwargs: Data to insert into table. 
             `kwargs` allows different options based on confidence mode.
         """
