@@ -24,7 +24,7 @@ class AudioDataLinker:
             self.data = json.load(f)
         self.audio_dir = audio_dir
         self.confidence_mode = confidence_mode
-        self.table_data = self.data_for_table()
+        self.row_data = self.init_row_data()
 
     def play_audio(self, idx: int) -> bool:
         """
@@ -38,40 +38,33 @@ class AudioDataLinker:
             return False
         sd.play(*sf.read(audio_file))
 
-    def data_for_table(self, height: int = 2) -> list:
+    def init_row_data(self) -> list:
         """
         Get data in format required to be printed in DataTable object.
 
         :returns: List containing table rows.
         """
-        if self.confidence_mode:
-            table_rows = [('ID', 'Hypothesis', 'Reference',
-                           'Utterance Confidence', 'Max Conf.', 'Min Conf.', 'WER')]
-        else:
-            table_rows = [('ID', 'Hypothesis', 'Reference',
-                           'Average Log Probability', 'WER')]
+        row_data = []
         for idx, utterance in self.data.items():
-            hyp = wrap(utterance['whisper']['text'])
-            ref = wrap(utterance['transcript'])
-            wer = utterance['wer']
+            kwgs = dict()
+            kwgs['hyp'] = wrap(utterance['whisper']['text'])
+            kwgs['ref'] = wrap(utterance['transcript'])
+            kwgs['wer'] = utterance['wer']
             if self.confidence_mode:
                 # TODO:
                 #  * Do some text highlighting thing?
                 #  * Blanking out of text below threshold?
                 #  * (in other file) sort on confidence measures
-                conf_scoring = utterance['confidence_scoring']
-                utt_conf = conf_scoring['utterance_confidence']
-                conf_scores = conf_scoring['confidence_scores']
-                max_conf = max(conf_scores)
-                min_conf = min(conf_scores)
-                table_rows.append(
-                    (int(idx), hyp, ref, float(utt_conf), float(
-                        max_conf), float(min_conf), float(wer))
-                )
+                kwgs['conf_scoring'] = utterance['confidence_scoring']
             else:
-                avg_logprob = utterance['avg_logprob']
-                table_rows.append(
-                    (int(idx), hyp, ref, float(avg_logprob), float(wer)))
+                kwgs['avg_logprob'] = utterance['avg_logprob']
+            row = TableRow(self.confidence_mode, **kwgs)
+            row_data.append(row)
+        return row_data
+
+    def data_for_table(self) -> list:
+        table_rows = [row.for_table() for row in self.row_data]
+        table_rows.insert(0, self.row_data[0].get_header())
         return table_rows
 
 
@@ -97,6 +90,14 @@ class TableRow:
         if self.confidence_mode:
             return (int(self.idx), self.hyp, self.ref, float(self.utt_conf),
                     float(self.max_conf), float(self.min_conf), float(self.wer))
+
+    def get_header(self):
+        if self.confidence_mode:
+            return [('ID', 'Hypothesis', 'Reference',
+                           'Utterance Confidence', 'Max Conf.', 'Min Conf.', 'WER')]
+        else:
+            return [('ID', 'Hypothesis', 'Reference',
+                           'Average Log Probability', 'WER')]
 
 
 def wrap(string: str) -> str:
