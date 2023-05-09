@@ -37,7 +37,6 @@ class TranscriptionApp(App):
         rows = iter(self.data_in)
         for col_name in next(rows):
             table.add_column(col_name, key=col_name)
-        # table.add_columns(*next(rows))
         for row in rows:
             table.add_row(*row, height=ROW_HEIGHT)
 
@@ -73,7 +72,7 @@ class TranscriptionApp(App):
         self.selected_idx = self.query_one(DataTable).get_cell_at(idx_coord)
 
 
-def launcher():
+def launcher() -> (Path, Path, bool):
     """
     Launcher for my ASR App!
 
@@ -85,8 +84,17 @@ def launcher():
 
     :returns: something...
     """
+    print("Would you like to use data with confidence scores? [y/n]")
+    use_confidence_inp = input("\n-> ")
+    use_confidence = False
+    if use_confidence_inp.lower() == 'y':
+        use_confidence = True
+
     data_path = Path('../data')
-    asr_data_path = data_path / 'asr-out'
+    if use_confidence:
+        asr_data_path = data_path / 'confidence-data'
+    else:
+        asr_data_path = data_path / 'asr-out'
     audio_dirs_list = sorted(
         [i for i in (data_path / 'audio').iterdir() if i.is_dir()])
 
@@ -103,13 +111,13 @@ def launcher():
         if chosen_audio.name in f.name:
             chosen_data = f
     if chosen_data:
-        return (chosen_data, chosen_audio)
+        return (chosen_data, chosen_audio, use_confidence)
     raise IndexError('Can\'t find data for selected conversation')
 
 
 if __name__ == "__main__":
-    data_file, audio_dir = launcher()
-    data_linker = AudioDataLinker(audio_dir, data_file)
+    data_file, audio_dir, confidence_mode = launcher()
+    data_linker = AudioDataLinker(audio_dir, data_file, confidence_mode)
     app = TranscriptionApp()
     app.populate_data(data_linker)
     app.run()
