@@ -13,12 +13,16 @@ class AudioDataLinker:
     Object to aid linking audio and transcript data
     """
 
-    def __init__(self, audio_dir: Path, data_file: Path, confidence_mode: bool) -> None:
+    def __init__(self, audio_dir: Path, data_file: Path, confidence_mode: bool,
+                 text_blanking: bool = False, text_highlight: bool = False) -> None:
         """
         Create a new AudioDataLinker.
 
         :param audio_dir: Directory within which audio files are stored.
         :param data_file: File containing transcription data.
+        :param confidence_mode: True if confidence scores are being used.
+        :param text_blanking: True to enable text blanking mode.
+        :param text_highlight: True to enable text highlighting based on confidence.
         """
         with open(data_file) as f:
             self.data = json.load(f)
