@@ -126,6 +126,8 @@ class TableRow:
 
         if text_blanking:
             self.hyp_to_print = self.text_blanking(blanking_threshold)
+        elif text_highlight:
+            self.hyp_to_print = self.text_highlighting()
         else:
             self.hyp_to_print = self.hyp
 
@@ -148,7 +150,7 @@ class TableRow:
             return ['ID', 'Hypothesis', 'Reference',
                     'Average Log Probability', 'WER']
 
-    def text_highlighting(self):
+    def text_highlighting(self) -> str:
         """Highlight text based on confidence measure."""
         pass
 
@@ -163,6 +165,22 @@ class TableRow:
             else:
                 text_list.append(word)
         return ' '.join(text_list)
+
+
+def compute_colour(conf: float) -> (int, int, int):
+    """
+    Compute a colour between red and green, for highlighting text.
+
+    :param conf: Confidence score between 0 and 1.
+    :returns: (r, g, b) representation of colour.
+    """
+    r1, g1, b1 = (255, 0, 0)
+    r2, g2, b2 = (0, 255, 0)
+    return (
+        r1 + conf * (r2 - r1),
+        g1 + conf * (g2 - g1),
+        b1 + conf * (b2 - b1)
+    )
 
 
 def wrap_and_format(string: str) -> str:
