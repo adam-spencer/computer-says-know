@@ -10,7 +10,7 @@ from rich.style import Style
 from rich.text import Text
 
 WRAP_WIDTH = 40
-BLOCK = '\u2588'  # Block character
+BLOCK = '\u2588'  # Unicode block character for blanking out words
 
 
 class AudioDataLinker:
