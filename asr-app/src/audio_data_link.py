@@ -69,7 +69,10 @@ class AudioDataLinker:
             kwgs['ref'] = wrap_and_format(utterance['transcript'])
             kwgs['wer'] = utterance['wer']
             if self.confidence_mode:
-                kwgs['conf_scoring'] = utterance['confidence_scoring']
+                if conf_scoring := utterance.get('confidence_scoring'):
+                    kwgs['conf_scoring'] = conf_scoring
+                else:
+                    continue
             else:
                 kwgs['avg_logprob'] = utterance['avg_logprob']
             row = TableRow(self.confidence_mode,
