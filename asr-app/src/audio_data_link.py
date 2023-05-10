@@ -5,6 +5,9 @@ from pathlib import Path
 
 import sounddevice as sd
 import soundfile as sf
+from rich.color import Color
+from rich.style import Style
+from rich.text import Text
 
 WRAP_WIDTH = 40
 BLOCK = '\u2588'  # Block character
@@ -105,6 +108,7 @@ class TableRow:
             `kwargs` allows different options based on confidence mode.
         """
         self.confidence_mode = confidence_mode
+        self.highlight_mode = text_highlight
         self.idx = int(kwargs['idx'])
         self.hyp = kwargs['hyp']
         self.ref = kwargs['ref']
@@ -125,20 +129,21 @@ class TableRow:
             self.avg_logprob = kwargs['avg_logprob']
 
         if text_blanking:
-            self.hyp_to_print = self.text_blanking(blanking_threshold)
+            self.hyp_to_print = wrap_and_format(
+                self.text_blanking(blanking_threshold))
         elif text_highlight:
             self.hyp_to_print = self.text_highlighting()
         else:
-            self.hyp_to_print = self.hyp
+            self.hyp_to_print = wrap_and_format(self.hyp)
 
     def for_table(self):
         """Get row data in correct format for insertion into table."""
         if self.confidence_mode:
-            return (int(self.idx), wrap_and_format(self.hyp_to_print), self.ref,
+            return (int(self.idx), self.hyp_to_print, self.ref,
                     float(self.utt_conf), float(self.max_conf),
                     float(self.min_conf), float(self.wer))
         else:
-            (int(self.idx), wrap_and_format(self.hyp), self.ref, float(
+            (int(self.idx), self.hyp_to_print, self.ref, float(
                 self.avg_logprob), float(self.wer))
 
     def get_header(self):
@@ -150,9 +155,21 @@ class TableRow:
             return ['ID', 'Hypothesis', 'Reference',
                     'Average Log Probability', 'WER']
 
-    def text_highlighting(self) -> str:
-        """Highlight text based on confidence measure."""
-        pass
+    def text_highlighting(self) -> Text:
+        """
+        Highlight text based on confidence measure.
+
+        :returns: Text with colour between red and green.
+        """
+        text_list = []
+        for word, conf in self.token_conf_pair:
+            text_style = compute_colour(conf)
+            # highlight text and replace underscores with space
+            text_obj = Text(word.replace('_', ' '), style=text_style)
+            text_list.append(text_obj)
+        # Wrap text to be printed properly
+        lines = Text(' ').join(text_list).wrap(None, WRAP_WIDTH)
+        return Text('\n').join(lines)
 
     def text_blanking(self, threshold: float) -> str:
         """Blank out text based on confidence threshold."""
@@ -167,20 +184,21 @@ class TableRow:
         return ' '.join(text_list)
 
 
-def compute_colour(conf: float) -> (int, int, int):
+def compute_colour(conf: float) -> Style:
     """
-    Compute a colour between red and green, for highlighting text.
+    Compute a colour between red and green for highlighting text.
 
     :param conf: Confidence score between 0 and 1.
-    :returns: (r, g, b) representation of colour.
+    :returns: Style to highlight text with.
     """
-    r1, g1, b1 = (255, 0, 0)
-    r2, g2, b2 = (0, 255, 0)
-    return (
+    r1, g1, b1 = (255, 0, 0)  # red
+    r2, g2, b2 = (0, 255, 0)  # green
+    rn, gn, bn = (
         r1 + conf * (r2 - r1),
         g1 + conf * (g2 - g1),
         b1 + conf * (b2 - b1)
     )
+    return Style(color=Color.from_rgb(rn, gn, bn))
 
 
 def wrap_and_format(string: str) -> str:
