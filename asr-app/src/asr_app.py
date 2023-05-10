@@ -9,8 +9,6 @@ from textual.widgets import DataTable, Footer
 
 ROW_HEIGHT = 4
 
-SORT_STYLES = {'Chronological': 'ID', 'Prob': 'Posterior Prob'}
-
 
 class TranscriptionApp(App):
     """
