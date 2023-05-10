@@ -83,9 +83,6 @@ class AudioDataLinker:
         table_rows.insert(0, self.row_data[0].get_header())
         return table_rows
 
-        # TODO:
-        #  * Do some text highlighting thing?
-
 
 class TableRow:
     """
@@ -164,7 +161,7 @@ class TableRow:
         text_list = []
         for word, conf in self.token_conf_pair:
             text_style = compute_colour(conf)
-            # highlight text and replace underscores with space
+            # Highlight text and replace underscores with space
             text_obj = Text(word.replace('_', ' '), style=text_style)
             text_list.append(text_obj)
         # Wrap text to be printed properly
