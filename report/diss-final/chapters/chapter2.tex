@@ -88,6 +88,13 @@ Where;
         Transformer uses attention in encoding AND decoding
         }
 
+\subsection{Evaluating ASR Systems}
+\mycomment{
+        Write about WER, PER, CER etc. 
+        WER is most used (back this statement up)
+        Caveats for using WER
+        }
+
 \subsection{Problems in ASR}
 
 Despite their ubiquity, modern ASR systems aren't without fault.
@@ -100,7 +107,7 @@ In this setting, \emph{wav2vec} achieves much poorer scores with word error rate
         do more on problems here. set the scene for why transcription can't just be performed entirely by a computer (to be expanded on in the section about semi-/full-auto transcription)
     }
 
-\subsection{Whisper}
+\section{Whisper}
 
 In late September 2022, the OpenAI research laboratory (known for such projects as GPT-3/4 and ChatGPT) released a new open-source ASR system known as `Whisper'~\cite{whisper}.
 Whisper is unique in being very large (trained on 680,000 hours of speech data), open-source, and fully supervised;
@@ -113,6 +120,15 @@ if the model is too fine-tuned to its training data, performance will suffer whe
 
 For example, if an unsupervised model were trained using the voices of young people, it may perform with considerably poorer accuracy when used to transcribe elderly speakers due to differences inherent to their speech\cite{Horton2010}.
 
+\subsection{Operation}
+
+Whisper is an encoder-decoder transformer, though it uses 'learned positional encodings' to \mycomment{ EXPLAIN HOW WHISPER WORKS HERE!!! }
+
+\begin{figure}[h!]
+  \includegraphics[width=\textwidth]{figures/specgram.png}
+\centering 
+\end{figure}
+
 \mycomment{
         THIS IS WRONG / NEEDS CHANGING VVV
 }
@@ -120,13 +136,6 @@ Whisper uses a natural language model to perform next-token prediction (in laype
 In a practical setting this means that conversational speech (i.e.\ speech which flows as sentences rather than semantically-disjoint terms) should be transcribed with a higher degree of accuracy.
 
 Whisper is implemented in Python using the \emph{PyTorch}\cite{pytorch} library which allows computation to take place on GPUs which support CUDA, meaning transcripts can be generated very quickly on a high-performance computer (HPC) system.
-
-\subsection{Evaluating ASR Systems}
-\mycomment{
-        Write about WER, PER, CER etc. 
-        WER is most used (back this statement up)
-        Caveats for using WER
-        }
 
 \section{Confidence}
 \mycomment{
