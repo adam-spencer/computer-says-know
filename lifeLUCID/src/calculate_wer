@@ -42,17 +42,20 @@ def get_avg_logprob(data: dict) -> float:
     return total_logprob / n_segs
 
 
-def get_file_wer(transcript_file: Path, calculate_avgs: bool) -> dict:
+def get_file_wer(transcript_file: Path, file_measures: bool) -> dict:
     """
     Get WER from a transcript JSON file as returned by do_whisper.
 
     :param transcript_file: Path to transcript file.
+    :param file_measures: True to calculate measures for entire file and write
+        to the first entry in the output.
     :returns: Dictionary representation of file with added WER.
     """
     with open(transcript_file) as file:
         data_dict = json.load(file)
 
-    wer_total = 0.0
+    hypotheses = []
+    references = []
     n_utterances = 0
     for idx, data in data_dict.items():
         if not only_digits.match(idx):
@@ -65,15 +68,17 @@ def get_file_wer(transcript_file: Path, calculate_avgs: bool) -> dict:
             else:
                 wer = 1.0
         else:
+            hypotheses.append(hyp)
+            references.append(ref)
             wer = jw.wer(ref, hyp)
-        wer_total += wer
         data_dict[idx]['wer'] = wer
         data_dict[idx]['avg_logprob'] = get_avg_logprob(data)
         n_utterances += 1
 
-    if calculate_avgs:
-        wer_average = wer_total / n_utterances
-        data_dict['stats'] = {'wer_average': wer_average}
+    if file_measures:  # Calculate WER for entire file
+        file_wer = jw.wer(hypotheses, references)
+        data_dict['0']['file_measures'] = {'wer': file_wer}
+
     return data_dict
 
 
@@ -103,12 +108,15 @@ def main():
     parser.add_argument('--output-dir', '-o',
                         help='Output dir, if none is supplied then result is \
                       printed to stdout')
-    parser.add_argument('--avg-measures', '-a', action='store_true',
-                        help='Calculate the average of measures (ie WER) and \
-                                place at the last entry in the JSON')
+    parser.add_argument('--file-measures', '-m', action='store_true',
+                        help='Calculate measures for entire input files and \
+                                store in the first entry of the output file.')
+    parser.add_argument('--verbose', '-v', action='store_true',
+                        help='Activate verbose output')
     args = parser.parse_args()
 
-    calculate_avgs = args.avg_measures
+    file_measures = args.file_measures
+    verbose = args.verbose
     in_file_path = Path(args.in_file)
     if save_output := args.output_dir is not None:
         out_path = Path(args.output_dir)
@@ -117,15 +125,19 @@ def main():
     if in_file_path.is_dir():
         if not save_output:
             raise ValueError('Must supply an output dir when input is dir!')
-        for file in in_file_path.iterdir():
+        files = [f for f in in_file_path.iterdir()]
+        n_files = len(files)
+        for idx, file in enumerate(files):
             if not file.name.endswith('.json'):
                 continue
-            wer_dict = get_file_wer(file, calculate_avgs)
+            if verbose:
+                print(f'Progress : {idx:3} / {n_files:3}', end='\r')
+            wer_dict = get_file_wer(file, file_measures)
             write_path = out_path / file.name.replace('.json', '_wer.json')
             write_out(wer_dict, out_path=write_path)
 
     else:
-        wer_dict = get_file_wer(in_file_path, calculate_avgs)
+        wer_dict = get_file_wer(in_file_path, file_measures)
         if save_output:
             out_path = out_path / \
                 in_file_path.name.replace('.json', '_wer.json')
