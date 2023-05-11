@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.3)  6 MAY 2023 15:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.3)  10 MAY 2023 16:37
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **dissertation
 (./dissertation.tex
@@ -171,28 +171,197 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 \c@dirtytalk@qdepth=\count278
 )
+(/usr/local/texlive/2022/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2021/12/24 v2.6 Yet another Pygments shim for LaTeX
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count279
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2022/06/06 4.5 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count280
+\FV@InFile=\read2
+\FV@TabBox=\box53
+\c@FancyVerbLine=\count281
+\FV@StepNumber=\count282
+\FV@OutFile=\write3
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count283
+\output=\toks23
+\linenoprevgraf=\count284
+\linenumbersep=\dimen160
+\linenumberwidth=\dimen161
+\c@linenumber=\count285
+\c@pagewiselinenumber=\count286
+\c@LN@truepage=\count287
+\c@internallinenumber=\count288
+\c@internallinenumbers=\count289
+\quotelinenumbersep=\dimen162
+\bframerule=\dimen163
+\bframesep=\dimen164
+\bframebox=\box54
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count290
+\c@FV@TrueTabCounter=\count291
+\FV@TabBox@Group=\box55
+\FV@TmpLength=\skip52
+\c@FV@HighlightLinesStart=\count292
+\c@FV@HighlightLinesStop=\count293
+\FV@LoopCount=\count294
+\FV@NCharsBox=\box56
+\FV@BreakIndent=\dimen165
+\FV@BreakIndentNChars=\count295
+\FV@BreakSymbolSepLeft=\dimen166
+\FV@BreakSymbolSepLeftNChars=\count296
+\FV@BreakSymbolSepRight=\dimen167
+\FV@BreakSymbolSepRightNChars=\count297
+\FV@BreakSymbolIndentLeft=\dimen168
+\FV@BreakSymbolIndentLeftNChars=\count298
+\FV@BreakSymbolIndentRight=\dimen169
+\FV@BreakSymbolIndentRightNChars=\count299
+\c@FancyVerbLineBreakLast=\count300
+\FV@LineBox=\box57
+\FV@LineIndentBox=\box58
+\FV@LineWidth=\dimen170
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count301
+\calc@Bcount=\count302
+\calc@Adimen=\dimen171
+\calc@Bdimen=\dimen172
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count303
+\calc@Cskip=\skip55
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+runsystem(uname -s > "dissertation.w18")...executed.
+
+
+(./dissertation.w18)
+runsystem(rm -- "dissertation.w18")...executed.
+
+)
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count304
+\decimalpart=\count305
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip56
+\fb@frw=\dimen173
+\fb@frh=\dimen174
+\FrameRule=\dimen175
+\FrameSep=\dimen176
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count306
+\float@exts=\toks24
+\float@box=\box59
+\@float@everytoks=\toks25
+\@floatcapt=\box60
+)
+\minted@appexistsfile=\read3
+\minted@bgbox=\box61
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count307
+\c@minted@pygmentizecounter=\count308
+\@float@every@listing=\toks26
+\c@listing=\count309
+)
+runsystem(mkdir -p _minted-dissertation)...executed.
+
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+runsystem(which pygmentize && touch dissertation.aex)...executed.
+
+runsystem(rm dissertation.aex)...executed.
+
+
 (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count279
-\l__pdf_internal_box=\box53
+\l__color_backend_stack_int=\count310
+\l__pdf_internal_box=\box62
 )
 (./dissertation.aux)
 \openout1 = `dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -230,17 +399,17 @@ LaTeX Font Info:    ... okay on input line 20.
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count280
-\scratchdimen=\dimen160
-\scratchbox=\box54
-\nofMPsegments=\count281
-\nofMParguments=\count282
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count283
-\MPscratchDim=\dimen161
-\MPnumerator=\count284
-\makeMPintoPDFobject=\count285
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count311
+\scratchdimen=\dimen177
+\scratchbox=\box63
+\nofMPsegments=\count312
+\nofMParguments=\count313
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count314
+\MPscratchDim=\dimen178
+\MPnumerator=\count315
+\makeMPintoPDFobject=\count316
+\everyMPtoPDFconversion=\toks28
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -253,7 +422,7 @@ e
 <images/tuoslogo.png, id=1, 78.2925pt x 79.2561pt>
 File: images/tuoslogo.png Graphic file (type png)
 <use images/tuoslogo.png>
-Package pdftex.def Info: images/tuoslogo.png  used on input line 32.
+Package pdftex.def Info: images/tuoslogo.png  used on input line 33.
 (pdftex.def)             Requested size: 142.26378pt x 144.03468pt.
 
 [1
@@ -262,7 +431,7 @@ Package pdftex.def Info: images/tuoslogo.png  used on input line 32.
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
 s/tuoslogo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
@@ -273,19 +442,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 ] (./dissertation.toc [3
 
 ])
-\tf@toc=\write3
-\openout3 = `dissertation.toc'.
+\tf@toc=\write5
+\openout5 = `dissertation.toc'.
 
  [4]
 (./dissertation.lof)
-\tf@lof=\write4
-\openout4 = `dissertation.lof'.
+\tf@lof=\write6
+\openout6 = `dissertation.lof'.
 
  [5
 
 ] (./dissertation.lot)
-\tf@lot=\write5
-\openout5 = `dissertation.lot'.
+\tf@lot=\write7
+\openout7 = `dissertation.lot'.
 
  [6
 
@@ -297,7 +466,7 @@ Chapter 1.
 ]
 Chapter 2.
 
-Overfull \hbox (8.4073pt too wide) in paragraph at lines 24--25
+Overfull \hbox (8.4073pt too wide) in paragraph at lines 26--27
 \OT1/cmr/m/n/10.95 In his 1960 work[[]], Dynkin de-scribes a Markov pro-cess us
 -ing the ex-am-ple of a randomly-moving
  []
@@ -305,56 +474,85 @@ Overfull \hbox (8.4073pt too wide) in paragraph at lines 24--25
 [2
 
 ]
-Overfull \hbox (28.05649pt too wide) in paragraph at lines 57--59
+Overfull \hbox (28.05649pt too wide) in paragraph at lines 59--61
 \OT1/cmr/m/n/10.95 aim-ing to re-duce the com-pu-ta-tional com-plex-ity of enco
 der-decoder mod-els by for-go-ing con-vo-lu-tional
  []
 
 
-Overfull \hbox (13.07115pt too wide) in paragraph at lines 61--62
+Overfull \hbox (13.07115pt too wide) in paragraph at lines 63--64
 []\OT1/cmr/m/n/10.95 CNNs (e.g. [[]]) and RNNs (e.g. [[]]), while pop-u-lar, ha
 ve greater per-layer com-pu-ta-tional
  []
 
 
-Overfull \hbox (4.98079pt too wide) in paragraph at lines 62--63
+Overfull \hbox (4.98079pt too wide) in paragraph at lines 64--65
 \OT1/cmr/m/n/10.95 length $\OML/cmm/m/it/10.95 n$\OT1/cmr/m/n/10.95 , whereas s
 elf-attention has a con-stant (i.e. $\OML/cmm/m/it/10.95 O\OT1/cmr/m/n/10.95 (1
 )$) max-i-mum num-ber of se-quen-tial
  []
 
-[3] [4]) (./chapters/chapter3.tex [5]
+[3] [4]
+Overfull \hbox (2.88693pt too wide) in paragraph at lines 122--123
+[]\OT1/cmr/m/n/10.95 Whisper is im-ple-mented in Python us-ing the \OT1/cmr/m/i
+t/10.95 Py-Torch\OT1/cmr/m/n/10.95 [[]] li-brary which al-lows com-pu-ta-tion
+ []
+
+) (./chapters/chapter3.tex [5]
 Chapter 3.
 
-Overfull \hbox (19.68892pt too wide) in paragraph at lines 31--33
-[]\OT1/cmr/m/n/10.95 Whisper[[]] is im-ple-mented in Python us-ing the PyTorch[
-[]] li-brary which al-lows com-pu-ta-tion
+Overfull \hbox (16.70537pt too wide) in paragraph at lines 6--6
+[]\OT1/cmr/bx/n/14.4 Understand the mo-ti-va-tions of computer-aided tran-scrip
+-tion 
+ []
+
+
+Overfull \hbox (0.74228pt too wide) in paragraph at lines 29--31
+\OT1/cmr/m/n/10.95 fast turnaround times when tran-scrib-ing large speech cor-p
+ora and thus en-able rapid eval-u-a-tion
  []
 
 [6
 
-] [7]) (./chapters/chapter4.tex [8]
+]
+Overfull \hbox (16.7172pt too wide) in paragraph at lines 53--53
+[]\OT1/cmr/bx/n/14.4 Understand the ef-fec-tive-ness of se-lected con-fi-dence 
+mea-sures 
+ []
+
+[7]
+Overfull \hbox (3.47981pt too wide) in paragraph at lines 77--78
+[]\OT1/cmr/m/n/10.95 several de-sign it-er-a-tions should be pro-duced to demon
+-strate dif-fer-ent ex-tents of com-puter
+ []
+
+) (./chapters/chapter4.tex [8]
 Chapter 4.
 ) (./chapters/chapter5.tex [9
 
 ]
 Chapter 5.
+<figures/specgram.png, id=66, 8101.26625pt x 2344.76pt>
+File: figures/specgram.png Graphic file (type png)
+<use figures/specgram.png>
+Package pdftex.def Info: figures/specgram.png  used on input line 15.
+(pdftex.def)             Requested size: 440.84746pt x 127.58473pt.
 [10
 
-] [11]
-Overfull \hbox (24.91208pt too wide) in paragraph at lines 97--99
+ <./figures/specgram.png>] [11]
+Overfull \hbox (24.91208pt too wide) in paragraph at lines 102--104
 \OT1/cmr/m/n/10.95 Whisper is avail-able as a Python mod-ule named \OT1/cmtt/m/
 n/10.95 whisper\OT1/cmr/m/n/10.95 [[]]. The mod-ule fea-tures a \OT1/cmtt/m/n/1
 0.95 transcribe()
  []
 
-) (./chapters/chapter6.tex [12]
+[12]) (./chapters/chapter6.tex [13]
 Chapter 6.
-) (./chapters/chapter7.tex [13
+) (./chapters/chapter7.tex [14
 
 ]
 Chapter 7.
-) (./dissertation.bbl [14
+) (./dissertation.bbl [15
 
 ]
 Underfull \hbox (badness 1622) in paragraph at lines 30--35
@@ -362,7 +560,7 @@ Underfull \hbox (badness 1622) in paragraph at lines 30--35
 1/cmr/m/n/10.95 (J. H. Abawajy, Z. Xu,
  []
 
-[15
+[16
 
 ]
 Underfull \hbox (badness 1810) in paragraph at lines 87--89
@@ -370,7 +568,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 87--89
 with rel-a-tive po-si-tion
  []
 
-[16]
+[17]
 Underfull \hbox (badness 1552) in paragraph at lines 128--131
 []\OT1/cmr/m/n/10.95 S. Watan-abe, M. I. Man-del, J. Barker, and E. Vin-cent, `
 `Chime-6 chal-lenge:
@@ -382,26 +580,26 @@ Underfull \hbox (badness 3354) in paragraph at lines 128--131
 ted record-ings,'' \OT1/cmr/m/it/10.95 CoRR\OT1/cmr/m/n/10.95 ,
  []
 
-) [17] [18
+) [18] [19
 
 
 ] (./chapters/appendixA.tex
 Appendix A.
-) (./chapters/appendixB.tex [19
+) (./chapters/appendixB.tex [20
 
 ]
 Appendix B.
-) [20
+) [21
 
 ] (./dissertation.aux) ) 
 Here is how much of TeX's memory you used:
- 3457 strings out of 475071
- 55903 string characters out of 5778910
- 408191 words of memory out of 5000000
- 24788 multiletter control sequences out of 15000+600000
+ 7201 strings out of 475071
+ 132597 string characters out of 5778910
+ 528519 words of memory out of 5000000
+ 28447 multiletter control sequences out of 15000+600000
  477256 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,5n,62p,1433b,279s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,6n,77p,1433b,286s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-
 super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/am
@@ -417,10 +615,10 @@ ti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 i12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
 10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095
 .pfb>
-Output written on dissertation.pdf (27 pages, 309819 bytes).
+Output written on dissertation.pdf (28 pages, 698599 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
+ 165 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
