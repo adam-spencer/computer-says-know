@@ -69,17 +69,29 @@ Using the documentation for LifeLUCID it was possible to determine that there ar
 \end{enumerate}
 
 For the purpose of this work, an utterance is defined as an uninterrupted piece of speech without any long pauses.
-Thresholds for the minimum length of a 'break' token and maximum length of a 'junk' token within an utterance provide a kind of
+By providing threshold values for the minimum length of a 'break' token and maximum length of a 'junk' token, the boundaries at which utterances start and end can be easily computed from the reference TextGrids.
+The utterance boundaries can then be used to extract individual utterances from the longform recordings, resulting in a series of numbered audio files.
 
 The second and third problems can be solved together by changing from the TextGrid format to JSON (JavaScript Object Notation).
 This format is human-readable\cite{nurseitov2009comparison} and able to hold all the data and metadata required for this work, including a way to reference the original piece of audio it represents.
 
+\section{Running Whisper}
+
 \mycomment{
-  All going well here, just need to write about how utterances are computed
-  * Using tokens from documentation (give examples)
-  * Along with some thresholds (maxmimum mid-sentence pause length, minimum post-sentence pause length before breaking)
-  * Remove all non-speech tokens (including spoken hesitations like 'um')
-  * break tokens are <SILP> and <GA>
-  * junk tokens are SIL, <BELL> <LG> <BR> and spoken hesitations
-}
+  Would it be worth moving some of this to chap3? defining a 'target user' is probably better suited to there...
+  }
+Whisper comes packaged with models of various sizes, requiring between approximately 1 and 10GB of VRAM and an increasing amount of time to produce transcripts.
+Considering the objective to create an automatic transcription system which uses entirely free and open-source software, it is worth assuming that the individuals or institutions who would benefit the most from this system are those without the resources to rely on professional manual transcription.
+It follows, then, that these 'target users' would not have access to high-powered computers and instead rely on consumer-grade hardware to generate transcriptions.
+Thus, for the purposes of this work, the medium English-language model was selected as it requires only 5GB of VRAM and takes approximately half as much time to produce transcripts as the larger models\cite{whisper}.
+
+\subsection{High-Powered Computing}
+
+\section{Confidence Scoring}
+
+Core to this work is the need for a reliable and accurate measure of ASR confidence.
+
+\include{tables/confidence-motivations}
+
+\section{Conceptual Transcription Systems}
 
