@@ -143,11 +143,6 @@ A.~Paszke, S.~Gross, F.~Massa, A.~Lerer, J.~Bradbury, G.~Chanan, T.~Killeen,
   library,'' in {\em Advances in Neural Information Processing Systems 32},
   pp.~8024--8035, Curran Associates, Inc., 2019.
 
-\bibitem{shef-hpc}
-``{High Performance Computing at Sheffield {\ifmmode---\else\textemdash\fi}
-  Sheffield HPC Documentation},'' May 2023.
-\newblock [Online; accessed 6. May 2023].
-
 \bibitem{lifelucid}
 O.~Tuomainen, L.~Taschenberger, and V.~Hazan, ``{LifeLUCID Corpus: Recordings
   of Speakers Aged 8 to 85 Years Engaged in Interactive Task in the Presence of
@@ -158,9 +153,10 @@ O.~Tuomainen, L.~Taschenberger, and V.~Hazan, ``{LifeLUCID Corpus: Recordings
 ``{Praat: doing Phonetics by Computer},'' Mar. 2023.
 \newblock [Online; accessed 8. Apr. 2023].
 
-\bibitem{textgridpy}
-K.~Gorman, ``textgrid.py,'' Apr. 2023.
-\newblock [Online; accessed 8. Apr. 2023].
+\bibitem{nurseitov2009comparison}
+N.~Nurseitov, M.~Paulson, R.~Reynolds, and C.~Izurieta, ``Comparison of json
+  and xml data interchange formats: a case study.,'' {\em Caine}, vol.~9,
+  pp.~157--162, 2009.
 
 \bibitem{pysoundfile}
 B.~Bechtold, ``{python-soundfile},'' 2013.

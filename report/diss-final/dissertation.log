@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.3)  14 MAY 2023 17:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.3)  15 MAY 2023 16:30
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -345,7 +345,7 @@ File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count310
 \l__pdf_internal_box=\box62
 )
-(./dissertation.aux)
+(./dissertation.aux (./tables/confidence-motivations.aux))
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -513,7 +513,7 @@ Overfull \hbox (16.70537pt too wide) in paragraph at lines 6--6
  []
 
 
-Overfull \hbox (0.74228pt too wide) in paragraph at lines 29--31
+Overfull \hbox (0.74228pt too wide) in paragraph at lines 35--37
 \OT1/cmr/m/n/10.95 fast turnaround times when tran-scrib-ing large speech cor-p
 ora and thus en-able rapid eval-u-a-tion
  []
@@ -521,39 +521,89 @@ ora and thus en-able rapid eval-u-a-tion
 [7
 
 ]
-Overfull \hbox (16.7172pt too wide) in paragraph at lines 53--53
+Overfull \hbox (16.7172pt too wide) in paragraph at lines 59--59
 []\OT1/cmr/bx/n/14.4 Understand the ef-fec-tive-ness of se-lected con-fi-dence 
 mea-sures 
  []
 
 [8]
-Overfull \hbox (3.47981pt too wide) in paragraph at lines 77--78
+Overfull \hbox (3.47981pt too wide) in paragraph at lines 83--84
 []\OT1/cmr/m/n/10.95 several de-sign it-er-a-tions should be pro-duced to demon
 -strate dif-fer-ent ex-tents of com-puter
  []
 
 ) (./chapters/chapter4.tex [9]
 Chapter 4.
+
+Overfull \hbox (5.59883pt too wide) in paragraph at lines 13--15
+\OT1/cmr/m/n/10.95 court-room hear-ings, lec-tures, etc.) has a main-tained con
+-text through-out and is not sig-nif-i-cantly
+ []
+
 [10
 
-]) (./chapters/chapter5.tex [11]
-Chapter 5.
-[12
+]
+Overfull \hbox (10.55673pt too wide) in paragraph at lines 56--59
+\OT1/cmr/m/n/10.95 record-ings into in-di-vid-ual ut-ter-ances. Luck-ily, the h
+uman-evaluated ref-er-ences in-clude meta-data
+ []
 
-] [13]
-Overfull \hbox (24.91208pt too wide) in paragraph at lines 97--99
+[11]
+
+LaTeX Warning: Citation `nurseitov2009comparison' on page 12 undefined on input
+ line 76.
+
+[12]
+\openout2 = `tables/confidence-motivations.aux'.
+
+ (./tables/confidence-motivations.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]\OT1/cmr/m/n/10.95 Does not re-quire any
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]\OT1/cmr/m/n/10.95 Only shows an av-er-age
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 11--11
+[]\OT1/cmr/bx/n/10.95 Model In-ter-nal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]\OT1/cmr/m/n/10.95 Allows ac-cess to per-word
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]\OT1/cmr/m/n/10.95 Requires mod-i-fi-ca-tion to
+ []
+
+) [13
+
+]) (./chapters/chapter5.tex [14
+
+
+]
+Chapter 5.
+
+Overfull \hbox (24.91208pt too wide) in paragraph at lines 33--35
 \OT1/cmr/m/n/10.95 Whisper is avail-able as a Python mod-ule named \OT1/cmtt/m/
 n/10.95 whisper\OT1/cmr/m/n/10.95 [[]]. The mod-ule fea-tures a \OT1/cmtt/m/n/1
 0.95 transcribe()
  []
 
-) (./chapters/chapter6.tex [14]
+[15
+
+]) (./chapters/chapter6.tex [16]
 Chapter 6.
-) (./chapters/chapter7.tex [15
+) (./chapters/chapter7.tex [17
 
 ]
 Chapter 7.
-) (./dissertation.bbl [16
+) (./dissertation.bbl [18
 
 ]
 Underfull \hbox (badness 1622) in paragraph at lines 30--35
@@ -561,7 +611,7 @@ Underfull \hbox (badness 1622) in paragraph at lines 30--35
 1/cmr/m/n/10.95 (J. H. Abawajy, Z. Xu,
  []
 
-[17
+[19
 
 ]
 Underfull \hbox (badness 1810) in paragraph at lines 87--89
@@ -569,7 +619,7 @@ Underfull \hbox (badness 1810) in paragraph at lines 87--89
 with rel-a-tive po-si-tion
  []
 
-[18]
+[20]
 Underfull \hbox (badness 1552) in paragraph at lines 128--131
 []\OT1/cmr/m/n/10.95 S. Watan-abe, M. I. Man-del, J. Barker, and E. Vin-cent, `
 `Chime-6 chal-lenge:
@@ -581,45 +631,51 @@ Underfull \hbox (badness 3354) in paragraph at lines 128--131
 ted record-ings,'' \OT1/cmr/m/it/10.95 CoRR\OT1/cmr/m/n/10.95 ,
  []
 
-) [19] [20
+) [21] [22
 
 
 ] (./chapters/appendixA.tex
 Appendix A.
-[21
+[23
 
-]) (./chapters/appendixB.tex [22]
+]) (./chapters/appendixB.tex [24]
 Appendix B.
-) [23
+) [25
 
-] (./dissertation.aux) ) 
+] (./dissertation.aux (./tables/confidence-motivations.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 7202 strings out of 475071
- 132616 string characters out of 5778910
- 528531 words of memory out of 5000000
- 28448 multiletter control sequences out of 15000+600000
+ 7231 strings out of 475071
+ 133951 string characters out of 5778910
+ 529144 words of memory out of 5000000
+ 28469 multiletter control sequences out of 15000+600000
  477256 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,6n,77p,1433b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-
-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsl10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-i12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
-10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095
-.pfb>
-Output written on dissertation.pdf (30 pages, 707275 bytes).
+ 74i,10n,77p,1433b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local
+/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
+exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
+xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/tex
+live/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on dissertation.pdf (32 pages, 710729 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
+ 178 PDF objects out of 1000 (max. 8388607)
+ 113 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

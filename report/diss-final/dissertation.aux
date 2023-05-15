@@ -79,49 +79,51 @@
 \newlabel{ch:req-and-analysis}{{3}{7}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.1}Understand the motivations of computer-aided transcription}{7}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}Generate transcripts using ASR}{7}{}\protected@file@percent }
+\newlabel{sec:generate-transcripts}{{3.2}{7}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.3}Implement various confidence measures}{8}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3.4}Understand the effectiveness of selected confidence measures}{8}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3.5}Explore designs for computer-aided transcription}{9}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3.6}Evaluation}{9}{}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3.7}Ethical, Professional and Legal Issues}{9}{}\protected@file@percent }
+\citation{whisper}
 \citation{lifelucid}
-\citation{praat}
 \@writefile{toc}{\contentsline {chapter}{\numberline {4}Design}{10}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \newlabel{ch:design}{{4}{10}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.1}Speech Data}{10}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Reference Transcript Format}{10}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Risk Analysis}{11}{}\protected@file@percent }
-\newlabel{sec:risk-analysis}{{4.2}{11}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Project Plan}{11}{}\protected@file@percent }
-\newlabel{sec:project-plan}{{4.3}{11}}
-\citation{lifelucid}
 \citation{praat}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Implementation and Testing}{12}{}\protected@file@percent }
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:implementation-and-testing}{{5}{12}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Preparing the Data}{12}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}The TextGrid Format}{12}{}\protected@file@percent }
-\citation{textgridpy}
-\citation{lifelucid}
+\citation{whisper}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}TextGrid Format}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Data Preparation}{11}{}\protected@file@percent }
+\citation{nurseitov2009comparison}
+\citation{whisper}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Running Whisper}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}High-Powered Computing}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Confidence Scoring}{12}{}\protected@file@percent }
+\@input{tables/confidence-motivations.aux}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Conceptual Transcription Systems}{14}{}\protected@file@percent }
 \citation{pysoundfile}
 \citation{numpy}
 \citation{pypi-whis}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Generating Utterances}{14}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.3}Audio Segmentation}{14}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}ASR With Whisper}{14}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Results and Discussion}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Implementation and Testing}{15}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:results-and-discussion}{{6}{15}}
+\newlabel{ch:implementation-and-testing}{{5}{15}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Preparing the Data}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Generating Utterances}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Audio Segmentation}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}ASR With Whisper}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Results and Discussion}{17}{}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{ch:results-and-discussion}{{6}{17}}
 \bibstyle{ieeetr}
 \bibdata{dissertation_bibliography}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusions}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusions}{18}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:conclusions}{{7}{16}}
+\newlabel{ch:conclusions}{{7}{18}}
 \bibcite{Rabiner2004Jan}{1}
 \bibcite{vocoder}{2}
 \bibcite{asr-52}{3}
@@ -149,19 +151,18 @@
 \bibcite{chime6}{25}
 \bibcite{baevski2021}{26}
 \bibcite{pytorch}{27}
-\bibcite{shef-hpc}{28}
-\bibcite{lifelucid}{29}
-\bibcite{praat}{30}
-\bibcite{textgridpy}{31}
-\bibcite{pysoundfile}{32}
-\bibcite{numpy}{33}
-\bibcite{pypi-whis}{34}
-\@writefile{toc}{\contentsline {chapter}{Appendices}{20}{}\protected@file@percent }
-\newlabel{appendix:textgrid}{{7}{21}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {A}Example of the TextGrid Format}{21}{}\protected@file@percent }
+\bibcite{lifelucid}{28}
+\bibcite{praat}{29}
+\bibcite{nurseitov2009comparison}{30}
+\bibcite{pysoundfile}{31}
+\bibcite{numpy}{32}
+\bibcite{pypi-whis}{33}
+\@writefile{toc}{\contentsline {chapter}{Appendices}{22}{}\protected@file@percent }
+\newlabel{appendix:textgrid}{{7}{23}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}Example of the TextGrid Format}{23}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{\numberline {B}Another Appendix}{23}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {B}Another Appendix}{25}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\gdef \@abspage@last{30}
+\gdef \@abspage@last{32}
