@@ -2,76 +2,12 @@
 
 \section{Preparing the Data}
 
-While the LifeLUCID corpus\cite{lifelucid} consists of conversational audio recordings, each of these recordings are presented as individual stereo WAVE files approximately 10 minutes in length, with each speaker recorded seperately in either the left or right channel.
-Time-aligned transcriptions accompany these data in \emph{Praat TextGrid} format.
+\mycomment{
+  This needs rewriting! TODO:
 
-\subsection{The TextGrid Format}
+  * Section about HPC/Bessemer specs and runtime
 
-\emph{Praat} is a piece of software for speech recording and analysis\cite{praat} and a \emph{TextGrid} is used to align individual \emph{speech tokens} with the time in which the are uttered in the recording.
-When viewed in a text editor, \emph{TextGrid} files appear as a descending series of intervals, indexed in the order they occur; with start- and end-times, and individual speech tokens.
-To illustrate the format, here is a snippet taken from \emph{LifeLUCID}, the utterance is simply "a bush with a yello duck on top";
-
-\mycomment{Check that this is formatted properly, maybe use two columns?}
-\begin{verbatim}
-intervals [12]:
-  xmin = 20.899 
-  xmax = 20.971783458461772 
-  text = "SIL" 
-intervals [13]:
-  xmin = 20.971783458461772 
-  xmax = 21.05 
-  text = "a" 
-intervals [14]:
-  xmin = 21.05 
-  xmax = 21.47 
-  text = "BUSH" 
-intervals [15]:
-  xmin = 21.47 
-  xmax = 21.66 
-  text = "with" 
-intervals [16]:
-  xmin = 21.66 
-  xmax = 21.720024609817834 
-  text = "A" 
-intervals [17]:
-  xmin = 21.720024609817834 
-  xmax = 22.1 
-  text = "SIL" 
-intervals [18]:
-  xmin = 22.1 
-  xmax = 22.49 
-  text = "yellow" 
-intervals [19]:
-  xmin = 22.49 
-  xmax = 22.84 
-  text = "duck" 
-intervals [20]:
-  xmin = 22.84 
-  xmax = 23.06 
-  text = "ON" 
-intervals [21]:
-  xmin = 23.06 
-  xmax = 23.769 
-  text = "top"
-\end{verbatim}
-
-Considering that this file contains over 1000 of these intervals, this example should hopefully demonstrate that the \emph{TextGrid} format is not particularly readable.
-In order to simplify quality checking as well as to allow more accompanying metadata (e.g. ASR results), the utterances shall be moved into \emph{JSON} format.
-\mycomment{This section should be moved elsewhere, it doesn't flow well at all here}
-
-Due to Whisper being written entirely in Python, to maintain language-homogeneity a Python library named \texttt{textgrid.py}\cite{textgridpy} was used to read and manipulate TextGrid files rather than dealing with the transcription data using \emph{Praat}.
-
-According to their documentation, the \emph{TextGrid} files for LifeLUCID\cite{lifelucid} contain some special, non-speech tokens to denote certain parts of the speech recordings as follows:
-
-\begin{itemize}
-  \item \texttt{<SILP>} denotes time where one participant is silent and the other is talking.
-  \item \texttt{<SIL>} denotes silent time between words, where the speaker is silent but the other participant is also silent, such as when the speaker is taking a breath.
-  \item \texttt{<GA>} denotes either the time before the task begun but the recording had started or external noises picked up by the microphone. 
-  \item \texttt{<BELL>} replaces moments when a participant has pressed their bell, these moments are also silent in the recording.
-\end{itemize}
-
-Given that these special tokens are marked by the times at which they begin and end, it was possible to segment the large audio files into hundereds of short utterances.
-
+  }
 \subsection{Generating Utterances}
 
 The contents, beginning, and end of every utterance where computed using the data available in the \emph{TextGrid} files using a Python script named \texttt{get\_utterances}.
