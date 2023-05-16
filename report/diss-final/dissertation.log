@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.3)  16 MAY 2023 19:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.3)  16 MAY 2023 19:48
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -478,7 +478,76 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
 \Hy@SectionHShift=\skip73
-)) (/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count325
+\mult@box=\box64
+\multicol@leftmargin=\dimen196
+\c@unbalance=\count326
+\c@collectmore=\count327
+\doublecol@number=\count328
+\multicoltolerance=\count329
+\multicolpretolerance=\count330
+\full@width=\dimen197
+\page@free=\dimen198
+\premulticols=\dimen199
+\postmulticols=\dimen256
+\multicolsep=\skip74
+\multicolbaselineskip=\skip75
+\partial@page=\box65
+\last@line=\box66
+\maxbalancingoverflow=\dimen257
+\mult@rightbox=\box67
+\mult@grightbox=\box68
+\mult@firstbox=\box69
+\mult@gfirstbox=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\c@minrows=\count331
+\c@columnbadness=\count332
+\c@finalcolumnbadness=\count333
+\last@try=\dimen258
+\multicolovershoot=\dimen259
+\multicolundershoot=\dimen260
+\mult@nat@firstbox=\box107
+\colbreak@box=\box108
+\mc@col@check@num=\count334
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -504,30 +573,30 @@ runsystem(rm dissertation.aex)...executed.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count325
-\l__pdf_internal_box=\box64
+\l__color_backend_stack_int=\count335
+\l__pdf_internal_box=\box109
 )
 (./dissertation.aux (./tables/confidence-motivations.aux))
 \openout1 = `dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -565,16 +634,16 @@ LaTeX Font Info:    ... okay on input line 28.
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count326
-\scratchdimen=\dimen196
-\scratchbox=\box65
-\nofMPsegments=\count327
-\nofMParguments=\count328
+\scratchcounter=\count336
+\scratchdimen=\dimen261
+\scratchbox=\box110
+\nofMPsegments=\count337
+\nofMParguments=\count338
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count329
-\MPscratchDim=\dimen197
-\MPnumerator=\count330
-\makeMPintoPDFobject=\count331
+\MPscratchCnt=\count339
+\MPscratchDim=\dimen262
+\MPnumerator=\count340
+\makeMPintoPDFobject=\count341
 \everyMPtoPDFconversion=\toks29
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -585,7 +654,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 28.
+Package hyperref Info: Link coloring OFF on input line 29.
 
 (./dissertation.out) (./dissertation.out)
 \@outlinefile=\write5
@@ -594,7 +663,7 @@ Package hyperref Info: Link coloring OFF on input line 28.
 <images/tuoslogo.png, id=192, 78.2925pt x 79.2561pt>
 File: images/tuoslogo.png Graphic file (type png)
 <use images/tuoslogo.png>
-Package pdftex.def Info: images/tuoslogo.png  used on input line 40.
+Package pdftex.def Info: images/tuoslogo.png  used on input line 41.
 (pdftex.def)             Requested size: 142.26378pt x 144.03468pt.
  [1
 
@@ -602,7 +671,7 @@ Package pdftex.def Info: images/tuoslogo.png  used on input line 40.
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
 s/tuoslogo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
@@ -736,7 +805,7 @@ Underfull \hbox (badness 1490) in paragraph at lines 9--9
 ) [14
 
 ]
-Overfull \hbox (5.48889pt too wide) in paragraph at lines 124--125
+Overfull \hbox (5.48889pt too wide) in paragraph at lines 127--128
 []\OT1/cmtt/m/n/10.95 avg[]-logprob \OT1/cmr/m/n/10.95 -- The av-er-age of the 
 $[]$ token-probability for a seg-ment of speech (dis-cussed
  []
@@ -782,24 +851,24 @@ with rel-a-tive po-si-tion
 
 ] (./chapters/appendixA.tex
 Appendix A.
-[25
+) (./chapters/appendixB.tex [25
 
-]) (./chapters/appendixB.tex [26]
+]
 Appendix B.
-) [27
+) [26
 
 ] (./dissertation.aux (./tables/confidence-motivations.aux))
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: 2BDFB07D0E2D9D4CA45BF252C321A927;7883.
  ) 
 Here is how much of TeX's memory you used:
- 13846 strings out of 475071
- 237142 string characters out of 5778910
- 634115 words of memory out of 5000000
- 34862 multiletter control sequences out of 15000+600000
+ 13984 strings out of 475071
+ 239503 string characters out of 5778910
+ 639076 words of memory out of 5000000
+ 34998 multiletter control sequences out of 15000+600000
  477256 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,81p,1433b,676s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,81p,1433b,592s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
@@ -814,10 +883,10 @@ texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
 exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
 xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/tex
 live/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on dissertation.pdf (34 pages, 725427 bytes).
+Output written on dissertation.pdf (33 pages, 724802 bytes).
 PDF statistics:
- 607 PDF objects out of 1000 (max. 8388607)
- 536 compressed objects within 6 object streams
- 130 named destinations out of 1000 (max. 500000)
+ 603 PDF objects out of 1000 (max. 8388607)
+ 533 compressed objects within 6 object streams
+ 129 named destinations out of 1000 (max. 500000)
  387 words of extra memory for PDF output out of 10000 (max. 10000000)
 
