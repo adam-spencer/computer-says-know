@@ -1,15 +1,16 @@
 \begin{table}[h!]
 \centering
 \begin{tabular}{P{0.2\linewidth}  P{0.35\linewidth}  P{0.35\linewidth}}
-\hline
+\toprule
 \textbf{Score Source} &
   \textbf{Benefits} &
-  \textbf{Drawbacks} \\[0.3cm] \hline
+  \textbf{Drawbacks} \\[0.3cm] \toprule
 \textbf{Standard Model Output} &
   Does not require any modification to Whisper. &
-  Only shows an average probability score per utterance. \\[0.3cm] \hline
+  Only shows an average probability score per utterance. \\[0.7cm] \midrule
 \textbf{Model Internal Scoring} &
   Allows access to per-word scoring and the steps the model takes to converge on an output. &
-  Requires modification to Whisper. \\ \hline
+  Requires modification to Whisper. \\ \bottomrule
 \end{tabular}
+  \caption{Comparison between sources of model confidence}
 \end{table}
