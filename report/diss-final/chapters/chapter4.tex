@@ -92,14 +92,15 @@ Thus, for the purposes of this work, the medium English-language model was selec
 
 \section{Confidence Scoring}
 
-Core to this work is the need for a reliable and accurate measure of ASR confidence.
 \mycomment{
   describe confidence:
     * some way of knowing how likely the system is to be correct
     * difficult for one-shot evaluation as there is no training / test sets, just data
-  }
-
-Table \ref{table:confidence-motivations} gives a brief comparison of the benefits and drawbacks associated with determining model confidence from Whisper's output versus from internal processes while the model is running.
+}
+Whisper does not have a clear confidence scoring system in its unaltered state.
+Therefore, for it to be viably used to aid a human transcriber, some method to estimate system confidence must be implemented.
+At a high level, there are two sources from which to estimate confidence: Whisper's standard output, and its internal processes.
+Table \ref{table:confidence-motivations} gives a brief comparison of the benefits and drawbacks associated with each of these sources of confidence;
 
 \include{tables/confidence-motivations}
 
@@ -115,7 +116,16 @@ The following subsections provide a detailed explanation of how each approach wo
   * drawbacks outway benefit (benefit being lack of modification (ie easier))
     > no word-level scoring, just average for an utterance
     > how is lprob calculated? (leads to next part)
-  }
+}
+Though it does not yield a clear confidence score, Whisper does output various statistics relating to its processing of the input data.
+These include;
+
+\begin{itemize}
+  \item \texttt{avg\_logprob} -- The average of the $\log$ token-probability for a segment of speech (discussed further below)
+  \item \texttt{temperature} -- 
+  \item \texttt{compression\_ratio}
+  \item \texttt{no\_speech\_prob}
+\end{itemize}
 
 \subsection{Confidence From Model Internals}
 \mycomment{
@@ -129,7 +139,10 @@ The following subsections provide a detailed explanation of how each approach wo
     > scores are only within an utterance! not well compared to other utterances
     > does this matter?
   * would give scores for each token (word or even sub-word level)
+}
+
+\section{A System For Transcription}
+\mycomment{
+  I reckon this section shouldn't use screenshots yet, just give examples of coloured text, ordering and blanking.
+  Save screenshots for Implementation chapter
   }
-
-\section{Conceptual Transcription Systems}
-
