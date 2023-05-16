@@ -1,6 +1,12 @@
 \label{appendix:textgrid}
 \chapter{Example of the TextGrid Format}
 
+This example serves to illustrate the lack of readability of a TextGrid file.
+To aid formatting, it is displayed in two columns, though the original file is a long series of \emph{intervals}.
+
+It represents a piece of audio which is under three seconds in length (from a 10 minute-long recording) and consists of the text \say{a bush with a yellow duck on top}.
+
+\begin{multicols}{2}
 \begin{verbatim}
 intervals [12]:
   xmin = 20.899 
@@ -43,3 +49,4 @@ intervals [21]:
   xmax = 23.769 
   text = "top"
 \end{verbatim}
+\end{multicols}
