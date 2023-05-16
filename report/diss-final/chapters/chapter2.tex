@@ -26,7 +26,7 @@ The method which became most widely adopted and is still at the heart of modern 
 In his 1960 work\cite{dynkin1960}, Dynkin describes a Markov process using the example of a randomly-moving particle in space;
 
 \say{
-        If the position of the particle is known at the instant $t$, supplementary information regarding the phenomena observed up till the instant $t$ (and in particular, regarding the nature of the motion until $t$) has no effect on prognosis of the motion after the instant $t$ (for a known "present", the "future" and the "past" are independent of eachother).
+        If the position of the particle is known at the instant $t$, supplementary information regarding the phenomena observed up till the instant $t$ (and in particular, regarding the nature of the motion until $t$) has no effect on prognosis of the motion after the instant $t$ (for a known "present", the "future" and the "past" are independent of each other).
 }
 
 From his description, we can draw the following assumptions for modelling a system as a Markov process;
@@ -40,7 +40,7 @@ From his description, we can draw the following assumptions for modelling a syst
   \item There is some probability, $p$, that the system moves from one state to another.
 \end{itemize}
 
-In a \emph{Hidden} Markov Model (HMM), the states and transition probabilities between them are known, but for some ouput sequence the order and selection of states used to produce the output is not known.
+In a \emph{Hidden} Markov Model (HMM), the states and transition probabilities between them are known, but for some output sequence the order and selection of states used to produce the output is not known.
 Knowing both the states and transition probabilities, it is therefore possible to calculate the most probable set of inputs used to produce the output.
 
 To apply this model to speech, treat speech as a continuous sequence of discrete states, where each state is a feature vector representing an acoustic signal (either whole words, phonemes or even sub-phonetic features\cite{bengio1999markovian}).
@@ -65,7 +65,7 @@ The motivation for the \emph{Transformer} can be understood as follows;
         \item By allowing each layer in the encoder and decoder to attend to the whole output of the previous layer, 
 \end{itemize}
 
-In a multilayer network, self-attention layers are used to build relations between seperate parts of an input sequence by allowing each node (or 'attention head'\cite{shaw2018self}) to attend to all outputs from the previous layer.
+In a multilayer network, self-attention layers are used to build relations between separate parts of an input sequence by allowing each node (or 'attention head'\cite{shaw2018self}) to attend to all outputs from the previous layer.
 
 \mycomment{ perhaps delete this part? I'd rather not get bogged down in maths...}
 According to the work that introduced it\cite{vaswani2017attention}, attention in the Transformer architecture is calculated as;
@@ -114,8 +114,8 @@ Whisper is unique in being very large (trained on 680,000 hours of speech data),
 all the training data used to create the model has been accurately labeled and quality-checked by humans, unlike much larger unsupervised (or semi-supervised) models such as `BigSSL' (1,000,000+ hours of data)~\cite{bigssl}.
 
 Unsupervised training is appealing for training speech recognisers because there is a wealth of unlabeled recordings, and labeled recordings are uncommon for less widely-spoken languages\cite{baevski2021}.
-Unsupervised systems have a clear disadvantage, however, when compared to supervised; they lack clear decoder mappings\cite{whisper}, meaning that even for a succesfully encoded input there may not be a clear mapping from that input into a speech token.
-To solve this, fine-tuning to map encodings to decodings is done on the part of the model's developers, though this is a precarious route to overfitting;
+Unsupervised systems have a clear disadvantage, however, when compared to supervised; they lack clear decoder mappings\cite{whisper}, meaning that even for a successfully encoded input there may not be a clear mapping from that input into a speech token.
+To solve this, fine-tuning to map encodings to decoded text tokens is done on the part of the model's developers, though this is a precarious route to overfitting;
 if the model is too fine-tuned to its training data, performance will suffer when faced with data which isn't well represented in the training set.
 
 For example, if an unsupervised model were trained using the voices of young people, it may perform with considerably poorer accuracy when used to transcribe elderly speakers due to differences inherent to their speech\cite{Horton2010}.
