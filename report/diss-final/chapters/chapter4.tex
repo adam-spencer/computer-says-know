@@ -29,8 +29,6 @@ This leaves 52 10-minute recordings of individual speakers with gaps where the o
 The reference transcripts are supplied in \emph{Praat TextGrid} format which is produced by the Praat software suite\cite{praat}.
 The TextGrid format consists of each individual part of speech (words, hesitations, mid-sentence silences, silences when the other participant is speaking etc.) being present in consecutive entries with the time in the recording which they start and finish.
 
-This is an example of a single word in TextGrid format;
-
 \begin{figure}[h!]
 \centering
 \begin{BVerbatim}
@@ -39,11 +37,13 @@ intervals [14]:
   xmax = 21.47 
   text = "BUSH" 
 \end{BVerbatim}
+  \caption{Example of an entry in TextGrid format}
+  \label{fig:textgrid-example}
 \end{figure}
 
-A full example of this format is available in Appendix \ref{appendix:textgrid}.
-
-As shown by this example, \texttt{xmin} and \texttt{xmax} denote the points in the recording at which the section starts and ends, and \texttt{text} denotes the content of the section.
+Figure \ref{fig:textgrid-example} is an example of a single 'interval' in the TextGrid format.
+A larger example is available in Appendix \ref{appendix:textgrid}
+You may observe that \texttt{xmin} and \texttt{xmax} denote the points in the recording at which the section starts and ends, and \texttt{text} denotes the content of the section.
 Considering that each entry appears consecutively and that there are over 1,000 in each file, the format is not easily human-readable.
 
 \subsection{Data Preparation}
@@ -93,8 +93,43 @@ Thus, for the purposes of this work, the medium English-language model was selec
 \section{Confidence Scoring}
 
 Core to this work is the need for a reliable and accurate measure of ASR confidence.
+\mycomment{
+  describe confidence:
+    * some way of knowing how likely the system is to be correct
+    * difficult for one-shot evaluation as there is no training / test sets, just data
+  }
+
+Table \ref{table:confidence-motivations} gives a brief comparison of the benefits and drawbacks associated with determining model confidence from Whisper's output versus from internal processes while the model is running.
 
 \include{tables/confidence-motivations}
+
+The following subsections provide a detailed explanation of how each approach works and should help illustrate the benefits and drawbacks of each.
+
+\subsection{Confidence From Model Output}
+\mycomment{
+  * avg_logprob
+  * temperature
+  * compression_ratio
+  * no_speech_prob
+  * could make an MLP?
+  * drawbacks outway benefit (benefit being lack of modification (ie easier))
+    > no word-level scoring, just average for an utterance
+    > how is lprob calculated? (leads to next part)
+  }
+
+\subsection{Confidence From Model Internals}
+\mycomment{
+  * how does the decoder decide on an output?
+    > scoring is based on encoder output and has weighting from language model
+    > using both of these sources of scoring there should be *some* indication of confidence
+  * logits
+    > how do they work?
+    > what could they show?
+  * potential drawbacks of using internal scoring
+    > scores are only within an utterance! not well compared to other utterances
+    > does this matter?
+  * would give scores for each token (word or even sub-word level)
+  }
 
 \section{Conceptual Transcription Systems}
 
