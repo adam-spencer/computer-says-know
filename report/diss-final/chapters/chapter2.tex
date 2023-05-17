@@ -7,22 +7,29 @@
     * fake-ness (or 'synthetic'-ness) is correct!
 
     Try and stick some figures in to spice it up a bit, currently reads a tad bare
-  }
+}
+The purpose of this chapter is to develop an understanding of the existing literature on the topics of automatic speech recognition, neural network confidence, speech corpora, and computer-aided transcription.
+Each topic is discussed in its own section, with subsections to explore parts of each topic in greater depth.
 
 \section{Automatic Speech Recognition}\label{sec:what-is-asr}
 
 \subsection{What is ASR?}
 
-Automatic Speech Recognition (ASR) is a technology which allows computers to recognise and produce a text transcription of spoken language.
+Automatic Speech Recognition (ASR) is a term used to describe technology which allows computers to recognise and produce a text transcription of spoken language.
 The research and development of technology involving speech has been a part of computer science since the late 1930s\cite{Rabiner2004Jan,vocoder}, with rudimentary ASR systems being constructed as early as the 1950s\cite{asr-52}.
-These early attempts at recognising human speech treated it as a `pattern matching' problem, the theory being that words could be constructed by matching the pattern created in a speech signal to corresponding spoken phonemes\cite{Rabiner2004Jan}. 
-This paradigm falls apart when the system must be re-tuned for each individual, even for simple tasks such as recognising spoken digits\cite{asr-52}, due to the fact that individual speakers don't produce exactly the same signal for each phoneme\cite{Horton2010}.
+These early attempts at recognising human speech treated it as a `pattern matching' problem, the theory being that words could be constructed by matching the pattern created in a speech signal to corresponding spoken phonemes\cite{Rabiner2004Jan}.
+Despite speech recognition fundamentally being a problem of matching speech patterns to text, these early attempts were not particularly robust; requiring re-tuning by a human operator in order to match the specificities of each new speaker's speech patterns\cite{asr-52}.
 
-Since the 1970s, finding the solution to the problem of pattern matching for speech recognition has been considered unviable through the precise matching of patterns but instead finding the most probable pattern using statistical modelling\cite{Rabiner2004Jan}.
-The method which became most widely adopted and is still at the heart of modern ASR is Hidden Markovian Modelling, which was first applied to ASR in the '70s\cite{baker1975stochastic} and continued through the '90s\cite{bengio1999markovian} until today\cite{hmm2023}.
+The 1970s saw the application of statistical techniques to improve the robustness of ASR systems\cite{Rabiner2004Jan}, the most widely adopted method being the application of 'hidden Markov models' (HMMs)\cite{baker1975stochastic}.
+Use of HMMs continued through the '90s\cite{bengio1999markovian} and is still in use today\cite{hmm2023}.
 
 \subsection{Hidden Markov Models}
+\mycomment{
+        Motivate the exploration of HMMs -> to show progress in the field and understand which problems persist
+}
+In order to better understand the way in which modern ASR systems have developed, why they function the way they do, and what limitations have yet to be solved, it's important to explore the approach which historically saw the widest adoption; hidden Markov models.
 
+First, what is a 'Markov model' (also known as a Markov process)?
 In his 1960 work\cite{dynkin1960}, Dynkin describes a Markov process using the example of a randomly-moving particle in space;
 
 \say{
@@ -50,10 +57,14 @@ These tokens may then be decoded by a language model to construct a transcriptio
 Despite making up much of the research foundational to modern ASR, Markov models have a crucial flaw when applied to speech; parts of speech are dependent on more than just the part immediately before (i.e. $t-1$).
 For instance, in a presentation discussing \emph{hats} it is unlikely that the word \emph{cat} would be used, despite the phonetics of the word being largely the same.
 
-\subsection{How Does Modern ASR Work?}
+\subsection{How Does Modern ASR Work?}\label{subsec:modern-asr}
+\mycomment{
+  Maybe start off with just looking at transformers- encoder/decoder and HMM aren't mutually exclusive!
+}
 
-Skipping ahead from the mid-1980s to the current day, ASR has moved towards what is known as the 'end-to-end' or 'encoder-decoder' model;
-at a high level, the input audio is encoded into features, these features are aligned with language and then decoded to produce an output transcript\cite{wang2019overview}.
+Skipping ahead from the mid-1980s to the current day 'state-of-the-art', ASR has moved towards what is known as the 'encoder-decoder' model.
+At a high level, this model consists of two key parts; an encoder and a decoder.
+The encoder processes (\emph{encodes}) input audio into features, these features are aligned with language and then processed by the decoder (\emph{decoded}) to produce an output transcript\cite{wang2019overview}.
 The key difference between modern approaches and the classical HMM-based approach is the use of widely researched 'machine-learning' techniques, including various forms of neural network\cite{mustafa2019comparative, amodei2016deep, hori2017advances, Kim2017Mar}.
 
 Recent research has proposed a new network architecture called the \emph{Transformer}\cite{vaswani2017attention}, aiming to reduce the computational complexity of encoder-decoder models by forgoing convolutional or recurrent neural networks (CNNs and RNNs) and instead relying on 'self-attention'.
@@ -90,10 +101,29 @@ Where;
 
 \subsection{Evaluating ASR Systems}
 \mycomment{
-        Write about WER, PER, CER etc. 
         WER is most used (back this statement up)
         Caveats for using WER
-        }
+}
+As with any computational model, the performance of an ASR system is evaluated in terms of both speed and accuracy.
+Calculating the speed of a model is simple enough; just time it!
+Accuracy, however, is not so simple because there are multiple metrics upon which a reference and ASR-generated transcript (known as a 'hypothesis') may differ.
+
+There are three different levels at which to calculate the similarity between a reference and hypothesis; the word-level, phoneme-level, and character-level\cite{fang2020}
+Comparing words and characters is relatively self-explanatory, the transcripts are either split up into individual words or characters for comparison.
+A phoneme-level comparison involves transforming textual words into the parts of speech which constitute them, known as phonemes.
+
+The accuracy calculation to derive an 'error-rate' (also known as the edit-distance\cite{niessen2000evaluation}) is as follows;
+
+\[WER = \frac{S + D + I}{S + D + C}\]
+
+where:
+
+\begin{itemize}
+  \item $S$ is the number of \emph{substituted} words (words which appear in the place of another correct word)
+  \item $D$ is the number of \emph{deleted} words (words which aren't present in the hypothesis but appear in the reference)
+  \item $I$ is the number of \emph{inserted} words (words which do not appear in the reference but appear in the hypothesis)
+  \item $C$ is the number of \emph{correct} words (words which appear in both the reference and hypothesis)
+\end{itemize}
 
 \subsection{Problems in ASR}
 
