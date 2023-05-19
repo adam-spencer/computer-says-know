@@ -1,1 +1,27 @@
 \chapter{Results and Discussion}\label{ch:results-and-discussion}
+
+\mycomment{
+  * Chapter introduction
+  * Results section
+    > simulate a manual transcriber correcting results by ordering utterances using some metric and using specific WER caclulation
+    > Run as average for single conversations AND whole corpus
+    > present results using word-confidence
+    > could make a table to show percentage of data checked versus reduction in WER?
+  * Discussion section
+    > average_logprob and utterance confidence are similar- appear to function well for average convo but poorly for whole corpus
+    > explain: utterance confidence is calculated from the same logit data as utterance confidence (thus have similar shape)
+    > explain word-confidence
+    > works much better - long utterances can have few low-confidence words but get high average, word-confidence ordering eliminates this
+    > word-confidence seems to work! there is benefit from using this metric
+    > other two not so much
+    > is this test representative of a real user?
+    > by showing that there is a confidence metric which seems to work, Whisper is demonstrated to be a viable choice for aiding a human transcriber
+    > perhaps work through requirements?
+  * Future work (maybe a better title?)
+    > try different type of confidence scoring - perhaps Whisper isn't the best candidate due to the way it makes choices?
+    > try different datasets - LifeLUCID is only one out of thousand of corpora, try to replicate results
+    > make fully-working transcription software - my example only shows the effect of ordering results, doesn't allow input
+    > compare the effect of different model sizes - errors may be clustered differently - if smaller models could reliably get confidence then the hardware and time required to generate transcripts would be minimised
+}
+
+\section{}
