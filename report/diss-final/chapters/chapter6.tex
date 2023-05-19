@@ -24,4 +24,76 @@
     > compare the effect of different model sizes - errors may be clustered differently - if smaller models could reliably get confidence then the hardware and time required to generate transcripts would be minimised
 }
 
-\section{}
+\section{Simulating Computer-Aided Transcription}
+
+An effective computer-aided transcription system must reduce the human cost required to lower the amount of errors a transcription to an acceptable level.
+By ordering transcribed utterances using some confidence metric and letting a human transcriber make corrections, an effective system should see the error rate fall more rapidly than if the results were corrected in a random order. \\
+
+A simple simulation was devised in order to test the effectiveness of each potential measure of system confidence by using the formula for WER as follows;
+
+\begin{enumerate}
+  \item For a set of $M$ utterances $U = \{ u_{0}, u_{1}, \ldots\, u_{M} \}$ (either a single conversation or entire corpus), the subsitutions ($S_i$), deletions ($D_i$), insertions ($I_i$), and number of words in the reference ($N_i$) are calculated for each utterance, $u_i$.
+  \item $U$ is ordered using a confidence metric.
+  \item The WER, $w_i$, is calculated for a slice of $U$ containing all items including and following some utterance, $u_i$;
+    \[
+      w_i = \frac{\sum_{j=i}^{M} (S_j + D_j + I_j)}{\sum_{k=0}^{M} N_k}
+    \]
+  \item Increment $i$ by $1$ then repeat the previous step for all $0 \leq i \leq M$.
+    Notice that the denominator is the same for all slices but the numerator changes to simulate each utterance being corrected in order.
+  \item Output is a set $W = \{ w_{0}, w_{1}, \ldots\, w_{M} \}$, where some item $w_{i}$ is equal to the WER of $U$ after correcting all utterances prior to $u_i$.
+\end{enumerate}
+
+These results shall be analysed by plotting graphs of WER against the percentage of utterance which have been human-corrected, henceforth refered to as 'Cost'.
+
+\section{Simulation Results}
+
+This section details the results acquired from running this simple simulation using results ordered with each of the following metrics;
+
+\begin{itemize}
+  \item \texttt{avg\_logprob} taken directly from Whisper's standard output;
+  \item utterance-average confidence score; and
+  \item utterance minimum and maximum word-confidence scores.
+\end{itemize}
+
+\begin{figure}[h]
+ \includegraphics[width=\textwidth]{figures/average-avg-logprob.png}
+ \centering
+\end{figure}
+\begin{figure}[h]
+ \includegraphics[width=\textwidth]{figures/average-uttconf.png}
+ \centering
+\end{figure}
+\begin{figure}[h]
+ \includegraphics[width=\textwidth]{figures/corpus-avg-lprob-uttconf.png}
+ \centering
+\end{figure}
+\begin{figure}[h]
+ \includegraphics[width=\textwidth]{figures/compare-avg-uttconf-vs-lprob.png}
+ \centering
+\end{figure}
+\begin{figure}[h]
+ \includegraphics[width=\textwidth]{figures/word-conf-comparison-plot1.png}
+ \centering
+\end{figure}
+\begin{figure}[h]
+ \includegraphics[width=\textwidth]{figures/word-conf-comparison-plot2.png}
+ \centering
+\end{figure}
+\begin{figure}[h]
+ \includegraphics[width=\textwidth]{figures/word-conf-comparison-plot3.png}
+ \centering
+\end{figure}
+\begin{figure}[h]
+ \includegraphics[width=\textwidth]{figures/word-conf-comparison-plot4.png}
+ \centering
+\end{figure}
+\begin{figure}[h]
+ \includegraphics[width=\textwidth]{figures/corpus-all-word-conf-measures.png}
+ \centering
+\end{figure}
+\begin{figure}[h]
+ \includegraphics[width=\textwidth]{figures/corpus-allmeasures.png}
+ \centering
+\end{figure}
+
+\section{Discussion of Results}
