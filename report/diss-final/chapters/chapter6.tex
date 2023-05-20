@@ -57,8 +57,38 @@ This section details the results acquired from running this simple simulation us
 
 Where \say{utterance-minimum and -maximum word-confidence} refers to an ordering of utterances based on each utterances minimum and maximum word-level confidence score.
 
+Results which show a per-conversation average have a shaded section to show the standard deviation from the mean, where the mean is the coloured line on the graph.
+
+Dashed 'random order' lines show the WER/Cost trend expected if the results were manually corrected in a random order.
+A performant metric for ordering results should have a plot showing a line which dips below the 'random order' line.
+A metric which follows the trend of the 'random order' line is thus performing the same as if the results were randomly ordered and therefore ineffective for computer-aided transcription.
+
 \include{figures/results_plots}
 
 \clearpage
 \section{Discussion of Results}
-In this section ...
+
+This section shall discuss findings which can be drawn from these results.
+
+\subsection{Utterance-average confidence and \texttt{avg_logprob}}
+
+The results show that \texttt{avg\_logprob} and utterance-average confidence perform relatively similarly on average for a given conversation (\ref{fig:compare-avg-uttconf-vs-lprob}), with similarly poor performance when used to order the entire corpus (\ref{fig:corpus-avg-lprob-uttconf}).
+Utterance-average confidence appears to have marginally superior performance in both comparisons shown in section \ref{subsec:avg-word-conf}.
+
+\mycomment{
+  need to explain how conf and lprob are calculated in implementation or design section
+}
+The similarity between the plots of the utterance-average word confidence and Whisper's \texttt{avg\_logprob} output is likely due to their similarity in calculation.
+Confidence is calculated by \emph{whisper-timestamped}\cite{whisper-timestamped} from the average of the word-level confidence scores in an utterance, which are calculated from the average of the sub-word log-probabilities for each word.
+Whisper\cite{whisper} calculates \texttt{avg\_logprob} as simply the average of the log-probabilities of all tokens in an utterance.
+Perhaps the slight performance increase seen when using utterance-average confidence scores could be explained due to it being calculated from word-level scores rather than token-level and the accuracy metric operating at the word-level rather than token-level too.
+
+\subsection{Word-level confidence metrics}
+
+The results presented in section \ref{subsec:avg-word-conf}
+
+\subsection{Comparing word-level and utterance-level metrics}
+
+\section{Future Work}
+
+This section shall suggest areas which may benefit from further work in the future which have become clear while completing this work.
