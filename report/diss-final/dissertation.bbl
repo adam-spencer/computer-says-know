@@ -42,11 +42,6 @@ K.~H. Davis, R.~Biddulph, and S.~Balashek, ``Automatic recognition of spoken
   \url{https://doi.org/10.1121/1.1906946}
 \BIBentrySTDinterwordspacing
 
-\bibitem{Horton2010}
-W.~S. Horton, D.~H. Spieler, and E.~Shriberg, ``{A corpus analysis of patterns
-  of age-related change in conversational speech.}'' \emph{Psychol. Aging},
-  vol.~25, no.~3, p. 708, 2010.
-
 \bibitem{baker1975stochastic}
 J.~K. Baker, \emph{Stochastic modeling as a means of automatic speech
   recognition.}\hskip 1em plus 0.5em minus 0.4em\relax Carnegie Mellon
@@ -120,6 +115,27 @@ A.~Graves and N.~Jaitly, ``Towards end-to-end speech recognition with recurrent
 P.~Shaw, J.~Uszkoreit, and A.~Vaswani, ``Self-attention with relative position
   representations,'' \emph{arXiv preprint arXiv:1803.02155}, 2018.
 
+\bibitem{fang2020}
+\BIBentryALTinterwordspacing
+A.~Fang, S.~Filice, N.~Limsopatham, and O.~Rokhlenko, ``Using phoneme
+  representations to build predictive models robust to asr errors,'' in
+  \emph{Proceedings of the 43rd International ACM SIGIR Conference on Research
+  and Development in Information Retrieval}, ser. SIGIR '20.\hskip 1em plus
+  0.5em minus 0.4em\relax New York, NY, USA: Association for Computing
+  Machinery, 2020, pp. 699--708. [Online]. Available:
+  \url{https://doi.org/10.1145/3397271.3401050}
+\BIBentrySTDinterwordspacing
+
+\bibitem{niessen2000evaluation}
+S.~Nie{\ss}en, F.~J. Och, G.~Leusch, H.~Ney \emph{et~al.}, ``An evaluation tool
+  for machine translation: Fast evaluation for mt research.'' in \emph{LREC},
+  2000.
+
+\bibitem{park2008empirical}
+Y.~Park, S.~Patwardhan, K.~Visweswariah, and S.~C. Gates, ``An empirical
+  analysis of word error rate and keyword error rate.'' in \emph{INTERSPEECH},
+  vol. 2008, 2008, pp. 2070--2073.
+
 \bibitem{wav2vec2}
 \BIBentryALTinterwordspacing
 A.~Baevski, Y.~Zhou, A.~Mohamed, and M.~Auli, ``wav2vec 2.0: A framework for
@@ -184,6 +200,11 @@ A.~Baevski, W.-N. Hsu, A.~CONNEAU, and M.~Auli, ``Unsupervised speech
   2021, pp. 27\,826--27\,839. [Online]. Available:
   \url{https://proceedings.neurips.cc/paper_files/paper/2021/file/ea159dc9788ffac311592613b7f71fbb-Paper.pdf}
 \BIBentrySTDinterwordspacing
+
+\bibitem{Horton2010}
+W.~S. Horton, D.~H. Spieler, and E.~Shriberg, ``{A corpus analysis of patterns
+  of age-related change in conversational speech.}'' \emph{Psychol. Aging},
+  vol.~25, no.~3, p. 708, 2010.
 
 \bibitem{pytorch}
 \BIBentryALTinterwordspacing

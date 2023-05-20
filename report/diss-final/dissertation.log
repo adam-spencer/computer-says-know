@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.3)  16 MAY 2023 19:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.3)  20 MAY 2023 16:33
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -576,7 +576,8 @@ File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count335
 \l__pdf_internal_box=\box109
 )
-(./dissertation.aux (./tables/confidence-motivations.aux))
+(./dissertation.aux (./tables/confidence-motivations.aux)
+(./figures/results_plots.aux))
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -660,7 +661,7 @@ Package hyperref Info: Link coloring OFF on input line 29.
 \@outlinefile=\write5
 \openout5 = `dissertation.out'.
 
-<images/tuoslogo.png, id=192, 78.2925pt x 79.2561pt>
+<images/tuoslogo.png, id=217, 78.2925pt x 79.2561pt>
 File: images/tuoslogo.png Graphic file (type png)
 <use images/tuoslogo.png>
 Package pdftex.def Info: images/tuoslogo.png  used on input line 41.
@@ -711,46 +712,40 @@ Chapter 1.
 
 ]
 Chapter 2.
-
-Overfull \hbox (8.4073pt too wide) in paragraph at lines 26--27
-\OT1/cmr/m/n/10.95 In his 1960 work[[]], Dynkin de-scribes a Markov pro-cess us
--ing the ex-am-ple of a randomly-moving
- []
-
 [2
 
-]
-Overfull \hbox (28.05649pt too wide) in paragraph at lines 59--61
+] [3]
+Overfull \hbox (28.05649pt too wide) in paragraph at lines 70--72
 \OT1/cmr/m/n/10.95 aim-ing to re-duce the com-pu-ta-tional com-plex-ity of enco
 der-decoder mod-els by for-go-ing con-vo-lu-tional
  []
 
 
-Overfull \hbox (13.07115pt too wide) in paragraph at lines 63--64
+Overfull \hbox (13.07115pt too wide) in paragraph at lines 74--75
 []\OT1/cmr/m/n/10.95 CNNs (e.g. [[]]) and RNNs (e.g. [[]]), while pop-u-lar, ha
 ve greater per-layer com-pu-ta-tional
  []
 
 
-Overfull \hbox (4.98079pt too wide) in paragraph at lines 64--65
+Overfull \hbox (4.98079pt too wide) in paragraph at lines 75--76
 \OT1/cmr/m/n/10.95 length $\OML/cmm/m/it/10.95 n$\OT1/cmr/m/n/10.95 , whereas s
 elf-attention has a con-stant (i.e. $\OML/cmm/m/it/10.95 O\OT1/cmr/m/n/10.95 (1
 )$) max-i-mum num-ber of se-quen-tial
  []
 
-[3] [4]
-<figures/specgram.png, id=371, 8089.22125pt x 2233.34375pt>
+[4] [5]
+<figures/specgram.png, id=434, 8089.22125pt x 2233.34375pt>
 File: figures/specgram.png Graphic file (type png)
 <use figures/specgram.png>
-Package pdftex.def Info: figures/specgram.png  used on input line 128.
+Package pdftex.def Info: figures/specgram.png  used on input line 161.
 (pdftex.def)             Requested size: 440.84746pt x 121.69267pt.
 
-Overfull \hbox (2.88693pt too wide) in paragraph at lines 138--139
+Overfull \hbox (2.88693pt too wide) in paragraph at lines 171--172
 []\OT1/cmr/m/n/10.95 Whisper is im-ple-mented in Python us-ing the \OT1/cmr/m/i
 t/10.95 Py-Torch\OT1/cmr/m/n/10.95 [[]] li-brary which al-lows com-pu-ta-tion
  []
 
-) (./chapters/chapter3.tex [5 <./figures/specgram.png>] [6]
+) (./chapters/chapter3.tex [6 <./figures/specgram.png>]
 Chapter 3.
 
 Overfull \hbox (16.70537pt too wide) in paragraph at lines 6--6
@@ -826,67 +821,160 @@ n/10.95 whisper\OT1/cmr/m/n/10.95 [[]]. The mod-ule fea-tures a \OT1/cmtt/m/n/1
 
 ]) (./chapters/chapter6.tex [17]
 Chapter 6.
-) (./chapters/chapter7.tex [18
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
+
+ []
+
+[18
+
+] [19]
+\openout2 = `figures/results_plots.aux'.
+
+ (./figures/results_plots.tex
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2.
+<figures/average-avg-logprob.png, id=534, 387.6081pt x 204.16275pt>
+File: figures/average-avg-logprob.png Graphic file (type png)
+<use figures/average-avg-logprob.png>
+Package pdftex.def Info: figures/average-avg-logprob.png  used on input line 8.
+
+(pdftex.def)             Requested size: 440.84746pt x 232.21211pt.
+<figures/average-uttconf.png, id=535, 387.6081pt x 204.16275pt>
+File: figures/average-uttconf.png Graphic file (type png)
+<use figures/average-uttconf.png>
+Package pdftex.def Info: figures/average-uttconf.png  used on input line 13.
+(pdftex.def)             Requested size: 440.84746pt x 232.21211pt.
+<figures/compare-avg-uttconf-vs-lprob.png, id=536, 387.6081pt x 204.16275pt>
+File: figures/compare-avg-uttconf-vs-lprob.png Graphic file (type png)
+<use figures/compare-avg-uttconf-vs-lprob.png>
+Package pdftex.def Info: figures/compare-avg-uttconf-vs-lprob.png  used on inpu
+t line 19.
+(pdftex.def)             Requested size: 440.84746pt x 232.21211pt.
+<figures/corpus-avg-lprob-uttconf.png, id=537, 382.5492pt x 204.16275pt>
+File: figures/corpus-avg-lprob-uttconf.png Graphic file (type png)
+<use figures/corpus-avg-lprob-uttconf.png>
+Package pdftex.def Info: figures/corpus-avg-lprob-uttconf.png  used on input li
+ne 25.
+(pdftex.def)             Requested size: 440.84746pt x 235.28377pt.
+ [20
+
+
+ <./figures/average-avg-logprob.png> <./figures/average-uttconf.png>] [21 <./fi
+gures/compare-avg-uttconf-vs-lprob.png> <./figures/corpus-avg-lprob-uttconf.png
+>]
+<figures/word-conf-comparison-plot1.png, id=551, 387.6081pt x 204.16275pt>
+File: figures/word-conf-comparison-plot1.png Graphic file (type png)
+<use figures/word-conf-comparison-plot1.png>
+Package pdftex.def Info: figures/word-conf-comparison-plot1.png  used on input 
+line 35.
+(pdftex.def)             Requested size: 440.84746pt x 232.21211pt.
+<figures/word-conf-comparison-plot2.png, id=552, 387.6081pt x 204.16275pt>
+File: figures/word-conf-comparison-plot2.png Graphic file (type png)
+<use figures/word-conf-comparison-plot2.png>
+Package pdftex.def Info: figures/word-conf-comparison-plot2.png  used on input 
+line 41.
+(pdftex.def)             Requested size: 440.84746pt x 232.21211pt.
+<figures/word-conf-comparison-plot3.png, id=553, 387.6081pt x 204.16275pt>
+File: figures/word-conf-comparison-plot3.png Graphic file (type png)
+<use figures/word-conf-comparison-plot3.png>
+Package pdftex.def Info: figures/word-conf-comparison-plot3.png  used on input 
+line 47.
+(pdftex.def)             Requested size: 440.84746pt x 232.21211pt.
+<figures/word-conf-comparison-plot4.png, id=554, 387.6081pt x 204.16275pt>
+File: figures/word-conf-comparison-plot4.png Graphic file (type png)
+<use figures/word-conf-comparison-plot4.png>
+Package pdftex.def Info: figures/word-conf-comparison-plot4.png  used on input 
+line 53.
+(pdftex.def)             Requested size: 440.84746pt x 232.21211pt.
+ [22
+
+ <./figures/word-conf-comparison-plot1.png> <./figures/word-conf-comparison-plo
+t2.png>] [23 <./figures/word-conf-comparison-plot3.png> <./figures/word-conf-co
+mparison-plot4.png>]
+<figures/corpus-all-word-conf-measures.png, id=567, 382.5492pt x 204.16275pt>
+File: figures/corpus-all-word-conf-measures.png Graphic file (type png)
+<use figures/corpus-all-word-conf-measures.png>
+Package pdftex.def Info: figures/corpus-all-word-conf-measures.png  used on inp
+ut line 63.
+(pdftex.def)             Requested size: 440.84746pt x 235.28377pt.
+<figures/corpus-allmeasures.png, id=568, 382.5492pt x 204.16275pt>
+File: figures/corpus-allmeasures.png Graphic file (type png)
+<use figures/corpus-allmeasures.png>
+Package pdftex.def Info: figures/corpus-allmeasures.png  used on input line 69.
+
+(pdftex.def)             Requested size: 440.84746pt x 235.28377pt.
+) [24
+
+ <./figures/corpus-all-word-conf-measures.png> <./figures/corpus-allmeasures.pn
+g>])
+(./chapters/chapter7.tex [25
+
+
 
 ]
 Chapter 7.
-) (./dissertation.bbl [19
+) (./dissertation.bbl [26
 
 ]
-Underfull \hbox (badness 1629) in paragraph at lines 60--65
+Underfull \hbox (badness 1629) in paragraph at lines 55--60
 \OT1/cmr/m/it/10.95 and Tech-niques in Cy-ber In-tel-li-gence (ICATCI 2022)\OT1
 /cmr/m/n/10.95 , J. H. Abawajy, Z. Xu,
  []
 
-[20
+[27
 
 ]
-Underfull \hbox (badness 1810) in paragraph at lines 120--122
+Underfull \hbox (badness 1810) in paragraph at lines 115--117
 []\OT1/cmr/m/n/10.95 P. Shaw, J. Uszko-r-eit, and A. Vaswani, ``Self-attention 
 with rel-a-tive po-si-tion
  []
 
-[21] [22]) [23] [24
+[28] [29]) [30] [31
 
 
 ] (./chapters/appendixA.tex
 Appendix A.
-) (./chapters/appendixB.tex [25
+) (./chapters/appendixB.tex [32
 
 ]
 Appendix B.
-) [26
+) [33
 
-] (./dissertation.aux (./tables/confidence-motivations.aux))
+] (./dissertation.aux (./tables/confidence-motivations.aux)
+(./figures/results_plots.aux))
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 2BDFB07D0E2D9D4CA45BF252C321A927;7883.
+(rerunfilecheck)             Checksum: BA12914CD3393C9FF1FF206ED65F02C6;9478.
  ) 
 Here is how much of TeX's memory you used:
- 13984 strings out of 475071
- 239503 string characters out of 5778910
- 639076 words of memory out of 5000000
- 34998 multiletter control sequences out of 15000+600000
- 477256 words of font info for 55 fonts, out of 8000000 for 9000
+ 14136 strings out of 475071
+ 244145 string characters out of 5778910
+ 640956 words of memory out of 5000000
+ 35101 multiletter control sequences out of 15000+600000
+ 477425 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,81p,1433b,592s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,81p,1433b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
-l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local
-/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
-exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
-xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/tex
-live/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on dissertation.pdf (33 pages, 724802 bytes).
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
+/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
+xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
+ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texliv
+e/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive
+/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/
+2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on dissertation.pdf (40 pages, 2835707 bytes).
 PDF statistics:
- 603 PDF objects out of 1000 (max. 8388607)
- 533 compressed objects within 6 object streams
- 129 named destinations out of 1000 (max. 500000)
- 387 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 740 PDF objects out of 1000 (max. 8388607)
+ 636 compressed objects within 7 object streams
+ 160 named destinations out of 1000 (max. 500000)
+ 485 words of extra memory for PDF output out of 10000 (max. 10000000)
 
