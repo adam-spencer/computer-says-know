@@ -55,45 +55,75 @@ This section details the results acquired from running this simple simulation us
   \item utterance minimum and maximum word-confidence scores.
 \end{itemize}
 
-\begin{figure}[h]
- \includegraphics[width=\textwidth]{figures/average-avg-logprob.png}
+\begin{figure}[p]
+ \caption{Per-conversation average WER when evaluating in non-descending order of utterance \texttt{avg\_logprob}}
+ \label{fig:average-avg-logprob}
  \centering
+ \includegraphics[width=\textwidth]{figures/average-avg-logprob.png}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[p]
+ \caption{Per-conversation average WER when evaluating in non-descending order of utterance-average confidence}
+ \label{fig:average-uttconf}
  \includegraphics[width=\textwidth]{figures/average-uttconf.png}
  \centering
 \end{figure}
-\begin{figure}[h]
- \includegraphics[width=\textwidth]{figures/corpus-avg-lprob-uttconf.png}
- \centering
-\end{figure}
-\begin{figure}[h]
+\begin{figure}[p]
+ \caption{Comparing per-conversation average performance of confidence and \texttt{avg\_logprob}}
+ \label{fig:compare-avg-uttconf-vs-lprob}
  \includegraphics[width=\textwidth]{figures/compare-avg-uttconf-vs-lprob.png}
  \centering
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[p]
+ \caption{Comparing whole-corpus performance of confidence and \texttt{avg\_logprob}}
+ \label{fig:corpus-avg-lprob-uttconf}
+ \includegraphics[width=\textwidth]{figures/corpus-avg-lprob-uttconf.png}
+ \centering
+\end{figure}
+
+\clearpage
+\subsection{Per-conversation average results using word-confidence}
+
+\begin{figure}[h!]
+ \caption{Ordered by non-descending utterance-minimum word-confidence}
+ \label{fig:word-conf-comparison-plot1}
  \includegraphics[width=\textwidth]{figures/word-conf-comparison-plot1.png}
  \centering
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[h!]
+ \caption{Ordered by non-ascending utterance-minimum word-confidence}
+ \label{fig:word-conf-comparison-plot2}
  \includegraphics[width=\textwidth]{figures/word-conf-comparison-plot2.png}
  \centering
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[p]
+ \caption{Ordered by non-descending utterance-maximum word-confidence}
+ \label{fig:word-conf-comparison-plot3}
  \includegraphics[width=\textwidth]{figures/word-conf-comparison-plot3.png}
  \centering
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[p]
+ \caption{Ordered by non-ascending utterance-maximum word-confidence}
+ \label{fig:word-conf-comparison-plot4}
  \includegraphics[width=\textwidth]{figures/word-conf-comparison-plot4.png}
  \centering
 \end{figure}
-\begin{figure}[h]
+
+\clearpage
+\subsection{Comparisons between all measures}
+
+\begin{figure}[h!]
+ \caption{}
+ \label{fig:}
  \includegraphics[width=\textwidth]{figures/corpus-all-word-conf-measures.png}
  \centering
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[h!]
+ \caption{}
+ \label{fig:}
  \includegraphics[width=\textwidth]{figures/corpus-allmeasures.png}
  \centering
 \end{figure}
 
+\clearpage
 \section{Discussion of Results}
+In this section ...
