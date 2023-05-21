@@ -24,7 +24,7 @@
     > compare the effect of different model sizes - errors may be clustered differently - if smaller models could reliably get confidence then the hardware and time required to generate transcripts would be minimised
 }
 
-\section{Simulating Computer-Aided Transcription}
+\section{Simulating Computer-Aided Transcription}\label{sec:simulating-transcription}
 
 An effective computer-aided transcription system must reduce the human cost required to lower the amount of errors a transcription to an acceptable level.
 By ordering transcribed utterances using some confidence metric and letting a human transcriber make corrections, an effective system should see the error rate fall more rapidly than if the results were corrected in a random order. \\
@@ -64,6 +64,8 @@ A performant metric for ordering results should have a plot showing a line which
 A metric which follows the trend of the 'random order' line is thus performing the same as if the results were randomly ordered and therefore ineffective for computer-aided transcription.
 
 \include{figures/results_plots}
+
+\include{tables/halve-wer-results}
 
 \clearpage
 \section{Discussion of Results}
@@ -106,14 +108,35 @@ The metric with the best performance is clearly non-descending utterance-minimum
 
 Figure \ref{fig:range-ordering-vs-stddev-vs-min-wconf} shows the performance of non-ascending ordering using the both range scores and standard deviation of word-confidence for each utterance. 
 Notice the slight performance gains over non-descending utterance-minimum word-confidence.
-When ordering utterances using the best performing metric, non-ascending word-confidence range, checking only 40\% of the results gives a relative reduction in WER of over 65\% compared to not checking any ASR-generated results.
 
-\include{tables/halve-wer-results}
+These metrics show slight performance gains over non-descending utterance-minimum word-confidence, as illustrated in figure \ref{fig:delta-wer} which plots the difference in WER from using random ordering ($\Delta$WER) against Cost.
 
-These metrics show slight performance gains over non-descending utterance-minimum word-confidence, though these gains are best illustrated in figure \ref{fig:delta-wer}, which plots the difference in WER from using random ordering ($\Delta$WER) against Cost.
-
-
+Table \ref{table:halve-wer-results} presents the cost required to halve WER, with non-ascending word-confidence range being the best performer.
+According to these results, a computer-aided transcription system using this metric would require only 28\% of the results to be checked in order to halve the WER of the ASR output, in this case falling to approximately 6\% WER.
+Considering that the corpus has been segmented into 7312 utterances, fewer than 2050 of them would require manually correcting to reduce the WER by half when ordered using this metric.
+For reference, to achieve this result by correcting the results in random order would require checking over 3600 pieces of audio, or 44\% more.
 
 \section{Future Work}
 
-This section shall suggest areas which may benefit from further work in the future which have become clear while completing this work.
+This section shall highlight some of the areas which this project has failed to adequately address and present potential avenues for further work.
+
+\subsection{Increase test corpus}
+
+This work has focused on only one speech corpus, \emph{LifeLUCID}\cite{lifelucid}.
+Though it presents a diverse range of speaker ages, it has made for a relatively small test sample (less than 9 hours total).
+Thorough testing on a variety of speech corpora would provide validatation to the results presented earlier in this chapter.
+Other languages could be used to increase the diversity of the test corpus because Whisper is capable of operating on various different languages (though is trained on 65\% English data\cite{whisper}).
+
+Despite the limited test corpus used in this work, the results of ordering utterances using metrics based on word-level confidence scores show a very clear benefit to the efficiency of a semi-automatic transcription system.
+This benefit may differ in magnitude across corpora, though it seems highly unlikely that it would not provide a benefit to other similar corpora (i.e. consisting of English speakers).
+
+\subsection{Acquire results from human transcribers}
+
+The rudimentary simulation presented in section \ref{sec:simulating-transcription} is built on the assumption that a result is free from errors once human-corrected.
+In reality, this is not always the case; humans often make mistakes, and therefore would produce different results from what was presented in this chapter.
+
+An experiment using human participants would require a working computer-aided transcription software; the software demonstration presented for this project is not fully-featured and would require a small amount of modification before it could be used for transcription.
+Specifically, it is not capable of taking text input from the user, though it can order, highlight and blank-out utterances, as well as play accompanying audio files.
+
+\subsection{Experiment with other derivations of confidence}
+
