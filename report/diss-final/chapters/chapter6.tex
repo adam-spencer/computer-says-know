@@ -85,9 +85,34 @@ Perhaps the slight performance increase seen when using utterance-average confid
 
 \subsection{Word-level confidence metrics}
 
-The results presented in section \ref{subsec:avg-word-conf}
+The results presented in section \ref{subsec:avg-word-conf} show the per-conversation average relationship between WER and Cost for the non-ascending and non-descending utterance-minimum and -maximum word-confidence metrics.
+
+It is apparent that for the utterance-minimum word-confidence metric it is best to use non-descending (fig. \ref{fig:word-conf-comparison-plot1}) rather than non-ascending order (fig. \ref{fig:word-conf-comparison-plot2}), as non-ascending order closely follows the random order (i.e. is ineffective).
+This makes intuitive sense because ordering results on non-ascending minimum confidence would mean correcting the most confident results first, thus the opposite of an effective ordering method.
+
+Notice that non-descending utterance-minimum word-confidence ordering (fig. \ref{fig:word-conf-comparison-plot1}) has the narrowest shaded area of all the plots presented, meaning it has the lowest standard deviation from the mean and therefore the most reliable representation of performance on a given conversation.
+
+As for using utterance-maximum word-confidence ordering, non-ascending order (fig. \ref{fig:word-conf-comparison-plot4}) shows superior performance to non-descending (fig. \ref{fig:word-conf-comparison-plot3}).
+The reason for this is less intuitive; it would make more sense that ordering from lowest maximum confidence to highest (i.e. non-descending) would put utterances with lower confidence scores first.
+This could be due to word-confidence being derived from word-level probability scores, though this is an area which needs more experimentation to better understand this result.
+
+When comparing whole-corpus evaluation results using word-confidence measures (fig. \ref{fig:corpus-all-word-conf-measures}), non-descending utterance-minimum word-confidence ordering has the best (largest difference from random) and most consistent (smoothest line) performance of all the metrics, followed by non-ascending utterance-maximum word-confidence.
+The other two metrics are shown to be a hinderance, achieving worse performance than if the results were evaluated in random order and should thus be ignored as metrics to use in a computer-aided transcription system.
 
 \subsection{Comparing word-level and utterance-level metrics}
+
+Figure \ref{fig:corpus-allmeasures} presents a comparison between the performance of each metric when evaluating the whole corpus.
+The metric with the best performance is clearly non-descending utterance-minimum word-confidence; it is much more consistent than the others and remains much further from random ordering, meaning it has the highest WER reduction for the same cost as all other metrics.
+
+Figure \ref{fig:range-ordering-vs-stddev-vs-min-wconf} shows the performance of non-ascending ordering using the both range scores and standard deviation of word-confidence for each utterance. 
+Notice the slight performance gains over non-descending utterance-minimum word-confidence.
+When ordering utterances using the best performing metric, non-ascending word-confidence range, checking only 40\% of the results gives a relative reduction in WER of over 65\% compared to not checking any ASR-generated results.
+
+\include{tables/halve-wer-results}
+
+These metrics show slight performance gains over non-descending utterance-minimum word-confidence, though these gains are best illustrated in figure \ref{fig:delta-wer}, which plots the difference in WER from using random ordering ($\Delta$WER) against Cost.
+
+
 
 \section{Future Work}
 

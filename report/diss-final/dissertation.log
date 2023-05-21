@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.3)  20 MAY 2023 17:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.3)  21 MAY 2023 17:59
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -577,7 +577,7 @@ File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__pdf_internal_box=\box109
 )
 (./dissertation.aux (./tables/confidence-motivations.aux)
-(./figures/results_plots.aux))
+(./figures/results_plots.aux) (./tables/halve-wer-results.aux))
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -661,7 +661,7 @@ Package hyperref Info: Link coloring OFF on input line 29.
 \@outlinefile=\write5
 \openout5 = `dissertation.out'.
 
-<images/tuoslogo.png, id=233, 78.2925pt x 79.2561pt>
+<images/tuoslogo.png, id=237, 78.2925pt x 79.2561pt>
 File: images/tuoslogo.png Graphic file (type png)
 <use images/tuoslogo.png>
 Package pdftex.def Info: images/tuoslogo.png  used on input line 41.
@@ -693,7 +693,13 @@ l.1 \chapter
 \openout6 = `dissertation.toc'.
 
 
-[4] (./dissertation.lof)
+[4] (./dissertation.lof
+Overfull \hbox (27.38739pt too wide) in paragraph at lines 18--18
+ [][] [][]\OT1/cmr/m/n/10.95 Comparing whole-corpus eval-u-a-tion per-for-mance
+ with dif-fer-ent word-level con-fi-dence 
+ []
+
+)
 \tf@lof=\write7
 \openout7 = `dissertation.lof'.
 
@@ -734,7 +740,7 @@ elf-attention has a con-stant (i.e. $\OML/cmm/m/it/10.95 O\OT1/cmr/m/n/10.95 (1
  []
 
 [4] [5]
-<figures/specgram.png, id=454, 8089.22125pt x 2233.34375pt>
+<figures/specgram.png, id=464, 8089.22125pt x 2233.34375pt>
 File: figures/specgram.png Graphic file (type png)
 <use figures/specgram.png>
 Package pdftex.def Info: figures/specgram.png  used on input line 161.
@@ -834,24 +840,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
  (./figures/results_plots.tex
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2.
-<figures/average-avg-logprob.png, id=554, 387.6081pt x 204.16275pt>
+<figures/average-avg-logprob.png, id=564, 387.6081pt x 204.16275pt>
 File: figures/average-avg-logprob.png Graphic file (type png)
 <use figures/average-avg-logprob.png>
 Package pdftex.def Info: figures/average-avg-logprob.png  used on input line 8.
 
 (pdftex.def)             Requested size: 440.84746pt x 232.21211pt.
-<figures/average-uttconf.png, id=555, 387.6081pt x 204.16275pt>
+<figures/average-uttconf.png, id=565, 387.6081pt x 204.16275pt>
 File: figures/average-uttconf.png Graphic file (type png)
 <use figures/average-uttconf.png>
 Package pdftex.def Info: figures/average-uttconf.png  used on input line 13.
 (pdftex.def)             Requested size: 440.84746pt x 232.21211pt.
-<figures/compare-avg-uttconf-vs-lprob.png, id=556, 387.6081pt x 204.16275pt>
+<figures/compare-avg-uttconf-vs-lprob.png, id=566, 387.6081pt x 204.16275pt>
 File: figures/compare-avg-uttconf-vs-lprob.png Graphic file (type png)
 <use figures/compare-avg-uttconf-vs-lprob.png>
 Package pdftex.def Info: figures/compare-avg-uttconf-vs-lprob.png  used on inpu
 t line 19.
 (pdftex.def)             Requested size: 440.84746pt x 232.21211pt.
-<figures/corpus-avg-lprob-uttconf.png, id=557, 382.5492pt x 204.16275pt>
+<figures/corpus-avg-lprob-uttconf.png, id=567, 382.5492pt x 204.16275pt>
 File: figures/corpus-avg-lprob-uttconf.png Graphic file (type png)
 <use figures/corpus-avg-lprob-uttconf.png>
 Package pdftex.def Info: figures/corpus-avg-lprob-uttconf.png  used on input li
@@ -863,25 +869,25 @@ ne 25.
  <./figures/average-avg-logprob.png> <./figures/average-uttconf.png>] [21 <./fi
 gures/compare-avg-uttconf-vs-lprob.png> <./figures/corpus-avg-lprob-uttconf.png
 >]
-<figures/word-conf-comparison-plot1.png, id=571, 387.6081pt x 204.16275pt>
+<figures/word-conf-comparison-plot1.png, id=582, 387.6081pt x 204.16275pt>
 File: figures/word-conf-comparison-plot1.png Graphic file (type png)
 <use figures/word-conf-comparison-plot1.png>
 Package pdftex.def Info: figures/word-conf-comparison-plot1.png  used on input 
 line 35.
 (pdftex.def)             Requested size: 440.84746pt x 232.21211pt.
-<figures/word-conf-comparison-plot2.png, id=572, 387.6081pt x 204.16275pt>
+<figures/word-conf-comparison-plot2.png, id=583, 387.6081pt x 204.16275pt>
 File: figures/word-conf-comparison-plot2.png Graphic file (type png)
 <use figures/word-conf-comparison-plot2.png>
 Package pdftex.def Info: figures/word-conf-comparison-plot2.png  used on input 
 line 41.
 (pdftex.def)             Requested size: 440.84746pt x 232.21211pt.
-<figures/word-conf-comparison-plot3.png, id=573, 387.6081pt x 204.16275pt>
+<figures/word-conf-comparison-plot3.png, id=584, 387.6081pt x 204.16275pt>
 File: figures/word-conf-comparison-plot3.png Graphic file (type png)
 <use figures/word-conf-comparison-plot3.png>
 Package pdftex.def Info: figures/word-conf-comparison-plot3.png  used on input 
 line 47.
 (pdftex.def)             Requested size: 440.84746pt x 232.21211pt.
-<figures/word-conf-comparison-plot4.png, id=574, 387.6081pt x 204.16275pt>
+<figures/word-conf-comparison-plot4.png, id=585, 387.6081pt x 204.16275pt>
 File: figures/word-conf-comparison-plot4.png Graphic file (type png)
 <use figures/word-conf-comparison-plot4.png>
 Package pdftex.def Info: figures/word-conf-comparison-plot4.png  used on input 
@@ -892,22 +898,41 @@ line 53.
  <./figures/word-conf-comparison-plot1.png> <./figures/word-conf-comparison-plo
 t2.png>] [23 <./figures/word-conf-comparison-plot3.png> <./figures/word-conf-co
 mparison-plot4.png>]
-<figures/corpus-all-word-conf-measures.png, id=588, 382.5492pt x 204.16275pt>
+<figures/corpus-all-word-conf-measures.png, id=598, 382.5492pt x 204.16275pt>
 File: figures/corpus-all-word-conf-measures.png Graphic file (type png)
 <use figures/corpus-all-word-conf-measures.png>
 Package pdftex.def Info: figures/corpus-all-word-conf-measures.png  used on inp
 ut line 63.
 (pdftex.def)             Requested size: 440.84746pt x 235.28377pt.
-<figures/corpus-allmeasures.png, id=589, 382.5492pt x 204.16275pt>
+<figures/corpus-allmeasures.png, id=599, 382.5492pt x 204.16275pt>
 File: figures/corpus-allmeasures.png Graphic file (type png)
 <use figures/corpus-allmeasures.png>
 Package pdftex.def Info: figures/corpus-allmeasures.png  used on input line 69.
 
 (pdftex.def)             Requested size: 440.84746pt x 235.28377pt.
-) [24
+ [24
 
  <./figures/corpus-all-word-conf-measures.png> <./figures/corpus-allmeasures.pn
 g>]
+<figures/range-ordering-vs-stddev-vs-min-wconf.png, id=607, 382.5492pt x 204.16
+275pt>
+File: figures/range-ordering-vs-stddev-vs-min-wconf.png Graphic file (type png)
+
+<use figures/range-ordering-vs-stddev-vs-min-wconf.png>
+Package pdftex.def Info: figures/range-ordering-vs-stddev-vs-min-wconf.png  use
+d on input line 79.
+(pdftex.def)             Requested size: 440.84746pt x 235.28377pt.
+<figures/delta-wer-all-allmeasures.png, id=608, 419.166pt x 258.4857pt>
+File: figures/delta-wer-all-allmeasures.png Graphic file (type png)
+<use figures/delta-wer-all-allmeasures.png>
+Package pdftex.def Info: figures/delta-wer-all-allmeasures.png  used on input l
+ine 85.
+(pdftex.def)             Requested size: 440.84746pt x 271.85973pt.
+)
+[25
+
+ <./figures/range-ordering-vs-stddev-vs-min-wconf.png> <./figures/delta-wer-all
+-allmeasures.png>]
 Overfull \hbox (18.46495pt too wide) in paragraph at lines 81--85
 \OT1/cmr/m/n/10.95 which are cal-cu-lated from the av-er-age of the sub-word lo
 g-probabilities for each word. Whisper[[]]
@@ -919,13 +944,37 @@ Overfull \hbox (13.53746pt too wide) in paragraph at lines 81--85
 n when us-ing utterance-average con-fi-dence
  []
 
-) (./chapters/chapter7.tex [25
+
+Overfull \hbox (17.89725pt too wide) in paragraph at lines 99--101
+[]\OT1/cmr/m/n/10.95 6.9[]), non-descending utterance-minimum word-confidence o
+r-der-ing has the best (largest dif-fer-ence
+ []
+
+[26
+
+
+
+]
+Overfull \hbox (37.62758pt too wide) in paragraph at lines 104--106
+\OT1/cmr/m/n/10.95 the whole cor-pus. The met-ric with the best per-for-mance i
+s clearly non-descending utterance-minimum
+ []
+
+[27]
+\openout2 = `tables/halve-wer-results.aux'.
+
+ (./tables/halve-wer-results.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 3.
+
+) [28]) (./chapters/chapter7.tex [29
 
 
 
 ]
 Chapter 7.
-) (./dissertation.bbl [26
+) (./dissertation.bbl [30
 
 ]
 Underfull \hbox (badness 1629) in paragraph at lines 55--60
@@ -933,7 +982,7 @@ Underfull \hbox (badness 1629) in paragraph at lines 55--60
 /cmr/m/n/10.95 , J. H. Abawajy, Z. Xu,
  []
 
-[27
+[31
 
 ]
 Underfull \hbox (badness 1810) in paragraph at lines 115--117
@@ -941,36 +990,36 @@ Underfull \hbox (badness 1810) in paragraph at lines 115--117
 with rel-a-tive po-si-tion
  []
 
-[28] [29]
+[32] [33]
 Underfull \hbox (badness 10000) in paragraph at lines 262--264
 []\OT1/cmr/m/n/10.95 J. Louradour, ``whisper-timestamped,'' []$https : / / gith
 ub . com / linto-[]ai /
  []
 
-) [30] [31
+) [34] [35
 
 
 ] (./chapters/appendixA.tex
 Appendix A.
-) (./chapters/appendixB.tex [32
+) (./chapters/appendixB.tex [36
 
 ]
 Appendix B.
-) [33
+) [37
 
 ] (./dissertation.aux (./tables/confidence-motivations.aux)
-(./figures/results_plots.aux))
+(./figures/results_plots.aux) (./tables/halve-wer-results.aux))
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 24A559DC01691F10FCEF686514138389;10412.
+(rerunfilecheck)             Checksum: 99FCFCC9997E55860C193318658B05FB;10736.
  ) 
 Here is how much of TeX's memory you used:
- 14149 strings out of 475071
- 244382 string characters out of 5778910
- 641270 words of memory out of 5000000
- 35109 multiletter control sequences out of 15000+600000
+ 14202 strings out of 475071
+ 246370 string characters out of 5778910
+ 642254 words of memory out of 5000000
+ 35146 multiletter control sequences out of 15000+600000
  477425 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,81p,1433b,592s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,81p,1433b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
@@ -988,10 +1037,10 @@ ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texliv
 e/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive
 /2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/
 2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on dissertation.pdf (40 pages, 2838846 bytes).
+Output written on dissertation.pdf (44 pages, 3312113 bytes).
 PDF statistics:
- 770 PDF objects out of 1000 (max. 8388607)
- 666 compressed objects within 7 object streams
- 165 named destinations out of 1000 (max. 500000)
- 517 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 811 PDF objects out of 1000 (max. 8388607)
+ 699 compressed objects within 7 object streams
+ 172 named destinations out of 1000 (max. 500000)
+ 535 words of extra memory for PDF output out of 10000 (max. 10000000)
 

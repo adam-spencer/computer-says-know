@@ -3,6 +3,7 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: dissertation.aux
 A level-1 auxiliary file: tables/confidence-motivations.aux
 A level-1 auxiliary file: figures/results_plots.aux
+A level-1 auxiliary file: tables/halve-wer-results.aux
 The style file: IEEEtran.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -18,7 +19,7 @@ Database file #2: dissertation_bibliography.bib
 Done.
 You've used 37 entries,
             4087 wiz_defined-function locations,
-            1581 strings with 26706 characters,
+            1582 strings with 26734 characters,
 and the built_in function-call counts, 30037 in all, are:
 = -- 2252
 > -- 1012
