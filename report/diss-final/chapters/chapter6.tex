@@ -140,3 +140,15 @@ Specifically, it is not capable of taking text input from the user, though it ca
 
 \subsection{Experiment with other derivations of confidence}
 
+This work has used confidence scoring derived from a single unmodified output from Whisper (\texttt{avg\_logprob}) and internal probability scoring.
+While ordering utterances based on minimum word-level confidence scores derived from internal probability scoring has shown a degree of effectiveness, there is expansive literature discussing methods of neural network confidence measures which have not been implemented in this work.
+
+For example, use of a neural network (e.g. a multilayer perceptron) which takes Whisper's output as input and outputs a confidence metric could be shown to provide a reliable metric for confidence.
+Similar methods are proposed in the literature, such as using recurrent neural networks\cite{huang2013predicting, kalgaonkar2015estimating} or a na\"{i}ve Bayes classifier\cite{sanchis2011word}.
+The benefit of this method would be that Whisper doesn't require any (or minimal) modification to apply them.
+
+To avoid spending time experimenting with modifications to Whisper's architecture, a mildly modified version of Whisper called \emph{whisper-timestamped}\cite{whisper-timestamped} was used in this project.
+An 'entropy-based' approach for calculating word-confidence is proposed in the literature\cite{laptev2023fast, qiu2021learning}, though implementation would require considerable modification to the Transformer which Whisper uses.
+
+A solution to this problem may be to use a different model than Whisper, though at the time of writing there doesn't appear to be another free and open-source ASR model with similar performance.
+
