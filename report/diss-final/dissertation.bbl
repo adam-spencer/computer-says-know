@@ -262,4 +262,35 @@ C.~R. Harris, K.~J. Millman, S.~f.~J. van~der Walt, R.~Gommers, P.~Virtanen,
 J.~Louradour, ``whisper-timestamped,''
   \url{https://github.com/linto-ai/whisper-timestamped}, 2023.
 
+\bibitem{huang2013predicting}
+P.-S. Huang, K.~Kumar, C.~Liu, Y.~Gong, and L.~Deng, ``Predicting speech
+  recognition confidence using deep learning with word identity and score
+  features,'' in \emph{2013 IEEE International Conference on Acoustics, Speech
+  and Signal Processing}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2013,
+  pp. 7413--7417.
+
+\bibitem{kalgaonkar2015estimating}
+K.~Kalgaonkar, C.~Liu, Y.~Gong, and K.~Yao, ``Estimating confidence scores on
+  asr results using recurrent neural networks,'' in \emph{2015 IEEE
+  International Conference on Acoustics, Speech and Signal Processing
+  (ICASSP)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2015, pp. 4999--5003.
+
+\bibitem{sanchis2011word}
+A.~Sanchis, A.~Juan, and E.~Vidal, ``A word-based na{\"\i}ve bayes classifier
+  for confidence estimation in speech recognition,'' \emph{IEEE transactions on
+  audio, speech, and language processing}, vol.~20, no.~2, pp. 565--574, 2011.
+
+\bibitem{laptev2023fast}
+A.~Laptev and B.~Ginsburg, ``Fast entropy-based methods of word-level
+  confidence estimation for end-to-end automatic speech recognition,'' in
+  \emph{2022 IEEE Spoken Language Technology Workshop (SLT)}.\hskip 1em plus
+  0.5em minus 0.4em\relax IEEE, 2023, pp. 152--159.
+
+\bibitem{qiu2021learning}
+D.~Qiu, Q.~Li, Y.~He, Y.~Zhang, B.~Li, L.~Cao, R.~Prabhavalkar, D.~Bhatia,
+  W.~Li, K.~Hu \emph{et~al.}, ``Learning word-level confidence for subword
+  end-to-end asr,'' in \emph{ICASSP 2021-2021 IEEE International Conference on
+  Acoustics, Speech and Signal Processing (ICASSP)}.\hskip 1em plus 0.5em minus
+  0.4em\relax IEEE, 2021, pp. 6393--6397.
+
 \end{thebibliography}
