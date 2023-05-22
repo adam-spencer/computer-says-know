@@ -65,7 +65,6 @@ A metric which follows the trend of the 'random order' line is thus performing t
 
 \include{figures/results_plots}
 
-\include{tables/halve-wer-results}
 
 \clearpage
 \section{Discussion of Results}
@@ -105,6 +104,8 @@ The other two metrics are shown to be a hinderance, achieving worse performance 
 
 Figure \ref{fig:corpus-allmeasures} presents a comparison between the performance of each metric when evaluating the whole corpus.
 The metric with the best performance is clearly non-descending utterance-minimum word-confidence; it is much more consistent than the others and remains much further from random ordering, meaning it has the highest WER reduction for the same cost as all other metrics.
+
+\input{tables/halve-wer-results}
 
 Figure \ref{fig:range-ordering-vs-stddev-vs-min-wconf} shows the performance of non-ascending ordering using the both range scores and standard deviation of word-confidence for each utterance. 
 Notice the slight performance gains over non-descending utterance-minimum word-confidence.
