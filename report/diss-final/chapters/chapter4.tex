@@ -102,9 +102,6 @@ Therefore, for it to be viably used to aid a human transcriber, some method to e
 At a high level, there are two sources from which to estimate confidence: Whisper's standard output, and its internal processes.
 Table \ref{table:confidence-motivations} gives a brief comparison of the benefits and drawbacks associated with each of these sources of confidence;
 
-\mycomment{
-  Perhaps get rid of this table? seems to be all screwed up... and serves little benefit
-  }
 \input{tables/confidence-motivations}
 
 The following subsections provide a detailed explanation of how each approach works and should help illustrate the benefits and drawbacks of each.
@@ -120,15 +117,26 @@ The following subsections provide a detailed explanation of how each approach wo
     > no word-level scoring, just average for an utterance
     > how is lprob calculated? (leads to next part)
 }
-Though it does not yield a clear confidence score, Whisper does output various statistics relating to its processing of the input data.
+Though it does not yield a clear confidence score, Whisper does output various data relating to its processing of the input.
 These include;
 
 \begin{itemize}
   \item \texttt{avg\_logprob} -- The average of the $\log$ token-probability for a segment of speech (discussed further below)
-  \item \texttt{temperature} -- 
-  \item \texttt{compression\_ratio}
-  \item \texttt{no\_speech\_prob}
+  \item \texttt{compression\_ratio} -- The ratio of the length of the UTF-8-encoded text to its gzip-compressed representation.
+    Due to the way gzip operates, this ratio indicates the 'repetetive-ness' of the decoded text; a higher ratio means that the result is more repetetive, suggesting that there may have been a decoding error.
+  \item \texttt{temperature} -- Before producing an output, if the \texttt{avg\_logprob} is below a certain threshold or the \texttt{compression\_ratio} is above some threshold, the model will treat the decoding as failed and compute a new output with an increased temperature parameter.
+    Temperature is used to introduce some randomness while computing predictions, therefore the higher the final output \texttt{temperature} value is, the more randomness had to be introduced in order to determine the given output.
+  \item \texttt{no\_speech\_prob} -- Whisper is trained to complete many tasks, one of which being the detection of non-speaking moments in a recording.
+    This value indicates the model's predicted probability that there is no speech in the input audio file.
 \end{itemize}
+
+Of these dataThis work will focus on the \texttt{avg\_logprob} metric, which is the average of the $\log$ probabilities for each token in a segment of the input, which are computed as the $\log \softmax$ of the \emph{logits}, which can be thought of as unnormalised 'scores' that have been assigned to each token while decoding.
+The $\softmax$ function is used to normalise these scores such that their sum is equal to $1$ (allowing them to be used as probabilities).
+
+The logits themselves are calculated during each forward pass through the decoder, derived from both learned positional and token embeddings.
+In the context of the Transformer's decoder, learned positional embeddings can be thought of as a way to learn information about token positions in the transcript\cite{wang2020position}.
+Token embeddings act like an abstraction on a one-hot encoding layer, matching a token to a weight vector.
+By using token- and learned position-level weights with cross-attention from the encoder\cite{vaswani2017attention}, Whisper acts like an \say{audio-conditional language model}\cite{whisper}; the scores (logits) assigned to tokens are based on both the encoded audio input and a model of language.
 
 \subsection{Confidence From Model Internals}
 \mycomment{
@@ -148,4 +156,4 @@ These include;
 \mycomment{
   I reckon this section shouldn't use screenshots yet, just give examples of coloured text, ordering and blanking.
   Save screenshots for Implementation chapter
-  }
+}
