@@ -86,9 +86,9 @@ The calculation for attention is:
 Where
 
 \begin{itemize}
-        \item $Q$ is the \emph{Query} vector,
-        \item $K$ is the \emph{Key} vector, and
-        \item $V$ is the \emph{Value} vector.
+        \item $Q$ is known as the \emph{Query} vector,
+        \item $K$ is known as the \emph{Key} vector, and
+        \item $V$ is known as the \emph{Value} vector.
 \end{itemize}
 
 The output of the attention function is described as \say{a weighted sum of the values, where the weight assigned to each value is computed by a compatibility function of the query with the corresponding key}\cite{vaswani2017attention}.
@@ -96,25 +96,27 @@ To understand what these vectors denote in the context of speech recognition, we
 
 \begin{itemize}
         \item self-attention layers (in both the encoder and decoder) take input from the previous layer within the same block (i.e. encoder or decoder).
-        In this layer, $Q$, $K$, and $V$ are all calculated by multiplying an input embedding (a vector representation of the raw input sequence) by a three different trained weight vectors.
+        In this layer, $Q$, $K$, and $V$ are all calculated by multiplying an input embedding (a vector representation of the raw input sequence) by three different trained weight vectors.
         \item cross-attention layers (present only in the decoder) enable mixing of the encoder's output with the output of the decoder's previous self-attention block, allowing the decoder to attend over the whole encoded input.
         In this layer, only $K$ and $V$ are taken from the encoder; $Q$ is dervied from the previous decoder block.
 \end{itemize}
 
-For the sake of understanding a simplified version of the operation of the transformeris as follows;
+For the sake of clarity, a simplified version of the operation of the transformer (as explained in \cite{vaswani2017attention}) is as follows;
 
 \begin{enumerate}
-        \item An input sequence is input into the 'encoder stack' (the layers which make up the encoder) after being modified using 'positional embeddings', which act to preserve information about the position of each part of the input sequence.
-        \item Each self-attention layer in the encoder 
+        \item An input sequence is transformed into an embedding, which is then input into the \emph{encoder stack} (the layers which make up the encoder) after being modified using \emph{positional embeddings}, which act to preserve information about the position of each part of the input sequence.
+        \item The \emph{attention head} of each self-attention layer in the encoder first multiplies the input by three trained weight matrices to acquire the values of $Q$, $K$, and $V$, then calculates Attention using these values as input.
+        Each attention head is trained with its own weight matrix, so there are an equal number of Attention results and attention heads.
+        The resulting attention matrices are concatenated and then multiplied by another weight matrix to produce the layer's output to be fed forward to the next layer.
+        \item The output of the final encoder layer is transformed into a pair of $K$ and $V$ vectors and used as input (via \emph{cross-attention} for the decoder, which works almost identically to the encoder (i.e. a stack of self-attention blocks).
+        The key difference between the encoder and decoder is that the decoder uses previous decoded output as its $Q$ vector and it may not self-attend to all of the output at once, only the output earlier to its current position (unlike the encoder which attends to the whole sequence simultaneously)
+        \item Finally, the output of the decoder goes through some normalisation steps to find and output the most probable \emph{output embedding}.
 \end{enumerate}
 
-\mycomment{
-        Replace 'self-attention' with 'attention' - we're using both self- and cross-attention
-        Explain parameters for attention and link to speech recognition.
-        Explained in vaswani2017 and shaw2018.
-        QKV and O are all weighted - these weights create decision boundaries
-        Transformer uses attention in encoding AND decoding
-        }
+An \emph{output embedding} may be thought of as a way to link together an expected output (e.g. a word) and a vector for use in one-hot encoding space.
+In the Transformer's decoder this allows a score represented in one-hot encoding space to be immediately matched to an output.
+
+Though this is all rather complex, the key points to understand are that a Transformer uses both an encoder and decoder, the decoder can attend to only previously decoded output, and these two 'blocks' work together to produce an output.
 
 \subsection{Evaluating ASR Systems}
 \mycomment{
@@ -142,24 +144,28 @@ where:
   \item $C$ is the number of \emph{correct} words (words which appear in both the reference and hypothesis)
 \end{itemize}
 
-Word error-rate (WER) is the most commonly used metric in the literature\cite{park2008empirical}, though there are arguments that it is not representative of the degree to which a system has an understanding of speech.
-These arguments point to %what do they point to!!!
+Word error-rate (WER) is the most commonly used metric in the literature\cite{park2008empirical}, though arguments can be made that it is not entirely representative of the degree to which a system has an understanding of speech.
+Take, for example, a reference which contains a compound word like 'soundproof' or 'eggshell' -- if an ASR system were to output 'sound proof' or 'egg shell' it would have incurred one substitution and one deletion equating to a WER of 200\% despite having produced an output which is representative of the input.
+
+Judging by calls to work to produce a metric to replace WER still being made today\cite{pasandi2022evaluation, szymanski2020we} and the relative lack of published ASR papers discussing results using metrics other than WER, there is not yet a viable alternative.
 
 \subsection{Problems in ASR}
 
 Despite their ubiquity, modern ASR systems aren't without fault.
+
 Cutting edge systems like \emph(wav2vec) are touted as being capable of achieving 'greater-than-human' scores on specific datasets\cite{wav2vec2,bigssl,chung2021} such as \emph{LibriSpeech}\cite{librispeech}, achieving as low as 1.4\% error\cite{zhang2020}.
+LibriSpeech consists entirely of English audiobook recordings which have been selected in-part based on their quality\cite{librispeech}; not particularly representative of everyday speech\cite{szymanski2020we}, lacking features such as speaker overlap which are common in conversation\cite{shriberg2001observations}.
+An evaluation of modern proclaimed 'state-of-the-art' ASR systems found WER scores averaging approximately 17\% when faced with real-world conversational data\cite{szymanski2020we} despite reporting results below 4\% on LibriSpeech.
 
-A major problem with comes when the data is not `clean', for example, background noise is present, microphones are far away, the speaker has an atypical speech pattern, etc. 
-In this setting, \emph{wav2vec} achieves much poorer scores with word error rates as high as 65\%\cite{whisper} on the \emph{CHiME6} corpus\cite{chime6}.
+Racial disparities in the accuracy of ASR systems has also been reported, with average WER scores for black speakers almost double that of white speakers\cite{koenecke2020racial}.
+The authors of this article attribute this performance difference to the acoustic models used in the ASR systems rather than the language models, thus concluding that there is a lack of training data from black speakers.
 
-\mycomment{
-        do more on problems here. set the scene for why transcription can't just be performed entirely by a computer (to be expanded on in the section about semi-/full-auto transcription)
-    }
+These two problems serve indicate that, in order to improve accuracy, ASR systems should be trained on more diverse data in terms of the context of the speech and the demographic of speakers.
 
 \section{Whisper}
 
-In late September 2022, the OpenAI research laboratory (known for such projects as GPT-3/4 and ChatGPT) released a new open-source ASR system known as `Whisper'~\cite{whisper}.
+In late September 2022, the OpenAI research laboratory (known for such projects as GPT-3/4 and ChatGPT) released a new open-source ASR system called `Whisper'~\cite{whisper} which uses the encoder-decoder Transformer architecture discussed in section \ref{subsec:modern-asr}.
+It is described as a 'zero-shot' model, meaning it is expected to produce good results \emph{without} any dataset-specific fine tuning.
 Whisper is unique in being very large (trained on 680,000 hours of speech data), open-source, and fully supervised;
 all the training data used to create the model has been accurately labeled and quality-checked by humans, unlike much larger unsupervised (or semi-supervised) models such as `BigSSL' (1,000,000+ hours of data)~\cite{bigssl}.
 
@@ -167,30 +173,23 @@ Unsupervised training is appealing for training speech recognisers because there
 Unsupervised systems have a clear disadvantage, however, when compared to supervised; they lack clear decoder mappings\cite{whisper}, meaning that even for a successfully encoded input there may not be a clear mapping from that input into a speech token.
 To solve this, fine-tuning to map encodings to decoded text tokens is done on the part of the model's developers, though this is a precarious route to overfitting;
 if the model is too fine-tuned to its training data, performance will suffer when faced with data which isn't well represented in the training set.
-
 For example, if an unsupervised model were trained using the voices of young people, it may perform with considerably poorer accuracy when used to transcribe elderly speakers due to differences inherent to their speech\cite{Horton2010}.
 
-\subsection{Operation}
-
-Whisper is an encoder-decoder transformer, though it uses 'learned positional encodings' to \mycomment{ EXPLAIN HOW WHISPER WORKS HERE!!! }
-
-\begin{figure}[h!]
-  \includegraphics[width=\textwidth]{figures/specgram.png}
-\centering 
-\end{figure}
-
-\mycomment{
-        THIS IS WRONG / NEEDS CHANGING VVV
-}
-Whisper uses a natural language model to perform next-token prediction (in layperson's terms, there is a secondary system trying to ensure the intelligibility of sentences produced from transcription).
-In a practical setting this means that conversational speech (i.e.\ speech which flows as sentences rather than semantically-disjoint terms) should be transcribed with a higher degree of accuracy.
-
-Whisper is implemented in Python using the \emph{PyTorch}\cite{pytorch} library which allows computation to take place on GPUs which support CUDA, meaning transcripts can be generated very quickly on a high-performance computer (HPC) system.
+The way Whisper functions is discussed in detail in section \ref{sec:confidence-scoring}.
 
 \section{Confidence}
 \mycomment{
        Write about what confidence is, then in subsections cover literature on the subject.
-    }
+}
+Neural networks will always produce an output for an accepted input, no matter how likely or unlikely the output is of being correct.
+The network may even assign a very large probability to its given output; consider, for example, a classifier trained to predict the city in the UK which someone was born in given the co-ordinates of their current address.
+The classifier simply assigns the closest city to their address and often makes a correct prediction.
+However, if the input co-ordinates were somewhere in Iceland it may assign a high probability to their place of birth being in Inverness because it is much closer than any of the other UK cities, even though the true probability that this hypothetical Icelander was born in Inverness is quite low.
+
+The point of this example is to illustrate that the probability assigned by a neural network is not always a good indication of correctness.
+An estimation of a model's expected correctness is refered to as \emph{confidence}, i.e. how \emph{confident} is the model that its prediction is correct?
+
+
 
 \section{Speech Corpora}\label{sec:}
 \mycomment{
