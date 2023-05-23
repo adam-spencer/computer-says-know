@@ -1,9 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2022)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: dissertation.aux
-A level-1 auxiliary file: tables/confidence-motivations.aux
 A level-1 auxiliary file: figures/results_plots.aux
-A level-1 auxiliary file: tables/halve-wer-results.aux
 The style file: IEEEtran.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -17,44 +15,44 @@ Database file #2: dissertation_bibliography.bib
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 42 entries,
+You've used 43 entries,
             4087 wiz_defined-function locations,
-            1608 strings with 27984 characters,
-and the built_in function-call counts, 35256 in all, are:
-= -- 2645
-> -- 1162
+            1610 strings with 28103 characters,
+and the built_in function-call counts, 35650 in all, are:
+= -- 2677
+> -- 1171
 < -- 248
-+ -- 628
-- -- 244
-* -- 1737
-:= -- 5049
-add.period$ -- 96
-call.type$ -- 42
-change.case$ -- 51
++ -- 632
+- -- 246
+* -- 1753
+:= -- 5121
+add.period$ -- 98
+call.type$ -- 43
+change.case$ -- 52
 chr.to.int$ -- 600
-cite$ -- 42
-duplicate$ -- 2475
-empty$ -- 2826
-format.name$ -- 268
-if$ -- 8220
+cite$ -- 43
+duplicate$ -- 2511
+empty$ -- 2863
+format.name$ -- 271
+if$ -- 8308
 int.to.chr$ -- 0
-int.to.str$ -- 42
-missing$ -- 499
-newline$ -- 177
-num.names$ -- 48
-pop$ -- 1273
+int.to.str$ -- 43
+missing$ -- 505
+newline$ -- 180
+num.names$ -- 49
+pop$ -- 1290
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2634
+skip$ -- 2665
 stack$ -- 0
-substring$ -- 1498
-swap$ -- 2030
+substring$ -- 1499
+swap$ -- 2049
 text.length$ -- 48
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 42
+type$ -- 43
 warning$ -- 0
-while$ -- 133
-width$ -- 44
-write$ -- 447
+while$ -- 134
+width$ -- 45
+write$ -- 455

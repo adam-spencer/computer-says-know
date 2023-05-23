@@ -42,7 +42,7 @@ From his description, we can draw the following assumptions for modelling a syst
   \item The system consists of states.
   \item The system is \emph{in motion}, i.e. moving between states.
   \item This motion is random.
-  \item The motion observed prior to $t$ (say, $t-1$) does not influence $t+k$ where $k \geq 1$.
+  \item The motion observed prior to $t$ (e.g. $t-1$) does not influence the motion following $t+k$ where $k \geq 1$.
   \item Because the particle is constantly moving between states, the state at time $t$ depends only on the state immediately prior, $t-1$.
   \item There is some probability, $p$, that the system moves from one state to another.
 \end{itemize}
@@ -57,7 +57,7 @@ These tokens may then be decoded by a language model to construct a transcriptio
 Despite making up much of the research foundational to modern ASR, Markov models have a crucial flaw when applied to speech; parts of speech are dependent on more than just the part immediately before (i.e. $t-1$).
 For instance, in a presentation discussing \emph{hats} it is unlikely that the word \emph{cat} would be used, despite the phonetics of the word being largely the same.
 
-\subsection{How Does Modern ASR Work?}\label{subsec:modern-asr}
+\subsection{The Transformer}\label{subsec:modern-asr}
 \mycomment{
   Maybe start off with just looking at transformers- encoder/decoder and HMM aren't mutually exclusive!
 }
@@ -65,9 +65,9 @@ For instance, in a presentation discussing \emph{hats} it is unlikely that the w
 Skipping ahead from the mid-1980s to the current day 'state-of-the-art', ASR has moved towards what is known as the 'encoder-decoder' model.
 At a high level, this model consists of two key parts; an encoder and a decoder.
 The encoder processes (\emph{encodes}) input audio into features, these features are aligned with language and then processed by the decoder (\emph{decoded}) to produce an output transcript\cite{wang2019overview}.
-The key difference between modern approaches and the classical HMM-based approach is the use of widely researched 'machine-learning' techniques, including various forms of neural network\cite{mustafa2019comparative, amodei2016deep, hori2017advances, Kim2017Mar}.
+The key difference between modern approaches and the classical HMM-based approach is the use of widely researched 'machine learning' techniques, including various forms of neural network\cite{mustafa2019comparative, amodei2016deep, hori2017advances, Kim2017Mar}.
 
-Recent research has proposed a new network architecture called the \emph{Transformer}\cite{vaswani2017attention}, aiming to reduce the computational complexity of encoder-decoder models by forgoing convolutional or recurrent neural networks (CNNs and RNNs) and instead relying on 'self-attention'.
+Recent research has proposed a new network architecture called the \emph{Transformer}\cite{vaswani2017attention}, aiming to reduce the computational complexity of encoder-decoder models by forgoing convolutional or recurrent neural networks (CNNs and RNNs) and instead relying on 'attention'.
 The motivation for the \emph{Transformer} can be understood as follows;
 
 \begin{itemize}
@@ -76,20 +76,37 @@ The motivation for the \emph{Transformer} can be understood as follows;
         \item By allowing each layer in the encoder and decoder to attend to the whole output of the previous layer, 
 \end{itemize}
 
-In a multilayer network, self-attention layers are used to build relations between separate parts of an input sequence by allowing each node (or 'attention head'\cite{shaw2018self}) to attend to all outputs from the previous layer.
+In a multilayer network, attention layers are used to build relations between separate parts of an input sequence by allowing each node (or 'attention head'\cite{shaw2018self}) to attend to all outputs from the previous layer.
+A technique refered to as 'multi-head attention'\cite{vaswani2017attention} enables attention to be calculated in parallel for all inputs in a sequence.\\
 
-\mycomment{ perhaps delete this part? I'd rather not get bogged down in maths...}
-According to the work that introduced it\cite{vaswani2017attention}, attention in the Transformer architecture is calculated as;
+The calculation for attention is:
 
-\[ \text{Attention}(Q,K,V) = \text{softmax}(\frac{QK^T}{\sqrt{d_k}})V \]
+\[ \text{Attention}(Q,K,V) = \softmax (\frac{QK^T}{\sqrt{d_k}})V \]
 
-Where;
+Where
 
 \begin{itemize}
-        \item $Q$ is the Query
-        \item ...
+        \item $Q$ is the \emph{Query} vector,
+        \item $K$ is the \emph{Key} vector, and
+        \item $V$ is the \emph{Value} vector.
 \end{itemize}
 
+The output of the attention function is described as \say{a weighted sum of the values, where the weight assigned to each value is computed by a compatibility function of the query with the corresponding key}\cite{vaswani2017attention}.
+To understand what these vectors denote in the context of speech recognition, we must understand what the different types of attention \emph{are} and how their use \emph{differs} in the encoder and decoder;
+
+\begin{itemize}
+        \item self-attention layers (in both the encoder and decoder) take input from the previous layer within the same block (i.e. encoder or decoder).
+        In this layer, $Q$, $K$, and $V$ are all calculated by multiplying an input embedding (a vector representation of the raw input sequence) by a three different trained weight vectors.
+        \item cross-attention layers (present only in the decoder) enable mixing of the encoder's output with the output of the decoder's previous self-attention block, allowing the decoder to attend over the whole encoded input.
+        In this layer, only $K$ and $V$ are taken from the encoder; $Q$ is dervied from the previous decoder block.
+\end{itemize}
+
+For the sake of understanding a simplified version of the operation of the transformeris as follows;
+
+\begin{enumerate}
+        \item An input sequence is input into the 'encoder stack' (the layers which make up the encoder) after being modified using 'positional embeddings', which act to preserve information about the position of each part of the input sequence.
+        \item Each self-attention layer in the encoder 
+\end{enumerate}
 
 \mycomment{
         Replace 'self-attention' with 'attention' - we're using both self- and cross-attention
