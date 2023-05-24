@@ -38,9 +38,9 @@ class AudioDataLinker:
             if text_blanking and text_highlight:
                 print('Error! Can\'t blank and highlight at the same time :<')
                 sys.exit(1)
-            self.text_blanking = text_blanking
-            self.blanking_threshold = blanking_threshold
-            self.text_highlight = text_highlight
+        self.text_blanking = text_blanking
+        self.blanking_threshold = blanking_threshold
+        self.text_highlight = text_highlight
         self.row_data = self.init_row_data()
 
     def play_audio(self, idx: int) -> bool:
