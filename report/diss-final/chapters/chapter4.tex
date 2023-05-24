@@ -134,7 +134,7 @@ By default, the only information Whisper makes available about the probability s
 The 'tokens' that have been refered to in this section are computed using the GPT-2 tokenizer from the \emph{tiktoken} library\cite{tiktoken}.
 Words may be represented by one or more tokens called 'subword tokens' which are decoded by the tokenizer; the scores for each of these are different so a per-word score may be computed as the average score for each subword token in a word.
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{images/mfcc-with-words.png}
   \caption{Word alignments example}
@@ -153,7 +153,7 @@ Though based on probability scores which may not be wholly representative of con
 As discussed in the requirements chapter (section \ref{sec:req-design-system}), this work would benefit greatly from a piece of software which serves to demonstrate computer-aided transcription.
 At a basic level, the software should enable a user to sort utterances in a conversation by some estimation of confidence to allow them to manually correct the ASR-generated transcripts in non-descending order of correctness.
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{images/confidence-order.png}
   \caption{Utterances in confidence order.}
@@ -162,7 +162,7 @@ At a basic level, the software should enable a user to sort utterances in a conv
 
 If there is any question about the context of a section of speech (e.g. there are unclear or  parts of speech), the user may return to chronological order and assess the surrounding utterances for information.
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{images/chronological-order.png}
   \caption{Utterances in chronological order.}
@@ -172,7 +172,7 @@ If there is any question about the context of a section of speech (e.g. there ar
 A user may be influenced by the ASR transcript if they read it while listening to the accompanying audio.
 To solve this, words may be 'blanked out' depending on their assigned confidence score, those below a threshold parameter are replaced by blank sections so the user can't be conditioned by what the ASR predicted the output to be.
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{images/text-blanking.png}
   \caption{Example of a 'blanked out' utterance.}
@@ -181,7 +181,7 @@ To solve this, words may be 'blanked out' depending on their assigned confidence
 
 Displaying word-level confidence scores for every word in a sentence is not an intuitive way to interact with a computer system; instead, by colouring the words based on their assigned confidence score, the user may provide corrections to words which are considered less likely to be correct than others.
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{images/text-highlighting.png}
   \caption{Example of an utterance with confidence-based highlighting.}
@@ -190,7 +190,7 @@ Displaying word-level confidence scores for every word in a sentence is not an i
 
 All of these options may be selected using a simple menu.
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{images/menu.png}
   \caption{Menu presented to a user before starting the application.}

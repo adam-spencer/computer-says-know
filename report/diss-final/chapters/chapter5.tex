@@ -18,6 +18,7 @@ Instead of using the standard Whisper model, the \emph{whisper-timestamped} libr
 
 The fourth and fifth steps to process data were to run the scripts \texttt{normalise\_text} and \texttt{calculate\_wer} (available in appendices \ref{appendix:normalise-text} \& \ref{appendix:calculate-wer} respectively).
 The first of these scripts runs a text normaliser which is packaged with Whisper\cite{whisper} to perform English text normalisation, then the second script calculates WER scores and finds the per-word confidence scores for each word in the ouput.
+WER is calculated using the \emph{jiwer}\cite{jiwer} library.
 
 \begin{figure}[p]
 \centering
@@ -76,6 +77,7 @@ The first of these scripts runs a text normaliser which is packaged with Whisper
   \label{fig:json-output-example}
 \end{figure}
 
+\clearpage
 An example entry from the JSON output is presented in figure \ref{fig:json-output-example}.
 The decision was made to preserve all of the output data from Whisper, meaning each entry is quite long.
 An entry can be identified based on its filename and the number which indexes the entry ("0" in this case), where the filename of the accompanying audio segment has the same identifier (\texttt{000.wav} in this case).
