@@ -113,8 +113,8 @@ For the sake of clarity, a simplified version of the operation of the transforme
         \item Finally, the output of the decoder goes through some normalisation steps to find and output the most probable \emph{output embedding}.
 \end{enumerate}
 
-An \emph{output embedding} may be thought of as a way to link together an expected output (e.g. a word) and a vector for use in one-hot encoding space.
-In the Transformer's decoder this allows a score represented in one-hot encoding space to be immediately matched to an output.
+An \emph{output embedding} may be thought of as a way to link together an expected output (e.g. a word) and a vector in one-hot encoding space.
+In the Transformer's decoder this allows a score represented in a one-hot encoding to be matched to an output.
 
 Though this is all rather complex, the key points to understand are that a Transformer uses both an encoder and decoder, the decoder can attend to only previously decoded output, and these two 'blocks' work together to produce an output.
 

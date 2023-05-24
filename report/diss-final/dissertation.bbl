@@ -136,6 +136,16 @@ Y.~Park, S.~Patwardhan, K.~Visweswariah, and S.~C. Gates, ``An empirical
   analysis of word error rate and keyword error rate.'' in \emph{INTERSPEECH},
   vol. 2008, 2008, pp. 2070--2073.
 
+\bibitem{pasandi2022evaluation}
+H.~B. Pasandi and H.~B. Pasandi, ``Evaluation of automated speech recognition
+  systems for conversational speech: A linguistic perspective,'' \emph{arXiv
+  preprint arXiv:2211.02812}, 2022.
+
+\bibitem{szymanski2020we}
+P.~Szyma{\'n}ski, P.~{\.Z}elasko, M.~Morzy, A.~Szymczak, M.~{\.Z}y{\l}a-Hoppe,
+  J.~Banaszczak, L.~Augustyniak, J.~Mizgajski, and Y.~Carmiel, ``Wer we are and
+  wer we think we are,'' \emph{arXiv preprint arXiv:2010.03432}, 2020.
+
 \bibitem{wav2vec2}
 \BIBentryALTinterwordspacing
 A.~Baevski, Y.~Zhou, A.~Mohamed, and M.~Auli, ``wav2vec 2.0: A framework for
@@ -178,18 +188,22 @@ Y.~Zhang, J.~Qin, D.~S. Park, W.~Han, C.-C. Chiu, R.~Pang, Q.~V. Le, and Y.~Wu,
   ``Pushing the limits of semi-supervised learning for automatic speech
   recognition,'' 2020.
 
+\bibitem{shriberg2001observations}
+E.~Shriberg, A.~Stolcke, and D.~Baron, ``Observations on overlap: findings and
+  implications for automatic processing of multi-party conversation.'' in
+  \emph{Interspeech}.\hskip 1em plus 0.5em minus 0.4em\relax Citeseer, 2001,
+  pp. 1359--1362.
+
+\bibitem{koenecke2020racial}
+A.~Koenecke, A.~Nam, E.~Lake, J.~Nudell, M.~Quartey, Z.~Mengesha, C.~Toups,
+  J.~R. Rickford, D.~Jurafsky, and S.~Goel, ``Racial disparities in automated
+  speech recognition,'' \emph{Proceedings of the National Academy of Sciences},
+  vol. 117, no.~14, pp. 7684--7689, 2020.
+
 \bibitem{whisper}
 A.~Radford, J.~W. Kim, T.~Xu, G.~Brockman, C.~McLeavey, and I.~Sutskever,
   ``Robust speech recognition via large-scale weak supervision,''
   arXiv:2212.04356, 2022.
-
-\bibitem{chime6}
-\BIBentryALTinterwordspacing
-S.~Watanabe, M.~I. Mandel, J.~Barker, and E.~Vincent, ``Chime-6 challenge:
-  Tackling multispeaker speech recognition for unsegmented recordings,''
-  \emph{CoRR}, vol. abs/2004.09249, 2020. [Online]. Available:
-  \url{https://arxiv.org/abs/2004.09249}
-\BIBentrySTDinterwordspacing
 
 \bibitem{baevski2021}
 \BIBentryALTinterwordspacing
@@ -205,18 +219,6 @@ A.~Baevski, W.-N. Hsu, A.~CONNEAU, and M.~Auli, ``Unsupervised speech
 W.~S. Horton, D.~H. Spieler, and E.~Shriberg, ``{A corpus analysis of patterns
   of age-related change in conversational speech.}'' \emph{Psychol. Aging},
   vol.~25, no.~3, p. 708, 2010.
-
-\bibitem{pytorch}
-\BIBentryALTinterwordspacing
-A.~Paszke, S.~Gross, F.~Massa, A.~Lerer, J.~Bradbury, G.~Chanan, T.~Killeen,
-  Z.~Lin, N.~Gimelshein, L.~Antiga, A.~Desmaison, A.~Kopf, E.~Yang, Z.~DeVito,
-  M.~Raison, A.~Tejani, S.~Chilamkurthy, B.~Steiner, L.~Fang, J.~Bai, and
-  S.~Chintala, ``Pytorch: An imperative style, high-performance deep learning
-  library,'' in \emph{Advances in Neural Information Processing Systems
-  32}.\hskip 1em plus 0.5em minus 0.4em\relax Curran Associates, Inc., 2019,
-  pp. 8024--8035. [Online]. Available:
-  \url{http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf}
-\BIBentrySTDinterwordspacing
 
 \bibitem{lifelucid}
 \BIBentryALTinterwordspacing
