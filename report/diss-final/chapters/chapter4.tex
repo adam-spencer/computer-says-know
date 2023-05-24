@@ -88,8 +88,6 @@ Considering the objective to create an automatic transcription system which uses
 It follows, then, that these 'target users' would not have access to high-powered computers and instead rely on consumer-grade hardware to generate transcriptions.
 Thus, for the purposes of this work, the medium English-language model was selected as it requires only 5GB of VRAM and takes approximately half as much time to produce transcripts as the larger models\cite{whisper}.
 
-\subsection{High-Powered Computing}
-
 \section{Confidence Scoring}\label{sec:confidence-scoring}
 
 Whisper does not have a clear confidence scoring system in its unaltered state.
@@ -149,7 +147,59 @@ The aforementioned \emph{whisper-timestamped} library is able to assign confiden
 Though based on probability scores which may not be wholly representative of confidence (as discussed in section \ref{sec:litreview-confidence}), operating on individual words rather than whole utterances should provide more detail of the per-word scores than \texttt{avg\_logprob} does.
 
 \section{A System For Transcription}
-\mycomment{
-  I reckon this section shouldn't use screenshots yet, just give examples of coloured text, ordering and blanking.
-  Save screenshots for Implementation chapter
-}
+
+As discussed in the requirements chapter (section \ref{sec:req-design-system}), this work would benefit greatly from a piece of software which serves to demonstrate computer-aided transcription.
+At a basic level, the software should enable a user to sort utterances in a conversation by some estimation of confidence to allow them to manually correct the ASR-generated transcripts in non-descending order of correctness.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{images/confidence-order.png}
+  \caption{Utterances in confidence order.}
+  \label{fig:sys-confidence}
+\end{figure}
+
+If there is any question about the context of a section of speech (e.g. there are unclear or  parts of speech), the user may return to chronological order and assess the surrounding utterances for information.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{images/chronological-order.png}
+  \caption{Utterances in chronological order.}
+  \label{fig:sys-chronological}
+\end{figure}
+
+A user may be influenced by the ASR transcript if they read it while listening to the accompanying audio.
+To solve this, words may be 'blanked out' depending on their assigned confidence score, those below a threshold parameter are replaced by blank sections so the user can't be conditioned by what the ASR predicted the output to be.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{images/text-blanking.png}
+  \caption{Example of a 'blanked out' utterance.}
+  \label{fig:sys-blanking}
+\end{figure}
+
+Displaying word-level confidence scores for every word in a sentence is not an intuitive way to interact with a computer system; instead, by colouring the words based on their assigned confidence score, the user may provide corrections to words which are considered less likely to be correct than others.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{images/text-highlighting.png}
+  \caption{Example of an utterance with confidence-based highlighting.}
+  \label{fig:sys-highlighting}
+\end{figure}
+
+All of these options may be selected using a simple menu.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{images/menu.png}
+  \caption{Menu presented to a user before starting the application.}
+  \label{fig:sys-menu}
+\end{figure}
+
+This system is not capable of taking input from a user, rather it exists with the purpose of providing an example to build a more fully-featured computer-aided transcription from.
+It is run in a terminal window using Python with the following packages;
+
+\begin{itemize}
+  \item \emph{Textual}\cite{textual} to build the application front-end,
+  \item \emph{pysoundfile}\cite{pysoundfile} and \emph{python-sounddevice}\cite{pysounddevice} to load and play audio clips, and
+  \item \emph{Rich}\cite{rich} to enable text highlighting in the terminal.
+\end{itemize}
