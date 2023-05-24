@@ -15,9 +15,6 @@ Though likely beneficial for keeping track of sentence context, this poses a pot
 To combat these drawbacks, this work will use a conversational speech corpus rather than one made of spoken disjoint terms.
 While not representative of all speech, an argument can be made that the majority of speech which must be transcribed (e.g. conference recordings, courtroom hearings, lectures, etc.) has a maintained context throughout and is not significantly formed of disjoint terms, though the potential for disjoint terms to be present in a recording should be acknowledged as a potential area of weakness for Whisper.
 
-\mycomment{
-  Change this, sounds jank
-  }
 While introducing the corpus selected for this work that the original objective was to explore the impact of age-related changes to speech on ASR performance, and for this goal the \emph{LifeLUCID} corpus\cite{lifelucid} was determined to be the best match.
 Despite the scope of the project having since changed, the data gathered fits the new objective very well, as it is formed of 52 recordings of conversations between 104 discrete speakers aged between 8 and 85 years old.
 They are solving a 'spot-the-difference' task, and the data selected for this work was recorded in normal conditions (that is, they can hear and communicate with each other normally).
@@ -82,9 +79,6 @@ This format is human-readable\cite{nurseitov2009comparison} and able to hold all
 
 \section{Running Whisper}
 
-\mycomment{
-  Would it be worth moving some of this to chap3? defining a 'target user' is probably better suited to there...
-  }
 Whisper comes packaged with models of various sizes, requiring between approximately 1 and 10GB of VRAM and an increasing amount of time to produce transcripts.
 Considering the objective to create an automatic transcription system which uses entirely free and open-source software, it is worth assuming that the individuals or institutions who would benefit the most from this system are those without the resources to rely on professional manual transcription.
 It follows, then, that these 'target users' would not have access to high-powered computers and instead rely on consumer-grade hardware to generate transcriptions.
@@ -113,7 +107,7 @@ These include;
 \begin{itemize}
   \item \texttt{avg\_logprob} -- The average of the $\log$ token-probability for a segment of speech (discussed further below)
   \item \texttt{compression\_ratio} -- The ratio of the length of the UTF-8-encoded text to its gzip-compressed representation.
-    Due to the way gzip operates, this ratio indicates the 'repetetive-ness' of the decoded text; a higher ratio means that the result is more repetetive, suggesting that there may have been a decoding error.
+    Due to the way gzip operates, this ratio indicates the 'repetitiveness' of the decoded text; a higher ratio means that the result is more repetitive, suggesting that there may have been a decoding error.
   \item \texttt{temperature} -- Before producing an output, if the \texttt{avg\_logprob} is below a certain threshold or the \texttt{compression\_ratio} is above some threshold, the model will treat the decoding as failed and compute a new output with an increased temperature parameter.
     Temperature is used to introduce some randomness while computing predictions, therefore the higher the final output \texttt{temperature} value is, the more randomness had to be introduced in order to determine the given output.
   \item \texttt{no\_speech\_prob} -- Whisper is trained to complete many tasks, one of which being the detection of non-speaking moments in a recording.
@@ -131,8 +125,8 @@ By using token- and learned position-level weights with cross-attention from the
 
 By default, the only information Whisper makes available about the probability scoring it used to decide on some output is \texttt{avg\_logprob} despite having internally computed scores for every token in the output.
 
-The 'tokens' that have been refered to in this section are computed using the GPT-2 tokenizer from the \emph{tiktoken} library\cite{tiktoken}.
-Words may be represented by one or more tokens called 'subword tokens' which are decoded by the tokenizer; the scores for each of these are different so a per-word score may be computed as the average score for each subword token in a word.
+The 'tokens' that have been referred to in this section are computed using the GPT-2 tokeniser from the \emph{tiktoken} library\cite{tiktoken}.
+Words may be represented by one or more tokens called 'subword tokens' which are decoded by the tokeniser; the scores for each of these are different so a per-word score may be computed as the average score for each subword token in a word.
 
 \begin{figure}[H]
   \centering

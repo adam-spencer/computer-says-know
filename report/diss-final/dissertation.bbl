@@ -21,6 +21,33 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{wav2vec2}
+\BIBentryALTinterwordspacing
+A.~Baevski, Y.~Zhou, A.~Mohamed, and M.~Auli, ``wav2vec 2.0: A framework for
+  self-supervised learning of speech representations,'' in \emph{Advances in
+  Neural Information Processing Systems}, H.~Larochelle, M.~Ranzato,
+  R.~Hadsell, M.~Balcan, and H.~Lin, Eds., vol.~33.\hskip 1em plus 0.5em minus
+  0.4em\relax Curran Associates, Inc., 2020, pp. 12\,449--12\,460. [Online].
+  Available:
+  \url{https://proceedings.neurips.cc/paper_files/paper/2020/file/92d1e1eb1cd6f9fba3227870bb6d7f07-Paper.pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{szymanski2020we}
+P.~Szyma{\'n}ski, P.~{\.Z}elasko, M.~Morzy, A.~Szymczak, M.~{\.Z}y{\l}a-Hoppe,
+  J.~Banaszczak, L.~Augustyniak, J.~Mizgajski, and Y.~Carmiel, ``Wer we are and
+  wer we think we are,'' \emph{arXiv preprint arXiv:2010.03432}, 2020.
+
+\bibitem{rev}
+\BIBentryALTinterwordspacing
+Rev, ``{Transcribe Speech to Text {$\vert$} Rev},'' May 2023, [Online; accessed
+  24. May 2023]. [Online]. Available: \url{https://www.rev.com}
+\BIBentrySTDinterwordspacing
+
+\bibitem{whisper}
+A.~Radford, J.~W. Kim, T.~Xu, G.~Brockman, C.~McLeavey, and I.~Sutskever,
+  ``Robust speech recognition via large-scale weak supervision,''
+  arXiv:2212.04356, 2022.
+
 \bibitem{Rabiner2004Jan}
 \BIBentryALTinterwordspacing
 L.~R. Rabiner, ``{Automatic Speech Recognition - A Brief History of the
@@ -141,22 +168,6 @@ H.~B. Pasandi and H.~B. Pasandi, ``Evaluation of automated speech recognition
   systems for conversational speech: A linguistic perspective,'' \emph{arXiv
   preprint arXiv:2211.02812}, 2022.
 
-\bibitem{szymanski2020we}
-P.~Szyma{\'n}ski, P.~{\.Z}elasko, M.~Morzy, A.~Szymczak, M.~{\.Z}y{\l}a-Hoppe,
-  J.~Banaszczak, L.~Augustyniak, J.~Mizgajski, and Y.~Carmiel, ``Wer we are and
-  wer we think we are,'' \emph{arXiv preprint arXiv:2010.03432}, 2020.
-
-\bibitem{wav2vec2}
-\BIBentryALTinterwordspacing
-A.~Baevski, Y.~Zhou, A.~Mohamed, and M.~Auli, ``wav2vec 2.0: A framework for
-  self-supervised learning of speech representations,'' in \emph{Advances in
-  Neural Information Processing Systems}, H.~Larochelle, M.~Ranzato,
-  R.~Hadsell, M.~Balcan, and H.~Lin, Eds., vol.~33.\hskip 1em plus 0.5em minus
-  0.4em\relax Curran Associates, Inc., 2020, pp. 12\,449--12\,460. [Online].
-  Available:
-  \url{https://proceedings.neurips.cc/paper_files/paper/2020/file/92d1e1eb1cd6f9fba3227870bb6d7f07-Paper.pdf}
-\BIBentrySTDinterwordspacing
-
 \bibitem{bigssl}
 \BIBentryALTinterwordspacing
 Y.~Zhang, D.~S. Park, W.~Han, J.~Qin, A.~Gulati, J.~Shor, A.~Jansen, Y.~Xu,
@@ -199,11 +210,6 @@ A.~Koenecke, A.~Nam, E.~Lake, J.~Nudell, M.~Quartey, Z.~Mengesha, C.~Toups,
   J.~R. Rickford, D.~Jurafsky, and S.~Goel, ``Racial disparities in automated
   speech recognition,'' \emph{Proceedings of the National Academy of Sciences},
   vol. 117, no.~14, pp. 7684--7689, 2020.
-
-\bibitem{whisper}
-A.~Radford, J.~W. Kim, T.~Xu, G.~Brockman, C.~McLeavey, and I.~Sutskever,
-  ``Robust speech recognition via large-scale weak supervision,''
-  arXiv:2212.04356, 2022.
 
 \bibitem{baevski2021}
 \BIBentryALTinterwordspacing
@@ -296,6 +302,12 @@ Textualize, ``{rich},'' Apr. 2023, [Online; accessed 25. April 2023]. [Online].
 \BIBentryALTinterwordspacing
 jitsi, ``{jiwer},'' Apr. 2023, [Online; accessed 26. April 2023]. [Online].
   Available: \url{https://github.com/jitsi/jiwer}
+\BIBentrySTDinterwordspacing
+
+\bibitem{pyqt}
+\BIBentryALTinterwordspacing
+``Pyqt,'' May 2023, [Online; accessed 24. May 2023]. [Online]. Available:
+  \url{https://www.riverbankcomputing.com/software/pyqt}
 \BIBentrySTDinterwordspacing
 
 \bibitem{huang2013predicting}

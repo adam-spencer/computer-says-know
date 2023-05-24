@@ -1,1 +1,16 @@
 \chapter{Conclusions}\label{ch:conclusions}
+
+In conclusion, this work has presented a method for calculating confidence scores from Whisper and produced a method to order results to corrected by a human.
+Three of the metrics on which transcript utterances may be ordered have been presented to provide a considerable benefit to a human transcriber; they reduce the number of results which must be manually checked to reduce the WER.
+In fact, according to the simulation used to generate results, 44\% fewer utterances need to be checked using the best metric than if the results weren't checked in order to achieve a halving of WER.
+
+A piece of software to demonstrate the possibility to aid a human transcriber has been produced.
+Despite not being fully-featured, it would not take much modification to transform it into a more capable system to be used to produce accurate transcripts more quickly than fully-manual transcription.
+All software libraries used in development are free and open-source, meaning the proposed system is accessible to anyone who wishes to quickly produce accurate transcripts without incurring large costs.
+
+While confidence measures which seem to perform well were produced, literature on the subject point to many other methods of deriving system confidence which were not explored.
+Given further work, an exploration of other methods for measuring Whisper's confidence may find more performative results.
+
+The LifeLUCID speech corpus was used to produce all results.
+It contains a diverse range of speaker ages but other demographic information about the speakers is unavailable.
+The results presented in this report should be treated as preliminary; further testing across corpora should aim to validate results, as well as perform testing with real human subjects.

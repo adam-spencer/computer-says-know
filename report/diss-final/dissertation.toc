@@ -1,6 +1,5 @@
+\contentsline {chapter}{Acknowledgements}{iii}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Aims and Objectives}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Overview of the Report}{1}{section.1.2}%
 \contentsline {chapter}{\numberline {2}Literature Survey}{2}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Automatic Speech Recognition}{2}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}What is ASR?}{2}{subsection.2.1.1}%
@@ -35,26 +34,31 @@
 \contentsline {section}{\numberline {4.4}A System For Transcription}{17}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Implementation}{21}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Data Processing}{21}{section.5.1}%
-\contentsline {chapter}{\numberline {6}Results and Discussion}{24}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Simulating Computer-Aided Transcription}{24}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Simulation Results}{25}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Utterance-average confidence versus \texttt {avg\_logprob}}{26}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Per-conversation average results using word-confidence}{28}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Corpus-wide comparisons with word-level confidence ordering}{30}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Different word-level confidence scoring techniques}{31}{subsection.6.2.4}%
-\contentsline {section}{\numberline {6.3}Discussion of Results}{32}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Utterance-average confidence and \texttt {avg\_logprob}}{32}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Word-level confidence metrics}{32}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Comparing word-level and utterance-level metrics}{33}{subsection.6.3.3}%
-\contentsline {section}{\numberline {6.4}Future Work}{34}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Increase test corpus}{34}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Acquire results from human transcribers}{34}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}Experiment with other derivations of confidence}{34}{subsection.6.4.3}%
-\contentsline {chapter}{\numberline {7}Conclusions}{36}{chapter.7}%
-\contentsline {chapter}{Appendices}{42}{section*.7}%
-\contentsline {chapter}{\numberline {A}Example of the TextGrid Format}{43}{appendix.a.A}%
-\contentsline {chapter}{\numberline {B}get\_utterances}{44}{appendix.a.B}%
-\contentsline {chapter}{\numberline {C}segment\_audio}{48}{appendix.a.C}%
-\contentsline {chapter}{\numberline {D}do\_whisper\_confidence}{51}{appendix.a.D}%
-\contentsline {chapter}{\numberline {E}normalise\_text}{55}{appendix.a.E}%
-\contentsline {chapter}{\numberline {F}calculate\_wer}{59}{appendix.a.F}%
+\contentsline {subsection}{\numberline {5.1.1}Audio Issue}{23}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}Demo Software}{23}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Caveats}{24}{subsection.5.2.1}%
+\contentsline {chapter}{\numberline {6}Results and Discussion}{25}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Simulating Computer-Aided Transcription}{25}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Simulation Results}{26}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Utterance-average confidence versus \texttt {avg\_logprob}}{27}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Per-conversation average results using word-confidence}{29}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Corpus-wide comparisons with word-level confidence ordering}{31}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Different word-level confidence scoring techniques}{32}{subsection.6.2.4}%
+\contentsline {section}{\numberline {6.3}Discussion of Results}{33}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Utterance-average confidence and \texttt {avg\_logprob}}{33}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Word-level confidence metrics}{33}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Comparing word-level and utterance-level metrics}{34}{subsection.6.3.3}%
+\contentsline {section}{\numberline {6.4}Future Work}{35}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Increase test corpus}{35}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Acquire results from human transcribers}{35}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Experiment with other derivations of confidence}{35}{subsection.6.4.3}%
+\contentsline {chapter}{\numberline {7}Conclusions}{37}{chapter.7}%
+\contentsline {chapter}{Appendices}{43}{section*.8}%
+\contentsline {chapter}{\numberline {A}Example of the TextGrid Format}{44}{appendix.a.A}%
+\contentsline {chapter}{\numberline {B}get\_utterances}{45}{appendix.a.B}%
+\contentsline {chapter}{\numberline {C}segment\_audio}{49}{appendix.a.C}%
+\contentsline {chapter}{\numberline {D}do\_whisper\_confidence}{52}{appendix.a.D}%
+\contentsline {chapter}{\numberline {E}normalise\_text}{56}{appendix.a.E}%
+\contentsline {chapter}{\numberline {F}calculate\_wer}{60}{appendix.a.F}%
+\contentsline {chapter}{\numberline {G}asr\_app.py}{65}{appendix.a.G}%
+\contentsline {chapter}{\numberline {H}audio\_data\_link.py}{70}{appendix.a.H}%

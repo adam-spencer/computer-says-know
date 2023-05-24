@@ -1,29 +1,5 @@
 \chapter{Results and Discussion}\label{ch:results-and-discussion}
 
-\mycomment{
-  * Chapter introduction
-  * Results section
-    > simulate a manual transcriber correcting results by ordering utterances using some metric and using specific WER caclulation
-    > Run as average for single conversations AND whole corpus
-    > present results using word-confidence
-    > could make a table to show percentage of data checked versus reduction in WER?
-  * Discussion section
-    > average_logprob and utterance confidence are similar- appear to function well for average convo but poorly for whole corpus
-    > explain: utterance confidence is calculated from the same logit data as utterance confidence (thus have similar shape)
-    > explain word-confidence
-    > works much better - long utterances can have few low-confidence words but get high average, word-confidence ordering eliminates this
-    > word-confidence seems to work! there is benefit from using this metric
-    > other two not so much
-    > is this test representative of a real user?
-    > by showing that there is a confidence metric which seems to work, Whisper is demonstrated to be a viable choice for aiding a human transcriber
-    > perhaps work through requirements?
-  * Future work (maybe a better title?)
-    > try different type of confidence scoring - perhaps Whisper isn't the best candidate due to the way it makes choices?
-    > try different datasets - LifeLUCID is only one out of thousand of corpora, try to replicate results
-    > make fully-working transcription software - my example only shows the effect of ordering results, doesn't allow input
-    > compare the effect of different model sizes - errors may be clustered differently - if smaller models could reliably get confidence then the hardware and time required to generate transcripts would be minimised
-}
-
 \section{Simulating Computer-Aided Transcription}\label{sec:simulating-transcription}
 
 An effective computer-aided transcription system must reduce the human cost required to lower the amount of errors a transcription to an acceptable level.
@@ -32,7 +8,7 @@ By ordering transcribed utterances using some confidence metric and letting a hu
 A simple simulation was devised in order to test the effectiveness of each potential measure of system confidence by using the formula for WER as follows;
 
 \begin{enumerate}
-  \item For a set of $M$ utterances $U = \{ u_{0}, u_{1}, \ldots\, u_{M} \}$ (either a single conversation or entire corpus), the subsitutions ($S_i$), deletions ($D_i$), insertions ($I_i$), and number of words in the reference ($N_i$) are calculated for each utterance, $u_i$.
+  \item For a set of $M$ utterances $U = \{ u_{0}, u_{1}, \ldots\, u_{M} \}$ (either a single conversation or entire corpus), the substitutions ($S_i$), deletions ($D_i$), insertions ($I_i$), and number of words in the reference ($N_i$) are calculated for each utterance, $u_i$.
   \item $U$ is ordered using a confidence metric.
   \item The WER, $w_i$, is calculated for a slice of $U$ containing all items including and following some utterance, $u_i$;
     \[
@@ -43,7 +19,7 @@ A simple simulation was devised in order to test the effectiveness of each poten
   \item Output is a set $W = \{ w_{0}, w_{1}, \ldots\, w_{M} \}$, where some item $w_{i}$ is equal to the WER of $U$ after correcting all utterances prior to $u_i$.
 \end{enumerate}
 
-These results shall be analysed by plotting graphs of WER against the percentage of utterance which have been human-corrected, henceforth refered to as 'Cost'.
+These results shall be analysed by plotting graphs of WER against the percentage of utterance which have been human-corrected, henceforth referred to as 'Cost'.
 
 \section{Simulation Results}
 
@@ -98,7 +74,7 @@ The reason for this is less intuitive; it would make more sense that ordering fr
 This could be due to word-confidence being derived from word-level probability scores, though this is an area which needs more experimentation to better understand this result.
 
 When comparing whole-corpus evaluation results using word-confidence measures (fig. \ref{fig:corpus-all-word-conf-measures}), non-descending utterance-minimum word-confidence ordering has the best (largest difference from random) and most consistent (smoothest line) performance of all the metrics, followed by non-ascending utterance-maximum word-confidence.
-The other two metrics are shown to be a hinderance, achieving worse performance than if the results were evaluated in random order and should thus be ignored as metrics to use in a computer-aided transcription system.
+The other two metrics are shown to be a hindrance, achieving worse performance than if the results were evaluated in random order and should thus be ignored as metrics to use in a computer-aided transcription system.
 
 \subsection{Comparing word-level and utterance-level metrics}
 
@@ -125,7 +101,7 @@ This section shall highlight some of the areas which this project has failed to 
 
 This work has focused on only one speech corpus, \emph{LifeLUCID}\cite{lifelucid}.
 Though it presents a diverse range of speaker ages, it has made for a relatively small test sample (less than 9 hours total).
-Thorough testing on a variety of speech corpora would provide validatation to the results presented earlier in this chapter.
+Thorough testing on a variety of speech corpora would provide validation to the results presented earlier in this chapter.
 Other languages could be used to increase the diversity of the test corpus because Whisper is capable of operating on various different languages (though is trained on 65\% English data\cite{whisper}).
 
 Despite the limited test corpus used in this work, the results of ordering utterances using metrics based on word-level confidence scores show a very clear benefit to the efficiency of a semi-automatic transcription system.
@@ -144,7 +120,7 @@ Specifically, it is not capable of taking text input from the user, though it ca
 This work has used confidence scoring derived from a single unmodified output from Whisper (\texttt{avg\_logprob}) and internal probability scoring.
 While ordering utterances based on minimum word-level confidence scores derived from internal probability scoring has shown a degree of effectiveness, there is expansive literature discussing methods of neural network confidence measures which have not been implemented in this work.
 
-For example, use of a neural network (e.g. a multilayer perceptron) which takes Whisper's output as input and outputs a confidence metric could be shown to provide a reliable metric for confidence.
+For example, use of a neural network (e.g. a multilayer perception) which takes Whisper's output as input and outputs a confidence metric could be shown to provide a reliable metric for confidence.
 Similar methods are proposed in the literature, such as using recurrent neural networks\cite{huang2013predicting, kalgaonkar2015estimating} or a na\"{i}ve Bayes classifier\cite{sanchis2011word}.
 The benefit of this method would be that Whisper doesn't require any (or minimal) modification to apply them.
 

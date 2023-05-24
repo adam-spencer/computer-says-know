@@ -8,16 +8,16 @@ TextGrid data was broken into 'utterances' using a script called \texttt{get\_ut
 This script takes as input a directory containing TextGrid data, an output directory and threshold values for the minimum break length and maximum pause length allowed in an utterance.
 The output is in JSON format, generating a file to which other data is added.
 
-The second step is to use the script \texttt{segment\_audio} to split up audio files into individual utterances within directories given the title of the orginal conversation they were extracted from.
+The second step is to use the script \texttt{segment\_audio} to split up audio files into individual utterances within directories given the title of the original conversation they were extracted from.
 This code is available in appendix \ref{appendix:segment-audio}.
-Upon completion, the ouput of this script is a directory with subdirectories containing hundereds of audio files.
+Upon completion, the output of this script is a directory with subdirectories containing hundreds of audio files.
 
 Thirdly, the script \texttt{do\_whisper\_confidence} was run (available in appendix \ref{appendix:do-whisper}) using the University of Sheffield's Bessemer HPC cluster\cite{shef-hpc}.
 GPU clusters on Bessemer have access to Nvidia V100 GPUs with 32GB of VRAM, enabling transcriptions to be generated with Whisper very quickly.
 Instead of using the standard Whisper model, the \emph{whisper-timestamped}\cite{whisper-timestamped} library is used because it can calculate word-level confidence scores.
 
 The fourth and fifth steps to process data were to run the scripts \texttt{normalise\_text} and \texttt{calculate\_wer} (available in appendices \ref{appendix:normalise-text} \& \ref{appendix:calculate-wer} respectively).
-The first of these scripts runs a text normaliser which is packaged with Whisper\cite{whisper} to perform English text normalisation, then the second script calculates WER scores and finds the per-word confidence scores for each word in the ouput.
+The first of these scripts runs a text normaliser which is packaged with Whisper\cite{whisper} to perform English text normalisation, then the second script calculates WER scores and finds the per-word confidence scores for each word in the output.
 WER is calculated using the \emph{jiwer}\cite{jiwer} library.
 
 \begin{figure}[p]
@@ -100,13 +100,13 @@ The final corpus used for evaluation did not contain any of these errors.
 
 \section{Demo Software}
 
-The demo software's front-end is built using \emph{Textual}\cite{textual}, a Python libary for terminal-based graphical applications.
+The demo software's front-end is built using \emph{Textual}\cite{textual}, a Python library for terminal-based graphical applications.
 A terminal-based system was decided on to ensure compatibility across operating systems while using Python, as other techniques like \emph{PyQt}\cite{pyqt} do not display the same on all OSs.
 Rich comes with various 'widgets' which enable quick and simple building of terminal applications, including the \texttt{DataTable} which was used for the demo software.
-The code for the frontend is available in appendix \ref{appendix:asr-app}.
+The code for the front-end is available in appendix \ref{appendix:asr-app}.
 
-To gather results, highlight and blank text, play audio and order results, a backend was developed consisting of a simple class for each row and a class to represent all of the data in the table.
-The backend code is available in appendix \ref{appendix:audio-data-link}.
+To gather results, highlight and blank text, play audio and order results, a back-end was developed consisting of a simple class for each row and a class to represent all of the data in the table.
+The back-end code is available in appendix \ref{appendix:audio-data-link}.
 
 \subsection{Caveats}
 

@@ -77,7 +77,7 @@ The motivation for the \emph{Transformer} can be understood as follows;
 \end{itemize}
 
 In a multilayer network, attention layers are used to build relations between separate parts of an input sequence by allowing each node (or 'attention head'\cite{shaw2018self}) to attend to all outputs from the previous layer.
-A technique refered to as 'multi-head attention'\cite{vaswani2017attention} enables attention to be calculated in parallel for all inputs in a sequence.\\
+A technique referred to as 'multi-head attention'\cite{vaswani2017attention} enables attention to be calculated in parallel for all inputs in a sequence.\\
 
 The calculation for attention is:
 
@@ -98,7 +98,7 @@ To understand what these vectors denote in the context of speech recognition, we
         \item self-attention layers (in both the encoder and decoder) take input from the previous layer within the same block (i.e. encoder or decoder).
         In this layer, $Q$, $K$, and $V$ are all calculated by multiplying an input embedding (a vector representation of the raw input sequence) by three different trained weight vectors.
         \item cross-attention layers (present only in the decoder) enable mixing of the encoder's output with the output of the decoder's previous self-attention block, allowing the decoder to attend over the whole encoded input.
-        In this layer, only $K$ and $V$ are taken from the encoder; $Q$ is dervied from the previous decoder block.
+        In this layer, only $K$ and $V$ are taken from the encoder; $Q$ is derived from the previous decoder block.
 \end{itemize}
 
 For the sake of clarity, a simplified version of the operation of the transformer (as explained in \cite{vaswani2017attention}) is as follows;
@@ -187,26 +187,4 @@ The classifier simply assigns the closest city to their address and often makes 
 However, if the input co-ordinates were somewhere in Iceland it may assign a high probability to their place of birth being in Inverness because it is much closer than any of the other UK cities, even though the true probability that this hypothetical Icelander was born in Inverness is quite low.
 
 The point of this example is to illustrate that the probability assigned by a neural network is not always a good indication of correctness.
-An estimation of a model's expected correctness is refered to as \emph{confidence}, i.e. how \emph{confident} is the model that its prediction is correct?
-
-
-
-\section{Speech Corpora}\label{sec:}
-\mycomment{
-  I think this section should be short and sweet. Just lay out what a corpus is, quick overview of the history of corpora, conversational corpora, 
-}
-
-\section{Transcription}\label{sec:transcription}
-\mycomment{
-    Perhaps move this down a bit?
-  }
-
-\subsection{Manual Transcription}\label{subsec:manual-transcription}
-
-\subsection{Fully-Automatic Transcription}\label{subsec:full-auto-transcription}
-
-\subsection{Semi-Automatic Transcription}\label{subsec:semi-auto-transcription}
-
-\section{Summary}\label{sec:lit-survey-summary}
-\mycomment{
-    }
+An estimation of a model's expected correctness is referred to as \emph{confidence}, i.e. how \emph{confident} is the model that its prediction is correct?
