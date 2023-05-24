@@ -92,14 +92,13 @@ Thus, for the purposes of this work, the medium English-language model was selec
 
 \section{Confidence Scoring}\label{sec:confidence-scoring}
 
-\mycomment{
-  describe confidence:
-    * some way of knowing how likely the system is to be correct
-    * difficult for one-shot evaluation as there is no training / test sets, just data
-}
 Whisper does not have a clear confidence scoring system in its unaltered state.
-Therefore, for it to be viably used to aid a human transcriber, some method to estimate system confidence must be implemented.
+This is a caveat for calculating confidence resulting from the design philosophy of Whisper's authors; it is a one-shot model so it is not expected to be fine-tuned to a dataset before use.
+Without fine-tuning or prior exposure to the type of data present in the input, Whisper can't be trained to predict the correctness of its output.
+
+Therefore, for it to be viably used to aid a human transcriber, some method to estimate system confidence must be implemented based on the way it converges on and scores an output.
 At a high level, there are two sources from which to estimate confidence: Whisper's standard output, and its internal processes.
+
 Table \ref{table:confidence-motivations} gives a brief comparison of the benefits and drawbacks associated with each of these sources of confidence;
 
 \input{tables/confidence-motivations}
@@ -107,16 +106,7 @@ Table \ref{table:confidence-motivations} gives a brief comparison of the benefit
 The following subsections provide a detailed explanation of how each approach works and should help illustrate the benefits and drawbacks of each.
 
 \subsection{Confidence From Model Output}
-\mycomment{
-  * avg_logprob
-  * temperature
-  * compression_ratio
-  * no_speech_prob
-  * could make an MLP?
-  * drawbacks outway benefit (benefit being lack of modification (ie easier))
-    > no word-level scoring, just average for an utterance
-    > how is lprob calculated? (leads to next part)
-}
+
 Though it does not yield a clear confidence score, Whisper does output various data relating to its processing of the input.
 These include;
 
@@ -130,27 +120,33 @@ These include;
     This value indicates the model's predicted probability that there is no speech in the input audio file.
 \end{itemize}
 
-Of these dataThis work will focus on the \texttt{avg\_logprob} metric, which is the average of the $\log$ probabilities for each token in a segment of the input, which are computed as the $\log \softmax$ of the \emph{logits}, which can be thought of as unnormalised 'scores' that have been assigned to each token while decoding.
+Of these metrics, this work will focus on the \texttt{avg\_logprob}, which is the average of the $\log$ probabilities for each token in a segment of the input, which are computed as the $\log \softmax$ of the \emph{logits}, which can be thought of as unnormalised 'scores' that have been assigned to each token while decoding.
 The $\softmax$ function is used to normalise these scores such that their sum is equal to $1$ (allowing them to be used as probabilities).
 
 The logits themselves are calculated during each forward pass through the decoder, derived from both learned positional and token embeddings.
 In the context of the Transformer's decoder, learned positional embeddings can be thought of as a way to learn information about token positions in the transcript\cite{wang2020position}.
-Token embeddings act like an abstraction on a one-hot encoding layer, matching a token to a weight vector.
 By using token- and learned position-level weights with cross-attention from the encoder\cite{vaswani2017attention}, Whisper acts like an \say{audio-conditional language model}\cite{whisper}; the scores (logits) assigned to tokens are based on both the encoded audio input and a model of language.
 
 \subsection{Confidence From Model Internals}
-\mycomment{
-  * how does the decoder decide on an output?
-    > scoring is based on encoder output and has weighting from language model
-    > using both of these sources of scoring there should be *some* indication of confidence
-  * logits
-    > how do they work?
-    > what could they show?
-  * potential drawbacks of using internal scoring
-    > scores are only within an utterance! not well compared to other utterances
-    > does this matter?
-  * would give scores for each token (word or even sub-word level)
-}
+
+By default, the only information Whisper makes available about the probability scoring it used to decide on some output is \texttt{avg\_logprob} despite having internally computed scores for every token in the output.
+
+The 'tokens' that have been refered to in this section are computed using the GPT-2 tokenizer from the \emph{tiktoken} library\cite{tiktoken}.
+Words may be represented by one or more tokens called 'subword tokens' which are decoded by the tokenizer; the scores for each of these are different so a per-word score may be computed as the average score for each subword token in a word.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{images/mfcc-with-words.png}
+  \caption{Word alignments example}
+  \label{fig:word-alignments-example}
+\end{figure}
+
+Figure \ref{fig:word-alignments-example} was generated using the \emph{whisper-timestamped} library\cite{whisper-timestamped, whisper-ts-dtw-paper, whisper}.
+The top plot shows \say{the transformation of cross-attention weights used for the [word] alignment}\cite{whisper-timestamped}.
+Notice that the words 'teddy' and 'bears' are split into subwords.
+
+The aforementioned \emph{whisper-timestamped} library is able to assign confidence scores to each word, computed as the exponential of the mean of the $\log$ probabilities of each subword token in a given word.
+Though based on probability scores which may not be wholly representative of confidence (as discussed in section \ref{sec:litreview-confidence}), operating on individual words rather than whole utterances should provide more detail of the per-word scores than \texttt{avg\_logprob} does.
 
 \section{A System For Transcription}
 \mycomment{
