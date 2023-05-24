@@ -245,29 +245,52 @@ Y.-A. Wang and Y.-N. Chen, ``What do position embeddings learn? an empirical
   study of pre-trained language model positional encoding,'' \emph{arXiv
   preprint arXiv:2010.04903}, 2020.
 
+\bibitem{tiktoken}
+\BIBentryALTinterwordspacing
+openai, ``{tiktoken},'' Apr. 2023, [Online; accessed 24. April 2023]. [Online].
+  Available: \url{https://github.com/openai/tiktoken}
+\BIBentrySTDinterwordspacing
+
+\bibitem{whisper-timestamped}
+J.~Louradour, ``whisper-timestamped,''
+  \url{https://github.com/linto-ai/whisper-timestamped}, 2023.
+
+\bibitem{whisper-ts-dtw-paper}
+T.~Giorgino, ``Computing and visualizing dynamic time warping alignments in r:
+  The dtw package,'' \emph{Journal of Statistical Software}, vol.~31, no.~7,
+  2009.
+
+\bibitem{textual}
+\BIBentryALTinterwordspacing
+Textualize, ``{textual},'' Apr. 2023, [Online; accessed 24. April 2023].
+  [Online]. Available: \url{https://github.com/Textualize/textual}
+\BIBentrySTDinterwordspacing
+
 \bibitem{pysoundfile}
 \BIBentryALTinterwordspacing
 B.~Bechtold, ``{python-soundfile},'' 2013, [Online; accessed 8. Apr. 2023].
   [Online]. Available: \url{https://github.com/bastibe/python-soundfile}
 \BIBentrySTDinterwordspacing
 
-\bibitem{numpy}
-C.~R. Harris, K.~J. Millman, S.~f.~J. van~der Walt, R.~Gommers, P.~Virtanen,
-  D.~Cournapeau, E.~Wieser, J.~Taylor, S.~Berg, N.~J. Smith, R.~Kern, M.~Picus,
-  S.~Hoyer, M.~H. van Kerkwijk, M.~Brett, A.~Haldane, J.~Fern{\'a}ndez~del
-  R{\'\i}o, M.~Wiebe, P.~Peterson, P.~G{\'e}rard-Marchant, K.~Sheppard,
-  T.~Reddy, W.~Weckesser, H.~Abbasi, C.~Gohlke, and T.~E. Oliphant, ``Array
-  programming with {NumPy},'' \emph{Nature}, vol. 585, pp. 357--362, 2020.
-
-\bibitem{pypi-whis}
+\bibitem{pysounddevice}
 \BIBentryALTinterwordspacing
-``{openai-whisper},'' Apr. 2023, [Online; accessed 10. Apr. 2023]. [Online].
-  Available: \url{https://pypi.org/project/openai-whisper}
+spatialaudio, ``{python-sounddevice},'' Apr. 2023, [Online; accessed 24. April
+  2023]. [Online]. Available:
+  \url{https://github.com/spatialaudio/python-sounddevice}
 \BIBentrySTDinterwordspacing
 
-\bibitem{whisper-timestamped}
-J.~Louradour, ``whisper-timestamped,''
-  \url{https://github.com/linto-ai/whisper-timestamped}, 2023.
+\bibitem{rich}
+\BIBentryALTinterwordspacing
+Textualize, ``{rich},'' Apr. 2023, [Online; accessed 25. April 2023]. [Online].
+  Available: \url{https://github.com/Textualize/rich}
+\BIBentrySTDinterwordspacing
+
+\bibitem{shef-hpc}
+\BIBentryALTinterwordspacing
+``{High Performance Computing at Sheffield {\ifmmode---\else\textemdash \fi}
+  Sheffield HPC Documentation},'' May 2023, [Online; accessed 6. May 2023].
+  [Online]. Available: \url{https://docs.hpc.shef.ac.uk/en/latest}
+\BIBentrySTDinterwordspacing
 
 \bibitem{huang2013predicting}
 P.-S. Huang, K.~Kumar, C.~Liu, Y.~Gong, and L.~Deng, ``Predicting speech

@@ -82,6 +82,7 @@
 \citation{Horton2010}
 \@writefile{toc}{\contentsline {section}{\numberline {2.2}Whisper}{7}{section.2.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2.3}Confidence}{7}{section.2.3}\protected@file@percent }
+\newlabel{sec:litreview-confidence}{{2.3}{7}{Confidence}{section.2.3}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.4}Speech Corpora}{8}{section.2.4}\protected@file@percent }
 \newlabel{sec:}{{2.4}{8}{Speech Corpora}{section.2.4}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.5}Transcription}{8}{section.2.5}\protected@file@percent }
@@ -105,6 +106,7 @@
 \@writefile{toc}{\contentsline {section}{\numberline {3.3}Implement various confidence measures}{10}{section.3.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3.4}Understand the effectiveness of selected confidence measures}{10}{section.3.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3.5}Explore designs for computer-aided transcription}{11}{section.3.5}\protected@file@percent }
+\newlabel{sec:req-design-system}{{3.5}{11}{Explore designs for computer-aided transcription}{section.3.5}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.6}Evaluation}{11}{section.3.6}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3.7}Ethical, Professional and Legal Issues}{11}{section.3.7}\protected@file@percent }
 \citation{whisper}
@@ -123,44 +125,62 @@
 \citation{nurseitov2009comparison}
 \citation{whisper}
 \@writefile{toc}{\contentsline {section}{\numberline {4.2}Running Whisper}{14}{section.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}High-Powered Computing}{14}{subsection.4.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Confidence Scoring}{14}{section.4.3}\protected@file@percent }
-\newlabel{sec:confidence-scoring}{{4.3}{14}{Confidence Scoring}{section.4.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Confidence Scoring}{15}{section.4.3}\protected@file@percent }
+\newlabel{sec:confidence-scoring}{{4.3}{15}{Confidence Scoring}{section.4.3}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Comparison between sources of model confidence}}{15}{table.4.1}\protected@file@percent }
 \newlabel{table:confidence-motivations}{{4.1}{15}{Comparison between sources of model confidence}{table.4.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Confidence From Model Output}{15}{subsection.4.3.1}\protected@file@percent }
 \citation{wang2020position}
 \citation{vaswani2017attention}
 \citation{whisper}
+\citation{tiktoken}
+\citation{whisper-timestamped}
+\citation{whisper-ts-dtw-paper}
+\citation{whisper}
+\citation{whisper-timestamped}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Confidence From Model Internals}{16}{subsection.4.3.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {4.4}A System For Transcription}{16}{section.4.4}\protected@file@percent }
+\citation{textual}
 \citation{pysoundfile}
-\citation{numpy}
-\citation{pypi-whis}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Implementation and Testing}{17}{chapter.5}\protected@file@percent }
+\citation{pysounddevice}
+\citation{rich}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Word alignments example}}{17}{figure.4.2}\protected@file@percent }
+\newlabel{fig:word-alignments-example}{{4.2}{17}{Word alignments example}{figure.4.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Utterances in confidence order.}}{18}{figure.4.3}\protected@file@percent }
+\newlabel{fig:sys-confidence}{{4.3}{18}{Utterances in confidence order}{figure.4.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Utterances in chronological order.}}{19}{figure.4.4}\protected@file@percent }
+\newlabel{fig:sys-chronological}{{4.4}{19}{Utterances in chronological order}{figure.4.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Example of a 'blanked out' utterance.}}{19}{figure.4.5}\protected@file@percent }
+\newlabel{fig:sys-blanking}{{4.5}{19}{Example of a 'blanked out' utterance}{figure.4.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Example of an utterance with confidence-based highlighting.}}{20}{figure.4.6}\protected@file@percent }
+\newlabel{fig:sys-highlighting}{{4.6}{20}{Example of an utterance with confidence-based highlighting}{figure.4.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Menu presented to a user before starting the application.}}{20}{figure.4.7}\protected@file@percent }
+\newlabel{fig:sys-menu}{{4.7}{20}{Menu presented to a user before starting the application}{figure.4.7}{}}
+\citation{shef-hpc}
+\citation{whisper}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Implementation}{21}{chapter.5}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:implementation-and-testing}{{5}{17}{Implementation and Testing}{chapter.5}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Preparing the Data}{17}{section.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Generating Utterances}{17}{subsection.5.1.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Audio Segmentation}{17}{subsection.5.1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}ASR With Whisper}{18}{section.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Results and Discussion}{19}{chapter.6}\protected@file@percent }
+\newlabel{ch:implementation-and-testing}{{5}{21}{Implementation}{chapter.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Data Processing}{21}{section.5.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Example JSON entry from output}}{23}{figure.5.1}\protected@file@percent }
+\newlabel{fig:json-output-example}{{5.1}{23}{Example JSON entry from output}{figure.5.1}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Results and Discussion}{24}{chapter.6}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:results-and-discussion}{{6}{19}{Results and Discussion}{chapter.6}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Simulating Computer-Aided Transcription}{19}{section.6.1}\protected@file@percent }
-\newlabel{sec:simulating-transcription}{{6.1}{19}{Simulating Computer-Aided Transcription}{section.6.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Simulation Results}{20}{section.6.2}\protected@file@percent }
+\newlabel{ch:results-and-discussion}{{6}{24}{Results and Discussion}{chapter.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Simulating Computer-Aided Transcription}{24}{section.6.1}\protected@file@percent }
+\newlabel{sec:simulating-transcription}{{6.1}{24}{Simulating Computer-Aided Transcription}{section.6.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Simulation Results}{25}{section.6.2}\protected@file@percent }
 \@input{figures/results_plots.aux}
 \citation{whisper-timestamped}
 \citation{whisper}
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}Discussion of Results}{27}{section.6.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.1}Utterance-average confidence and \texttt  {avg\_logprob}}{27}{subsection.6.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.2}Word-level confidence metrics}{27}{subsection.6.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.3}Comparing word-level and utterance-level metrics}{28}{subsection.6.3.3}\protected@file@percent }
-\newlabel{table:halve-wer-results}{{6.3.3}{28}{Comparing word-level and utterance-level metrics}{subsection.6.3.3}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces Cost required to halve WER.}}{28}{table.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Discussion of Results}{32}{section.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.1}Utterance-average confidence and \texttt  {avg\_logprob}}{32}{subsection.6.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.2}Word-level confidence metrics}{32}{subsection.6.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.3}Comparing word-level and utterance-level metrics}{33}{subsection.6.3.3}\protected@file@percent }
+\newlabel{table:halve-wer-results}{{6.3.3}{33}{Comparing word-level and utterance-level metrics}{subsection.6.3.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces Cost required to halve WER.}}{33}{table.6.1}\protected@file@percent }
 \citation{lifelucid}
 \citation{whisper}
 \citation{huang2013predicting}
@@ -169,16 +189,16 @@
 \citation{whisper-timestamped}
 \citation{laptev2023fast}
 \citation{qiu2021learning}
-\@writefile{toc}{\contentsline {section}{\numberline {6.4}Future Work}{29}{section.6.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.1}Increase test corpus}{29}{subsection.6.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.2}Acquire results from human transcribers}{29}{subsection.6.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.3}Experiment with other derivations of confidence}{29}{subsection.6.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.4}Future Work}{34}{section.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.1}Increase test corpus}{34}{subsection.6.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.2}Acquire results from human transcribers}{34}{subsection.6.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.3}Experiment with other derivations of confidence}{34}{subsection.6.4.3}\protected@file@percent }
 \bibstyle{IEEEtran}
 \bibdata{IEEEabrv,dissertation_bibliography}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusions}{31}{chapter.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusions}{36}{chapter.7}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:conclusions}{{7}{31}{Conclusions}{chapter.7}{}}
+\newlabel{ch:conclusions}{{7}{36}{Conclusions}{chapter.7}{}}
 \bibcite{Rabiner2004Jan}{1}
 \bibcite{vocoder}{2}
 \bibcite{asr-52}{3}
@@ -215,21 +235,49 @@
 \bibcite{praat}{34}
 \bibcite{nurseitov2009comparison}{35}
 \bibcite{wang2020position}{36}
-\bibcite{pysoundfile}{37}
-\bibcite{numpy}{38}
-\bibcite{pypi-whis}{39}
-\bibcite{whisper-timestamped}{40}
-\bibcite{huang2013predicting}{41}
-\bibcite{kalgaonkar2015estimating}{42}
-\bibcite{sanchis2011word}{43}
-\bibcite{laptev2023fast}{44}
-\bibcite{qiu2021learning}{45}
-\@writefile{toc}{\contentsline {chapter}{Appendices}{37}{section*.7}\protected@file@percent }
-\newlabel{appendix:textgrid}{{7}{38}{Conclusions}{section*.7}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {A}Example of the TextGrid Format}{38}{appendix.a.A}\protected@file@percent }
+\bibcite{tiktoken}{37}
+\bibcite{whisper-timestamped}{38}
+\bibcite{whisper-ts-dtw-paper}{39}
+\bibcite{textual}{40}
+\bibcite{pysoundfile}{41}
+\bibcite{pysounddevice}{42}
+\bibcite{rich}{43}
+\bibcite{shef-hpc}{44}
+\bibcite{huang2013predicting}{45}
+\bibcite{kalgaonkar2015estimating}{46}
+\bibcite{sanchis2011word}{47}
+\bibcite{laptev2023fast}{48}
+\bibcite{qiu2021learning}{49}
+\@writefile{toc}{\contentsline {chapter}{Appendices}{42}{section*.7}\protected@file@percent }
+\newlabel{appendix:textgrid}{{7}{43}{Conclusions}{section*.7}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}Example of the TextGrid Format}{43}{appendix.a.A}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{\numberline {B}Another Appendix}{39}{appendix.a.B}\protected@file@percent }
+\newlabel{appendix:get-utterances}{{A}{43}{Example of the TextGrid Format}{appendix.a.A}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {B}get\_utterances}{44}{appendix.a.B}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\gdef \@abspage@last{46}
+\newlabel{appendix:segment-audio}{{B}{47}{get\_utterances}{appendix.a.B}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {C}segment\_audio}{48}{appendix.a.C}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{appendix:do-whisper}{{C}{50}{segment\_audio}{appendix.a.C}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {D}do\_whisper\_confidence}{51}{appendix.a.D}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{appendix:normalise-text}{{D}{54}{do\_whisper\_confidence}{appendix.a.D}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {E}normalise\_text}{55}{appendix.a.E}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{appendix:calculate-wer}{{E}{58}{normalise\_text}{appendix.a.E}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {F}calculate\_wer}{59}{appendix.a.F}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\gdef\minted@oldcachelist{,
+  default.pygstyle,
+  5C8E4E339811C9162915BAA24FFFECE1BEC7AD149D1BEF526B4B46BB01BF7852.pygtex,
+  1C82F38432D37C74229AC8A0353A67A919DADD2C8D99EFFA153692B7C86200B3.pygtex,
+  C585A90652183F52BB93C1ACA68710DBF8CB732BB3174162102DD988967F8C7C.pygtex,
+  BA54EB70B39B65CFAA328F65066616FE8D10136B56D5940CFBC7F9CD7E73A298.pygtex,
+  304DDAD2F25D84371A4E496DB44C079D6591FF79FC2ECC10D7938D8D6153A446.pygtex}
+\gdef \@abspage@last{70}

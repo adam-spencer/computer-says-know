@@ -1,37 +1,83 @@
-\chapter{Implementation and Testing}\label{ch:implementation-and-testing}
+\chapter{Implementation}\label{ch:implementation-and-testing}
 
-\section{Preparing the Data}
+The aim of this chapter is to provide some more insight into the choices made while implementing the design as discussed in the previous chapter and explain the motivations that lead to those choices.
 
-\mycomment{
-  This needs rewriting! TODO:
+\section{Data Processing}
 
-  * Section about HPC/Bessemer specs and runtime
+TextGrid data was broken into 'utterances' using a script called \texttt{get\_utterances} (available in appendix \ref{appendix:get-utterances}).
+This script takes as input a directory containing TextGrid data, an output directory and threshold values for the minimum break length and maximum pause length allowed in an utterance.
+The output is in JSON format, generating a file to which other data is added.
 
+The second step is to use the script \texttt{segment\_audio} to split up audio files into individual utterances within directories given the title of the orginal conversation they were extracted from.
+This code is available in appendix \ref{appendix:segment-audio}.
+Upon completion, the ouput of this script is a directory with subdirectories containing hundereds of audio files.
+
+Thirdly, the script \texttt{do\_whisper} was run (available in appendix \ref{appendix:do-whisper}) using the University of Sheffield's Bessemer HPC cluster\cite{shef-hpc}.
+GPU clusters on Bessemer have access to Nvidia V100 GPUs with 32GB of VRAM, enabling transcriptions to be generated with Whisper very quickly.
+Instead of using the standard Whisper model, the \emph{whisper-timestamped} library is used because it can calculate word-level confidence scores.
+
+The fourth and fifth steps to process data were to run the scripts \texttt{normalise\_text} and \texttt{calculate\_wer} (available in appendices \ref{appendix:normalise-text} \& \ref{appendix:calculate-wer} respectively).
+The first of these scripts runs a text normaliser which is packaged with Whisper\cite{whisper} to perform English text normalisation, then the second script calculates WER scores and finds the per-word confidence scores for each word in the ouput.
+
+\begin{figure}[p]
+\centering
+\begin{BVerbatim}
+"0": {
+  "start": 15.04,
+  "end": 15.74,
+  "transcript": "okay",
+  "whisper": {
+    "text": "okay",
+    "segments": [
+      {
+        "id": 0,
+        "seek": 0,
+        "start": 0.0,
+        "end": 0.4,
+        "text": " OK.",
+        "tokens": [
+          50363,
+          7477,
+          13,
+          50440
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.7832436561584473,
+        "compression_ratio": 0.2727272727272727,
+        "no_speech_prob": 0.02687731385231018,
+        "confidence": 0.317,
+        "words": [
+          {
+            "text": "OK.",
+            "start": 0.0,
+            "end": 0.4,
+            "confidence": 0.317
+          }
+        ]
+      }
+    ],
+    "language": "en"
+  },
+  "confidence_scoring": {
+    "words": "okay",
+    "confidence_scores": [
+      0.317
+    ],
+    "utterance_confidence": 0.317
+  },
+  "wer": 0.0,
+  "avg_logprob": -0.7832436561584473,
+  "file_measures": {
+    "wer": 0.11153358681875793
   }
-\subsection{Generating Utterances}
+},
+\end{BVerbatim}
+  \caption{Example JSON entry from output}
+  \label{fig:json-output-example}
+\end{figure}
 
-The contents, beginning, and end of every utterance where computed using the data available in the \emph{TextGrid} files using a Python script named \texttt{get\_utterances}.
-This script operates over a directory containing \emph{TextGrid} files, writing out the utterances as files in \emph{JSON} format.
+An example entry from the JSON output is presented in figure \ref{fig:json-output-example}.
+The decision was made to preserve all of the output data from Whisper, meaning each entry is quite long.
+An entry can be identified based on its filename and the number which indexes the entry ("0" in this case), where the filename of the accompanying audio segment has the same identifier (\texttt{000.wav} in this case).
+As this example is the first entry in an output file, it contains a field called \texttt{file\_measures} which tracks the overall WER for the entire file.
 
-The script also takes as args; a minimum time between tokens required to end the utterance and a maximum pause time allowed within one utterance.
-These thresholds allow utterances to be fine-tuned by a user, leading to fewer drawn-out or unreasonably short utterances.
-
-\emph{JSON} was selected due to its ability to be easily read and understood by a human, unlike \emph{TextGrids}.
-This allowed for simple verification of the data without the need for more specific software to view the files.
-
-\subsection{Audio Segmentation}
-
-Another Python script named \texttt{segment\_audio} was created to generate audio files for each utterance. 
-Given two directories as input; one containing \texttt{.json} files (as output by the \texttt{get\_utterances} script) and the other containing \texttt{.wav} files representing each audio recording, the audio is split along the beginning and end times of each utterance and output to a new directory.
-
-This script uses the \emph{python-soundfile} module\cite{pysoundfile} to load audio files into \emph{NumPy}\cite{numpy} arrays.
-By multiplying the sampling rate of the audio by the start- and end-times of each utterance, the array indices at the start and end of each utterance are computed.
-Array slices between these indices represent each utterance, which can then be saved to new audio files using the \emph{python-soundfile} module.
-
-\section{ASR With Whisper}
-
-Whisper is available as a Python module named \texttt{whisper}\cite{pypi-whis}.
-The module features a \texttt{transcribe()} function to transcribe audio files given as a parameter to the function and return an object containing the output of Whisper.
-
-\mycomment{explain whisper output}
-\mycomment{explain why I made a script to run it}
