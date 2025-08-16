@@ -1,0 +1,139 @@
+#!/usr/bin/env python
+"""
+get_utterances
+
+Given a directory of Praat TextGrid files, this program segments them all
+into utterances according to the documentation provided by with the LifeLUCID
+corpus (V.Hazan et al.).
+
+The utterances are written to JSON files in a given output directory.
+
+Copyright Adam Spencer, 03/2023
+"""
+
+__author__ = 'Adam Spencer'
+
+import argparse
+import json
+from pathlib import Path
+from typing import Union
+
+import textgrid as tg
+
+# As described in documentation
+BREAK_TOKENS = {'SILP', '<GA>'}
+JUNK_TOKENS = {
+    'SIL', '<BELL>', '<bell>', '<lg>', '<LG>', '<br>', '<BR>', 'er', 'erm',
+    'ermm', 'um', 'umm', 'uhm', 'uhmm', 'uh', 'uhh', 'uhhh', 'ER', 'ERM',
+    'ERMM', 'UM', 'UMM', 'UHM', 'UHMM', 'UH', 'UHH', 'UHHH'
+}
+
+
+def find_utterances(grid: tg.TextGrid, /, normalise: bool, min_break: float,
+                    max_pause: float) -> dict[int, dict[str, Union[float, str]]]:
+    """
+    Find all utterances in a Praat TextGrid file, returning start and end times
+    and the transcription as provided in the TextGrid.
+
+    Utterance ends and beginnings are found using the `BREAK_TOKENS`, and any
+    non-speaking tokens (as defined in `JUNK_TOKENS`) are removed.
+
+    :param grid: The Praat TextGrid to segment into utterances.
+    :param normalise: Enable lowercase text normalisation.
+    :param min_break: Minimum time between tokens required for break.
+    :param max_pause: Maximum allowed pause time within an utterance.
+    :returns: dict of structure 
+              { segment_num -> { start_time, end_time, transcript } }
+    """
+    segments = dict()
+    start_time = float()
+    seg_words = list()
+    seg_counter = 0
+    seg_ongoing = False
+    interval_tier = grid[0]
+
+    for i in range(0, len(interval_tier)):
+        break_now = False
+        interval = interval_tier[i]
+        duration = interval.duration()
+
+        # Find non-speech tokens and decide whether or not to end the utterance
+        # NOTE: `continue` statments are used to prevent writing non-speech
+        # tokens to the transcript
+        if interval.mark in JUNK_TOKENS:
+            if seg_ongoing and duration > max_pause:
+                break_now = True
+            else:
+                continue
+        elif interval.mark in BREAK_TOKENS:
+            if seg_ongoing and duration > min_break:
+                break_now = True
+            else:
+                continue
+
+        # End the current utterance
+        if break_now:
+            segments[seg_counter] = {'start': start_time, 'end': interval.minTime,
+                                     'transcript': ' '.join(seg_words)}
+            seg_words = []
+            seg_counter += 1
+            seg_ongoing = False
+            continue
+
+        # Begin a new segment
+        if not seg_ongoing:
+            start_time = interval.minTime
+            seg_ongoing = True
+        if normalise:
+            interval.mark = interval.mark.lower()
+        seg_words.append(interval.mark)
+    return segments
+
+
+def write_to_json(utterances: dict, output_file: Path) -> None:
+    """
+    Write utterances out to the given output directory in JSON format.
+
+    :param utterances: Utterances dict 
+    structure { segment_num -> { start_time, end_time, transcript } }
+    :param output_file: Path to output file.
+    """
+    with open(output_file, 'w') as f:
+        json.dump(utterances, f, indent=2)
+
+
+def main():
+    # Parse Arguments
+    parser = argparse.ArgumentParser()
+    parser.add_argument('in_dir', help='Name of dir to find textgrids in')
+    parser.add_argument('out_dir', help='Name of dir to write JSON files to')
+    parser.add_argument('--no-normalise', '-n', action='store_true',
+                        help='Disable case normalisation')
+    parser.add_argument('--min-break-threshold', '-b', type=float, default=None,
+                        help='Minimum time between tokens required for break')
+    parser.add_argument('--max-pause-threshold', '-p', type=float, default=None,
+                        help='Maximum allowed pause in a single utterance')
+    args = parser.parse_args()
+    normalise = not args.no_normalise
+
+    # New Path objects @ specified paths
+    in_dir_path = Path(args.in_dir)
+    out_dir_path = Path(args.out_dir)
+    for p in [in_dir_path, out_dir_path]:
+        if not p.is_dir():
+            raise ValueError(f'{p} is Not a directory!')
+
+    # Find utterences in input dir, output JSON to output dir
+    for file in in_dir_path.iterdir():
+        if '.TextGrid' not in file.name:
+            continue
+        grid = tg.TextGrid.fromFile(file)
+        utterances = find_utterances(grid, normalise=normalise,
+                                     min_break=args.min_break_threshold,
+                                     max_pause=args.max_pause_threshold)
+        out_path = out_dir_path / file.name.replace('TextGrid', 'json')
+        write_to_json(utterances, out_path)
+
+
+if __name__ == '__main__':
+    main()
